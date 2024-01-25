@@ -1,0 +1,1385 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="9e0cc761-b67e-4ecf-886d-88a9ed6f18dc" name="Tau: Gue&apos;vesa" revision="27" battleScribeVersion="2.03" authorUrl="http://battlescribedata.appspot.com/#/repo/wh40k-epic-armageddon" library="false" gameSystemId="b7be77a3-9f44-4c5d-a0f7-a40bf046af2a" gameSystemRevision="36" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="b67cb12e-eda7-411a-ab14-b6656ec85385" name="-Community-" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8a830798-cec9-4dc2-9a81-2668b09ba62b" name="Group" hidden="false" collective="false" import="true" defaultSelectionEntryId="97758917-4d51-4b44-8cd9-d0f4dd9e4009">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="e82d842c-e601-4481-a829-ef8414d1aa87" hidden="false" collective="false" import="true" targetId="88a98d5f-b990-4741-9c4e-5761a2a7200f" type="selectionEntry"/>
+            <entryLink id="97758917-4d51-4b44-8cd9-d0f4dd9e4009" hidden="false" collective="false" import="true" targetId="8183dbe0-128d-44df-9d2f-587c40d576e7" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="dbb13d88-7b46-4569-b0ce-68dd010b4c32" hidden="false" collective="false" import="true" targetId="1884eb4b-97e7-42ae-aed7-811bae8a02a9" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b3859140-1ea6-48fc-82d2-9a94debd6ee8" name="Bomber Squadron" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a6c6337b-9e95-4217-a262-7b8b080cdcc3" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="d4e19fa1-d0f8-4ebd-8f81-bb92e08de106" hidden="false" targetId="be26492f-4757-4b69-aa55-d6ef024fca60" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="78e28675-0645-4467-a4a3-b0a189682426" name="Tiger Shark" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="49c44f4f-312e-45ef-851f-da003c0405cc" hidden="false" targetId="5d06ddad-3c41-47b2-bb65-d8263db769e3" type="rule"/>
+            <infoLink id="d1ee9cf8-51d5-49a2-bacf-1e29a3991b08" hidden="false" targetId="412a7bb8-118b-4deb-87ed-6dabc843c394" type="profile"/>
+            <infoLink id="4fca07d7-8a2a-4794-bb9e-b54247110f58" name="Guided Weapons" hidden="false" targetId="586e7c85-0bbb-4288-80ad-93740441e7b9" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="250.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d6df5a4d-58e5-44d4-be24-caceadd15208" name="Exo Armour Cadre" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="c491b942-a32f-4e6c-843d-9440a3872b9e" name="New CategoryLink" hidden="false" targetId="32fa31d8-c485-49c4-9fe1-59508cbee026" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="606a2582-65bb-44fd-b50c-a0ffea6f2c20" name="XV8 Crisis" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="5de20785-8b55-42ae-909e-217982749bc2" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="55b30bae-d5e9-4667-9db2-0cd668689099" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="4aae3cf1-3afa-46a2-853f-6e151d11306d" hidden="false" targetId="be8c82ee-04cd-42b4-a69e-b77eaf00a2e5" type="profile"/>
+            <infoLink id="e892fda0-f8fe-4f90-8d7d-c47ad689f35d" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+            <infoLink id="ec718e50-1829-4ff6-aedb-9411e59c0a6b" hidden="false" targetId="d5243d55-79ec-4fad-944a-e1d8abb2b719" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="65161805-eefc-466d-ab9b-10a094d8aa04" name="4x Attack Drones" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="bc66862c-4115-4313-9417-c97ef9d2836d" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="7c9dd477-81ce-4269-ba75-20138ba9aa0c" hidden="false" targetId="ea0a80c5-fb85-41ea-86e5-dfb14e386c34" type="profile"/>
+            <infoLink id="ea7fc7d6-95d1-4184-8f81-0eb009332273" hidden="false" targetId="d5243d55-79ec-4fad-944a-e1d8abb2b719" type="rule"/>
+            <infoLink id="096a1997-bab5-49bc-ac9b-9c4921accd11" hidden="false" targetId="d371e9bc-1985-4f46-a5c3-5bbef8c617c8" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="75.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="225.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7a05a17e-33a3-459f-9af3-aa10daf79fca" name="Interceptor Squadron" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a6c6337b-9e95-4217-a262-7b8b080cdcc3" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="cfa152cd-d205-4a27-92f8-ddb96950d228" hidden="false" targetId="be26492f-4757-4b69-aa55-d6ef024fca60" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e47a992a-f37c-48f0-8367-3ad003f9731a" name="Barracuda" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="5cd88dd6-9cf0-4cf7-9007-0c7fb293b4da" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="03070f2b-bb82-4b1b-913b-598aad244605" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="12b2b74d-6dda-4545-a361-11e15d3e7e51" name="Guided Weapons" hidden="false" targetId="586e7c85-0bbb-4288-80ad-93740441e7b9" type="rule"/>
+            <infoLink id="361e6d46-d004-4041-9950-3d9f0ef41308" name="Barracuda" hidden="false" targetId="4a1515ad-3a93-4a5f-a4f6-5d6c43839729" type="profile"/>
+            <infoLink id="58d8b59c-9373-45a5-a799-768a22667d88" name="Jink" hidden="false" targetId="5f819933-b396-42ce-bb9d-555ddbe4ca69" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="75.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9011f055-3e3c-4cb4-93ed-5255e16a7b32" name="Heavy Orbital Support" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a6c6337b-9e95-4217-a262-7b8b080cdcc3" type="instanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="259add0d-8633-49ae-9a82-2fc5c7d4f429" value="0.0">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a606b357-2e1c-444e-ad2a-da6cc6160447" type="atLeast"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7354f781-17bc-4148-8e96-19e508e72b61" type="atLeast"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="259add0d-8633-49ae-9a82-2fc5c7d4f429" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="102a40cd-2947-467e-9123-2d64e109462a" hidden="false" targetId="be26492f-4757-4b69-aa55-d6ef024fca60" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="7d65e0b2-c7b4-47db-a918-838236bf331f" name="Custodian Cruiser" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="2d3392e8-d7fa-4385-b57e-531b6eb565bd" name="Custodian Cruiser" hidden="false" targetId="556f8b11-5198-406e-a66a-61d9f2c793d4" type="profile"/>
+            <infoLink id="55e2d03c-f1f0-4b5b-b77b-993308d96ec7" hidden="false" targetId="cd277106-16dd-48d1-897f-01f2ba0c4483" type="rule"/>
+            <infoLink id="8f8a4b8e-349f-4831-a470-48412f8e04fa" hidden="false" targetId="bb964164-9599-4d7d-bee8-a17d1692cfc8" type="rule"/>
+            <infoLink id="06e8fd59-74a5-40c2-a39a-c67399d50105" name="Guided Weapons" hidden="false" targetId="586e7c85-0bbb-4288-80ad-93740441e7b9" type="rule"/>
+            <infoLink id="1408170c-dcab-4854-b16a-61abf8d7d391" hidden="false" targetId="9b5aac11-7fc4-46f0-a97c-479330f6b226" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="300.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="65c0e2e9-f1fd-4d45-8d25-b8a59a2efd37" name="Kroot Herd" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="ba8ddfc6-758d-40a3-8230-860023256817" name="New CategoryLink" hidden="false" targetId="32fa31d8-c485-49c4-9fe1-59508cbee026" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="55759879-2663-4999-9d2d-fccf2fff2d19" name="Kroot Master Shaper" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="ac2209a1-68fa-4912-9cf0-72fc0868c817" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="3e516334-8f98-4906-909f-fae724cc84cc" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="9464df2d-402a-42fd-b74e-1460465e55b4" hidden="false" targetId="97b99002-0521-40d5-a099-eeceb83c2c39" type="profile"/>
+            <infoLink id="88201b71-7f6c-4b6d-a255-592758c96f56" hidden="false" targetId="18b55dcf-3e60-458e-90e4-29f69deaa065" type="rule"/>
+            <infoLink id="3ec916c4-3cca-4729-b988-455d7c6fe292" hidden="false" targetId="d23596ad-5004-4bc3-8600-2b61a05ee52d" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d06b0691-2978-4d2f-a4a8-84346b83e3a4" name="3x Grand Knarlocs" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="1e5053ae-12c9-4daa-9cb1-f9c0824c7962" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="797dd2f8-4b8b-46e0-b4ae-d100a25a9f28" hidden="false" targetId="e725b554-e52c-40bf-8c82-6bb587ec825f" type="profile"/>
+            <infoLink id="0568be4d-37f8-45b3-bf59-6f9134414a6e" name="Macro-weapon" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="50.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="adb744d1-3b3b-4046-a826-fbfceb888071" name="3x Krootox" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="1552e1ee-f211-47b4-ab37-4fa5b5deaa15" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="d4d70633-488a-4954-9e17-8f357a19ecfa" hidden="false" targetId="0a1874b1-52f2-44ea-b54e-d6368c64d793" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="75.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="29c298fd-55ac-4cb4-b956-310664e79109" name="Warriors" hidden="false" collective="false" import="true" defaultSelectionEntryId="4bf0b1e4-deba-44fa-a8ea-d4eaba9ad21b">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="6cda110c-e904-415b-9fe7-3e0df18a4528" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="7260b2e6-4bad-4476-85bc-99b79b0da1ec" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="4bf0b1e4-deba-44fa-a8ea-d4eaba9ad21b" name="9x Kroot Carnivore Squads" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="866ace4d-72e0-4dbc-b8fa-8fcb51bbc322" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="0944b9c5-3ea1-494b-87d5-c9ecda654236" hidden="false" targetId="9bf85109-4794-417f-8ef5-86d84d2317c7" type="profile"/>
+                <infoLink id="392ace7e-d4ab-4c8a-84ec-203b75595fac" hidden="false" targetId="18b55dcf-3e60-458e-90e4-29f69deaa065" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4ac83136-31c3-4945-84ce-9e2239edc03a" name="14x Kroot Carnivore Squads" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="afd7d77d-e9da-4cc2-9a34-14d556f4b35c" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="580af7dd-49c7-410e-a009-4d37e2cafcfa" hidden="false" targetId="9bf85109-4794-417f-8ef5-86d84d2317c7" type="profile"/>
+                <infoLink id="417e3324-602e-4963-9ebe-befe59109459" hidden="false" targetId="18b55dcf-3e60-458e-90e4-29f69deaa065" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="75.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="175.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="adf64884-cee8-4d90-9ee8-2eb8cfe13d33" name="Light Orbital Support" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a6c6337b-9e95-4217-a262-7b8b080cdcc3" type="instanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="3b36d2e2-ddd9-48c4-bfd7-e89393068d5c" value="0.0">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a606b357-2e1c-444e-ad2a-da6cc6160447" type="atLeast"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7354f781-17bc-4148-8e96-19e508e72b61" type="atLeast"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3b36d2e2-ddd9-48c4-bfd7-e89393068d5c" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="49b37d5d-120d-4e69-8520-2e2fbf3f01e0" hidden="false" targetId="be26492f-4757-4b69-aa55-d6ef024fca60" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="71d097e6-e2d4-4258-9656-7b8c0d7f193e" name="Spacecraft" hidden="false" collective="false" import="true" defaultSelectionEntryId="34fcfe71-b918-4c4d-a840-17ac88cb0b0d">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="34fcfe71-b918-4c4d-a840-17ac88cb0b0d" name="Hero Cruiser" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="a1ca22bf-bd56-44af-9697-eaf0e68c6d0c" hidden="false" targetId="41990338-322e-44c8-a145-1e59944c764a" type="profile"/>
+                <infoLink id="3feedb0b-92dd-4451-9d9f-9dd7253fc826" hidden="false" targetId="cd277106-16dd-48d1-897f-01f2ba0c4483" type="rule"/>
+                <infoLink id="278b83a3-1837-4730-926b-41a34c37fdfa" hidden="false" targetId="bb964164-9599-4d7d-bee8-a17d1692cfc8" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ad4b1572-a171-4bba-83ee-8a08e3396965" name="Hero Cruiser w/ Gravitic Torpedoes" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="44bd4d68-51e6-4b34-8919-525e67e9e954" name="Hero Cruiser G" hidden="false" targetId="5bfeaf69-5229-48c2-9895-3af52fd93580" type="profile"/>
+                <infoLink id="de661bc7-f79c-46d3-9512-b94869567405" hidden="false" targetId="cd277106-16dd-48d1-897f-01f2ba0c4483" type="rule"/>
+                <infoLink id="0a724693-7a96-4b79-8a1b-339d5af8c2b7" hidden="false" targetId="bb964164-9599-4d7d-bee8-a17d1692cfc8" type="rule"/>
+                <infoLink id="21dc86be-9b8f-4761-928d-13ae325087a1" name="Guided Weapons" hidden="false" targetId="586e7c85-0bbb-4288-80ad-93740441e7b9" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="50.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="150.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3158b7c8-03d7-4cc9-8c22-4b88c64a5ae3" name="Manta" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a6c6337b-9e95-4217-a262-7b8b080cdcc3" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink id="ae231ff1-9b7d-4d85-a2e0-e62366d522fa" name="Guided Weapons" hidden="false" targetId="586e7c85-0bbb-4288-80ad-93740441e7b9" type="rule"/>
+        <infoLink id="56d648c6-e2b2-4013-b246-73649ec6994c" hidden="false" targetId="cd277106-16dd-48d1-897f-01f2ba0c4483" type="rule"/>
+        <infoLink id="cd838515-f6c4-41da-a5e7-08566d9bb4f0" hidden="false" targetId="72ccee7f-37b4-4de8-aba9-3b506fea7c56" type="rule"/>
+        <infoLink id="df258ed0-0d71-4173-a60c-edf85f71148a" name="Self Planetfall" hidden="false" targetId="2ab9cd20-dc6d-4da1-9888-3d4472656d18" type="rule"/>
+        <infoLink id="e9923a63-9b84-4375-9ffd-ef631a512b2e" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+        <infoLink id="1dda6447-506f-4426-8f86-3bb1035456a1" hidden="false" targetId="bb964164-9599-4d7d-bee8-a17d1692cfc8" type="rule"/>
+        <infoLink id="084e24ff-b36f-4332-bff5-0c21f1dae368" hidden="false" targetId="72dab6ac-4c9d-45f2-b150-7dd034d83b83" type="rule"/>
+        <infoLink id="3d1cea9b-4f31-40f6-bbd9-f797d671a718" name="Critical Hit: Damaged" hidden="false" targetId="88611803-c0ee-4a61-ac52-64da85eeac11" type="rule"/>
+        <infoLink id="8438f7d1-3035-482f-9536-2b4f43f8ff70" name="Manta" hidden="false" targetId="4ca8cfec-749f-48ad-807e-13b95e87c118" type="profile"/>
+        <infoLink id="6ebbf1b5-6d21-4504-96a4-14f6b81e0b70" name="Skimmer" hidden="false" targetId="ae687b81-bb2b-4103-89da-77e3829e0051" type="rule"/>
+        <infoLink id="9bb599ee-3a49-47f9-8d77-0205034b93da" name="Planetfall" hidden="false" targetId="fc3b74b8-a44e-439f-995a-e8914e607a21" type="rule"/>
+        <infoLink id="2a0f1cb4-5008-4483-9d6c-776fcfafc038" name="Support Craft" hidden="false" targetId="62346dbd-0909-4d1c-8020-921c8b7fae53" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a0b5c670-7f3c-49f1-8542-5771e0fca5b1" hidden="false" targetId="be26492f-4757-4b69-aa55-d6ef024fca60" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="800.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="08db95b3-d6a0-4b61-9a3a-8684467217f5" name="Pathfinder Group" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="7379a3c1-92b5-43ca-8991-170b12efb6cf" hidden="false" targetId="32fa31d8-c485-49c4-9fe1-59508cbee026" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="d330f81c-f53c-4d8f-8f8e-434261ad4534" name="2x Devilfish" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="e4318ace-7af0-48b8-820b-5549be6e031a" name="Devilfish" hidden="false" targetId="99095c59-417e-418e-a560-83927e1f87ee" type="profile"/>
+            <infoLink id="22791446-9fb0-4a04-8bfd-847f5bf5f308" name="Transport (Tau)" hidden="false" targetId="bb964164-9599-4d7d-bee8-a17d1692cfc8" type="rule"/>
+            <infoLink id="75f48100-6337-4c31-b0ae-b34e9eafcfc4" hidden="false" targetId="ae687b81-bb2b-4103-89da-77e3829e0051" type="rule"/>
+            <infoLink id="f2cc22c9-24e5-4e44-a04d-1497d0bc65a5" hidden="false" targetId="b027e9fd-08c7-436c-a239-dd516a6ce794" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6ef96dd7-0c48-4df0-bb3c-1f299056dce7" name="Pathfinders" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="4ae30763-e6c6-499c-8599-3613a318f25f" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="21b8e28e-1873-4db1-b40c-d28d174e3c35" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="3687eb60-5382-459c-95d8-cfc8ac82e271" name="Pathfinders" hidden="false" targetId="983d1faf-fecf-43df-96f5-f486b14c0348" type="profile"/>
+            <infoLink id="2c029b60-c19f-472d-a85b-9dea58c3c3af" name="Disrupt" hidden="false" targetId="b027e9fd-08c7-436c-a239-dd516a6ce794" type="rule"/>
+            <infoLink id="6d5ea191-9b21-453d-b9b9-9776b4411d4f" name="Markerlights" hidden="false" targetId="0b1170ca-c222-44cc-a14a-18302ab3df78" type="rule"/>
+            <infoLink id="9a4f8ab8-1d02-4e17-82e6-35cf0b04b769" hidden="false" targetId="af143427-33d4-438b-aab2-16a8e2867f79" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="175.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2bb05457-15cd-4dde-aaa6-6c62a090336a" name="Stealth Exo Armour" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e5d09d1d-5606-4377-bc15-e00f90748e27" hidden="false" targetId="32fa31d8-c485-49c4-9fe1-59508cbee026" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="5bcce606-adc3-4b3a-9d0f-23479cad2185" name="XV15 Stealthsuits" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="af4fbc61-7e50-4ce7-927f-51490c1b2e22" type="max"/>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="ddad647c-cd28-404c-bd1d-023e89d04cb0" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="9e262638-9738-428e-bac0-a57ee6f3a474" hidden="false" targetId="05225264-6f75-4476-a575-cb86595cdbf3" type="profile"/>
+            <infoLink id="1abda638-db51-4140-85e4-e39325f686eb" hidden="false" targetId="d5243d55-79ec-4fad-944a-e1d8abb2b719" type="rule"/>
+            <infoLink id="adfed141-271e-4aab-b472-ec9606f8f19c" hidden="false" targetId="b027e9fd-08c7-436c-a239-dd516a6ce794" type="rule"/>
+            <infoLink id="d6c61020-ca4e-41e4-b953-014c15bef521" hidden="false" targetId="75101e3d-cca2-4420-acfe-e0a1db1314af" type="rule"/>
+            <infoLink id="16919458-df42-4cff-ae1d-ad482e67a33a" hidden="false" targetId="af143427-33d4-438b-aab2-16a8e2867f79" type="rule"/>
+            <infoLink id="74595f18-0b9e-4143-a066-ddced7073b16" hidden="false" targetId="71ce5ada-8613-4124-bd2f-43c80fb9488b" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="250.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0cf3d25b-8974-4681-bc89-306976082d21" name="Stormtroopers" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="6acd3481-7ebe-4fd0-8049-088cddc444fa" hidden="false" targetId="32fa31d8-c485-49c4-9fe1-59508cbee026" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="c0bf3e68-e87a-4537-8c94-7238223ddfa2" name="Fire Warriors" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="68e0b853-bea2-4927-b3d0-c01b6d134560" type="max"/>
+            <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="dd463eed-617c-4c3c-acfe-f5b35bbddd73" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="a1a3105c-98d8-47a9-a983-749e81eba5e8" hidden="false" targetId="3e70a11d-abf1-41a1-ae8a-3066ae2f600c" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="463a328c-146f-4774-965d-f92cdc9b18e2" name="Transport" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="1eed0d51-7915-4d30-90da-f5c3a856419a" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="dbefbebb-ddd0-4e10-9307-e0212f6de932" name="Orca" hidden="false" collective="false" import="true" type="model">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a6c6337b-9e95-4217-a262-7b8b080cdcc3" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="0bfcff96-fd16-44dc-9084-8eae3d8f7714" name="Orca" hidden="false" targetId="24fd6ec8-f280-4e5e-8b9c-8d776d40c048" type="profile"/>
+                <infoLink id="2c8d952f-6ddf-4266-a07c-72b7200ab601" name="Transport (Tau)-----------------" hidden="false" targetId="bb964164-9599-4d7d-bee8-a17d1692cfc8" type="rule"/>
+                <infoLink id="3cb4b540-ee59-4d20-a212-34df766684ed" hidden="false" targetId="5d06ddad-3c41-47b2-bb65-d8263db769e3" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="175.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4ed65686-e26a-4d5a-aed7-32138e4176c5" name="4x Devilfish" hidden="false" collective="false" import="true" type="unit">
+              <infoLinks>
+                <infoLink id="a764e7c0-eddb-43e3-ac66-00d9ee7c4ea6" name="Devilfish" hidden="false" targetId="99095c59-417e-418e-a560-83927e1f87ee" type="profile"/>
+                <infoLink id="7f5bf54f-f550-49d3-95ff-f59875c211e3" name="Transport (Tau)" hidden="false" targetId="bb964164-9599-4d7d-bee8-a17d1692cfc8" type="rule"/>
+                <infoLink id="04b8dab3-6eca-4aa6-8b7f-4626bdb8061c" hidden="false" targetId="ae687b81-bb2b-4103-89da-77e3829e0051" type="rule"/>
+                <infoLink id="1b083ee9-3a1a-4a33-8276-dd7e6825668c" hidden="false" targetId="b027e9fd-08c7-436c-a239-dd516a6ce794" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="100.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="225.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3f46e754-e060-4ccc-9c28-5b3298086dc8" name="Artillery Cadre" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="c6853ce6-f34a-4df6-be53-60e8b45a3417" name="New CategoryLink" hidden="false" targetId="32fa31d8-c485-49c4-9fe1-59508cbee026" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="552342f2-eec9-42e3-81a6-c0c17269a220" name="Cadre" hidden="false" collective="false" import="true" defaultSelectionEntryId="d747f7eb-fd28-406f-a495-6731852a2822">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="d493455f-d90a-4bdf-bd44-d454a6a17466" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="a0ede1a0-cce2-432e-9990-f7c4caf08227" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="d747f7eb-fd28-406f-a495-6731852a2822" name="3x Basilisk" page="0" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="1c09478a-d860-4df1-851b-90c33ff7bf88" hidden="false" targetId="86e5c32a-09eb-4fb3-9902-7c7add81c7da" type="profile"/>
+                <infoLink id="15d497f1-5929-445b-b5dd-02c37f14d4c7" name="Indirect Fire" hidden="false" targetId="2dddba7a-76cc-472a-92a8-a9cf9025db6f" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="225.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8911f0fd-716d-4b43-9b1d-4700c968753a" name="3x Bombard" page="0" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="0a6152c8-f8bc-4658-947d-e399fe0ce37a" hidden="false" targetId="afd3798b-320a-42fd-bad8-9f55789f61ff" type="profile"/>
+                <infoLink id="fbded401-496e-4f1e-b258-d8e6bf6fd290" hidden="false" targetId="e79df72c-47d8-4968-a84a-0b343c54b7c0" type="rule"/>
+                <infoLink id="e811617a-9ee3-4bcc-b5e6-898573d50d68" hidden="false" targetId="2dddba7a-76cc-472a-92a8-a9cf9025db6f" type="rule"/>
+                <infoLink id="5e8c5089-43eb-4d5c-bc74-7fd5a1098ed1" hidden="false" targetId="5087a733-1e15-4e06-b869-8728e657c9fa" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="250.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="11296b89-46ad-41b4-a2da-ce50ae688af7" name="AA Cadre" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="27f75981-f076-4017-94bb-dd07bbf3910a" name="New CategoryLink" hidden="false" targetId="32fa31d8-c485-49c4-9fe1-59508cbee026" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="7fce0d30-81e9-445e-a64c-cb9373213f5c" name="Hydra" page="0" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e4b6700e-0850-46c5-9a64-c08dcb7d2bde" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="035ffc4c-dac1-48a4-9124-52355be2507c" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="fbad1c18-8301-40f1-9078-6ee4cfd0ef71" hidden="false" targetId="045a3c45-1112-4059-a684-d259dfa56e33" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="150.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f4a9654d-db9d-4a5e-bc4c-97aa0c9919ad" name="Armoured Cadre" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="7db52ec8-f009-44fd-85a4-9e3246b7b442" hidden="false" targetId="e4013702-a119-46c3-9fd9-a64e58afe467" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9776c4a1-5e23-45f9-865f-a3545a2e800b" name="Tanks" hidden="false" collective="false" import="true" defaultSelectionEntryId="b27e523b-6dec-4faf-bcfd-28c89d84e40f">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="8986ca04-8a3e-4991-8a65-e879e9384124" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="d7325333-b51f-49b5-a793-222223fd4f45" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="b27e523b-6dec-4faf-bcfd-28c89d84e40f" name="6x Leman Russ" page="0" hidden="false" collective="false" import="true" type="unit">
+              <infoLinks>
+                <infoLink id="a531ec53-ac66-4e2a-9cc5-633ad5a7ed22" name="Leman Russ Battle Tank" hidden="false" targetId="db267cfd-b78e-43ec-ac95-351c9679d940" type="profile"/>
+                <infoLink id="c59c5b14-5ff3-4f34-a525-a2a6981f058e" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5341bcf1-1ed6-4a88-9028-20b395fd431f" name="9x Leman Russ" page="0" hidden="false" collective="false" import="true" type="unit">
+              <infoLinks>
+                <infoLink id="4c7def13-8534-4765-a255-f924b6a146f2" name="Leman Russ Battle Tank" hidden="false" targetId="db267cfd-b78e-43ec-ac95-351c9679d940" type="profile"/>
+                <infoLink id="306c4c37-00ec-4828-8644-f5342da9a2ea" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="200.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ed8d26ed-e944-4d39-a74f-b1c5c73ef61f" name="6x Ion Russ" page="0" hidden="false" collective="false" import="true" type="unit">
+              <infoLinks>
+                <infoLink id="d34eae89-4b98-4b5d-bcd6-dc1c446eac20" name="Ion Russ" hidden="false" targetId="7b8ffac8-0621-4859-a99f-96af3c321990" type="profile"/>
+                <infoLink id="25e907ca-e90e-40fa-ab0c-93458b667b0f" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="100.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b2fd5eb5-c5a3-46a4-ab12-90a53b796952" name="9x Ion Russ" page="0" hidden="false" collective="false" import="true" type="unit">
+              <infoLinks>
+                <infoLink id="8781fae0-83ee-46c8-8c39-3828a873fc67" name="Ion Russ" hidden="false" targetId="7b8ffac8-0621-4859-a99f-96af3c321990" type="profile"/>
+                <infoLink id="f845f0f1-66bf-4c5c-a549-b756b1f77ddc" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="300.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="0bb245bc-d3a4-460a-a87b-1230fe08fca2" name="Upgrades" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="91eb3145-5b68-4c5e-bb49-43bc80cabd27" name="6x Gue’vesa Squad" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="0263f832-c6cb-49f2-a3db-73faee4fe4de" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="a70b72c1-55ed-454d-b997-ea2d176c5094" hidden="false" targetId="f5543c85-aab3-4df9-a137-09a4c82f962e" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="100.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="763d6340-1ce9-4783-93d5-5bb70d927126" name="4x Fire Support Squad" hidden="false" collective="false" import="true" targetId="0e174e96-e8da-48f5-b136-0e7a0e5b1ba6" type="selectionEntry"/>
+            <entryLink id="f02ec517-8438-4b67-8ecd-d0cda918fbc3" name="Sniper Squad" hidden="false" collective="false" import="true" targetId="1ae0ec2d-bb49-48d5-9ffc-57f8088b6da4" type="selectionEntry"/>
+            <entryLink id="a21428b0-792f-45f9-bb78-65cf2309a589" name="Hydra" hidden="false" collective="false" import="true" targetId="74b0d521-48d2-4e94-aee5-c85c081efb7a" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="6762e351-81df-46ed-a7ae-5ee4df9dae68" name="Command" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="d924e27e-fce5-462e-94c7-62ae94abb36e" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="afaea658-434a-47dc-9265-f94e4c038b4b" name="Gue’vesa Commandant" hidden="false" collective="false" import="true" targetId="05e99ff0-72b5-4c42-a9ee-5d5b9d29cecf" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="points" value="50"/>
+              </modifiers>
+            </entryLink>
+            <entryLink id="d92b9619-83f7-4e1b-beae-855bd1969656" name="Enlightened Gue’vesa Commandant" hidden="false" collective="false" import="true" targetId="76e4055d-e4c6-4050-b7ea-8b57890c159a" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="400.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="20e22ed4-75ec-464e-aa44-96261726818f" name="Infantry" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="c2978660-d055-4253-a531-5706fe037104" hidden="false" targetId="e4013702-a119-46c3-9fd9-a64e58afe467" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="2ffaad4d-2a69-4feb-a635-997c9b442a46" name="Gue’vesa Commandant" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c657373e-678d-44cf-aca7-ed854f39c0b6" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="b59b33d3-3995-4602-83f6-2e5e7aa36179" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="2fb3f2ae-ab15-4781-83db-90eb4180d63e" name="Gue’vesa Commandant" hidden="false" targetId="16aa8c50-9a94-4e7a-9b25-ff59eb5447bf" type="profile"/>
+            <infoLink id="e767e382-6544-4f06-ba91-aa6daef28978" name="Commander" hidden="false" targetId="e9675277-c408-4371-b969-6c9565fb2905" type="rule"/>
+            <infoLink id="1ad44dd6-a6db-4b4f-875b-25399857c6e2" hidden="false" targetId="d23596ad-5004-4bc3-8600-2b61a05ee52d" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="aa827b11-66fe-4233-bdeb-6c1e4f7f4adf" name="Infantry" hidden="false" collective="false" import="true" targetId="2e0c6131-5b5b-4e59-b819-e18b88f3f23a" type="selectionEntryGroup"/>
+        <entryLink id="dafd27df-99f9-4e8c-808b-4cbfababaf88" name="Upgrades" hidden="false" collective="false" import="true" targetId="08ba97f3-6acb-4c32-8a3e-bba9255e4242" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="250.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4b83cffb-11b0-4748-a766-1f2e77309201" name="Mechanised Infantry" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="6dbadb48-4750-4d99-b522-3ff9697ffd13" hidden="false" targetId="e4013702-a119-46c3-9fd9-a64e58afe467" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="9c5ca307-044d-43cc-ab59-21843c7578d5" name="Chimera" page="0" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="7.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="715d41dc-e6b4-40d9-9e07-8019257b15ab" type="min"/>
+            <constraint field="selections" scope="parent" value="7.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="ce637a8f-e348-46c9-9f7e-b4914cd873f9" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="6aa01859-5b5e-4791-9e70-4c1073541d62" hidden="false" targetId="4edff34d-4d2e-4c4b-958e-b92ff3b81f00" type="profile"/>
+            <infoLink id="07a801af-bf4c-47bf-8848-3a8b5921167a" name="Transport (Tau)" hidden="false" targetId="bb964164-9599-4d7d-bee8-a17d1692cfc8" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="f4b1bdfa-c154-4396-9ecd-09509aeaa361" name="Command" hidden="false" collective="false" import="true" defaultSelectionEntryId="4edc05ad-73db-4ccf-8daf-32b02ca44b33">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="0caa60ad-700e-4af4-84d0-ca0e123bbcb7" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="f42eb8f8-76f0-4455-9112-a0ae58bb08e9" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="4edc05ad-73db-4ccf-8daf-32b02ca44b33" name="Gue’vesa Commandant" hidden="false" collective="false" import="true" targetId="05e99ff0-72b5-4c42-a9ee-5d5b9d29cecf" type="selectionEntry"/>
+            <entryLink id="665d9e19-1b98-4ed7-99d7-23d6c27bebe3" name="Enlightened Gue’vesa Commandant" hidden="false" collective="false" import="true" targetId="76e4055d-e4c6-4050-b7ea-8b57890c159a" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="bb407dbf-6e75-4f86-906f-73d62af42dda" name="Infantry" hidden="false" collective="false" import="true" targetId="2e0c6131-5b5b-4e59-b819-e18b88f3f23a" type="selectionEntryGroup"/>
+        <entryLink id="8793f34f-775a-46ad-a614-ee3b281d415a" name="Upgrades" hidden="false" collective="false" import="true" targetId="08ba97f3-6acb-4c32-8a3e-bba9255e4242" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="400.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <infoLinks>
+    <infoLink id="976f71ff-d6f6-4ae7-9701-68b6ae111272" name="Strategy Rating &amp; Initiative (Tau)" hidden="false" targetId="397409c1-f0fa-42c3-8ae3-06652ec6bf12" type="rule"/>
+  </infoLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="fbcefb19-a869-41f3-8cce-9339ddca20aa" name="3x Leman Russ" page="0" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="2836a28d-93c0-4a08-b53b-1efb92140a9c" hidden="false" targetId="db267cfd-b78e-43ec-ac95-351c9679d940" type="profile"/>
+        <infoLink id="76cceb2a-b9e1-4747-8491-29be0152a59a" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="200.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0e174e96-e8da-48f5-b136-0e7a0e5b1ba6" name="4x Fire Support Squad" page="0" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="4f656441-824a-43d9-9a04-ef7f57404878" hidden="false" targetId="bb943e55-7e97-4745-b689-fef6d9411ed9" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="100.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8183dbe0-128d-44df-9d2f-587c40d576e7" name="F-ERC" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="02e3d899-0d34-499c-a354-cd1a86d641da" hidden="false" targetId="18e797f6-fb24-432c-9ee8-652427dbd28a" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="88a98d5f-b990-4741-9c4e-5761a2a7200f" name="GW" hidden="true" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="d45c527d-abf2-4575-9287-eb450d9207f4" hidden="false" targetId="debe925b-e324-4ed7-93d9-69992f678abf" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1ae0ec2d-bb49-48d5-9ffc-57f8088b6da4" name="Sniper Squad" page="0" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="7b7de6ee-55ad-40b7-83e9-21189b72ced2" name="Snipers" hidden="false" targetId="b36d6d66-1040-4827-9515-049b932a540f" type="profile"/>
+        <infoLink id="df68681d-6974-41a9-b0b5-7c396ab46eaf" hidden="false" targetId="af143427-33d4-438b-aab2-16a8e2867f79" type="rule"/>
+        <infoLink id="3c38a8b8-e4b5-4089-9d7d-e7cab0263045" hidden="false" targetId="0a2c466f-8e38-4e54-a0f1-08ac199cd89c" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="74b0d521-48d2-4e94-aee5-c85c081efb7a" name="Hydra" page="0" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="863fd679-667d-4826-9d15-cf56dadc9e8e" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="3bc4380f-4352-45f2-a9d1-6ea9e87f1d75" hidden="false" targetId="045a3c45-1112-4059-a684-d259dfa56e33" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="05e99ff0-72b5-4c42-a9ee-5d5b9d29cecf" name="Gue’vesa Commandant" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="4f7be185-f0db-4cca-9975-e4bc7949aca0" name="Gue’vesa Commandant" hidden="false" targetId="16aa8c50-9a94-4e7a-9b25-ff59eb5447bf" type="profile"/>
+        <infoLink id="bd0314f0-7827-4350-8122-54bb26aabe06" name="Commander" hidden="false" targetId="e9675277-c408-4371-b969-6c9565fb2905" type="rule"/>
+        <infoLink id="0885496a-c144-4d41-9e89-474d5debd499" hidden="false" targetId="d23596ad-5004-4bc3-8600-2b61a05ee52d" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="76e4055d-e4c6-4050-b7ea-8b57890c159a" name="Enlightened Gue’vesa Commandant" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ebd42139-4a36-4ff5-b954-9ab84267ce09" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="b23edeb7-291e-43a8-9956-90471a0197a5" name="Enlightened Gue’vesa Commandant" hidden="false" targetId="3804cd09-0f49-4ef1-87f0-6af7fe2c4e8d" type="profile"/>
+        <infoLink id="25e528cf-ad3d-483b-99b5-fa022bf1e409" hidden="false" targetId="06776887-98f0-49dd-8aca-d824d3c5d52c" type="rule"/>
+        <infoLink id="dc52be66-0481-4867-af2b-6ab0ba76434c" name="Commander" hidden="false" targetId="e9675277-c408-4371-b969-6c9565fb2905" type="rule"/>
+        <infoLink id="92004e80-d346-4e8c-95af-f479cf64348f" hidden="false" targetId="d23596ad-5004-4bc3-8600-2b61a05ee52d" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="75.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="08ba97f3-6acb-4c32-8a3e-bba9255e4242" name="Upgrades" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="99123408-bd5b-4ca6-bac9-26af7dfc3292" name="4x Fire Support Squad" hidden="false" collective="false" import="true" targetId="0e174e96-e8da-48f5-b136-0e7a0e5b1ba6" type="selectionEntry"/>
+        <entryLink id="5a975ae4-f058-4ce3-a5a5-1c88cebbfa20" name="Sniper Squad" hidden="false" collective="false" import="true" targetId="1ae0ec2d-bb49-48d5-9ffc-57f8088b6da4" type="selectionEntry"/>
+        <entryLink id="3417a8aa-1c2c-4303-9655-873845735efb" name="Hydra" hidden="false" collective="false" import="true" targetId="74b0d521-48d2-4e94-aee5-c85c081efb7a" type="selectionEntry"/>
+        <entryLink id="73676f2a-9716-4c02-b730-20a88af50f02" name="3x Leman Russ" hidden="false" collective="false" import="true" targetId="fbcefb19-a869-41f3-8cce-9339ddca20aa" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="2e0c6131-5b5b-4e59-b819-e18b88f3f23a" name="Infantry" hidden="false" collective="false" import="true" defaultSelectionEntryId="420aa07b-1420-4934-8c1d-6f90368a64aa">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="73c48140-da47-4b41-b821-4e740d0f0058" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="da4c5bd5-b143-4954-b549-6e9d7d32306b" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="da4abe94-0b2b-4163-87c0-b4f3bedacdf2" name="18x Gue’vesa Squad" hidden="false" collective="false" import="true" type="unit">
+          <infoLinks>
+            <infoLink id="6291a91a-4c02-4a23-838f-571b87c06ec7" name="Gue’vesa" hidden="false" targetId="f5543c85-aab3-4df9-a137-09a4c82f962e" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="100.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="420aa07b-1420-4934-8c1d-6f90368a64aa" name="12x Gue’vesa Squad" hidden="false" collective="false" import="true" type="unit">
+          <infoLinks>
+            <infoLink id="0facb660-5c1b-44bc-8778-ff7a622598dd" name="Gue’vesa" hidden="false" targetId="f5543c85-aab3-4df9-a137-09a4c82f962e" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <sharedRules>
+    <rule id="18e797f6-fb24-432c-9ee8-652427dbd28a" name="F-ERC" hidden="false">
+      <description>Codex Gue&apos;ve sa PDF #Version F-ERC du 02 Octobre 2015
+tau_ferc_2016_12_23 #Version F-ERC
+Xenos Empire T&apos;au 1.00 - FERC - 2019 #Codex Empire T&apos;AU v. 1.00 - 02/09/2019</description>
+    </rule>
+    <rule id="d371e9bc-1985-4f46-a5c3-5bbef8c617c8" name="Drones" hidden="false">
+      <modifiers>
+        <modifier type="set" field="description" value="Drones: Las unidades con la regla especial de los Drones anotada en su perfil no generan un Marcador de Explosión cuando son destruidos, o cuando son alcanzados por armas de Disrupción. Cualquier otra regla que genere Marcadores de Explosión cuando se asignen impactos a estas unidades es ignorada.  • Los Drones de una formación no impiden que comience en la guarnición si tiene los requisitos previos para hacerlo.  • Una formación compuesta sólo por Drones no puede tener objetivos, aunque puede disputarlos.  • Nota: Las unidades de drones cuentan en el cálculo de las pérdidas al resolver un asalto.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6df4e085-d889-4d87-b048-92b223091d04" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="description" value="Drohnen: Einheiten mit der in ihrem Profil vermerkten Drohnen-Sonderregel erzeugen keine Blast-Marker, wenn sie zerstört werden oder wenn sie von Unterbrechenwaffen getroffen werden. Jede andere Regel, die Blast-Markern erzeugt, wenn diesen Einheiten Treffer zugewiesen werden, wird ignoriert.  • Die Drohnen einer Formation hindern diese nicht daran, in der Garnison anzufangen, wenn sie die Voraussetzungen dafür hat.  • Eine Formation, die nur aus Drohnen besteht, kann keine Ziele halten, obwohl sie diese bestreiten kann.  • Hinweis: Drohneneinheiten zählen bei der Berechnung der Verluste bei der Auflösung eines Angriffs mit.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="17e1c84d-45e8-4447-a3c5-4c3d40b8fd78" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="description" value="Drones: Les unités ayant la règle spéciale Drones notée dans leur profil ne génèrent pas de pion d&apos;impact lorsqu&apos;elles sont détruites, ni lorsqu’elles sont touchées par des armes ayant la note Rupture. Toute autre règle générant des pions d&apos;impact lorsque les touches sont allouées ces unités sont ignorées.  • Les Drones d’une formation n&apos;empêchent pas celle-ci de débuter en garnison si elle dispose des prérequis pour le faire.  • Une formation composée uniquement de Drones ne peut pas tenir d’objectifs, bien qu’elle puisse contester ceux-ci.  • Note: Les unités de Drones comptent dans le calcul des pertes lors de la résolution d&apos;un assaut.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cae033eb-bb6f-4c6c-a304-2f50aaa0236a" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <description>Units with the Drones special rule noted in their profile do not generate a Blast Marker when they are destroyed, or when they are hit by Disrupt weapons. Any other rule that generates Blast Markers when hits are allocated to these units are ignored.
+The Drones of a formation do not prevent it from starting in garrison if it has the prerequisites to do so.
+A formation composed only of Drones can not hold objectives, although it can contest them.
+Note: Drone units count in the calculation of losses when resolving an assault.</description>
+    </rule>
+    <rule id="6d96644b-dbd3-410c-9a81-73313522e197" name="EpicUK" hidden="false">
+      <description>none</description>
+    </rule>
+    <rule id="debe925b-e324-4ed7-93d9-69992f678abf" name="GW" hidden="false">
+      <description>none
+Fanatic #02
+Fanatic #13</description>
+    </rule>
+    <rule id="ea98f36c-204c-4f57-805c-c280285f6660" name="NetEA" hidden="false">
+      <description>none</description>
+    </rule>
+    <rule id="397409c1-f0fa-42c3-8ae3-06652ec6bf12" name="Strategy Rating &amp; Initiative (Tau)" hidden="false">
+      <modifiers>
+        <modifier type="set" field="description" value="Stratégie &amp; Initiative: L&apos;armée Tau a une Valeur Stratégique de 2 Les Groupes de chasse Exo armure Crisis et Mantas disposent d&apos;une valeur d&apos;initiative de 1+, toutes les autres formations ont une initiative de 2+.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cae033eb-bb6f-4c6c-a304-2f50aaa0236a" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="description" value="Strategie und Initiative: Strategiewert: 2.  • XV8-Krisisanzug-Formationen und Manta haben den Initiativwert 1+. Andere Formationen haben die Initiativwert 2+.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="17e1c84d-45e8-4447-a3c5-4c3d40b8fd78" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="description" value="Estrategia e Iniciativa: Factor de Estrategia: 2.  • Valores de Iniciativa: Formaciones de XV8 Crisis y Mantas: 1+.  • Resto de formaciones: 2+.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6df4e085-d889-4d87-b048-92b223091d04" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <description>The Tau army has Strategy Rating 2. Crisis Exo Armour formations and Mantas have an Initiative rating of 1+, all other formations have an Initiative rating of 2+.</description>
+    </rule>
+    <rule id="72ccee7f-37b4-4de8-aba9-3b506fea7c56" name="Deflectors" hidden="false">
+      <modifiers>
+        <modifier type="set" field="description" value="Deflectores: Los Deflectores otorgan una Salvación Invulnerable igual al valor que se muestra entre paréntesis. Por ejemplo: Deflectores (5+).">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6df4e085-d889-4d87-b048-92b223091d04" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="description" value="Tau Deflektorschilde: Deflektorschilde gewähren eine unverwundbare Rettung, die dem in Klammern angegebenen Wert entspricht. Z.B.: Deflektorschilde (5+).">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="17e1c84d-45e8-4447-a3c5-4c3d40b8fd78" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="description" value="Déflecteurs: Les unités ayant la règle spéciale Déflecteurs notée dans leurs profils bénéficient d’une sauvegarde de type invulnérable égale à la valeur renseignée entre parenthèse. Exemple: Déflecteurs (5+).">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cae033eb-bb6f-4c6c-a304-2f50aaa0236a" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <description>Deflectors grant an lnvulnerable Save equal to the value shown in brackets. Eg: Deflectors (5+).</description>
+    </rule>
+    <rule id="d5243d55-79ec-4fad-944a-e1d8abb2b719" name="Tau Jetpacks" hidden="false">
+      <modifiers>
+        <modifier type="set" field="description" value="Retrocohetes o Retropropulsores T&apos;au: Los retrocohetes Tau siguen todas las reglas para los retrorreactores. (Algunas unidades poseen retrorreactores que les permiten recorrer cortas distancias volando por los aires, normalmente realizando series de largos “saltos”.   • Estas unidades pueden ignorar el terreno difícil o intransitable mientras mueven (saltan por encima de él). No pueden aterrizar en terreno intransitable, y tendrán que realizar un chequeo de terreno peligroso si aterrizan en terreno peligroso. También pueden ignorar a las unidades amigas mientras mueven (no pueden aterrizar sobre ellas), pero son afectadas por las zonas de control enemigas, y no pueden sobrevolar formaciones enemigas.)  • Además, cuando una formación realiza una acción de Avanzar o Doble, sus unidades con la regla de los retrocohetes anotada en su perfil pueden elegir disparar antes o después de uno de sus movimientos. Ejemplo: Disparar y luego mover durante un Avanzar, mover y luego disparar y luego mover para un Doble, etc...">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6df4e085-d889-4d87-b048-92b223091d04" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="description" value="Propulseurs: Les Propulseurs fonctionnent exactement comme les Réacteurs Dorsaux. (Les unités équipées de Réacteurs dorsaux peuvent ignorer les terrains dangereux et infranchissables lorsqu&apos;elles se déplacent (elles sautent par-dessus). Elles ne peuvent pas atterrir sur un terrain infranchissable et doivent effectuer un test de terrain dangereux si elles atterrissent dans un terrain dangereux. Les unités équipées de Réacteurs dorsaux peuvent aussi passer par-dessus des unités amies pendant leur mouvement, mais ne peuvent pas atterrir sur ces dernières. Elles sont affectées normalement par les zones de contrôle et les unités de l&apos;ennemi et ne peuvent pas se déplacer par-dessus des formations ennemies.)  • De plus, lorsqu’une formation exécute une action d’avance ou de d’avance rapide, ses unités ayant la règle spéciale Propulseurs notée dans leur profil peuvent choisir de tirer avant ou après l’un de ses mouvements. Exemple : Tir puis mouvement lors d’une action d’avance, mouvement puis tir puis mouvement pour une action d’avance rapide, etc…">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cae033eb-bb6f-4c6c-a304-2f50aaa0236a" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="description" value="Flugmodule: Tau Flugmodule befolgen alle Regeln für Sprungmodule. (Einheiten, die mit Sprungmodule ausgestattet sind, können gefährliches oder unpassierbares Gelände ignorieren, wenn sie sich bewegen (sie springen darüber). Sie landen möglicherweise nicht auf unpassierbarem Gelände, und wenn sie in gefährlichem Gelände landen, müssen sie einen gefährlichen Gelände-Test machen. Einheiten, die mit Sprungmodule ausgestattet sind, können sich bei ihrer Bewegung auch über andere verbündete Einheiten bewegen, dürfen aber nicht darauf landen. Einheiten mit Sprungmodule sind normalerweise von gegnerischen Einheiten und Kontrollzonen betroffen und können nicht über gegnerische Formationen springen.)  • Wenn eine Formation eine Vorrücken- oder Doppelaktion ausführt, können ihre Einheiten mit der in ihrem Profil vermerkten Flugmodule-Regel außerdem wählen, ob sie vor oder nach einer ihrer Bewegungen schießen wollen. Beispiel: Schießen, dann Bewegung während eines Vorrückens, Bewegung, dann Schießen, dann Bewegung für eine Double-Aktion, usw ...">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="17e1c84d-45e8-4447-a3c5-4c3d40b8fd78" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <description>Tau Jetpacks follow all the rules for Jump Packs. (Units equipped with jump packs may ignore dangerous or impassable terrain as they move. They may not land on impassable terrain, and if they land in dangerous terrain they must take a dangerous terrain test. Units equipped with jump packs may also move over other friendly units as they move, but may not land on them. Units with jump packs are affected by enemy units and zones of control normally, and cannot jump over enemy formations.) 
+In addition, when a formation performs an Advance or Double action, its units with the Jetpacks rule noted in their profile may choose to fire before or after one of its movements. Example: Shooting then movement during an Advance, movement then shooting then movement for a Double, etc ...</description>
+    </rule>
+    <rule id="bb964164-9599-4d7d-bee8-a17d1692cfc8" name="Transport (Tau)" hidden="false">
+      <modifiers>
+        <modifier type="set" field="description" value="La capacité de transport: Comme suit-  • Chimera: 2 des unités suivantes: Gue’vesa, commandants, commandant suprême, snipers, escouades d&apos;appui feu.  • Custodian Cruiser: jusqu&apos;à 18 appareils Orca ou Manta ainsi que les troupes qu&apos;ils contiennent. Le Manta compte pour 3.  • Devilfish: 2 des unités suivantes: Guerriers de Feu, Cibleurs.  • Hero Cruiser: jusqu&apos;à 6 appareils Orca ou Manta ainsi que les troupes qu&apos;ils contiennent. Le Manta compte pour 3.  • Manta: 16 des unités suivantes: Guerriers de Feu, Cibleurs, Stealths, Broadsides, Crisis (prennent 2 places), Drones d&apos;attaque, Drones lourds, Mentor Kroot, Carnivores Kroots, Krootox, Tetras (prennent 2 places), Piranhas (prennent 2 places). Le Manta peut embarquer en plus 4 des unités suivantes : Devilfish, Hammerhead, Skyray, Stingray.  • Orca: 12 des unités suivantes: Guerriers de Feu, Cibleurs, Stealths, Broadsides, Crisis (prennent 2 places), Drones d&apos;attaque, Drones lourd, Mentor Kroot, Carnivores Kroots.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cae033eb-bb6f-4c6c-a304-2f50aaa0236a" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <description>As follows-
+Chimera: 2 of the following: Gue’vesa, Commandant, Supreme Commander, Snipers, Fire Support Squads.
+Custodian Cruiser: up to 18 Orca or Manta aircraft and the troops they contain. Mantas count as 3.
+Devilfish: 2 of the following: Fire Warriors, Pathfinders.
+Hero Cruiser: up to 6 Orca or Manta aircraft and the troops they contain. Mantas count as 3.
+Manta: 16 of the following: Fire Warriors, Pathfinders, Stealth Suits, Broadside Battlesuits, Crisis Battlesuits (take 2 places), Attack Drones, Heavy Drones, Kroot Master Shapers, Kroot Carnivores, Krootox, Tetras (take 2 places), Piranhas (take 2 places). In addition, the Manta may carry up to 4 of the following vehicles: Devilfish, Hammerhead, Skyray, Stingray.
+Orca: 12 of the following: Fire Warriors, Pathfinders, Stealth Suits, Broadside Battlesuits, Crisis Battlesuits (take 2 places), Attack Drones, Heavy Drones, Kroot Master Shapers, Kroot Carnivores.</description>
+    </rule>
+    <rule id="0b1170ca-c222-44cc-a14a-18302ab3df78" name="Markerlights" hidden="false">
+      <modifiers>
+        <modifier type="set" field="description" value="Désignateur Laser: Le Désignateur laser est un dispositif porté par des unités T’au ayant la règle spéciale Désignateur laser (x) notée dans leur profil. Un Désignateur laser possède une portée de 30 cm et est utilisé en même temps que les attaques de tir ou de fusillade, avant que les jets pour toucher ne soient effectués. Une unité neutralisée ne peut pas faire usage de son Désignateur laser.  • Lorsqu’il est utilisé contre une formation ennemie, chaque unité T’au (à portée et en ligne de vue d’unités de cette formation ennemie) possédant cette règle lui inflige un nombre de Marquages de Désignateur laser Désignateur Laser (2) infligera 2 Marquages de Désignateur laser à 30 cm sur une formation ennemie dont des unités sont à portée et en ligne de vue.  • Au cours de son activation, une formation T’au peut utiliser ses Désignateurs laser selon l’action qu’elle effectue:  • 1. Tir: Lors d&apos;un tir et pour chaque Marquage de Désignateur laser infligé par une formation Tau, le joueur Tau peut décider d’appliquer l’un des effets suivants :  • Faire tirer une arme guidée possédée par une unité à portée de tir, depuis n&apos;importe quelle formation n&apos;ayant pas tiré avec ses armes guidées ce tour-ci. Ces tirs d&apos;armes sont considérés comme étant effectués par la formation utilisant ses Désignateurs laser: Ils n&apos;infligent qu&apos;un pion impact à la formation ennemie visée, quel que soit le nombre de formations T’au impliquées.  • OU  • Donner un bonus de +1 au jet pour toucher d’un autre tir de la formation.  • 2. Assaut : Au cours de sa phase d’assaut et pour chaque Marquage de Désignateur laser infligé par sa formation, le joueur T’au peut décider d’appliquer l’effet suivant:  • Donner un bonus de +1 à un jet pour toucher d’une autre attaque de fusillade de la formation.  • Note: Chaque jet pour toucher ne peut bénéficier que d’un seul bonus de +1 au jet pour toucher grâce à un Désignateur laser.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cae033eb-bb6f-4c6c-a304-2f50aaa0236a" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="description" value="Marcadores Telemétricos: El Marcador Telemétrico es un dispositivo que llevan las unidades T&apos;au con la regla especial del Marcador Telemétrico (x) anotada en su perfil. Un Marcador de Telemetría tiene un alcance de 30 cm y se utiliza en conjunción con ataques de disparos o de combate antes de que se realicen las tiradas para impactar.  Una unidad suprimida no puede hacer uso de su Marcador Telemétrico.  • Cuando se usa contra una formación enemiga, cada unidad T&apos;au (en el rango y línea de visión de las unidades de esa formación enemiga) con esta regla inflige un número de marcas de Marcador Telemétrico. El Marcador Telemétrico (2) infligirá 2 marcas de Marcador Telemétrico a 30 cm. sobre una formación enemiga cuyas unidades estén dentro del alcance y línea de visión.  • Durante su activación, una formación T&apos;au puede usar sus Marcadores Telemétricos según la acción que realice:  • 1. Disparo: Al disparar y por cada marca de Marcador Telemétrico infligido por una formación Tau, el jugador Tau puede decidir aplicar uno de los siguientes efectos:  • Disparar una Munición Guiada, por una unidad que esté al alcance, desde cualquier formación que no haya disparado con sus Municiones Guiadas este turno. Estos disparos se consideran realizados por la formación usando sus Marcadores Telemétricos: Sólo infligen un Marcador de Explosión a la formación enemiga objetivo, independientemente del número de formaciones T&apos;au involucradas.  • O  • Da un bono +1 en el tirar para impactar para otro tiro de la formación.  • 2. Asalto: Durante su fase de asalto y por cada marca de Marcador Telemétrico infligido por su formación, el jugador T&apos;au puede decidir aplicar el siguiente efecto:  • Dar un bono +1 en la tirada para otro ataque de tiroteo desde la formación.  • Nota: Cada tirada al blanco sólo puede beneficiarse de una única bonificación +1 concedida por un Marcador Telemétrico.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6df4e085-d889-4d87-b048-92b223091d04" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="description" value="Zielmarkern: Das Zielmarkern ist ein Gerät, das von Tau-Einheiten mit der speziellen Regel Zielmarker (x) getragen wird, die in ihrem Profil vermerkt ist. Ein Zielmarker hat eine Reichweite von 30 cm und wird in Verbindung mit Schieß- oder Feuergefechtsangriffen verwendet, bevor Würfe zu einem Treffer ausgeführt werden. Eine unterdrückte Einheit kann ihr Zielmarker nicht benutzen.  • Wenn sie gegen eine gegnerische Formation eingesetzt wird, fügt jede Tau-Einheit (in Reichweite und Sichtlinie der Einheiten dieser gegnerischen Formation) mit dieser Regel eine Reihe von Markierungen zu. Zielmarker (2) fügt einer gegnerischen Formation, deren Einheiten sich in Reichweite und Sichtlinie befinden, 2 Markierungen in einer Entfernung von 30 cm zu.  • Während ihrer Aktivierung kann eine Tau-Formation ihre Zielmarkern je nach der von ihr ausgeführten Aktion einsetzen:  • (1) Schießen:Beim Schießen und für jede von einer Tau-Formation zugefügte Markierung kann sich der Tau-Spieler entscheiden, einen der folgenden Effekte anzuwenden:  • Eine Lenkrakete von einer Einheit in Reichweite abfeuern lassen, und zwar von jeder Formation, die in diesem Zug nicht mit ihren Lenkraketen gefeuert hat. Es wird davon ausgegangen, dass diese Schüsse von der Formation mit ihren Zielmarkern abgefeuert werden: Sie fügen der gegnerischen Formation nur einen Blast-marker zu, unabhängig von der Anzahl der beteiligten Tau-Formationen.  • ODER  • Geben Sie einen Bonus von +1 auf den Wurf-zu-Treffer für einen weiteren Schuss aus der Formation.  • 2. den Angriff: Während seiner Angriffsphase und für jede Markierung, die durch seine Formation zugefügt wird, kann der Tau-Spieler beschließen, den folgenden Effekt anzuwenden:  • Einen Bonus von +1 auf den Wurf-zu-Treffer für einen weiteren Feuergefechtsangriff aus der Formation geben.  • Anmerkung: Jeder Wurf-zu-Treffer kann nur von einem einzelnen +1 Bonus profitieren, der von einem Zielmarkern gewährt wird.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="17e1c84d-45e8-4447-a3c5-4c3d40b8fd78" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <description>The Markerlight is a device carried by T&apos;au units with the Markerlight (x) special rule noted in their profile. A Markerlight has a range of 30cm and is used in conjunction with shooting or firefight attacks before rolls-to-hit are made. A Suppressed unit can not make use of its Markerlight.
+- When used against an enemy formation, each T&apos;au unit (in range and line of sight of units of that enemy formation) with this rule inflicts a number of Markerlight Markings. Markerlight (2) will inflict 2 Markerlight Markings at 30cm on an enemy formation whose units are within range and line of sight.
+- During its activation, a T&apos;au formation can use its Markerlights according to the action it performs:
+- 1. Shooting: When firing and for each Markerlight Marking inflicted by a Tau formation, the Tau player may decide to apply one of the following effects:
+- Have a Guided Weapon fired by a unit within range, from any formation that did not fire with its Guided Weapons this turn. These shots are considered to be made by the formation using its Markerlights: They only inflict one Blast Marker to the target enemy formation, regardless of the number of T&apos;au formations involved.
+- OR
+- Give a +1 bonus on the roll-to-hit for another shot from the formation.
+- 2. Assault: During its assault phase and for each Markerlight Marking inflicted by its formation, the T&apos;au player may decide to apply the following effect:
+- Give a +1 bonus on the roll-to-hit for another firefight attack from the formation.
+- Note: Each roll-to-hit can only benefit from a single +1 bonus granted by a Markerlight.</description>
+    </rule>
+    <rule id="586e7c85-0bbb-4288-80ad-93740441e7b9" name="Guided Weapons" hidden="false">
+      <modifiers>
+        <modifier type="set" field="description" value="Armes Guidées: Les armes guidées sont des armes disposant d&apos;un système de localisation, et un calculateur de trajectoire. Ces armes sont capables d&apos;atteindre une cible hors de ligne de vue, et ceci de façon autonome. Les armes ayant la note Arme guidée mentionnée dans leur profil s’utilisent selon cette règle spéciale.  • Une Armes guidée ne peut être employée que sur une unité sur laquelle a été infligé un Marquage de Désignateur laser. Une formation ne peut tirer qu’une fois par tour avec ses Armes guidées, qu&apos;elle ait déjà été activée ou non.  • Toutes les règles relatives au tir comme l’allocation des touches et le feu croisé s’appliquent à partir de la formation d’où partent les armes guidées.  • Lorsqu’elles tirent, les Armes guidées ne nécessitent pas de ligne de vue et ne sont jamais affectés par les modificateurs pour toucher dus à un ordre (+1 de tir soutenu ou -1 d&apos;avance rapide), ou de couverts.  • Cependant, une unité à couvert disposera toujours de sa sauvegarde de couvert, seul le modificateur pour toucher sera ignoré.  • Note: Les unités démoralisées, neutralisées ou ayant effectué un redéploiement ne peuvent pas utiliser leurs armes guidées.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cae033eb-bb6f-4c6c-a304-2f50aaa0236a" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="description" value="Municiónes Guiadas: Las Municiones Guiadas son armas con un sistema de rastreo, y un calculador de trayectoria. Estas armas son capaces de alcanzar un objetivo fuera de la línea de visión, y lo hacen de forma independiente.   • Una Munición Guiada sólo puede ser usada en una unidad que haya sido marcada con un Marcador Telemétrico. Una formación sólo puede disparar una vez por turno con sus Municiones Guiadas, tanto si ya ha sido activada como si no.  • Todas las reglas de disparo como la asignación de impactos y el Fuego Cruzado se aplican desde la formación de la que parten las Municiones Guiadas.  • Al disparar, las Municiones Guiadas no requieren Línea de Visión y nunca se ven afectadas por los modificadores para golpear debido a una orden (+1 Fuego Sostenido o -1 Doble) o cobertura.  • Sin embargo, una unidad en la cobertura todavía tendrá su cobertura guardada, excepto que el modificador para impactar será ignorado.  • Nota: Las unidades que están Desmoralizadas, Acobardadas o han Marchado no pueden usar sus Municiones Guiadas.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6df4e085-d889-4d87-b048-92b223091d04" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="description" value="Lenkraketen: Lenkraketen sind Waffen mit einem Verfolgungssystem und einem Flugbahnberechner. Diese Waffen sind in der Lage, ein Ziel außerhalb der Sichtlinie zu erreichen, und zwar unabhängig davon.   • Ein Lenkrate kann nur auf einer Einheit eingesetzt werden, die mit einem Zielmarkern markiert ist. Eine Formation kann mit ihren Lenkraketen nur einmal pro Zug feuern, unabhängig davon, ob sie bereits aktiviert wurde oder nicht.  • Alle Schießregeln wie Trefferzuweisung und Kreuzfeuer gelten ab der Formation, von der die Lenkraketen abgefeuert werden.  • Beim Abfeuern benötigen Lenkraketen keine Sichtlinie und werden niemals von Modifikatoren beeinflusst, die aufgrund eines Befehls (+1 Dauerfeuer oder -1 Double) oder einer Deckung zu treffen sind.  • Eine in Deckung befindliche Einheit hat jedoch weiterhin ihre Deckung gesichert, außer dass der zu treffende Modifikator ignoriert wird.  • Hinweis: Einheiten, die gebrochen oder unterdrückt sind oder marschiert sind, können ihre Lenkraketen nicht einsetzen.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="17e1c84d-45e8-4447-a3c5-4c3d40b8fd78" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <description>Guided weapons are weapons with a tracking system, and a trajectory calculator. These weapons are able to reach a target out of line of sight, and do this independently. 
+- A Guided Weapon can only be used on a unit that has been Marked with a Markerlight. A formation can only fire once per turn with its Guided Weapons, whether it has already been activated or not.
+- All shooting rules such as hit allocation and Crossfire apply from the formation from which the Guided Weapons depart.
+- When firing, Guided Weapons do not require Line of Sight and are never affected by modifiers to hit due to an order (+1 Sustained Fire or -1 Double) or cover.
+- However, a unit in cover will still have its cover save, except the modifier to hit will be ignored.
+- Note: Units which are Broken, Suppressed or have Marched can not use their Guided Weapons.</description>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile id="ea0a80c5-fb85-41ea-86e5-dfb14e386c34" name="Attack Drones" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">25cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">5+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">6+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Twin Pulse Carbines</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(15cm)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Small Arms</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Drones, Tau Jetpacks</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4a1515ad-3a93-4a5f-a4f6-5d6c43839729" name="Barracuda" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Aircraft</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">Fighter</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">6+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">n/a</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">n/a</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Ion Cannon&lt;BR&gt;&lt;BR&gt;Twin Missile Pods&lt;BR&gt;&lt;BR&gt;Drones&lt;BR&gt;&lt;BR&gt;Seeker Missiles</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">30cm&lt;BR&gt;&lt;BR&gt;30cm&lt;BR&gt;&lt;BR&gt;15cm&lt;BR&gt;&lt;BR&gt;75cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">2x AP3+/AT5+&lt;BR&gt;&lt;BR&gt;AP4+/AT5+/AA5+&lt;BR&gt;&lt;BR&gt;AA5+&lt;BR&gt;&lt;BR&gt;AT4+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Fixed Forward Arc&lt;BR&gt;&lt;BR&gt;Fixed Forward Arc&lt;BR&gt;&lt;BR&gt;-&lt;BR&gt;&lt;BR&gt;Guided Missiles</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Jink</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4edff34d-4d2e-4c4b-958e-b92ff3b81f00" name="Chimera" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Armoured Vehicle</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">30cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">5+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">6+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Multi-laser&lt;BR&gt;&lt;BR&gt;Heavy Bolter</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">30cm&lt;BR&gt;&lt;BR&gt;30cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">AP5+/AT6+&lt;BR&gt;&lt;BR&gt;AP5+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Transport</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="556f8b11-5198-406e-a66a-61d9f2c793d4" name="Custodian Cruiser" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Spaceship</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">n/a</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">n/a</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">n/a</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">n/a</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">4x Pin-Point Attack&lt;BR&gt;&lt;BR&gt;Gravitic Torpedoes</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">n/a&lt;BR&gt;&lt;BR&gt;n/a</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">MW2+&lt;BR&gt;&lt;BR&gt;6x MW5+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Titan Killer (D3)&lt;BR&gt;&lt;BR&gt;Guided Missiles</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Slow and Steady, Transport</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="99095c59-417e-418e-a560-83927e1f87ee" name="Devilfish" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Armoured Vehicle</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">30cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">5+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">6+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Pulse Cannon &amp; Attack Drones</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">30cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">AP4+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Disrupt</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Skimmer, Transport</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="bb943e55-7e97-4745-b689-fef6d9411ed9" name="Fire Support Squad" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">-</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">6+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">4+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">2x Autocannon&lt;BR&gt;and</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">45cm&lt;BR&gt;and (15cm)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">AP5+/AT6+&lt;BR&gt;and Small Arms</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429"/>
+      </characteristics>
+    </profile>
+    <profile id="3e70a11d-abf1-41a1-ae8a-3066ae2f600c" name="Fire Warriors" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">5+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">6+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">4+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Pulse Carbines&lt;BR&gt;&lt;BR&gt;2x Pulse Rifles</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(15cm)&lt;BR&gt;&lt;BR&gt;30cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Small Arms&lt;BR&gt;&lt;BR&gt;AP5+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429"/>
+      </characteristics>
+    </profile>
+    <profile id="e725b554-e52c-40bf-8c82-6bb587ec825f" name="Grand Knarloc" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">10cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">4+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">4+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">4+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Teeth and Claws</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapons</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Macro-weapon, +1A</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429"/>
+      </characteristics>
+    </profile>
+    <profile id="f5543c85-aab3-4df9-a137-09a4c82f962e" name="Gue’vesa" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">-</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">6+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Lasguns&lt;BR&gt;&lt;BR&gt;Autocannon</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(15cm)&lt;BR&gt;&lt;BR&gt;45cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Small Arms&lt;BR&gt;&lt;BR&gt;AP5+/AT6+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">One unit in every two has an autocannon. Halve units (round up) for number of shots.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="41990338-322e-44c8-a145-1e59944c764a" name="Hero Cruiser" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Spaceship</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">n/a</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">n/a</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">n/a</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">n/a</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">2x Pin-Point Attack</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">n/a</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">MW2+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Titan Killer (D3)</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Transport</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5bfeaf69-5229-48c2-9895-3af52fd93580" name="Hero Cruiser G" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Spaceship</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">n/a</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">n/a</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">n/a</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">n/a</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">2x Pin-Point Attack&lt;BR&gt;&lt;BR&gt;Gravitic Torpedoes</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">n/a&lt;BR&gt;&lt;BR&gt;n/a</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">MW2+&lt;BR&gt;&lt;BR&gt;6x MW5+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Titan Killer (D3)&lt;BR&gt;&lt;BR&gt;Guided Missiles</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Transport</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7b8ffac8-0621-4859-a99f-96af3c321990" name="Ion Russ" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Armoured Vehicle</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">20cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">4+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">6+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">3+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Ion Cannon&lt;BR&gt;&lt;BR&gt;Lascannon&lt;BR&gt;&lt;BR&gt;2x Heavy Bolter</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">60cm&lt;BR&gt;&lt;BR&gt;45cm&lt;BR&gt;&lt;BR&gt;30cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">2x AP3+/AT5+&lt;BR&gt;&lt;BR&gt;AT5+&lt;BR&gt;&lt;BR&gt;AP5+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Reinforced Armour</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9bf85109-4794-417f-8ef5-86d84d2317c7" name="Kroot Carnivores" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">-</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">4+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Kroot Rifle</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(15cm)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Small Arms</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Infiltrators</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="97b99002-0521-40d5-a099-eeceb83c2c39" name="Kroot Master Shaper" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">6+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">4+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Kroot Rifle&lt;BR&gt;&lt;BR&gt;Mercenary Weapons</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(15cm)&lt;BR&gt;&lt;BR&gt;(contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Small Arms&lt;BR&gt;&lt;BR&gt;Assault Weapons</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">-&lt;BR&gt;&lt;BR&gt;+1A</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Infiltrators, Leader</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0a1874b1-52f2-44ea-b54e-d6368c64d793" name="Krootox" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">4+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">4+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">4+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Kroot Cannon&lt;BR&gt;&lt;BR&gt;Claws</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">45cm&lt;BR&gt;&lt;BR&gt;(contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">AP5+/AT6+&lt;BR&gt;&lt;BR&gt;Assault Weapons</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">-&lt;BR&gt;&lt;BR&gt;+1A</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429"/>
+      </characteristics>
+    </profile>
+    <profile id="db267cfd-b78e-43ec-ac95-351c9679d940" name="Leman Russ Battle Tank" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Armoured Vehicle</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">20cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">4+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">6+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">4+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Battle Cannon&lt;BR&gt;&lt;BR&gt;Lascannon&lt;BR&gt;&lt;BR&gt;2x Heavy Bolter</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">75cm&lt;BR&gt;&lt;BR&gt;45cm&lt;BR&gt;&lt;BR&gt;30cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">AP4+/AT4+&lt;BR&gt;&lt;BR&gt;AT5+&lt;BR&gt;&lt;BR&gt;AP5+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Reinforced Armour</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4ca8cfec-749f-48ad-807e-13b95e87c118" name="Manta" hidden="false" typeId="1653b936-3bef-42ef-adfe-653bdfc7f321" typeName="War Engine">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">War Engine</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">20cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">4+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">-</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">3+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Heavy Railcannons&lt;BR&gt;&lt;BR&gt;Ion Phalanx&lt;BR&gt;&lt;BR&gt;Drone Pulse Cannons&lt;BR&gt;and&lt;BR&gt;&lt;BR&gt;Twin Missile Pods&lt;BR&gt;&lt;BR&gt;4x Seeker Missiles</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">75cm&lt;BR&gt;&lt;BR&gt;60cm&lt;BR&gt;&lt;BR&gt;15cm&lt;BR&gt;and (15cm)&lt;BR&gt;&lt;BR&gt;30cm&lt;BR&gt;&lt;BR&gt;75cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">2x MW2+&lt;BR&gt;&lt;BR&gt;6x AP2+/AT4+&lt;BR&gt;&lt;BR&gt;4x AA5+&lt;BR&gt;and Small Arms&lt;BR&gt;&lt;BR&gt;AP4+/AT5+/AA5+&lt;BR&gt;&lt;BR&gt;AT4+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Titan Killer (D3), Fixed Forward Arc&lt;BR&gt;&lt;BR&gt;Fixed Forward Arc&lt;BR&gt;&lt;BR&gt;-&lt;BR&gt;and +2A&lt;BR&gt;&lt;BR&gt;Fixed Forward Arc&lt;BR&gt;&lt;BR&gt;Guided Missiles</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Fearless, Reinforced Armour, Self Planetfall, Support Craft, Tau Deflector Shields (6+), Transport</characteristic>
+        <characteristic name="DC" typeId="2377629f-6ded-4aa4-b356-7d506954faa6">8</characteristic>
+        <characteristic name="Crit" typeId="8dbc632e-e06c-461d-a0fa-d51a1a624c11">Damaged</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="24fd6ec8-f280-4e5e-8b9c-8d776d40c048" name="Orca" hidden="false" typeId="1653b936-3bef-42ef-adfe-653bdfc7f321" typeName="War Engine">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">War Engine</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">Bomber</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">4+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">n/a</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">n/a</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Twin Pulse Cannons&lt;BR&gt;&lt;BR&gt;Twin Missile Pods</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">30cm&lt;BR&gt;&lt;BR&gt;30cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">AP4+/AA5+&lt;BR&gt;&lt;BR&gt;AP4+/AT5+/AA5+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">-&lt;BR&gt;&lt;BR&gt;Fixed Forward Arc</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Transport</characteristic>
+        <characteristic name="DC" typeId="2377629f-6ded-4aa4-b356-7d506954faa6">3</characteristic>
+        <characteristic name="Crit" typeId="8dbc632e-e06c-461d-a0fa-d51a1a624c11">Crash</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="983d1faf-fecf-43df-96f5-f486b14c0348" name="Pathfinders" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">5+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">6+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">2x Markerlights&lt;BR&gt;&lt;BR&gt;Rail Rifles&lt;BR&gt;&lt;BR&gt;Pulse Carbines</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">30cm&lt;BR&gt;&lt;BR&gt;30cm&lt;BR&gt;&lt;BR&gt;(15cm)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">1 Mark&lt;BR&gt;&lt;BR&gt;AP5+/AT6+&lt;BR&gt;&lt;BR&gt;Small Arms</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">-&lt;BR&gt;&lt;BR&gt;Disrupt&lt;BR&gt;&lt;BR&gt;-</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Scout</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="412a7bb8-118b-4deb-87ed-6dabc843c394" name="Tiger Shark" hidden="false" typeId="1653b936-3bef-42ef-adfe-653bdfc7f321" typeName="War Engine">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">War Engine, Aircraft</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">Bomber</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">6+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">n/a</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">n/a</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Twin Ion Cannons&lt;BR&gt;&lt;BR&gt;Twin Missile Pods&lt;BR&gt;&lt;BR&gt;Drones&lt;BR&gt;&lt;BR&gt;2x Seeker Missiles</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">30cm&lt;BR&gt;&lt;BR&gt;30cm&lt;BR&gt;&lt;BR&gt;15cm&lt;BR&gt;&lt;BR&gt;75cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">2x AP2+/AT4+&lt;BR&gt;&lt;BR&gt;AP4+/AT5+/AA5+&lt;BR&gt;&lt;BR&gt;AA5+&lt;BR&gt;&lt;BR&gt;AT4+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Fixed Forward Arc&lt;BR&gt;&lt;BR&gt;Fixed Forward Arc&lt;BR&gt;&lt;BR&gt;-&lt;BR&gt;&lt;BR&gt;Guided Missiles</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429"/>
+        <characteristic name="DC" typeId="2377629f-6ded-4aa4-b356-7d506954faa6">2</characteristic>
+        <characteristic name="Crit" typeId="8dbc632e-e06c-461d-a0fa-d51a1a624c11">Crash</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="05225264-6f75-4476-a575-cb86595cdbf3" name="XV15 Stealth Exo Armour" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">25cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">4+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">6+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">4+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Burst Cannons&lt;BR&gt;and</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">15cm&lt;BR&gt;and (15cm)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">AP4+&lt;BR&gt;and Small Arms</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Disrupt&lt;BR&gt;and -</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">First Strike, Scout, Tau Jetpacks, Teleport</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="be8c82ee-04cd-42b4-a69e-b77eaf00a2e5" name="XV8 Crisis Exo Armour" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">25cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">3+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">6+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">4+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Twin Missile Pods&lt;BR&gt;&lt;BR&gt;Plasma Fusion Rifles&lt;BR&gt;and</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">45cm&lt;BR&gt;&lt;BR&gt;15cm&lt;BR&gt;and (15cm)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">AP4+/AT57+&lt;BR&gt;&lt;BR&gt;MW5+&lt;BR&gt;and (Small Arms)</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">-&lt;BR&gt;&lt;BR&gt;-&lt;BR&gt;Macro-weapon</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Tau Jetpacks</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="16aa8c50-9a94-4e7a-9b25-ff59eb5447bf" name="Gue’vesa Commandant" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">5+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">5+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Lasguns&lt;BR&gt;&lt;BR&gt;Autocannon</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(15cm)&lt;BR&gt;&lt;BR&gt;45cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Small Arms&lt;BR&gt;&lt;BR&gt;AP5+/AT6+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Commander, Leader</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3804cd09-0f49-4ef1-87f0-6af7fe2c4e8d" name="Enlightened Gue’vesa Commandant" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">5+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">5+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Lasguns&lt;BR&gt;&lt;BR&gt;Autocannon</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(15cm)&lt;BR&gt;&lt;BR&gt;45cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Small Arms&lt;BR&gt;&lt;BR&gt;AP5+/AT6+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Commander, Inspiring, Leader</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="86e5c32a-09eb-4fb3-9902-7c7add81c7da" name="Basilisk" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Armoured Vehicle</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">20cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">5+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">6+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Heavy Bolter&lt;BR&gt;&lt;BR&gt;Earthshaker&lt;BR&gt;or</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">30cm&lt;BR&gt;&lt;BR&gt;120cm&lt;BR&gt;or 120cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">AP5+&lt;BR&gt;&lt;BR&gt;AP4+/AT4+&lt;BR&gt;or 1BP</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">-&lt;BR&gt;&lt;BR&gt;-&lt;BR&gt;or Indirect Fire</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Normal shot or barrage. May only use the indirect fire when firing a barrage.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="afd3798b-320a-42fd-bad8-9f55789f61ff" name="Bombard" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Armoured Vehicle</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">20cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">5+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">6+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Siege Mortar&lt;BR&gt;&lt;BR&gt;Heavy Bolter</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">60cm&lt;BR&gt;&lt;BR&gt;30cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">2BP&lt;BR&gt;&lt;BR&gt;AP5+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Ignore Cover, Indirect Fire, Slow Firing&lt;BR&gt;&lt;BR&gt;-</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429"/>
+      </characteristics>
+    </profile>
+    <profile id="045a3c45-1112-4059-a684-d259dfa56e33" name="Hydra" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Armoured Vehicle</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">30cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">6+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">6+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">2x Twin Hydra Autocannon&lt;BR&gt;&lt;BR&gt;Heavy Bolter</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">45cm&lt;BR&gt;&lt;BR&gt;30cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">AP4+/AT5+/AA5+&lt;BR&gt;&lt;BR&gt;AP5+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429"/>
+      </characteristics>
+    </profile>
+    <profile id="b36d6d66-1040-4827-9515-049b932a540f" name="Snipers" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">-</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">6+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Sniper Rifles</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">30cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">AP5+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Scout, Sniper</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>

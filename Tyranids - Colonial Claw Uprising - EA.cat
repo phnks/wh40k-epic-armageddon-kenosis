@@ -1,0 +1,1883 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="4b87a9c7-067b-4ea2-aae4-3499a4fcc114" name="Tyranids: Colonial Claw Uprising" revision="20" battleScribeVersion="2.03" authorUrl="http://battlescribedata.appspot.com/#/repo/wh40k-epic-armageddon" library="false" gameSystemId="b7be77a3-9f44-4c5d-a0f7-a40bf046af2a" gameSystemRevision="36" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="b67cb12e-eda7-411a-ab14-b6656ec85385" name="-Community-" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8a830798-cec9-4dc2-9a81-2668b09ba62b" name="Group" hidden="false" collective="false" import="true" defaultSelectionEntryId="5e7aabca-d4b7-4c86-8374-48f9dcc2ad88">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="e82d842c-e601-4481-a829-ef8414d1aa87" hidden="false" collective="false" import="true" targetId="88a98d5f-b990-4741-9c4e-5761a2a7200f" type="selectionEntry"/>
+            <entryLink id="5e7aabca-d4b7-4c86-8374-48f9dcc2ad88" hidden="false" collective="false" import="true" targetId="7f0bed0e-1717-46a1-8225-09866b0dcc87" type="selectionEntry"/>
+            <entryLink id="8e50abf9-2eb4-45e0-acfe-23675a8d4787" hidden="false" collective="false" import="true" targetId="6a7b87a6-e3f4-4ba7-aaac-b20234ded31f" type="selectionEntry"/>
+            <entryLink id="97758917-4d51-4b44-8cd9-d0f4dd9e4009" hidden="false" collective="false" import="true" targetId="8183dbe0-128d-44df-9d2f-587c40d576e7" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="1d035854-2ec8-4bd7-bf82-a6ed16f1928a" name="Lang (beta)" hidden="false" collective="false" import="true" targetId="1884eb4b-97e7-42ae-aed7-811bae8a02a9" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9e261534-a7fa-442c-b6ac-bf90873d709d" name="Geoseismic Breachers" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e194c7e0-c19a-4e6f-ae67-9266b30ffc2b" name="New CategoryLink" hidden="false" targetId="32fa31d8-c485-49c4-9fe1-59508cbee026" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="d8732390-8593-4260-9827-9d0e0ddb6fdb" name="Geoseismic Breacher" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="2c17275c-28aa-424c-9890-fecf7d5608be" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="fef64183-ad6a-4ba2-bd87-5fa3baad519d" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="6d69e2db-d947-47a6-ba45-f655d73119de" name="Geoseismic Breacher" hidden="false" targetId="4ada66f8-4bf7-46bb-bc6c-77be2e059188" type="profile"/>
+            <infoLink id="f3f7da6e-65db-487e-bf35-840902a24a1b" name="Critical Hit: Crippled" hidden="false" targetId="037aff05-ee9f-4490-a0ce-0e1eb9b0c4af" type="rule"/>
+            <infoLink id="7baf56d8-fa26-4c8a-bc92-8ef222f28948" name="Reinforced Armour" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+            <infoLink id="5d3cdf54-d75c-4c7d-a26c-c43e88722e88" name="Disrupt" hidden="false" targetId="b027e9fd-08c7-436c-a239-dd516a6ce794" type="rule"/>
+            <infoLink id="53380fc3-3e73-42aa-a50f-9aed4046f789" name="Titan Killer" hidden="false" targetId="cd277106-16dd-48d1-897f-01f2ba0c4483" type="rule"/>
+            <infoLink id="e3f92a06-ac17-48bd-811e-557c3520258e" name="Ignore Cover" hidden="false" targetId="5087a733-1e15-4e06-b869-8728e657c9fa" type="rule"/>
+            <infoLink id="4d0c6e9b-1af0-4c27-bd73-a45dd7b85c8e" name="Brood Telepathy" hidden="false" targetId="3f824f0c-632a-42dc-a75a-fb6f529bbf83" type="rule"/>
+            <infoLink id="87c3a3d9-cb98-428d-ab4b-1661919decd9" name="Breacher" hidden="false" targetId="49268b37-3b49-4e62-b1f4-c878e9ad8f83" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="250.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="079788de-cb46-418c-bf6f-c3d2a958f86a" name="Brood Brothers Cell" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="d3ff098f-a72d-46e0-8659-428ac6627148" hidden="false" targetId="e4013702-a119-46c3-9fd9-a64e58afe467" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="b7daec90-d75e-498e-8719-443a2f0d5638" name="Brood Brothers" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e99e2269-3198-4ed7-b682-e34bb0c56439" type="min"/>
+            <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="88305df8-c989-426b-af88-b856c0d81380" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="18bcf834-e666-4eec-8dd8-d1d38d2f1bb6" name="Brood Brothers" hidden="false" targetId="2085afa8-9f96-44c1-b7b1-537eccde1fe5" type="profile"/>
+            <infoLink id="d241b186-8891-4900-8433-9992156f3ab6" name="Brood Telepathy" hidden="false" targetId="3f824f0c-632a-42dc-a75a-fb6f529bbf83" type="rule"/>
+            <infoLink id="17ab24a4-3b1c-4f84-932f-d212d3a8b723" name="We Watch From The Shadows" hidden="false" targetId="0f5d957c-04a4-47c2-96bc-e8e2c24d9bd8" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4a7a8f8b-944f-46c7-8307-298c3579dc5a" name="Upgrades" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="047917e2-cb61-41f4-afba-1c240cde3b02" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="eabe1304-b2bf-49b9-bcce-0ede15349f7f" name="6x Brood Brothers" hidden="false" collective="false" import="true" targetId="cefc29ab-f6d6-4c94-b1f1-5fb036b68108" type="selectionEntry"/>
+            <entryLink id="5cc80571-9bb7-44e0-8cc5-6292f2f63421" name="Hero" hidden="false" collective="false" import="true" targetId="174f206c-4b68-4986-8cde-e2fe7b6f0eda" type="selectionEntryGroup"/>
+            <entryLink id="bec2f71d-5a23-49d0-bf7b-bdd4c03c09fb" name="4x Brood Gun Support Platforms" hidden="false" collective="false" import="true" targetId="c2128b04-f130-4661-92aa-c6eb38c56ee2" type="selectionEntry"/>
+            <entryLink id="0f632dfa-f003-458f-a86c-017bcd361183" name="2x Brood SAM Teams" hidden="false" collective="false" import="true" targetId="f4e8e06c-298f-4a38-bc40-2dc184992265" type="selectionEntry"/>
+            <entryLink id="0caaa461-236e-431b-8d69-7f05413dce95" name="Primus" hidden="false" collective="false" import="true" targetId="54957ab9-2fe1-45c3-94e7-830c98cdc2a1" type="selectionEntry"/>
+            <entryLink id="ae4dce56-0670-4cf5-bd15-42d6be58201f" name="4x Brood Scout Walker" hidden="false" collective="false" import="true" targetId="e163763d-5a13-4fbf-b326-280b6b15f44a" type="selectionEntry"/>
+            <entryLink id="42a88eab-a619-40e3-a043-1277151ef00b" name="3x Hellhound" hidden="false" collective="false" import="true" targetId="7dedc151-6ef0-4a89-9895-e71bb9ce2589" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="dc9be1e8-63d6-4960-ad6b-dc5648a3f5d2" name="Transport" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="increment" field="278ac039-c7e0-4d45-9aa0-30e20ee07cde" value="3.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cefc29ab-f6d6-4c94-b1f1-5fb036b68108" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="278ac039-c7e0-4d45-9aa0-30e20ee07cde" value="4.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c2128b04-f130-4661-92aa-c6eb38c56ee2" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="278ac039-c7e0-4d45-9aa0-30e20ee07cde" value="1.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f4e8e06c-298f-4a38-bc40-2dc184992265" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="278ac039-c7e0-4d45-9aa0-30e20ee07cde" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="6d347e79-03cd-4f10-936b-e62e3b3963a9" name="Goliath Rockgrinder" page="0" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="f9c79d11-5597-4443-83d8-e28f15542f62" name="Goliath Rockgrinder" hidden="false" targetId="70a1872f-c31d-419b-9a3b-4e836e115d86" type="profile"/>
+                <infoLink id="68cd3274-fffe-4cfe-b660-015960067226" name="Transport (CCU)" hidden="false" targetId="479f25de-84c4-48d9-a06a-5bed5b4ff481" type="rule"/>
+                <infoLink id="6d0cf3ce-7eb8-4709-82f4-e0fb55c1a958" name="Brood Telepathy" hidden="false" targetId="3f824f0c-632a-42dc-a75a-fb6f529bbf83" type="rule"/>
+                <infoLink id="ea9b2861-cf2c-4312-8a0b-1ced40d463c0" name="Thick Rear Armour" hidden="false" targetId="8eca9e45-4d25-4f1e-a395-eb8656a3889a" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="25.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="76eccefd-4ec3-4629-a04d-7954689bab52" name="Chimera" hidden="false" collective="false" import="true" targetId="908c38f6-50cd-48e6-8352-8de0860ad4a7" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="200.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ebbd0654-57a1-4cad-8391-176878dfc2d7" name="Purestrain Genestealers" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="ce9f1e28-6eba-4ad4-94a7-882600c03e1f" name="New CategoryLink" hidden="false" targetId="32fa31d8-c485-49c4-9fe1-59508cbee026" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="bf480281-1335-402d-88bb-724ba4d94175" name="Brood" hidden="false" collective="false" import="true" defaultSelectionEntryId="0ab63f3f-5c73-4011-b886-2660566fc855">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c25c2c2c-6fe2-422a-bedc-d31205f86d66" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="29511e0a-aa54-4b65-a95c-2e808408761b" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="0ab63f3f-5c73-4011-b886-2660566fc855" name="6x Purestrain Genestealers" hidden="false" collective="false" import="true" targetId="f390d158-fbe8-4d6e-9ed4-6f2096d5e9ce" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="points" value="0.0"/>
+              </modifiers>
+            </entryLink>
+            <entryLink id="6673aead-d3ce-4e40-a2bc-d7308e50332d" name="Patriarch, 5x Purestrain Genestealers" hidden="false" collective="false" import="true" targetId="61ec20b7-798a-4fb8-abbc-947f066d4089" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="points" value="0.0"/>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="150.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b99ace1a-e8fc-4347-ac88-2cc9f64f9c4a" name="Brood Brother Scout Walker" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="f95435e8-8f6f-412f-8fb1-02c9bc621fc8" name="New CategoryLink" hidden="false" targetId="32fa31d8-c485-49c4-9fe1-59508cbee026" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="6f455bb9-299a-448e-a2a2-5ca473f62a0c" name="Brood Scout Walker" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="34f8c738-13af-4836-80cc-5926f4bbd196" type="min"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="fe807a4f-12b7-47d5-8e4d-75137c0d599a" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="cd38228e-597e-4375-afb9-a1dae373156e" name="Brood Scout Walker" hidden="false" targetId="2e8bb1a6-8a95-4bde-a5d1-816865320c9f" type="profile"/>
+            <infoLink id="973b9011-5ab8-46dd-ac90-a4f06766e469" hidden="false" targetId="af143427-33d4-438b-aab2-16a8e2867f79" type="rule"/>
+            <infoLink id="b94208a8-972c-4a4f-a56c-d84d3633d3b7" hidden="false" targetId="3792d3e5-937d-49e6-8a20-320f64f441ba" type="rule"/>
+            <infoLink id="8d72e7e1-1d5f-4b6b-801f-3a51b505e840" name="Brood Telepathy" hidden="false" targetId="3f824f0c-632a-42dc-a75a-fb6f529bbf83" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="100.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="137ca117-0e41-40b1-bd17-86244790eb5d" name="Jackal Outriders" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="1986eff1-f28d-44f7-99d8-2dd294245cf8" name="New CategoryLink" hidden="false" targetId="32fa31d8-c485-49c4-9fe1-59508cbee026" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9492b56c-9c85-4852-be11-d19c68f100ab" name="Squadron" hidden="false" collective="false" import="true" defaultSelectionEntryId="12c20ab7-c7fe-4b0a-9f54-a0d20f52d597">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="5a882830-f3aa-49c5-b451-46831666d443" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="d3e65b90-8588-4943-a439-8080876a6cfd" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="7f361c4b-2500-4625-83ac-b78f808967b0" name="3x Jackal Bikers, 3x Wolfquad Buggy" hidden="false" collective="false" import="true" type="unit">
+              <infoLinks>
+                <infoLink id="9dd91c99-205f-43fa-ad09-227f7f61ce4e" name="Jackal Bikers" hidden="false" targetId="9991a765-7289-4dcb-95d2-231c544b9d0e" type="profile"/>
+                <infoLink id="4a31d605-1023-42ad-9c27-75a420817c5a" name="Mounted" hidden="false" targetId="fe19cbf1-084a-4af7-93ef-b16ab5d2ba51" type="rule"/>
+                <infoLink id="e807de51-8b5e-4fd0-b3f3-0252efd9963d" name="Brood Telepathy" hidden="false" targetId="3f824f0c-632a-42dc-a75a-fb6f529bbf83" type="rule"/>
+                <infoLink id="07a585c0-ea54-4dd8-96a4-c04b677c5d5b" name="Scout" hidden="false" targetId="af143427-33d4-438b-aab2-16a8e2867f79" type="rule"/>
+                <infoLink id="f451d518-886d-4755-967a-bea2cdc3a52e" name="We Watch From The Shadows" hidden="false" targetId="0f5d957c-04a4-47c2-96bc-e8e2c24d9bd8" type="rule"/>
+                <infoLink id="2c71029d-87e4-4436-8992-71758a5c4066" name="Wolfquad Buggy" hidden="false" targetId="17a84dd2-42c6-470c-bcea-5adc2c80a926" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="125.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="12c20ab7-c7fe-4b0a-9f54-a0d20f52d597" name="6x Jackal Bikers" hidden="false" collective="false" import="true" type="unit">
+              <infoLinks>
+                <infoLink id="155efc75-0570-4076-b2ed-81c622b2a105" name="Jackal Bikers" hidden="false" targetId="9991a765-7289-4dcb-95d2-231c544b9d0e" type="profile"/>
+                <infoLink id="7cd7b79b-8156-4abb-8f55-d2de3cb80950" name="Mounted" hidden="false" targetId="fe19cbf1-084a-4af7-93ef-b16ab5d2ba51" type="rule"/>
+                <infoLink id="2cfd9340-f2d5-46b8-ab73-bd7cac89b872" name="Brood Telepathy" hidden="false" targetId="3f824f0c-632a-42dc-a75a-fb6f529bbf83" type="rule"/>
+                <infoLink id="912ab61f-6da0-4d2b-92d0-0576da1493eb" name="Scout" hidden="false" targetId="af143427-33d4-438b-aab2-16a8e2867f79" type="rule"/>
+                <infoLink id="269fd617-cb3a-42cc-8ce7-dd8883c122e8" name="We Watch From The Shadows" hidden="false" targetId="0f5d957c-04a4-47c2-96bc-e8e2c24d9bd8" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f51cee2e-43f2-4b1b-b80a-360edbfa4e92" name="4x Jackal Bikers, 2x Wolfquad Buggy" hidden="false" collective="false" import="true" type="unit">
+              <infoLinks>
+                <infoLink id="9798bbcc-c1ca-4941-ad50-27a2ee21c64d" name="Jackal Bikers" hidden="false" targetId="9991a765-7289-4dcb-95d2-231c544b9d0e" type="profile"/>
+                <infoLink id="1f3af70a-5dda-4ff4-81ea-c640ad0eb100" name="Mounted" hidden="false" targetId="fe19cbf1-084a-4af7-93ef-b16ab5d2ba51" type="rule"/>
+                <infoLink id="58034be3-b582-436f-8e11-90d61c9576d4" name="Brood Telepathy" hidden="false" targetId="3f824f0c-632a-42dc-a75a-fb6f529bbf83" type="rule"/>
+                <infoLink id="2e48b78d-ee23-4ea8-920e-38571b20ea4f" name="Scout" hidden="false" targetId="af143427-33d4-438b-aab2-16a8e2867f79" type="rule"/>
+                <infoLink id="c024067a-65fd-4af4-9d1d-a8f50d3d0524" name="We Watch From The Shadows" hidden="false" targetId="0f5d957c-04a4-47c2-96bc-e8e2c24d9bd8" type="rule"/>
+                <infoLink id="74a73cd1-6e16-4bc4-bf87-e14647ebc5c1" name="Wolfquad Buggy" hidden="false" targetId="17a84dd2-42c6-470c-bcea-5adc2c80a926" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="125.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e6d9a024-9a37-4ba8-950a-73b54bbf468e" name="5x Jackal Bikers, 1x Wolfquad Buggy" hidden="false" collective="false" import="true" type="unit">
+              <infoLinks>
+                <infoLink id="ef40f552-05c2-451b-b62f-a01930e310fe" name="Jackal Bikers" hidden="false" targetId="9991a765-7289-4dcb-95d2-231c544b9d0e" type="profile"/>
+                <infoLink id="8f11d242-4c76-4453-9e56-adfda6a83287" name="Mounted" hidden="false" targetId="fe19cbf1-084a-4af7-93ef-b16ab5d2ba51" type="rule"/>
+                <infoLink id="316ea96c-48a0-4358-92aa-f40d3a03b6cd" name="Brood Telepathy" hidden="false" targetId="3f824f0c-632a-42dc-a75a-fb6f529bbf83" type="rule"/>
+                <infoLink id="eeb87ede-1299-4626-9016-5c33e559fe44" name="Scout" hidden="false" targetId="af143427-33d4-438b-aab2-16a8e2867f79" type="rule"/>
+                <infoLink id="03ff99bd-1964-4cca-978a-c011b02be294" name="We Watch From The Shadows" hidden="false" targetId="0f5d957c-04a4-47c2-96bc-e8e2c24d9bd8" type="rule"/>
+                <infoLink id="f682e173-f841-4354-a1d7-d6f599f12cf4" name="Wolfquad Buggy" hidden="false" targetId="17a84dd2-42c6-470c-bcea-5adc2c80a926" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="125.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="6e58baf1-8751-41a3-8bfb-911e5cbf7ef9" name="Jackal Alphus" hidden="false" collective="false" import="true" targetId="be74a6ed-cffe-4b00-98b8-e9e2c2682c37" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="150.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="691e9901-e497-40ef-bb59-40aadee27404" name="Ridgerunners" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="eaedde6d-a058-42b7-93ab-3df02e63518e" name="New CategoryLink" hidden="false" targetId="32fa31d8-c485-49c4-9fe1-59508cbee026" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="be990b97-15dc-40ca-bcb0-77f00416ab1d" name="Achilles Ridgerunner" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="967e0825-d8c9-4526-bb34-18f5e3be3031" type="min"/>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="5dd55360-8591-4078-96b5-60254b5f6e9e" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="f6a169ae-bfac-46ce-9a00-e901c35d123a" name="Achilles Ridgerunner" hidden="false" targetId="e6b3a693-6738-4636-9d38-c893aa865c64" type="profile"/>
+            <infoLink id="5cc19e6e-a4c5-4412-9f65-6c3422ad2979" name="Brood Telepathy" hidden="false" targetId="3f824f0c-632a-42dc-a75a-fb6f529bbf83" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="150.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c67f6cad-eeb6-4ccf-abdd-1ab6a212f9e1" name="Sanctus" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="a4157b5f-5d62-4237-bd8c-262e154ea26e" name="New CategoryLink" hidden="false" targetId="32fa31d8-c485-49c4-9fe1-59508cbee026" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="b519767f-b86c-4171-8c10-105cedbb2b8a" name="Sanctus" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c2f844ba-be05-4523-b341-1a036b070cd6" type="min"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="50dfe8af-4252-4b97-bdcf-08b13d0c9d2b" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="aa77dabd-9fc9-42f3-9e97-fd459ac3c861" name="Sanctus" hidden="false" targetId="9048a1d8-2b8e-4d4c-b65c-c3e82bdcf451" type="profile"/>
+            <infoLink id="d535a9ac-5ede-4efb-87b8-b9f3ebf65c4d" name="Sniper" hidden="false" targetId="0a2c466f-8e38-4e54-a0f1-08ac199cd89c" type="rule"/>
+            <infoLink id="ee763ae9-3754-4080-b3a4-5cbd17e163f3" name="We Watch From The Shadows" hidden="false" targetId="0f5d957c-04a4-47c2-96bc-e8e2c24d9bd8" type="rule"/>
+            <infoLink id="d9a6c411-2434-42b9-8fcc-a44d8614c232" name="Brood Telepathy" hidden="false" targetId="3f824f0c-632a-42dc-a75a-fb6f529bbf83" type="rule"/>
+            <infoLink id="9c13dcca-fb9e-4bf1-a472-aaef11869620" name="First Strike" hidden="false" targetId="75101e3d-cca2-4420-acfe-e0a1db1314af" type="rule"/>
+            <infoLink id="026b72be-14ad-49de-bfd3-1f3e9c8e623c" name="Macro-weapon" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+            <infoLink id="d5e2aae5-c861-4430-8138-8ed42ac8786f" name="Scout" hidden="false" targetId="af143427-33d4-438b-aab2-16a8e2867f79" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="38b82721-ead8-49e6-b075-fb40becdd851" name="2x Chimera" hidden="false" collective="false" import="true" targetId="ed349581-57f0-4e72-8299-5b0ff1651ca7" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="125.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="67c95873-5dc5-414c-9748-6e16eb925be8" name="Leman Russ" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="237405da-0d9e-4f26-9d3f-886c07fb2bd6" name="New CategoryLink" hidden="false" targetId="32fa31d8-c485-49c4-9fe1-59508cbee026" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="bc302c83-8803-4a4d-8d48-897f5398b631" name="Leman Russ" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="650da35a-9004-4deb-9fec-e23dd580e13d" type="min"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="7709135f-9f08-4c32-a24a-0dbc98113044" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="70599f02-4131-4991-8145-19dc8d3ec539" name="Leman Russ Battle Tank" hidden="false" targetId="519d461c-efde-41ce-9250-4c1567ccfd4c" type="profile"/>
+            <infoLink id="752607ca-7a02-4bb5-a7fb-b110021537d4" name="Reinforced Armour" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+            <infoLink id="012ec444-9b2b-4b3b-8f41-97b33e3bc5a8" name="Brood Telepathy" hidden="false" targetId="3f824f0c-632a-42dc-a75a-fb6f529bbf83" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="250.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bcc51942-b424-444d-baec-52357eff674b" name="Griffon Battery" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="ba3cbe7d-de34-4265-9b95-1c982bc6f0e2" name="New CategoryLink" hidden="false" targetId="32fa31d8-c485-49c4-9fe1-59508cbee026" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="90244057-0bc2-43aa-b074-45923e311490" name="Griffon" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="398bf98f-199b-4f56-a623-ddc6bd9ae303" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="8190e992-e83e-4b09-8f04-9bd40210b410" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="3c425d50-62ea-4473-8652-b7bb727eb321" name="Griffon" hidden="false" targetId="ec19d901-1487-4a5a-b1fb-c3e066acbd00" type="profile"/>
+            <infoLink id="d9cb7187-d592-45d5-97f6-019a860b317b" name="Indirect Fire" hidden="false" targetId="2dddba7a-76cc-472a-92a8-a9cf9025db6f" type="rule"/>
+            <infoLink id="9de6515c-7a79-4a8d-ba65-cac646b965f5" name="Brood Telepathy" hidden="false" targetId="3f824f0c-632a-42dc-a75a-fb6f529bbf83" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="75.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5e94cae2-4fca-489d-821e-6ed9258dc1bf" name="Hybrids" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="23ff5939-a338-4d63-88cc-85d7d2757860" name="New CategoryLink" hidden="false" targetId="32fa31d8-c485-49c4-9fe1-59508cbee026" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c21c48c0-b875-4547-ba11-2643fa4b7729" name="Coven" hidden="false" collective="false" import="true" defaultSelectionEntryId="46a6641f-03f0-404d-b03e-1c1a7becd2ad">
+          <constraints>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e7d1505d-a597-45f7-9b6d-be4ecc92d654" type="max"/>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="2d7f0259-b72b-40cb-a108-70b9e533534f" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="4c1c2e8d-0d4a-47ff-8201-36b94166c923" name="Acolyte Hybrids" hidden="false" collective="false" import="true" targetId="c433d8d7-90f2-4317-b4db-4a0a2abf7e6e" type="selectionEntry"/>
+            <entryLink id="46a6641f-03f0-404d-b03e-1c1a7becd2ad" name="Neophyte Hybrids" hidden="false" collective="false" import="true" targetId="9b07158e-1196-46bf-9477-9d7df202342a" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="df973a51-1fe4-4c2f-9ccb-28fdcc4802eb" name="Hero" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="8813250c-b267-45a3-997a-045dd4eac1d4" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="81bf6dbd-2094-41e9-a64a-e35d82d5741f" name="Primus" hidden="false" collective="false" import="true" targetId="54957ab9-2fe1-45c3-94e7-830c98cdc2a1" type="selectionEntry"/>
+            <entryLink id="7ab2b862-a088-476c-9a5e-23c1fc9a73f7" name="Biophagus" hidden="false" collective="false" import="true" targetId="996e983d-5e97-4c84-a14d-916fcf4a827f" type="selectionEntry"/>
+            <entryLink id="e24b371b-8e9e-4f51-bfc1-887a71208907" name="4th Gen Psyker" hidden="false" collective="false" import="true" targetId="d5c61300-aba6-4806-aefe-720e650fe132" type="selectionEntry"/>
+            <entryLink id="dfdbf26b-78c7-419f-aefa-eef051d63779" name="Kelermorph" hidden="false" collective="false" import="true" targetId="746fc543-d5e8-4316-8b1e-9f87bb17b5f8" type="selectionEntry"/>
+            <entryLink id="3a173bef-a273-4c8d-8819-e7218f049cf4" name="Clamavus" hidden="false" collective="false" import="true" targetId="975a9825-316d-4194-ad02-f9e7f4dfabd1" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="d69f5d24-33b3-4a8b-9213-9849b08e1887" name="Transport" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="cd549c7c-02e5-4609-a990-7369b11c7659" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="3bebb791-11b0-4ae5-adf0-2f9eef7ef417" name="3x Termite" page="0" hidden="false" collective="false" import="true" type="model">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a6c6337b-9e95-4217-a262-7b8b080cdcc3" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="f248f1e8-5cfe-4072-a8e4-ca0b250a9d20" name="Termite" hidden="false" targetId="f1252f15-5336-41f8-9f71-9071c392e034" type="profile"/>
+                <infoLink id="7ce07669-7ec4-45fd-8e03-f593b7235c69" name="Transport (CCU)" hidden="false" targetId="479f25de-84c4-48d9-a06a-5bed5b4ff481" type="rule"/>
+                <infoLink id="a7255562-9f58-48b5-b5d1-ac39edf6ab8e" name="Brood Telepathy" hidden="false" targetId="3f824f0c-632a-42dc-a75a-fb6f529bbf83" type="rule"/>
+                <infoLink id="68dc490d-ce47-40af-b971-c47c849b70bd" name="Tunneller" hidden="false" targetId="53197e36-5afd-4eca-a273-56a76ff444e4" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="75.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="c12d0a1a-c4f5-413f-b1ac-44fad15155a5" name="3x Chimera" hidden="false" collective="false" import="true" targetId="b930f0fc-549f-4aeb-ad11-eafc37bd532c" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="125.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8aed382f-3c37-4e96-ada7-725c93609e5d" name="Brood Brother Support" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="6abe9ed8-01a3-40c2-a24c-9f0cb451a4ab" name="New CategoryLink" hidden="false" targetId="32fa31d8-c485-49c4-9fe1-59508cbee026" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="f493d622-9711-41ec-badb-db49b48954c5" name="Brood Gun Support Platform" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="fbd3d9df-8eee-4002-94ea-688dd810a9a8" type="min"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="7f253f62-cd1b-499a-81ee-7271b8f76c31" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="e2cb139b-c889-42b7-8735-6f965d0d3f67" name="Brood Gun Support Platform" hidden="false" targetId="8a54d24d-b4a7-4af4-b6ca-ab30c9dee874" type="profile"/>
+            <infoLink id="68d6e66d-b1b7-473c-8a6d-abca01a55fb0" name="We Watch From The Shadows" hidden="false" targetId="0f5d957c-04a4-47c2-96bc-e8e2c24d9bd8" type="rule"/>
+            <infoLink id="78c1a4f3-645e-4079-b9d2-23ce25b96db9" name="Brood Telepathy" hidden="false" targetId="3f824f0c-632a-42dc-a75a-fb6f529bbf83" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c875e3af-2079-4f6a-84ba-1204babc5891" name="Transport" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="a0a691ef-860b-4b2e-baac-a87b6221f867" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="34e0385a-f468-4330-89de-298411838532" name="4x Goliath Rockgrinder" page="0" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="2545036f-c37d-48d0-bdd3-53fc783bcf98" name="Goliath Rockgrinder" hidden="false" targetId="70a1872f-c31d-419b-9a3b-4e836e115d86" type="profile"/>
+                <infoLink id="7d8b0e58-6ffc-4567-9913-cdb1bb167282" name="Transport (CCU)" hidden="false" targetId="479f25de-84c4-48d9-a06a-5bed5b4ff481" type="rule"/>
+                <infoLink id="37e34a37-b41b-46e1-9e05-e2293de858ef" name="Brood Telepathy" hidden="false" targetId="3f824f0c-632a-42dc-a75a-fb6f529bbf83" type="rule"/>
+                <infoLink id="bf6ba58e-4ff8-41df-a325-c18219a70bf4" name="Thick Rear Armour" hidden="false" targetId="8eca9e45-4d25-4f1e-a395-eb8656a3889a" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="100.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ea01cc66-7f6e-4830-9114-99f91f4ec570" name="4x Chimera" page="0" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="dfc7b949-bc21-446d-8bc8-576040300464" name="Chimera" hidden="false" targetId="4edff34d-4d2e-4c4b-958e-b92ff3b81f00" type="profile"/>
+                <infoLink id="8ee29437-26ac-4634-9bd0-6c78f991fdc1" name="Brood Telepathy" hidden="false" targetId="3f824f0c-632a-42dc-a75a-fb6f529bbf83" type="rule"/>
+                <infoLink id="a4e3ee46-dc2d-4e87-a285-d94f2728b831" name="Transport (CCU)" hidden="false" targetId="479f25de-84c4-48d9-a06a-5bed5b4ff481" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="100.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="100.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="91de1872-76cc-4acd-8ca7-29ebb66741f3" name="Brood Brother SAM Teams" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="a5d8812a-fd7a-4a28-82ee-0ebdaa80a80e" name="New CategoryLink" hidden="false" targetId="32fa31d8-c485-49c4-9fe1-59508cbee026" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="548b0536-7578-4238-9e22-c6dc053ab997" name="Brood SAM Team" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="7506e33c-6b17-478b-96cb-ddf37fd0ff31" type="min"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="19b5ee95-c041-4e43-8e3b-999ffd26f82f" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="0b5cfce5-215b-4a4e-b2a6-47a8183a6f3e" name="Brood SAM Team" hidden="false" targetId="893803a7-2779-4512-91ca-61387df2ba10" type="profile"/>
+            <infoLink id="7c36fca5-a226-4ee3-ab12-759d0bf01a03" name="We Watch From The Shadows" hidden="false" targetId="0f5d957c-04a4-47c2-96bc-e8e2c24d9bd8" type="rule"/>
+            <infoLink id="f85bb81e-9cdd-4e4a-b247-898b0d75b909" name="Brood Telepathy" hidden="false" targetId="3f824f0c-632a-42dc-a75a-fb6f529bbf83" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="f638f652-33b7-4f82-8981-4503a1cb3c65" name="Transport" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="aa6929c5-a1a4-490e-9b85-fcf07246a543" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="6486cf82-e2ec-4943-9efb-19359fc3e38b" name="2x Goliath Rockgrinder" page="0" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="5ec3302b-099b-430a-85bc-cf7b34e7d25c" name="Goliath Rockgrinder" hidden="false" targetId="70a1872f-c31d-419b-9a3b-4e836e115d86" type="profile"/>
+                <infoLink id="3f5b0029-f9e2-46e1-9b4e-033b11ba65dc" name="Transport (CCU)" hidden="false" targetId="479f25de-84c4-48d9-a06a-5bed5b4ff481" type="rule"/>
+                <infoLink id="5f4c81dd-dde7-4c80-b254-4fcf3c8a18e8" name="Brood Telepathy" hidden="false" targetId="3f824f0c-632a-42dc-a75a-fb6f529bbf83" type="rule"/>
+                <infoLink id="ef066592-b049-4044-bca1-f0d6986776a8" name="Thick Rear Armour" hidden="false" targetId="8eca9e45-4d25-4f1e-a395-eb8656a3889a" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="50.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="99990379-3bb4-4f32-9181-0b335fe68157" name="2x Chimera" hidden="false" collective="false" import="true" targetId="ed349581-57f0-4e72-8299-5b0ff1651ca7" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="100.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="14ad983d-5cdd-4d44-b739-59be5286672a" name="Brood Brothers" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="95d05e53-c3ad-4285-bfff-fde1803ae92d" name="New CategoryLink" hidden="false" targetId="32fa31d8-c485-49c4-9fe1-59508cbee026" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="bbdec528-2f97-4d9d-86c0-7c9c760e0b07" name="Brood Brothers" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="aa694bee-793a-4001-833a-ebe069e3cc3f" type="min"/>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="f0eb4032-0ae2-4de6-987f-b25124429e6a" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="9194ce0d-d5e2-4fbf-84e7-3a7206b83414" name="Brood Brothers" hidden="false" targetId="2085afa8-9f96-44c1-b7b1-537eccde1fe5" type="profile"/>
+            <infoLink id="6e683be9-ba73-4dbd-a69a-c273c8a46a7a" name="We Watch From The Shadows" hidden="false" targetId="0f5d957c-04a4-47c2-96bc-e8e2c24d9bd8" type="rule"/>
+            <infoLink id="d23acf69-42be-4057-8204-1e5c143c45c3" name="Brood Telepathy" hidden="false" targetId="3f824f0c-632a-42dc-a75a-fb6f529bbf83" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="1f7751ea-a8ce-4279-8cca-f2b9e2f449ba" name="Transport" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="a38e0c42-fb04-4cf1-be10-6711b0d1bde4" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="1d226094-a75b-47f1-ac19-e1b4ad7c085e" name="3x Goliath Rockgrinder" page="0" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="5eed660f-d44a-4243-ab9c-d237e185f5fd" name="Goliath Rockgrinder" hidden="false" targetId="70a1872f-c31d-419b-9a3b-4e836e115d86" type="profile"/>
+                <infoLink id="638b2381-4e71-4c46-95b9-e42c09ae4b44" name="Transport (CCU)" hidden="false" targetId="479f25de-84c4-48d9-a06a-5bed5b4ff481" type="rule"/>
+                <infoLink id="f1ab87d8-7f32-4b00-9be7-f230cb71cd3a" name="Brood Telepathy" hidden="false" targetId="3f824f0c-632a-42dc-a75a-fb6f529bbf83" type="rule"/>
+                <infoLink id="466a6add-4507-4a03-9856-3a4596135e13" name="Thick Rear Armour" hidden="false" targetId="8eca9e45-4d25-4f1e-a395-eb8656a3889a" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="75.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="0e90de8f-6c47-4166-964a-595b3fe34896" name="3x Chimera" hidden="false" collective="false" import="true" targetId="b930f0fc-549f-4aeb-ad11-eafc37bd532c" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="1e0b90b3-6023-4cd5-abf3-3bc9663eb0f3" name="Primus" hidden="false" collective="false" import="true" targetId="54957ab9-2fe1-45c3-94e7-830c98cdc2a1" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="100.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5bef906c-78dc-404d-b7a7-cfb8fcc78ee9" name="Abhumans" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="9a8d82fc-f4c4-4ae4-955c-27a7bb4713c1" name="New CategoryLink" hidden="false" targetId="32fa31d8-c485-49c4-9fe1-59508cbee026" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="504c7f3a-ac66-46f7-ba08-be8d32f7464b" name="Abhumans" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="aecc6b7f-dc94-49fe-b3a4-62825f1ca59f" type="min"/>
+            <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="936bd3ce-a6a7-4f95-bfa7-0830afcf4b1e" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="c1318d4d-172f-4268-96c7-c1b53dcc0c18" name="Abhumans" hidden="false" targetId="ee6833ab-92a5-495d-913a-517cee9bf3a1" type="profile"/>
+            <infoLink id="ec9a3b1e-8a15-4589-9bd0-cd58b40860f2" name="We Watch From The Shadows" hidden="false" targetId="0f5d957c-04a4-47c2-96bc-e8e2c24d9bd8" type="rule"/>
+            <infoLink id="6a7ba790-2265-4534-99fd-be3c7b0d017a" name="Fearless" hidden="false" targetId="72dab6ac-4c9d-45f2-b150-7dd034d83b83" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="77ade48c-5249-48e0-8a8b-64f018d48831" name="4x Truck" page="0" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="bc73f002-c72f-47ad-b20f-47cfafd3bac7" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="a0c679e5-e814-4d7e-9e7a-b70ede1fe83e" name="Truck" hidden="false" targetId="49cb97b7-d522-4675-a9b3-ed5923261c70" type="profile"/>
+            <infoLink id="e9dade56-0d74-4fdd-9882-927bdf8736f4" name="Transport (CCU)" hidden="false" targetId="479f25de-84c4-48d9-a06a-5bed5b4ff481" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="50.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="debf521b-638c-4ba8-b5dc-484a4783fe61" name="Abominant" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ef5e579f-ca6a-4acd-aca9-6304baf5ed24" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="25db145f-7f90-48cc-844e-1a5e4adf62c6" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="05182415-c1a4-48d2-b71d-cd6aa39c666b" name="Abominant" hidden="false" targetId="c44d08b9-4ee4-4e92-9168-aae56b39b5be" type="profile"/>
+            <infoLink id="97098207-f7cf-4330-90c5-a23d7d7f49af" name="Leader" hidden="false" targetId="d23596ad-5004-4bc3-8600-2b61a05ee52d" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="150.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ad50432e-4604-40a6-b328-da14ed5980c2" name="Outrider Cell" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e710eba4-421e-4e04-8074-215c4e206df5" name="New CategoryLink" hidden="false" targetId="e4013702-a119-46c3-9fd9-a64e58afe467" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="dceb15d8-8625-4c8a-988f-d9993b856b69" name="4x Achilles Ridgerunner" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="24c5defd-e0b8-49c6-be7a-6298b93d2f6b" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="4c633fd1-540d-4315-81bc-47c1af4f9f5c" name="Achilles Ridgerunner" hidden="false" targetId="e6b3a693-6738-4636-9d38-c893aa865c64" type="profile"/>
+            <infoLink id="9324b0f6-569b-4167-9bd6-240f22a33bf3" name="Brood Telepathy" hidden="false" targetId="3f824f0c-632a-42dc-a75a-fb6f529bbf83" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="100.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="b7299659-f5eb-4a93-8379-de35fa39175b" name="Squadron" hidden="false" collective="false" import="true" defaultSelectionEntryId="047dcd4a-9c7b-42c9-b565-768e045b4f50">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="50fda539-7719-4be1-8923-b163a817974e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="665c4d8a-d2da-4c0f-8b34-830b23896b8c" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="f57faae0-e3ba-4520-a2a6-cd3ca13ea204" name="5x Jackal Bikers, 3x Wolfquad Buggy" hidden="false" collective="false" import="true" type="unit">
+              <infoLinks>
+                <infoLink id="3a645977-db39-49a1-8f2b-8d7f835dbc9a" name="Jackal Bikers" hidden="false" targetId="9991a765-7289-4dcb-95d2-231c544b9d0e" type="profile"/>
+                <infoLink id="938630d7-f1cd-4bf7-bd00-854779a6bd96" name="Mounted" hidden="false" targetId="fe19cbf1-084a-4af7-93ef-b16ab5d2ba51" type="rule"/>
+                <infoLink id="f5b274b8-59c1-4e15-8b7c-5b1b6454467f" name="Brood Telepathy" hidden="false" targetId="3f824f0c-632a-42dc-a75a-fb6f529bbf83" type="rule"/>
+                <infoLink id="16864c19-9610-4b94-a5cc-e36a87f089df" name="Scout" hidden="false" targetId="af143427-33d4-438b-aab2-16a8e2867f79" type="rule"/>
+                <infoLink id="2a7b75ee-5564-4319-aaf0-2769c495d592" name="We Watch From The Shadows" hidden="false" targetId="0f5d957c-04a4-47c2-96bc-e8e2c24d9bd8" type="rule"/>
+                <infoLink id="f9e1a3dc-4ed3-4768-bd87-ebc661be3d7c" name="Wolfquad Buggy" hidden="false" targetId="17a84dd2-42c6-470c-bcea-5adc2c80a926" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="50.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="047dcd4a-9c7b-42c9-b565-768e045b4f50" name="8x Jackal Bikers" hidden="false" collective="false" import="true" type="unit">
+              <infoLinks>
+                <infoLink id="d084921f-0e1b-4597-9188-3b700a92334b" name="Jackal Bikers" hidden="false" targetId="9991a765-7289-4dcb-95d2-231c544b9d0e" type="profile"/>
+                <infoLink id="be70c842-000f-4261-baad-5b5996689945" name="Mounted" hidden="false" targetId="fe19cbf1-084a-4af7-93ef-b16ab5d2ba51" type="rule"/>
+                <infoLink id="160b4e40-0e87-49c2-ae6c-2ce22914ad9b" name="Brood Telepathy" hidden="false" targetId="3f824f0c-632a-42dc-a75a-fb6f529bbf83" type="rule"/>
+                <infoLink id="4db07da5-30d5-4d1f-9847-8ab595e9cec1" name="Scout" hidden="false" targetId="af143427-33d4-438b-aab2-16a8e2867f79" type="rule"/>
+                <infoLink id="6cd361a0-384e-4735-bc68-65bb3ada2ca1" name="We Watch From The Shadows" hidden="false" targetId="0f5d957c-04a4-47c2-96bc-e8e2c24d9bd8" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="88a995e4-9e6e-4ff6-b5fe-864cb48aeccb" name="6x Jackal Bikers, 2x Wolfquad Buggy" hidden="false" collective="false" import="true" type="unit">
+              <infoLinks>
+                <infoLink id="ebacb25c-0498-4784-8bc6-847540c7577e" name="Jackal Bikers" hidden="false" targetId="9991a765-7289-4dcb-95d2-231c544b9d0e" type="profile"/>
+                <infoLink id="e4823f57-ec01-4776-97ad-a54d501fedb4" name="Mounted" hidden="false" targetId="fe19cbf1-084a-4af7-93ef-b16ab5d2ba51" type="rule"/>
+                <infoLink id="1e56fb69-1dc4-4a0b-9514-8715136330fc" name="Brood Telepathy" hidden="false" targetId="3f824f0c-632a-42dc-a75a-fb6f529bbf83" type="rule"/>
+                <infoLink id="376a7796-cd22-46df-b9b6-f37346eb2eba" name="Scout" hidden="false" targetId="af143427-33d4-438b-aab2-16a8e2867f79" type="rule"/>
+                <infoLink id="b07204c3-3f2f-4419-8f01-5a368171d18a" name="We Watch From The Shadows" hidden="false" targetId="0f5d957c-04a4-47c2-96bc-e8e2c24d9bd8" type="rule"/>
+                <infoLink id="a4f1e44c-5cad-494c-aadf-dc6075b61091" name="Wolfquad Buggy" hidden="false" targetId="17a84dd2-42c6-470c-bcea-5adc2c80a926" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="25.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b4146752-9418-4201-9e0c-7962478f6a71" name="7x Jackal Bikers, 1x Wolfquad Buggy" hidden="false" collective="false" import="true" type="unit">
+              <infoLinks>
+                <infoLink id="09f1e384-3d76-47e9-88d9-58653451cc2c" name="Jackal Bikers" hidden="false" targetId="9991a765-7289-4dcb-95d2-231c544b9d0e" type="profile"/>
+                <infoLink id="02b90d7b-3172-4012-a9f6-35bd45b8ce43" name="Mounted" hidden="false" targetId="fe19cbf1-084a-4af7-93ef-b16ab5d2ba51" type="rule"/>
+                <infoLink id="7c5603d8-3ef1-4a55-9413-083728b0ea39" name="Brood Telepathy" hidden="false" targetId="3f824f0c-632a-42dc-a75a-fb6f529bbf83" type="rule"/>
+                <infoLink id="fb5dfd94-860c-4681-a261-5e7a7c751095" name="Scout" hidden="false" targetId="af143427-33d4-438b-aab2-16a8e2867f79" type="rule"/>
+                <infoLink id="08e10531-ce5a-4238-bda6-b4b85dbcea80" name="We Watch From The Shadows" hidden="false" targetId="0f5d957c-04a4-47c2-96bc-e8e2c24d9bd8" type="rule"/>
+                <infoLink id="874cf573-bb43-4cbe-87d9-54720477d10c" name="Wolfquad Buggy" hidden="false" targetId="17a84dd2-42c6-470c-bcea-5adc2c80a926" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="25.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c43c1754-cab0-437c-847c-77ea71524f1e" name="4x Jackal Bikers, 4x Wolfquad Buggy" hidden="false" collective="false" import="true" type="unit">
+              <infoLinks>
+                <infoLink id="6d6a43fe-c251-4801-895e-09195e71b366" name="Jackal Bikers" hidden="false" targetId="9991a765-7289-4dcb-95d2-231c544b9d0e" type="profile"/>
+                <infoLink id="c89f8441-5eab-4837-b121-53f04495e9ee" name="Mounted" hidden="false" targetId="fe19cbf1-084a-4af7-93ef-b16ab5d2ba51" type="rule"/>
+                <infoLink id="3bb107ac-56d4-42c5-81ed-18a8dbfb8051" name="Brood Telepathy" hidden="false" targetId="3f824f0c-632a-42dc-a75a-fb6f529bbf83" type="rule"/>
+                <infoLink id="96fbcd5b-bf9e-4128-87cb-736e73062fb8" name="Scout" hidden="false" targetId="af143427-33d4-438b-aab2-16a8e2867f79" type="rule"/>
+                <infoLink id="3a930f3c-db00-4f69-8209-d633fb682cf0" name="We Watch From The Shadows" hidden="false" targetId="0f5d957c-04a4-47c2-96bc-e8e2c24d9bd8" type="rule"/>
+                <infoLink id="4a3bf0f9-ad8a-4e14-95ab-d22497315b5f" name="Wolfquad Buggy" hidden="false" targetId="17a84dd2-42c6-470c-bcea-5adc2c80a926" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="50.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6220b530-8a6a-425f-b9dd-b932607c234d" name="8x Achilles Ridgerunner" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="574ae479-5a05-459e-b86f-555e53d3fd4b" name="Achilles Ridgerunner" hidden="false" targetId="e6b3a693-6738-4636-9d38-c893aa865c64" type="profile"/>
+                <infoLink id="e60f3eb7-75f8-4d5e-978d-dc413c4fc410" name="Brood Telepathy" hidden="false" targetId="3f824f0c-632a-42dc-a75a-fb6f529bbf83" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="06b761ae-308f-4461-a312-fb3ce83ce27d" name="Jackal Striketeam" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="61a11966-e1b7-440a-80ab-1156fb85fdba" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="a84e63e7-2cc9-49fd-8ded-caef917610ca" name="4x Jackal Bikers" hidden="false" collective="false" import="true" type="unit">
+              <infoLinks>
+                <infoLink id="b6a44afa-6fab-4264-8fbc-395bb2f8c6e0" name="Jackal Bikers" hidden="false" targetId="9991a765-7289-4dcb-95d2-231c544b9d0e" type="profile"/>
+                <infoLink id="c8525b8f-d1fb-4f4d-bb35-2f5d5425d684" name="Mounted" hidden="false" targetId="fe19cbf1-084a-4af7-93ef-b16ab5d2ba51" type="rule"/>
+                <infoLink id="d4ff5d84-d73c-4b18-92fe-c1b642978eed" name="Brood Telepathy" hidden="false" targetId="3f824f0c-632a-42dc-a75a-fb6f529bbf83" type="rule"/>
+                <infoLink id="c4f9a231-5493-437b-8dea-1781efb0825a" name="Scout" hidden="false" targetId="af143427-33d4-438b-aab2-16a8e2867f79" type="rule"/>
+                <infoLink id="1d05a823-ae47-487e-9e9d-af66a2fb028f" name="We Watch From The Shadows" hidden="false" targetId="0f5d957c-04a4-47c2-96bc-e8e2c24d9bd8" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="100.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4eeb8850-5e2a-4d25-b039-495492fe6ea6" name="4x Wolfquad Buggy" hidden="false" collective="false" import="true" type="unit">
+              <infoLinks>
+                <infoLink id="15b1d3ea-cdba-4618-b9e4-cdbaa8146af8" name="Brood Telepathy" hidden="false" targetId="3f824f0c-632a-42dc-a75a-fb6f529bbf83" type="rule"/>
+                <infoLink id="1c09a817-245c-4772-9165-2e74939f0dba" name="Scout" hidden="false" targetId="af143427-33d4-438b-aab2-16a8e2867f79" type="rule"/>
+                <infoLink id="205c1058-1810-48f1-857a-482c37c345c9" name="Wolfquad Buggy" hidden="false" targetId="17a84dd2-42c6-470c-bcea-5adc2c80a926" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="150.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="1c4492f8-7f0f-4ce6-b3c7-48b301df7267" name="Jackal Alphus" hidden="false" collective="false" import="true" targetId="be74a6ed-cffe-4b00-98b8-e9e2c2682c37" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="200.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="93d077ba-ce52-4e99-bd1e-8acf17168b31" name="Genestealer Hybrid Cell" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="51b3ac89-02f5-41ed-bdb0-61869177a5ec" hidden="false" targetId="e4013702-a119-46c3-9fd9-a64e58afe467" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="5ffdedbd-6025-41e2-a863-8076a2dfb932" name="Upgrades" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c8e962cf-c3a0-4900-b639-7a244b6a758b" type="max"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="feca6916-9508-4fbd-a8f6-076dd639170e" name="Leader" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e00fa1df-ba6f-477b-a410-94b65231d35a" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="c428646a-87fe-4d3b-bd69-488b1f698f56" name="Nexos" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="a016ed1e-6cb0-4404-acf4-d1c6ecaf0f64" name="Nexos" hidden="false" targetId="e64826e4-de8f-4016-a433-2ad1425e6e0f" type="profile"/>
+                    <infoLink id="925e7883-d251-4278-86b5-2e52d9205755" name="Commander" hidden="false" targetId="e9675277-c408-4371-b969-6c9565fb2905" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="50.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <entryLinks>
+                <entryLink id="aed6203e-342e-4ad9-8bf1-fa712ec33ec0" name="Primus" hidden="false" collective="false" import="true" targetId="54957ab9-2fe1-45c3-94e7-830c98cdc2a1" type="selectionEntry"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="56f75728-4afe-44e5-abbf-a9893f979b6e" name="6x Brood Brothers" hidden="false" collective="false" import="true" targetId="cefc29ab-f6d6-4c94-b1f1-5fb036b68108" type="selectionEntry"/>
+            <entryLink id="d218c34e-98e8-4afe-887e-6f7c377eba0a" name="Hero" hidden="false" collective="false" import="true" targetId="174f206c-4b68-4986-8cde-e2fe7b6f0eda" type="selectionEntryGroup"/>
+            <entryLink id="d7e874ca-6241-4378-9011-d5d0f40b5fcc" name="4x Brood Gun Support Platforms" hidden="false" collective="false" import="true" targetId="c2128b04-f130-4661-92aa-c6eb38c56ee2" type="selectionEntry"/>
+            <entryLink id="1d8ec1e3-f7d2-4197-81f9-ef8baffa97dc" name="2x Brood SAM Teams" hidden="false" collective="false" import="true" targetId="f4e8e06c-298f-4a38-bc40-2dc184992265" type="selectionEntry"/>
+            <entryLink id="df4b37d3-97dd-4500-8777-f8eddf81e0b6" name="4x Brood Scout Walker" hidden="false" collective="false" import="true" targetId="e163763d-5a13-4fbf-b326-280b6b15f44a" type="selectionEntry"/>
+            <entryLink id="6f4e7cc0-bbe0-48cf-9b60-dd6e06d235e5" name="3x Hellhound" hidden="false" collective="false" import="true" targetId="7dedc151-6ef0-4a89-9895-e71bb9ce2589" type="selectionEntry"/>
+            <entryLink id="dbdb04a5-0f55-4210-b086-6c82d1312c0c" name="add 6x Hybrid stands" hidden="false" collective="false" import="true" targetId="b0a24d87-bd71-4e42-a893-26eb28d02fbc" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="ef258176-f0a0-4459-9c0f-41cf932d552a" name="Cell" hidden="false" collective="false" import="true" defaultSelectionEntryId="d8c039c2-3c3b-4390-aed5-91dc0d7c36d7">
+          <modifiers>
+            <modifier type="increment" field="e5f9edb0-b286-4975-bad5-870fb6181d30" value="6.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b0a24d87-bd71-4e42-a893-26eb28d02fbc" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="29a87171-c87a-449c-9bc9-2449134e4cfe" value="6.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b0a24d87-bd71-4e42-a893-26eb28d02fbc" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e5f9edb0-b286-4975-bad5-870fb6181d30" type="max"/>
+            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="29a87171-c87a-449c-9bc9-2449134e4cfe" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="d8c039c2-3c3b-4390-aed5-91dc0d7c36d7" name="Acolyte Hybrids" hidden="false" collective="false" import="true" targetId="c433d8d7-90f2-4317-b4db-4a0a2abf7e6e" type="selectionEntry"/>
+            <entryLink id="7ed79d80-15ea-4183-a65a-46fe0e4e34fa" name="Neophyte Hybrids" hidden="false" collective="false" import="true" targetId="9b07158e-1196-46bf-9477-9d7df202342a" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="68638d3e-2042-41ae-95d1-74168efe1f80" name="Transport Shared" hidden="false" collective="false" import="true" targetId="52fd7e67-f68d-4862-ba2a-7717472df6a2" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="250.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9b2b3b10-2b74-46cd-83e8-7d20a2a24cc5" name="Inner Circle" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="6b335bda-56e6-4277-b345-3b77159b988c" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="a74751fe-9696-4cdc-8a66-c28208820ea6" hidden="false" targetId="e4013702-a119-46c3-9fd9-a64e58afe467" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="434da217-18c1-43ea-836c-cc89200afa09" name="Magus &amp; Locuses" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e367ede2-b2be-49ce-8b98-ef657e6947c6" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="46afef5f-a1b5-4de0-bf68-818e581b491a" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="2b69b8ac-7b5c-4595-bfe9-745bf1bea7c4" name="Magus &amp; Locuses" hidden="false" targetId="a72bd38d-c03b-4a7d-a598-baeb8283a909" type="profile"/>
+            <infoLink id="f0e69de3-4cee-4fa4-9212-98f9a1c534f9" name="Leader" hidden="false" targetId="d23596ad-5004-4bc3-8600-2b61a05ee52d" type="rule"/>
+            <infoLink id="a8257f8c-793a-4664-907a-e578e01ef668" name="Invulnerable Save" hidden="false" targetId="20b60add-c341-4e56-8c6b-fa4dec53688e" type="rule"/>
+            <infoLink id="f9c1ac52-6ade-4d91-81f4-afa624265bad" name="First Strike" hidden="false" targetId="75101e3d-cca2-4420-acfe-e0a1db1314af" type="rule"/>
+            <infoLink id="21a27308-77d0-405e-806c-3e6df46bd3a1" name="Commander" hidden="false" targetId="e9675277-c408-4371-b969-6c9565fb2905" type="rule"/>
+            <infoLink id="7c54e3c8-8121-4915-8de0-b1d763183cc4" name="Macro-weapon" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+            <infoLink id="b2da8baa-c752-4f3e-b7ed-440cd3758be4" name="Supreme Commander" hidden="false" targetId="9f458b5f-4ef7-437c-aba8-585963e07dcc" type="rule"/>
+            <infoLink id="f0ab26be-1e9c-47bd-a345-7554822d2825" name="Fearless" hidden="false" targetId="72dab6ac-4c9d-45f2-b150-7dd034d83b83" type="rule"/>
+            <infoLink id="f35baf3a-2aa2-4633-954d-d682059bd90f" name="Brood Telepathy" hidden="false" targetId="3f824f0c-632a-42dc-a75a-fb6f529bbf83" type="rule"/>
+            <infoLink id="b7c3fa33-0a47-4673-b353-33b3d0d077ee" name="We Watch From The Shadows" hidden="false" targetId="0f5d957c-04a4-47c2-96bc-e8e2c24d9bd8" type="rule"/>
+            <infoLink id="fbd62f1f-51ff-4bfb-a358-e72d93dbf7f6" name="Inspiring" hidden="false" targetId="06776887-98f0-49dd-8aca-d824d3c5d52c" type="rule"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry id="bf637c56-12b9-4c37-bc52-8d55628b4cd9" name="Clamavus" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="0d1ee705-35e2-4ba5-b1ce-15dca214eae4" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="2ad54aec-2775-4a51-a7cd-b59e1deacbb8" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="a3090c05-984a-4422-b68a-06807fb3aa22" name="Clamavus" hidden="false" targetId="754dcfe1-065c-4760-b22b-420f665ca909" type="profile"/>
+            <infoLink id="cc4e7b5b-a993-4729-832f-b981adbc3c41" name="Inspiring" hidden="false" targetId="06776887-98f0-49dd-8aca-d824d3c5d52c" type="rule"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry id="da334dd6-0fce-4b61-b6be-a9894bc674eb" name="Kelermorph" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="a9f24295-6f4e-4217-a532-6f74f895d582" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="cb9ed3aa-8d61-42cd-9435-a447a3f4e201" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="105ba2d3-e100-4fdb-a505-210984898a40" name="Kelermorph" hidden="false" targetId="bcd83b80-e197-4de3-bba8-dcd4efbe692a" type="profile"/>
+            <infoLink id="3c7143f3-eac1-4da4-998d-49eef1749202" name="Sniper" hidden="false" targetId="0a2c466f-8e38-4e54-a0f1-08ac199cd89c" type="rule"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry id="f3eb098f-bb78-4f91-9d33-958b5f734b43" name="4th Gen Psyker" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="bb354ba5-1d61-4bdb-bd61-b88b8051ff6c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="5c039d8e-8520-49f9-a201-fdc389f60115" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="1784e979-5b4c-4993-a4e3-fcb631b10c61" name="4th Gen Psyker" hidden="false" targetId="0905b9ea-5a96-4ba9-b222-692e83f2eda0" type="profile"/>
+            <infoLink id="2b555f28-057c-4e1b-8b02-345775371116" name="Macro-weapon" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="62ab6a3c-5f92-487d-8a63-765a865489ad" name="Upgrades" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c976229d-90ef-4d1c-bca5-f48c1a937acd" type="max"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="8c359737-a203-4a7f-b12b-68f1159cb0c2" name="Purestrains" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="487ba688-fcb5-4769-845d-52b98a493cfb" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="f106f2d7-90da-43cc-be70-29e21a0c2571" name="6x Purestrain Genestealers" hidden="false" collective="false" import="true" targetId="f390d158-fbe8-4d6e-9ed4-6f2096d5e9ce" type="selectionEntry"/>
+                <entryLink id="8c8d3095-f96b-4c15-864f-f9bde0539fe3" name="Patriarch, 5x Purestrain Genestealers" hidden="false" collective="false" import="true" targetId="61ec20b7-798a-4fb8-abbc-947f066d4089" type="selectionEntry"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="c9b51a01-bb89-4322-8f8b-625d1d4c9247" name="6x Brood Brothers" hidden="false" collective="false" import="true" targetId="cefc29ab-f6d6-4c94-b1f1-5fb036b68108" type="selectionEntry"/>
+            <entryLink id="464a0ec1-8b73-4579-9f1a-463617d7cd10" name="2x Brood SAM Teams" hidden="false" collective="false" import="true" targetId="f4e8e06c-298f-4a38-bc40-2dc184992265" type="selectionEntry"/>
+            <entryLink id="36c723f1-c47a-4901-a4ad-41166262a5fd" name="3x Hellhound" hidden="false" collective="false" import="true" targetId="7dedc151-6ef0-4a89-9895-e71bb9ce2589" type="selectionEntry"/>
+            <entryLink id="281452ad-c19a-45c0-be2f-3ab61becc2d4" name="add 6x Hybrid stands" hidden="false" collective="false" import="true" targetId="b0a24d87-bd71-4e42-a893-26eb28d02fbc" type="selectionEntry"/>
+            <entryLink id="70059040-e372-4ad2-bf28-19209f5b18e8" name="Primus" hidden="false" collective="false" import="true" targetId="54957ab9-2fe1-45c3-94e7-830c98cdc2a1" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="ac28a0de-d621-40bd-9a97-9f009789f90f" name="Cell" hidden="false" collective="false" import="true" defaultSelectionEntryId="b9f837d9-d45c-4c44-9233-b617dc4b88f6">
+          <modifiers>
+            <modifier type="increment" field="27ade55b-a51e-4860-806f-79f9281ff35e" value="6.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b0a24d87-bd71-4e42-a893-26eb28d02fbc" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="1b336035-c37f-49f1-a367-f979c2b05271" value="6.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b0a24d87-bd71-4e42-a893-26eb28d02fbc" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="1b336035-c37f-49f1-a367-f979c2b05271" type="max"/>
+            <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="27ade55b-a51e-4860-806f-79f9281ff35e" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="ea6553c1-2c70-4e5a-9b28-c15df25dd651" name="Acolyte Hybrids" hidden="false" collective="false" import="true" targetId="c433d8d7-90f2-4317-b4db-4a0a2abf7e6e" type="selectionEntry"/>
+            <entryLink id="b9f837d9-d45c-4c44-9233-b617dc4b88f6" name="Neophyte Hybrids" hidden="false" collective="false" import="true" targetId="9b07158e-1196-46bf-9477-9d7df202342a" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="cf180961-619b-489b-b33d-669ecb439991" value="3.0"/>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="df3f2073-1211-4534-bc20-4339f3c7645c" name="Transport Shared" hidden="false" collective="false" import="true" targetId="52fd7e67-f68d-4862-ba2a-7717472df6a2" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="400.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <infoLinks>
+    <infoLink id="976f71ff-d6f6-4ae7-9701-68b6ae111272" name="Strategy Rating &amp; Initiative (CCU)" hidden="false" targetId="c5900a6d-791b-4316-8fa0-53541a98cee4" type="rule"/>
+    <infoLink id="aa58db0e-ad44-4462-8c55-b1247bc5ebc0" name="Genestealer Transport" hidden="false" targetId="67caa5b4-49b6-465f-985c-0a9a64db0438" type="rule"/>
+  </infoLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="6a7b87a6-e3f4-4ba7-aaac-b20234ded31f" name="EpicUK" hidden="true" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="c488c732-6808-42f6-b913-4e0fdc3211b5" hidden="false" targetId="6d96644b-dbd3-410c-9a81-73313522e197" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8183dbe0-128d-44df-9d2f-587c40d576e7" name="F-ERC" hidden="true" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="02e3d899-0d34-499c-a354-cd1a86d641da" hidden="false" targetId="18e797f6-fb24-432c-9ee8-652427dbd28a" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="88a98d5f-b990-4741-9c4e-5761a2a7200f" name="GW" hidden="true" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="d45c527d-abf2-4575-9287-eb450d9207f4" hidden="false" targetId="debe925b-e324-4ed7-93d9-69992f678abf" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7f0bed0e-1717-46a1-8225-09866b0dcc87" name="NetEA" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="d6ac146e-4389-4064-8889-e86ab9195260" hidden="false" targetId="ea98f36c-204c-4f57-805c-c280285f6660" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="54957ab9-2fe1-45c3-94e7-830c98cdc2a1" name="Primus" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e8a17f20-531a-4182-baa2-0df026522bc4" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="83d5ff3f-01c6-4e74-ac89-c8777cbb8ee3" name="Primus" hidden="false" targetId="7003799c-ba3b-4e93-a3b4-8e3e59fc2e4e" type="profile"/>
+        <infoLink id="b34e8f11-b279-48a6-b73c-e83db594b5b9" name="Leader" hidden="false" targetId="d23596ad-5004-4bc3-8600-2b61a05ee52d" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="be74a6ed-cffe-4b00-98b8-e9e2c2682c37" name="Jackal Alphus" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c457c372-557e-4cef-9e82-977bf50f241c" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ad0faf4e-a172-44ef-b28d-7717ccbfe489" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="ef20299f-c169-4ba7-8561-1bc396cfd937" name="Jackal Alphus" hidden="false" targetId="fc75208e-6487-4789-abf0-7d0d15984f81" type="profile"/>
+        <infoLink id="eb7c093b-00ac-4a33-89e1-48d377c75d8f" name="Leader" hidden="false" targetId="d23596ad-5004-4bc3-8600-2b61a05ee52d" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c2128b04-f130-4661-92aa-c6eb38c56ee2" name="4x Brood Gun Support Platforms" page="0" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="d0382a6a-d4c3-4040-846a-76eb3979986b" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="129b176b-0869-4c2a-b684-e46989a82649" name="Brood Gun Support Platform" hidden="false" targetId="8a54d24d-b4a7-4af4-b6ca-ab30c9dee874" type="profile"/>
+        <infoLink id="6f919750-9111-4969-9236-5637f4d6d7e1" name="Brood Telepathy" hidden="false" targetId="3f824f0c-632a-42dc-a75a-fb6f529bbf83" type="rule"/>
+        <infoLink id="fa328a59-dff2-42aa-849e-d0c72c1c73d7" name="We Watch From The Shadows" hidden="false" targetId="0f5d957c-04a4-47c2-96bc-e8e2c24d9bd8" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="100.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cefc29ab-f6d6-4c94-b1f1-5fb036b68108" name="6x Brood Brothers" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="91500a9a-9a42-4d44-8dcb-9d0b90bc346c" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="6fea5d07-0d94-4242-9dbd-866610cdc32a" name="Brood Brothers" hidden="false" targetId="2085afa8-9f96-44c1-b7b1-537eccde1fe5" type="profile"/>
+        <infoLink id="d4816e42-7639-4cdf-850a-ce8e9a35c584" name="Brood Telepathy" hidden="false" targetId="3f824f0c-632a-42dc-a75a-fb6f529bbf83" type="rule"/>
+        <infoLink id="f5bc2df8-69cb-4b94-b673-8ce003c19247" name="We Watch From The Shadows" hidden="false" targetId="0f5d957c-04a4-47c2-96bc-e8e2c24d9bd8" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="100.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f682bf0b-8721-4d2e-8b0e-4e90af19f7f3" name="Mole" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a6c6337b-9e95-4217-a262-7b8b080cdcc3" type="instanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="ba6f54fd-b8d3-44c0-8662-9be9196a09ec" value="0.0">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c2128b04-f130-4661-92aa-c6eb38c56ee2" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7dedc151-6ef0-4a89-9895-e71bb9ce2589" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f390d158-fbe8-4d6e-9ed4-6f2096d5e9ce" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e163763d-5a13-4fbf-b326-280b6b15f44a" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="61ec20b7-798a-4fb8-abbc-947f066d4089" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="908c38f6-50cd-48e6-8352-8de0860ad4a7" type="atLeast"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="ba6f54fd-b8d3-44c0-8662-9be9196a09ec" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="b032ad0f-7025-4fa3-b1cd-444c7ca81c00" name="Mole" hidden="false" targetId="0bf64868-b2f1-4b31-8bd0-5d2be5434a7b" type="profile"/>
+        <infoLink id="73da7147-a9d4-4543-b448-e232434a6dc3" name="Transport (CCU)" hidden="false" targetId="479f25de-84c4-48d9-a06a-5bed5b4ff481" type="rule"/>
+        <infoLink id="b66e5788-1db1-47bd-af36-e694dff65fec" name="Tunneller" hidden="false" targetId="53197e36-5afd-4eca-a273-56a76ff444e4" type="rule"/>
+        <infoLink id="efbc66af-ea2d-46b7-8e37-2ba05469a263" name="Critical Hit: Destroyed" hidden="false" targetId="b4f624a1-c328-44fa-a985-ecbf2ce536c1" type="rule"/>
+        <infoLink id="c429f9ce-38ae-449c-9441-7af8c9581175" name="Brood Telepathy" hidden="false" targetId="3f824f0c-632a-42dc-a75a-fb6f529bbf83" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="125.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f7668169-ba0e-43f6-95e0-f4ee6b3fb0c9" name="Termite" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a6c6337b-9e95-4217-a262-7b8b080cdcc3" type="instanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="0e6a30b4-0bf6-4217-83b1-9fdb6e48c8d1" value="0.0">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c2128b04-f130-4661-92aa-c6eb38c56ee2" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e163763d-5a13-4fbf-b326-280b6b15f44a" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="908c38f6-50cd-48e6-8352-8de0860ad4a7" type="atLeast"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7dedc151-6ef0-4a89-9895-e71bb9ce2589" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f390d158-fbe8-4d6e-9ed4-6f2096d5e9ce" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="61ec20b7-798a-4fb8-abbc-947f066d4089" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="0e6a30b4-0bf6-4217-83b1-9fdb6e48c8d1" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="250d7f23-bd02-4fbc-ae15-cf9e09fe43f2" name="Termite" hidden="false" targetId="f1252f15-5336-41f8-9f71-9071c392e034" type="profile"/>
+        <infoLink id="d032f82a-f254-47d2-a3a0-e0f7bfeb86f1" name="Transport (CCU)" hidden="false" targetId="479f25de-84c4-48d9-a06a-5bed5b4ff481" type="rule"/>
+        <infoLink id="5d97bce6-4553-4fc2-8821-53b3eabbcc4a" name="Tunneller" hidden="false" targetId="53197e36-5afd-4eca-a273-56a76ff444e4" type="rule"/>
+        <infoLink id="01b159b0-43ef-4881-9f14-4efe5e6d8e1d" name="Brood Telepathy" hidden="false" targetId="3f824f0c-632a-42dc-a75a-fb6f529bbf83" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ed349581-57f0-4e72-8299-5b0ff1651ca7" name="2x Chimera" page="0" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="2557bdb7-6b10-4916-9fca-28599caa2933" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="3d7380d5-f31c-43bf-8166-aaff7d16a838" name="Chimera" hidden="false" targetId="4edff34d-4d2e-4c4b-958e-b92ff3b81f00" type="profile"/>
+        <infoLink id="672036a7-34e5-4f74-9d79-bd645f583285" name="Brood Telepathy" hidden="false" targetId="3f824f0c-632a-42dc-a75a-fb6f529bbf83" type="rule"/>
+        <infoLink id="b6557800-895b-4da4-9424-05649270061f" name="Transport (CCU)" hidden="false" targetId="479f25de-84c4-48d9-a06a-5bed5b4ff481" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b930f0fc-549f-4aeb-ad11-eafc37bd532c" name="3x Chimera" page="0" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="30f207d8-8161-41d3-89d8-9d50439cad4b" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="4747c333-4e6f-43b4-a8d4-71d32ede9005" name="Chimera" hidden="false" targetId="4edff34d-4d2e-4c4b-958e-b92ff3b81f00" type="profile"/>
+        <infoLink id="78e147d2-5f9b-4c2d-899a-68575e6120d0" name="Brood Telepathy" hidden="false" targetId="3f824f0c-632a-42dc-a75a-fb6f529bbf83" type="rule"/>
+        <infoLink id="d442308d-b50c-4725-93a4-bfa87f10187d" name="Transport (CCU)" hidden="false" targetId="479f25de-84c4-48d9-a06a-5bed5b4ff481" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="75.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="61ec20b7-798a-4fb8-abbc-947f066d4089" name="Patriarch, 5x Purestrain Genestealers" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c46ff769-a30e-42a9-8c37-8abf4f1c3123" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="d0dac413-9685-4147-89b7-574979e93a6f" name="Patriarch" hidden="false" targetId="985b6e8f-bd09-4ebe-a826-c5bb2c435e36" type="profile"/>
+        <infoLink id="035a826e-0a9e-4158-bdb9-49cf202e4adf" name="First Strike" hidden="false" targetId="75101e3d-cca2-4420-acfe-e0a1db1314af" type="rule"/>
+        <infoLink id="2eabf299-bd34-43ec-a285-bcc8cb04e930" name="Commander" hidden="false" targetId="e9675277-c408-4371-b969-6c9565fb2905" type="rule"/>
+        <infoLink id="b87a9f40-8b35-444e-8f36-6fe90f60d5e4" name="Reinforced Armour" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+        <infoLink id="071cb969-0f2c-419b-a262-e098b360506f" name="Brood Telepathy" hidden="false" targetId="3f824f0c-632a-42dc-a75a-fb6f529bbf83" type="rule"/>
+        <infoLink id="a11422ea-1322-422b-bc35-2a48c9ee37f0" name="We Watch From The Shadows" hidden="false" targetId="0f5d957c-04a4-47c2-96bc-e8e2c24d9bd8" type="rule"/>
+        <infoLink id="ea278cbb-df17-419f-b53d-3bf827fa3050" name="Macro-weapon" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+        <infoLink id="efe582b8-c345-4c04-8886-64a0ebbdf6b7" name="Infiltrators" hidden="false" targetId="18b55dcf-3e60-458e-90e4-29f69deaa065" type="rule"/>
+        <infoLink id="001cda16-ca43-48f0-a41f-96c2623dfb8d" name="Purestrain Genestealers" hidden="false" targetId="9b706690-1b71-4e77-8716-c9d058691076" type="profile"/>
+        <infoLink id="67f8d431-42fe-42f6-8932-7659cb2a23b9" name="Scout" hidden="false" targetId="af143427-33d4-438b-aab2-16a8e2867f79" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="150.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f390d158-fbe8-4d6e-9ed4-6f2096d5e9ce" name="6x Purestrain Genestealers" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="851fd981-af28-410d-8e8d-f38e1812ef69" name="Purestrain Genestealers" hidden="false" targetId="9b706690-1b71-4e77-8716-c9d058691076" type="profile"/>
+        <infoLink id="fa2b9d89-8571-4e8b-b17d-ff63b9f2693f" name="Scout" hidden="false" targetId="af143427-33d4-438b-aab2-16a8e2867f79" type="rule"/>
+        <infoLink id="64a24760-9d00-4853-97a1-de8d83b8f42d" name="Infiltrators" hidden="false" targetId="18b55dcf-3e60-458e-90e4-29f69deaa065" type="rule"/>
+        <infoLink id="cfcddacd-285b-4ff8-b05d-0d3bb8641d21" hidden="false" targetId="75101e3d-cca2-4420-acfe-e0a1db1314af" type="rule"/>
+        <infoLink id="32377868-4a87-4eb7-92fe-932c325ce7aa" name="Brood Telepathy" hidden="false" targetId="3f824f0c-632a-42dc-a75a-fb6f529bbf83" type="rule"/>
+        <infoLink id="824f95fa-9af7-4179-9804-f6c25b2c1443" name="We Watch From The Shadows" hidden="false" targetId="0f5d957c-04a4-47c2-96bc-e8e2c24d9bd8" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="150.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c433d8d7-90f2-4317-b4db-4a0a2abf7e6e" name="Acolyte Hybrids" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="21c4fcb2-88f1-48e8-9f31-c4febd73ee5a" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="795937ae-7582-4911-979a-4628e60ad41b" name="Acolyte Hybrids" hidden="false" targetId="e3920b32-e731-4748-b34f-c7b70557450e" type="profile"/>
+        <infoLink id="1715975e-f2c2-400e-90f5-73e2a13c848b" name="Brood Telepathy" hidden="false" targetId="3f824f0c-632a-42dc-a75a-fb6f529bbf83" type="rule"/>
+        <infoLink id="6cec4bc5-bb66-4b89-a1df-9343b61ad394" name="We Watch From The Shadows" hidden="false" targetId="0f5d957c-04a4-47c2-96bc-e8e2c24d9bd8" type="rule"/>
+        <infoLink id="f44b41eb-ee1c-4e2b-9c80-109b7ccf4458" name="Infiltrators" hidden="false" targetId="18b55dcf-3e60-458e-90e4-29f69deaa065" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9b07158e-1196-46bf-9477-9d7df202342a" name="Neophyte Hybrids" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cf180961-619b-489b-b33d-669ecb439991" type="min"/>
+        <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cb9ea8bd-26d0-4a43-b5c6-760e214e0d04" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="5b2ad3b4-88d0-4bc9-ba49-bb6256073aad" name="Neophyte Hybrids" hidden="false" targetId="f6baf499-6c21-47fd-9fe1-aedd18070b10" type="profile"/>
+        <infoLink id="f541a5b0-7b4c-425e-ac3a-a80dd35dcf1c" name="Brood Telepathy" hidden="false" targetId="3f824f0c-632a-42dc-a75a-fb6f529bbf83" type="rule"/>
+        <infoLink id="5688ad1e-3e9c-47e6-8eb0-37c0710ad061" name="We Watch From The Shadows" hidden="false" targetId="0f5d957c-04a4-47c2-96bc-e8e2c24d9bd8" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="996e983d-5e97-4c84-a14d-916fcf4a827f" name="Biophagus" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="642d8968-8a19-4b37-af87-c695cabc07db" name="Biophagus" hidden="false" targetId="9d214471-13cc-49f0-950b-5a2e0d4e92dc" type="profile"/>
+        <infoLink id="34365b34-789c-431d-abe0-498d4114b07e" name="Disrupt" hidden="false" targetId="b027e9fd-08c7-436c-a239-dd516a6ce794" type="rule"/>
+        <infoLink id="dd7ab998-6909-4b8e-84fc-1ab0a49e1b7f" name="Ignore Cover" hidden="false" targetId="5087a733-1e15-4e06-b869-8728e657c9fa" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d5c61300-aba6-4806-aefe-720e650fe132" name="4th Gen Psyker" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="1ccf37b8-c34f-49ca-86eb-3df8f1b9a263" name="4th Gen Psyker" hidden="false" targetId="0905b9ea-5a96-4ba9-b222-692e83f2eda0" type="profile"/>
+        <infoLink id="9bb92706-843b-477d-9d74-e9c70b88bfa2" name="Macro-weapon" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="746fc543-d5e8-4316-8b1e-9f87bb17b5f8" name="Kelermorph" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="29ee673e-f31d-42b9-b81a-e974c826512b" name="Kelermorph" hidden="false" targetId="bcd83b80-e197-4de3-bba8-dcd4efbe692a" type="profile"/>
+        <infoLink id="c12937d7-734a-43c5-b30d-8306b825fbec" name="Sniper" hidden="false" targetId="0a2c466f-8e38-4e54-a0f1-08ac199cd89c" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="975a9825-316d-4194-ad02-f9e7f4dfabd1" name="Clamavus" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="88878c21-177f-4b21-bb46-4f725226ecbd" name="Clamavus" hidden="false" targetId="754dcfe1-065c-4760-b22b-420f665ca909" type="profile"/>
+        <infoLink id="1332edc2-2257-44f2-b4ea-0aeb57b9bc37" name="Inspiring" hidden="false" targetId="06776887-98f0-49dd-8aca-d824d3c5d52c" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f4e8e06c-298f-4a38-bc40-2dc184992265" name="2x Brood SAM Teams" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="666d719a-ca8e-411c-a39a-40b6c726830f" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="a5e06bbc-44bd-4210-ba4b-bd7dbeec445f" name="Brood SAM Team" hidden="false" targetId="893803a7-2779-4512-91ca-61387df2ba10" type="profile"/>
+        <infoLink id="f3674567-6627-457b-9c09-0f98e6c02c1a" name="We Watch From The Shadows" hidden="false" targetId="0f5d957c-04a4-47c2-96bc-e8e2c24d9bd8" type="rule"/>
+        <infoLink id="5343cbdf-8825-4144-ab3b-77b519019a2f" name="Brood Telepathy" hidden="false" targetId="3f824f0c-632a-42dc-a75a-fb6f529bbf83" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e163763d-5a13-4fbf-b326-280b6b15f44a" name="4x Brood Scout Walker" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8075f568-37ae-40b9-acdb-9982a70404ce" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="e2eee135-22e3-4e96-aa24-6cf6fb70f2cb" name="Brood Scout Walker" hidden="false" targetId="2e8bb1a6-8a95-4bde-a5d1-816865320c9f" type="profile"/>
+        <infoLink id="3fae309b-52a0-404f-9f66-639fa85f7aa0" name="Scout" hidden="false" targetId="af143427-33d4-438b-aab2-16a8e2867f79" type="rule"/>
+        <infoLink id="36b34d21-5e6c-4b1e-8b1d-2ed637ed773b" name="Walker" hidden="false" targetId="3792d3e5-937d-49e6-8a20-320f64f441ba" type="rule"/>
+        <infoLink id="86e0e7fd-8e7a-4a98-9bd2-76736855a1e4" name="Brood Telepathy" hidden="false" targetId="3f824f0c-632a-42dc-a75a-fb6f529bbf83" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="100.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7dedc151-6ef0-4a89-9895-e71bb9ce2589" name="3x Hellhound" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="52ef363a-9b87-46d4-83bf-890c0dd21957" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="de9ac79b-38ca-4195-9e97-4f724942ee79" name="Hellhound" hidden="false" targetId="42040f44-ffb2-4457-bd2d-74965248cc63" type="profile"/>
+        <infoLink id="7402a0f0-aace-4f22-9470-80442dad1f36" name="Brood Telepathy" hidden="false" targetId="3f824f0c-632a-42dc-a75a-fb6f529bbf83" type="rule"/>
+        <infoLink id="4c840e69-a708-4463-af9e-28965646df2a" name="Ignore Cover" hidden="false" targetId="5087a733-1e15-4e06-b869-8728e657c9fa" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="100.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="908c38f6-50cd-48e6-8352-8de0860ad4a7" name="Chimera" page="0" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="3610977b-209a-4ad7-8ebc-25e2f95e435a" name="Chimera" hidden="false" targetId="4edff34d-4d2e-4c4b-958e-b92ff3b81f00" type="profile"/>
+        <infoLink id="caa1c895-5fa8-4ec2-8b16-0e9c448ab4c5" name="Brood Telepathy" hidden="false" targetId="3f824f0c-632a-42dc-a75a-fb6f529bbf83" type="rule"/>
+        <infoLink id="1ad7f107-16a4-4f33-ae28-6561ca2a1a66" name="Transport (CCU)" hidden="false" targetId="479f25de-84c4-48d9-a06a-5bed5b4ff481" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b0a24d87-bd71-4e42-a893-26eb28d02fbc" name="add 6x Hybrid stands" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="dd3c1663-4f4a-4754-b7c8-4acc85e44c3b" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="125.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="174f206c-4b68-4986-8cde-e2fe7b6f0eda" name="Hero" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="5518c706-b9ff-4e77-a51d-1a6fb7883183" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="076d1a92-b025-4d23-b1e2-eeaa17616f71" name="Biophagus" hidden="false" collective="false" import="true" targetId="996e983d-5e97-4c84-a14d-916fcf4a827f" type="selectionEntry"/>
+        <entryLink id="4ccb7ab7-4500-4bd4-b19c-ff97dd4b264a" name="4th Gen Psyker" hidden="false" collective="false" import="true" targetId="d5c61300-aba6-4806-aefe-720e650fe132" type="selectionEntry"/>
+        <entryLink id="442ed02c-e4b8-4dcb-a13d-f3bf2e213478" name="Kelermorph" hidden="false" collective="false" import="true" targetId="746fc543-d5e8-4316-8b1e-9f87bb17b5f8" type="selectionEntry"/>
+        <entryLink id="492eefe4-dbdf-4626-b450-b0c2159e63f3" name="Clamavus" hidden="false" collective="false" import="true" targetId="975a9825-316d-4194-ad02-f9e7f4dfabd1" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="52fd7e67-f68d-4862-ba2a-7717472df6a2" name="Transport" hidden="false" collective="false" import="true">
+      <modifiers>
+        <modifier type="increment" field="f0c5110b-31e8-46ea-a8cd-d2bc45a29a74" value="3.0">
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cefc29ab-f6d6-4c94-b1f1-5fb036b68108" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="f0c5110b-31e8-46ea-a8cd-d2bc45a29a74" value="4.0">
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c2128b04-f130-4661-92aa-c6eb38c56ee2" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="f0c5110b-31e8-46ea-a8cd-d2bc45a29a74" value="1.0">
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f4e8e06c-298f-4a38-bc40-2dc184992265" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="f0c5110b-31e8-46ea-a8cd-d2bc45a29a74" value="3.0">
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b0a24d87-bd71-4e42-a893-26eb28d02fbc" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="decrement" field="f0c5110b-31e8-46ea-a8cd-d2bc45a29a74" value="4.0">
+          <repeats>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f682bf0b-8721-4d2e-8b0e-4e90af19f7f3" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="f0c5110b-31e8-46ea-a8cd-d2bc45a29a74" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="d5dcdffa-963a-47b2-b2be-4787ff1d7a5f" name="Termite" hidden="false" collective="false" import="true" targetId="f7668169-ba0e-43f6-95e0-f4ee6b3fb0c9" type="selectionEntry"/>
+        <entryLink id="2641ce95-5877-42db-910f-63aceaa73ead" name="Chimera" hidden="false" collective="false" import="true" targetId="908c38f6-50cd-48e6-8352-8de0860ad4a7" type="selectionEntry"/>
+        <entryLink id="1b7404e3-61da-4342-88f2-16743219cc30" name="Mole" hidden="false" collective="false" import="true" targetId="f682bf0b-8721-4d2e-8b0e-4e90af19f7f3" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <sharedRules>
+    <rule id="18e797f6-fb24-432c-9ee8-652427dbd28a" name="F-ERC" hidden="false">
+      <description>aucun</description>
+    </rule>
+    <rule id="6d96644b-dbd3-410c-9a81-73313522e197" name="EpicUK" hidden="false">
+      <description>none</description>
+    </rule>
+    <rule id="debe925b-e324-4ed7-93d9-69992f678abf" name="GW" hidden="false">
+      <description>none
+Fanatic #02
+Fanatic #13</description>
+    </rule>
+    <rule id="ea98f36c-204c-4f57-805c-c280285f6660" name="NetEA" hidden="false">
+      <description>EA-GSC - Colonial Claw Uprising v1-0 - July2020 #Colonial Mining Uprising of Stassverk IV
+errata:
+Does the Outrider Cell lose the Jackal Alphus if it takes 8x Achilles Ridgerunners?
+Should the Jackal Outriders Coven pay 125pts for 3x Wolfquads?</description>
+    </rule>
+    <rule id="c5900a6d-791b-4316-8fa0-53541a98cee4" name="Strategy Rating &amp; Initiative (CCU)" hidden="false">
+      <modifiers>
+        <modifier type="set" field="description" value="Estrategia e Iniciativa: Factor de Estrategia: 3.  • Valores de Iniciativa: Círculo Interno y Células de Híbridas Genestealers: 1+.  • Resto de formaciones: 2+.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6df4e085-d889-4d87-b048-92b223091d04" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="description" value="Stratégie &amp; Initiative: Valeur Stratégique de 3. Le Cercle Intérieur et les Cellules Hybrides Genestealer disposent d&apos;une valeur d&apos;initiative de 1+, toutes les autres formations ont une initiative de 2+.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cae033eb-bb6f-4c6c-a304-2f50aaa0236a" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="description" value="Strategie und Initiative: Strategiewert: 3.  • Innerer Kreis und Genestealer-Hybridzellen haben den Initiativwert 1+. Andere Formationen haben die Initiativwert 2+.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="17e1c84d-45e8-4447-a3c5-4c3d40b8fd78" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <description>Strategy rating: 3. Initiative rating: 1+ (Inner Circle and Genestealer Hybrid Cells), 2+ (all other formations).</description>
+    </rule>
+    <rule id="67caa5b4-49b6-465f-985c-0a9a64db0438" name="Genestealer Transport" hidden="false">
+      <description>The Inner Circle and Hybrid cells may be given Chimera transport vehicles, at 25 points per Chimera. In this case, you must provide enough Chimera to transport every possible unit in the cell (so ignore Purestrain units, the Patriarch and Brood Brother Scout walkers in this calculation, they can walk). Alternatively, if EVERY unit in the formation may be transported in Termites (for example, no Brood Support Platforms, Purestrains, Brood Scout Walkers, etc), you can replace every Chimera with a Termite. If you do this, you may also replace every five Termites with a single Mole if you wish.</description>
+    </rule>
+    <rule id="037aff05-ee9f-4490-a0ce-0e1eb9b0c4af" name="Critical Hit: Crippled" hidden="false">
+      <modifiers>
+        <modifier type="set" field="description" value="Touche Critique: Paralysée: L&apos;unité est immobilisée et prend un point de dommage supplémentaire.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cae033eb-bb6f-4c6c-a304-2f50aaa0236a" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="description" value="Kritischer Treffer: Verkrüppelt: Die Einheit wird immobilisiert und nimmt einen zusätzlichen Schadenspunkt ein.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="17e1c84d-45e8-4447-a3c5-4c3d40b8fd78" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="description" value="Daño Crítico: Lisiada: La unidad está inmovilizada y recibe un punto de daño adicional.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6df4e085-d889-4d87-b048-92b223091d04" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <description>The unit is immobilised and takes an extra point of damage.</description>
+    </rule>
+    <rule id="479f25de-84c4-48d9-a06a-5bed5b4ff481" name="Transport (CCU)" hidden="false">
+      <modifiers>
+        <modifier type="set" field="description" value="La capacité de transport: Comme suit-  • Camion: 2 unités d&apos;infanterie (sauf montées), ou 1 plate-forme de tir de soutien.  • Chimera: 2 unités d&apos;infanterie (sauf montées), ou 1 plate-forme de tir de soutien.  • Goliath Brise Roche: 2 unités d&apos;infanterie (sauf montées), ou 1 plate-forme de tir de soutien.  • Taupe: 10 unités d&apos;infanterie (sauf plate-formes de tir de soutien ou montées). Ne peut transporter que des unités de sa propre formation.  • Termite: 2 unités d&apos;infanterie (sauf plate-formes de tir de soutien ou montées).  • nb : Le Patriarche et les Genestealers Purs ne peuvent pas être transportés.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cae033eb-bb6f-4c6c-a304-2f50aaa0236a" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <description>As follows-
+Chimera: 2 Infantry units (except mounted), or 1 support gun platform.
+Goliath Rockgrinder: 2 Infantry units (except mounted), or 1 support gun platform.
+Mole: 10 Infantry units (except support gun platforms or mounted). May only transport units from its own formation.
+Termite: 2 Infantry units (except support gun platforms or mounted).
+Truck: 2 Infantry units (except mounted), or 1 support gun platform.
+nb: The Patriarch &amp; Purestrain Genestealers cannot be transported.</description>
+    </rule>
+    <rule id="0f5d957c-04a4-47c2-96bc-e8e2c24d9bd8" name="We Watch From The Shadows" hidden="false">
+      <description>A formation may optionally be deployed using the Self Planetfall rules. If you deploy a formation in this way ONLY those units with the We Watch From The Shadows rule are deployed. If the formation includes other units without this rule, they are automatically lost and count as killed by the enemy. This represents Cult units concealed and waiting to ambush, being called to arms at times of emergency, or utilising tunnels and passageways known only to the informed locals. As such, the Cult does not require a space craft or drop pods of any kind to use this ability. For each formation deploying in this way, note down their location before the game begins, in secret (as you would for Planetfall troops). However, you can decide that these units will arrive in the strategy phase of any turn (this does not need to be decided before the game begins). Follow all other rules for Self Planetfall as normal.</description>
+    </rule>
+    <rule id="3f824f0c-632a-42dc-a75a-fb6f529bbf83" name="Brood Telepathy" hidden="false">
+      <description>Although unable to transmit and receive direct messages, strong emotions and a shared purpose unites all members, and this is amplified by the genetic bond sharded by the brood, through the conduit of the Patriarch, and individual members are able to sense the emotions, location and other broad details of other members of their cult family. Formations within a Cult army generate blast markers as normal. However, while the Patriarch is on the table, formations with the Brood Telepathy rule are never broken. They may only have as many blast markers as there are units in the formation, and these supress units as normal, but the only affect is that all units are supressed. In all other ways, the formation acts as normal. Therefore, a formation will not suffer additional casualties when receiving additional blast markers beyond the number of units in the formation, these are simply ignored. Formations are also not broken if they lose an assault, but they do receive enough additional blast markers to take them up to one for each unit in the formation. However, if the Patriarch is killed, every formation in the Cult list is immediately automatically ‘broken’. If the Patriarch is removed from the table (for any reason, or is not on the table at all) then the normal rules for blast markers and broken formations apply. This rule applies to all formations except Abhumans, who follow the normal rules for blast markers and broken formations at all times.</description>
+    </rule>
+    <rule id="49268b37-3b49-4e62-b1f4-c878e9ad8f83" name="Breacher" hidden="false">
+      <modifiers>
+        <modifier type="set" field="description" value="Brècheur: Contre les cibles immobiles, les dommages sont le Tueur de Titans (D6). Si le Brècheur est en ordre de Tir Soutenu, lancez deux dés et choisissez le résultat le plus élevé.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cae033eb-bb6f-4c6c-a304-2f50aaa0236a" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="description" value="Brecher: Gegen unbewegliche Ziele ist der Schaden Titan-Killer (W6). Wenn der Brecher auf Dauerfeuerbefehl steht, würfeln Sie mit zwei Würfeln und wählen Sie das höchste Einzelergebnis.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="17e1c84d-45e8-4447-a3c5-4c3d40b8fd78" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="description" value="Breacher: Contra objetivos inamovibles, el daño es Matatitanes (D6). Si el Breacher está en órdenes de fuego sostenido, tira dos dados y elige el resultado más alto.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6df4e085-d889-4d87-b048-92b223091d04" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <description>Against immovable targets, damage is Titan Killer (D6). If the Breacher is on Sustained Fire orders, roll two dice and choose the highest single result.</description>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile id="ee6833ab-92a5-495d-913a-517cee9bf3a1" name="Abhumans" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">-</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">5+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">-</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Clubs &amp; Axes</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapons</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Fearless, We Watch From The Shadows</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2085afa8-9f96-44c1-b7b1-537eccde1fe5" name="Brood Brothers" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">-</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">6+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Autoguns</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(15cm)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Small Arms</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Brood Telepathy, We Watch From The Shadows</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9b706690-1b71-4e77-8716-c9d058691076" name="Purestrain Genestealers" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">20cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">6+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">2+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">-</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Rending Claws</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapons</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">First Strike</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Brood Telepathy, Infiltrators, Scout, We Watch From The Shadows</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="519d461c-efde-41ce-9250-4c1567ccfd4c" name="Leman Russ Battle Tank" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Armoured Vehicle</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">20cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">4+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">6+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">4+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Battle Cannon&lt;BR&gt;&lt;BR&gt;Lascannon&lt;BR&gt;&lt;BR&gt;2x Heavy Bolter</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">75cm&lt;BR&gt;&lt;BR&gt;45cm&lt;BR&gt;&lt;BR&gt;30cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">AP4+/AT4+&lt;BR&gt;&lt;BR&gt;AT5+&lt;BR&gt;&lt;BR&gt;AP5+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Brood Telepathy, Reinforced Armour</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2e8bb1a6-8a95-4bde-a5d1-816865320c9f" name="Brood Scout Walker" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Light Vehicle</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">20cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">6+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">6+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Multi-laser</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">30cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">AP5+/AT6+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Brood Telepathy, Scout, Walker</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="70a1872f-c31d-419b-9a3b-4e836e115d86" name="Goliath Rockgrinder" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Armoured Vehicle</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">25cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">5+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">6+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">6+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Heavy Mining Laser&lt;BR&gt;&lt;BR&gt;Heavy Stubber</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">30cm&lt;BR&gt;&lt;BR&gt;30cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">AT5+&lt;BR&gt;&lt;BR&gt;AP6+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Brood Telepathy, Thick Rear Armour, Transport</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8a54d24d-b4a7-4af4-b6ca-ab30c9dee874" name="Brood Gun Support Platform" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">10cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">-</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">6+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Autocannon</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">45cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">AP5+/AT6+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Brood Telepathy, We Watch From The Shadows</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9991a765-7289-4dcb-95d2-231c544b9d0e" name="Jackal Bikers" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">35cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">6+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">5+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">6+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Pistols</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(15cm)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Small Arms</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Brood Telepathy, Mounted, Scout, We Watch From The Shadows</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="17a84dd2-42c6-470c-bcea-5adc2c80a926" name="Wolfquad Buggy" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Light Vehicle</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">30cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">5+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">6+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Mining Laser</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">30cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">AT5+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Brood Telepathy, Scout</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e6b3a693-6738-4636-9d38-c893aa865c64" name="Achilles Ridgerunner" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Armoured Vehicle</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">35cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">5+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">6+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">6+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Heavy Mining Laser&lt;BR&gt;&lt;BR&gt;Twin Heavy Stubber</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">30cm&lt;BR&gt;&lt;BR&gt;30cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">AT5+&lt;BR&gt;&lt;BR&gt;AP5+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Brood Telepathy</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4ada66f8-4bf7-46bb-bc6c-77be2e059188" name="Geoseismic Breacher" hidden="false" typeId="1653b936-3bef-42ef-adfe-653bdfc7f321" typeName="War Engine">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">War Engine</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">4+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">5+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Gamma Cannon (Focused)&lt;BR&gt;or (Dispersed)&lt;BR&gt;&lt;BR&gt;2x Heavy Mining Laser&lt;BR&gt;&lt;BR&gt;2x Heavy Stubber</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">60cm&lt;BR&gt;or 45cm&lt;BR&gt;&lt;BR&gt;30cm&lt;BR&gt;&lt;BR&gt;30cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">MW3+&lt;BR&gt;or 2BP&lt;BR&gt;&lt;BR&gt;AT5+&lt;BR&gt;&lt;BR&gt;AP6+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Fixed Forward Arc, Titan Killer (D3), Breacher&lt;BR&gt;or Fixed Forward Arc, Disrupt, Ignore Cover&lt;BR&gt;&lt;BR&gt;-&lt;BR&gt;&lt;BR&gt;-</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Brood Telepathy, Reinforced Armour</characteristic>
+        <characteristic name="DC" typeId="2377629f-6ded-4aa4-b356-7d506954faa6">4</characteristic>
+        <characteristic name="Crit" typeId="8dbc632e-e06c-461d-a0fa-d51a1a624c11">Crippled</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f1252f15-5336-41f8-9f71-9071c392e034" name="Termite" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Armoured Vehicle</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">20cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">5+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">5+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">-</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">none</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b"/>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6"/>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Brood Telepathy, Transport, Tunneller</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0bf64868-b2f1-4b31-8bd0-5d2be5434a7b" name="Mole" hidden="false" typeId="1653b936-3bef-42ef-adfe-653bdfc7f321" typeName="War Engine">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">War Engine</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">20cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">5+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">5+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">-</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">none</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b"/>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6"/>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Brood Telepathy, Transport, Tunneller</characteristic>
+        <characteristic name="DC" typeId="2377629f-6ded-4aa4-b356-7d506954faa6">2</characteristic>
+        <characteristic name="Crit" typeId="8dbc632e-e06c-461d-a0fa-d51a1a624c11">Destroyed</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4edff34d-4d2e-4c4b-958e-b92ff3b81f00" name="Chimera" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Armoured Vehicle</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">30cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">5+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">6+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Multi-laser&lt;BR&gt;&lt;BR&gt;Heavy Bolter</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">30cm&lt;BR&gt;&lt;BR&gt;30cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">AP5+/AT6+&lt;BR&gt;&lt;BR&gt;AP5+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Brood Telepathy, Transport</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="42040f44-ffb2-4457-bd2d-74965248cc63" name="Hellhound" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Armoured Vehicle</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">30cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">4+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">6+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">3+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Heavy Bolter&lt;BR&gt;&lt;BR&gt;Inferno Cannon</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">30cm&lt;BR&gt;&lt;BR&gt;30cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">AP5+&lt;BR&gt;&lt;BR&gt;AP3+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">-&lt;BR&gt;&lt;BR&gt;Ignore Cover</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Brood Telepathy</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ec19d901-1487-4a5a-b1fb-c3e066acbd00" name="Griffon" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Armoured Vehicle</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">30cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">6+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">6+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Heavy Mortar&lt;BR&gt;&lt;BR&gt;Heavy Bolter</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">30cm&lt;BR&gt;&lt;BR&gt;30cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">1BP&lt;BR&gt;&lt;BR&gt;AP5+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Indirect Fire&lt;BR&gt;&lt;BR&gt;-</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Brood Telepathy</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7003799c-ba3b-4e93-a3b4-8e3e59fc2e4e" name="Primus" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Character</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">n/a</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">n/a</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">n/a</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">n/a</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">none</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b"/>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6"/>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Leader</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="fc75208e-6487-4789-abf0-7d0d15984f81" name="Jackal Alphus" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Character</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">n/a</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">n/a</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">n/a</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">n/a</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">none</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b"/>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6"/>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Leader</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="754dcfe1-065c-4760-b22b-420f665ca909" name="Clamavus" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Character</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">n/a</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">n/a</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">n/a</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">n/a</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">none</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b"/>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6"/>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Inspiring</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e64826e4-de8f-4016-a433-2ad1425e6e0f" name="Nexos" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Character</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">n/a</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">n/a</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">n/a</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">n/a</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">none</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b"/>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6"/>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Commander</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c44d08b9-4ee4-4e92-9168-aae56b39b5be" name="Abominant" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Character</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">n/a</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">n/a</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">n/a</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">n/a</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">none</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b"/>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6"/>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Leader</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="bcd83b80-e197-4de3-bba8-dcd4efbe692a" name="Kelermorph" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Character</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">n/a</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">n/a</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">n/a</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">n/a</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Autostubbers</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(15cm)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Small Arms</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Sniper</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429"/>
+      </characteristics>
+    </profile>
+    <profile id="0905b9ea-5a96-4ba9-b222-692e83f2eda0" name="4th Gen Psyker" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Character</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">n/a</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">n/a</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">n/a</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">n/a</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Hellfire</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(15cm)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Small Arms</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Macro-weapon, +1A</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429"/>
+      </characteristics>
+    </profile>
+    <profile id="9d214471-13cc-49f0-950b-5a2e0d4e92dc" name="Biophagus" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Character</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">n/a</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">n/a</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">n/a</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">n/a</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Fear Talon</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">30cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">AP4+/AT4+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Disrupt, Ignore Cover</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429"/>
+      </characteristics>
+    </profile>
+    <profile id="985b6e8f-bd09-4ebe-a826-c5bb2c435e36" name="Patriarch" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">20cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">4+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">2+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">-</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Rending Claws</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapons</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">First Strike, Macro-weapon, +2A</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Brood Telepathy, Commander, Infiltrators, Reinforced Armour, We Watch From The Shadows</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e3920b32-e731-4748-b34f-c7b70557450e" name="Acolyte Hybrids" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">20cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">6+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">4+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">6+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Claws&lt;BR&gt;&lt;BR&gt;Pistols</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)&lt;BR&gt;&lt;BR&gt;(15cm)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapons&lt;BR&gt;&lt;BR&gt;Small Arms</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Brood Telepathy, Infiltrators, We Watch From The Shadows</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f6baf499-6c21-47fd-9fe1-aedd18070b10" name="Neophyte Hybrids" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">6+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">5+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Seismic Cannon</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">30cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">AP5+/AT6+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Brood Telepathy, We Watch From The Shadows</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a72bd38d-c03b-4a7d-a598-baeb8283a909" name="Magus &amp; Locuses" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">4+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">4+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">4+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Force Staves&lt;BR&gt;&lt;BR&gt;Hellfire</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)&lt;BR&gt;&lt;BR&gt;(15cm)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapons&lt;BR&gt;&lt;BR&gt;Small Arms</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">First Strike, +1A&lt;BR&gt;&lt;BR&gt;Macro-weapon, +1A</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Brood Telepathy, Fearless, Inspiring, Invulnerable Save, Supreme Commander, We Watch From The Shadows</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9048a1d8-2b8e-4d4c-b65c-c3e82bdcf451" name="Sanctus" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">6+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">4+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">6+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Sniper Rifle&lt;BR&gt;&lt;BR&gt;Bio Knife</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">30cm&lt;BR&gt;&lt;BR&gt;(contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">AP5+&lt;BR&gt;&lt;BR&gt;Assault Weapons</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">First Strike, Macro-weapon</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Brood Telepathy, Scout, Sniper, We Watch From The Shadows</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="893803a7-2779-4512-91ca-61387df2ba10" name="Brood SAM Team" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">-</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">6+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">6+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">SAM RPG</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">30cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">AT6+/AA5+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Brood Telepathy, We Watch From The Shadows</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="49cb97b7-d522-4675-a9b3-ed5923261c70" name="Truck" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Armoured Vehicle</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">25cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">6+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">6+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">-</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">none</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b"/>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6"/>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Transport</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>

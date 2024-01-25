@@ -1,0 +1,1789 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="78010d98-207e-45d0-9094-d99e2d279ae4" name="Tyranids: Hive Fleet Dagon" revision="22" battleScribeVersion="2.03" authorUrl="http://battlescribedata.appspot.com/#/repo/wh40k-epic-armageddon" library="false" gameSystemId="b7be77a3-9f44-4c5d-a0f7-a40bf046af2a" gameSystemRevision="36" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="b67cb12e-eda7-411a-ab14-b6656ec85385" name="-Community-" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8a830798-cec9-4dc2-9a81-2668b09ba62b" name="Group" hidden="false" collective="false" import="true" defaultSelectionEntryId="5e7aabca-d4b7-4c86-8374-48f9dcc2ad88">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="e82d842c-e601-4481-a829-ef8414d1aa87" hidden="false" collective="false" import="true" targetId="88a98d5f-b990-4741-9c4e-5761a2a7200f" type="selectionEntry"/>
+            <entryLink id="5e7aabca-d4b7-4c86-8374-48f9dcc2ad88" hidden="false" collective="false" import="true" targetId="7f0bed0e-1717-46a1-8225-09866b0dcc87" type="selectionEntry"/>
+            <entryLink id="8e50abf9-2eb4-45e0-acfe-23675a8d4787" hidden="false" collective="false" import="true" targetId="6a7b87a6-e3f4-4ba7-aaac-b20234ded31f" type="selectionEntry"/>
+            <entryLink id="97758917-4d51-4b44-8cd9-d0f4dd9e4009" hidden="false" collective="false" import="true" targetId="8183dbe0-128d-44df-9d2f-587c40d576e7" type="selectionEntry"/>
+            <entryLink id="ed24f825-d8d9-45ce-a791-0abd93fcf651" hidden="false" collective="false" import="true" targetId="95542a55-24b3-4aae-9c23-d5598ee246dc" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="b75a70c4-3369-4a58-b6a3-f70e9d05a950" hidden="false" collective="false" import="true" targetId="1884eb4b-97e7-42ae-aed7-811bae8a02a9" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2e9f6634-1b36-4139-ba82-1f48e70f5494" name="Bio-Vessel" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a6c6337b-9e95-4217-a262-7b8b080cdcc3" type="instanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="8e87861c-50d6-4088-87c2-5b6becbc8c6a" value="0.0">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a606b357-2e1c-444e-ad2a-da6cc6160447" type="atLeast"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7354f781-17bc-4148-8e96-19e508e72b61" type="atLeast"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8e87861c-50d6-4088-87c2-5b6becbc8c6a" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="da6eb8e0-023a-4a52-983b-8f5eed56a220" name="One Third - 33% - Group B" hidden="false" targetId="7f624b4d-09e2-4b25-a2fa-e025e411a09f" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9fb854ae-e389-44f1-846b-82cc548ed7f3" name="Spacecraft" hidden="false" collective="false" import="true" defaultSelectionEntryId="bd385354-adb3-49c4-b88b-9bd4aa8e161c">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="1b007895-956a-495b-aab8-a4380219c305" hidden="false" collective="false" import="true" targetId="bcb4b931-eab8-4312-9637-ca59bb1433ad" type="selectionEntry"/>
+            <entryLink id="bd385354-adb3-49c4-b88b-9bd4aa8e161c" hidden="false" collective="false" import="true" targetId="9d6195ad-0b1d-4003-b917-f7a80f195747" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="13ad6b14-ac53-40f6-bf0f-2ab320a54be0" name="Rare Independent Swarm" hidden="false" collective="false" import="true" targetId="dd54eb41-1e81-4be9-bc8f-bc0cad47f3bc" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="150.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c9738743-1334-481f-80c4-a9ed32a27b07" name="Genestealer Swarm" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="91ca0336-2a89-4cbc-b929-8fab08ce3d9e" name="One Third - 33% - Group A" hidden="false" targetId="46b8e973-031d-4986-a588-5f02fc444c30" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="fafd468c-1f26-4439-a96a-69b4d3c55004" name="Genestealers" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="15e38dc7-5518-4561-85d4-2b400510c074" hidden="false" targetId="7b350e2d-de69-4103-88db-49d861e47fc5" type="profile"/>
+            <infoLink id="6fd6fe9a-f593-48b9-b098-35e2a867f629" hidden="false" targetId="75101e3d-cca2-4420-acfe-e0a1db1314af" type="rule"/>
+            <infoLink id="1ae17905-953c-499a-84aa-8589ccb141c8" hidden="false" targetId="18b55dcf-3e60-458e-90e4-29f69deaa065" type="rule"/>
+            <infoLink id="936d18e7-788c-4922-b49c-31b1a091c26f" hidden="false" targetId="af143427-33d4-438b-aab2-16a8e2867f79" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="25.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a0d24f35-04b2-4258-82b0-3015bc849d00" name="Brood Lord" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="716ca2d0-81d3-47f1-b7e8-f811c27aa321" name="Brood Lord" hidden="false" targetId="d255ea88-3ddb-44e4-92c9-327f6b5fb1af" type="profile"/>
+            <infoLink id="103cf927-dd9a-4682-abbf-a5ae8ffb414b" name="Inspiring" hidden="false" targetId="06776887-98f0-49dd-8aca-d824d3c5d52c" type="rule"/>
+            <infoLink id="9686c3ab-20c7-4102-9a0d-284c3788ca6e" name="Invulnerable Save" hidden="false" targetId="20b60add-c341-4e56-8c6b-fa4dec53688e" type="rule"/>
+            <infoLink id="94750ab3-0df9-45e9-a1f2-1d417d258b8a" name="Sniper" hidden="false" targetId="0a2c466f-8e38-4e54-a0f1-08ac199cd89c" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="639b9675-c09e-434b-8e02-68f8a5227360" name="Common Independent Swarm" hidden="false" collective="false" import="true" targetId="70e2f1ec-62f4-47bd-98e0-78505bb2ad4c" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b31d2fa4-5f9c-4b94-a20e-d3d85ee0df7d" name="Harasser Swarm" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="025838b0-fb2d-44e3-8b43-9f48727f9dbf" name="1 per Formation" hidden="false" targetId="b893278c-34cb-41fa-ae9b-54676a0f6f87" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="71ea2edb-1af9-43d7-bfca-6ca6b5a0bc8b" name="Harridan" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="7601586e-1791-409e-98c7-dd4094c45c8b" hidden="false" targetId="408dfb9f-206c-45b9-8f7d-db0196dc6641" type="profile"/>
+            <infoLink id="ff67b2dd-847c-4f11-9913-28a9f5c9a34c" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+            <infoLink id="66f1a971-aa85-4a38-8375-1c866a03196a" hidden="false" targetId="ae687b81-bb2b-4103-89da-77e3829e0051" type="rule"/>
+            <infoLink id="5510cb8a-716e-49fc-899d-2e67d9a473de" name="Dagon Synapse" hidden="false" targetId="11c58885-7af7-4a83-89bf-55d7667b0b19" type="rule"/>
+            <infoLink id="8a6270ae-1bdf-4efd-971b-6065c541d47f" hidden="false" targetId="72dab6ac-4c9d-45f2-b150-7dd034d83b83" type="rule"/>
+            <infoLink id="0894d95b-cb8d-446b-8a20-14c7a97ed67c" name="Critical Hit: Damaged" hidden="false" targetId="88611803-c0ee-4a61-ac52-64da85eeac11" type="rule"/>
+            <infoLink id="24ce5c74-3746-402a-9ee2-cc7566f55df0" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+            <infoLink id="0c7c4dce-b8ee-4f2f-baac-60a11869328f" name="Transport (HFD)" hidden="false" targetId="b7859b9c-160e-4f4f-a118-acfdf7e13895" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="fd4b1658-1161-48da-a41c-4678a3dc5a80" name="Instinctive Swarms" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="54630fd8-9e45-4fc5-9ec8-54e0b75c204c" hidden="false" collective="false" import="true" targetId="b16205ec-2756-452a-ac57-fe230738d7fe" type="selectionEntry"/>
+            <entryLink id="ac337600-f7b3-4f16-909a-0073fe3be01f" name="Bio-Bombers" hidden="false" collective="false" import="true" targetId="4bc38966-9048-44fe-93b5-7aa8aa5b66bb" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="150.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="12ccd8c5-5bee-42bd-b9c3-55b55abd66f1" name="Infestation Swarm" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a6c6337b-9e95-4217-a262-7b8b080cdcc3" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="9c9f979c-cc9c-4c88-be48-07d8381392e3" name="1 per Formation" hidden="false" targetId="b893278c-34cb-41fa-ae9b-54676a0f6f87" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="8086b69f-7029-488d-a4ac-fe6b5906ba7b" name="Burrower" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="ff38d08e-26ae-4379-83e6-e5617f88adb2" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="a5154269-55a5-4a9a-8535-d506e1b29324" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="21c381f8-0bec-4d41-b3a7-4b134a54bc6e" name="Tunnellers" hidden="false" collective="false" import="true" targetId="1ab96b12-2cb6-49ff-839c-6a1a82e3ff24" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="100.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="f9ed51f1-bcf7-47ff-9a81-fb3179e276d9" name="Synapse Creatures" hidden="false" collective="false" import="true" defaultSelectionEntryId="1cd799d6-f019-4d93-a385-dc7a363b3133">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="71a5f80d-2bd1-4594-a3a3-8661eab9f14c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="507299a0-7b1d-4c83-9fd7-a5d2abe3c5d0" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="1cd799d6-f019-4d93-a385-dc7a363b3133" name="Trygon Prime" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="012df45d-5277-448f-8b94-dfc89c144bc1" name="Trygon Prime" hidden="false" targetId="0fbb0075-eb4e-457b-8e84-e3d6f76f7383" type="profile"/>
+                <infoLink id="58ce6916-b6d0-4398-b15c-88fa18fb185c" name="Reinforced Armour" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+                <infoLink id="8896046b-097d-4b16-8563-d2e0efa60d73" name="Tunneller" hidden="false" targetId="53197e36-5afd-4eca-a273-56a76ff444e4" type="rule"/>
+                <infoLink id="11a3352c-116b-4d2c-ae08-562e37fe26b9" name="Dagon Synapse" hidden="false" targetId="11c58885-7af7-4a83-89bf-55d7667b0b19" type="rule"/>
+                <infoLink id="e6f1a5b6-e94f-4903-9ede-4185855fae87" hidden="false" targetId="72dab6ac-4c9d-45f2-b150-7dd034d83b83" type="rule"/>
+                <infoLink id="2abe1ca2-570d-45af-b279-fd98e65b1e4b" hidden="false" targetId="b4f624a1-c328-44fa-a985-ecbf2ce536c1" type="rule"/>
+                <infoLink id="009f1b7b-a9cd-4637-b780-6ace670fcdc9" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="150.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3f57d7c5-11ea-4ebe-ac77-450cea325227" name="3x Ravener Alpha" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="cc986167-ac86-48da-8284-fca420cd558e" name="Ravener Alpha" hidden="false" targetId="d31d895c-45ed-4f5f-8692-1510a330142b" type="profile"/>
+                <infoLink id="2711c8a1-a9d3-40c1-897b-da6ad3b24f08" name="Infiltrators" hidden="false" targetId="18b55dcf-3e60-458e-90e4-29f69deaa065" type="rule"/>
+                <infoLink id="7f0d0613-9f44-4741-be2c-93cb0864e669" hidden="false" targetId="53197e36-5afd-4eca-a273-56a76ff444e4" type="rule"/>
+                <infoLink id="a7949195-a9b3-4254-b22a-36f944362eb3" name="Dagon Synapse" hidden="false" targetId="11c58885-7af7-4a83-89bf-55d7667b0b19" type="rule"/>
+                <infoLink id="1756cd5d-cf14-408c-b134-6b205d30ecd3" name="Fearless" hidden="false" targetId="72dab6ac-4c9d-45f2-b150-7dd034d83b83" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="100.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="695c1929-2677-4f35-86ec-bd76410c1c34" name="Lictor Brood" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="954b0998-67f0-43fb-97d8-5fb52476244b" name="One Third - 33% - Group A" hidden="false" targetId="46b8e973-031d-4986-a588-5f02fc444c30" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="c5acf997-4965-4559-a40e-3b3a6ef8dc35" name="Dagon Lictors" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="122fe581-7146-47bb-815c-d6211fe290ce" type="min"/>
+            <constraint field="selections" scope="parent" value="7.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="459cd519-2718-4db7-a2fc-7917f1410ef1" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="29c583f5-ba98-46d4-b935-1d73e05709fb" name="Dagon Lictor" hidden="false" targetId="96a380cf-7c30-4ebe-90fc-c857b0d516b5" type="profile"/>
+            <infoLink id="7f294f46-0d50-4c80-a6a2-80885d9f6703" hidden="false" targetId="75101e3d-cca2-4420-acfe-e0a1db1314af" type="rule"/>
+            <infoLink id="4558ccad-da58-41b3-9472-75325a2e31aa" hidden="false" targetId="18b55dcf-3e60-458e-90e4-29f69deaa065" type="rule"/>
+            <infoLink id="f224312c-23c3-493b-ab82-7dd2d8ccce14" hidden="false" targetId="af143427-33d4-438b-aab2-16a8e2867f79" type="rule"/>
+            <infoLink id="b2fed338-aab3-4aec-a3d7-dcbdd9742473" hidden="false" targetId="71ce5ada-8613-4124-bd2f-43c80fb9488b" type="rule"/>
+            <infoLink id="ad629051-22d1-422d-8416-c0a72956706c" hidden="false" targetId="20b60add-c341-4e56-8c6b-fa4dec53688e" type="rule"/>
+            <infoLink id="9bf59cf1-ccfe-458a-b6aa-82712236d103" hidden="false" targetId="0a2c466f-8e38-4e54-a0f1-08ac199cd89c" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="25.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="837786de-62f3-4ccf-8692-fbb3854848e1" name="Common Independent Swarm" hidden="false" collective="false" import="true" targetId="70e2f1ec-62f4-47bd-98e0-78505bb2ad4c" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="100.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0bb3c79e-2241-4407-b476-cdb6d78690f4" name="Nest Swarm" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="a97fac92-192a-4018-816d-c9a595e5d6d0" hidden="false" targetId="b893278c-34cb-41fa-ae9b-54676a0f6f87" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="6dc13aff-1d68-41a1-99ad-d07633e06ee3" name="Hive Nest" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="ee350e83-4582-46b0-bb52-206ad0b974af" hidden="false" targetId="6ff1d179-6028-4bbf-a2f0-faa6e1727bf5" type="profile"/>
+            <infoLink id="f9398c3e-cb5d-4cb2-92db-4464a33ec949" hidden="false" targetId="8eca9e45-4d25-4f1e-a395-eb8656a3889a" type="rule"/>
+            <infoLink id="f2a05bc9-c73e-4eea-a580-1cd0cbd8b170" hidden="false" targetId="b4f624a1-c328-44fa-a985-ecbf2ce536c1" type="rule"/>
+            <infoLink id="bd40da7a-52f4-4faa-bebd-d1a573bfd501" hidden="false" targetId="72dab6ac-4c9d-45f2-b150-7dd034d83b83" type="rule"/>
+            <infoLink id="29392643-1fc3-49a7-b408-db627a5bfb1b" name="Dagon Synapse" hidden="false" targetId="11c58885-7af7-4a83-89bf-55d7667b0b19" type="rule"/>
+            <infoLink id="bbe282fd-607b-4037-8950-d7d5e0f447d4" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c889592f-ccc7-4ecb-9850-c7481ff034ba" name="Instinctive Swarms" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="ee684ada-b864-4f48-8679-604d464cd3aa" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="d3c5d2ed-dbe5-477a-8fce-46d8e2d09f13" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="86835b4c-664b-4fea-b29e-87a5693aa2b1" name="Bio-Support" hidden="false" collective="false" import="true" targetId="7d004dfe-5f56-45e1-82be-2c7ed9477261" type="selectionEntry"/>
+            <entryLink id="fb73d88d-35ca-4e79-b427-f9f44dd0db0c" name="Compulsory Swarms" hidden="false" collective="false" import="true" targetId="94097ac7-c04d-4787-adb8-110dff839a7f" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="125.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a5184b6f-f626-43a1-aea3-777daac6f282" name="Nexus Swarm" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="ec263052-65fb-456d-8416-b8638f75a472" hidden="false" targetId="e4013702-a119-46c3-9fd9-a64e58afe467" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="aa056b2b-bbcc-4065-a6bc-f38bb4242cb0" name="Dagon Dominatrix" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="4088a389-bda5-4fd8-9754-2a6742943c84" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="5af928f4-7fcb-4a4c-852b-a2fe2b8809ad" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="9f4c1549-9238-4833-a428-eb0d946ac7cd" name="Dagon Dominatrix" hidden="false" targetId="ba2bbd51-7f55-4c49-a15a-cb053ae70f8a" type="profile"/>
+            <infoLink id="3ea48d83-4658-41ca-aca1-aff30a6df423" hidden="false" targetId="20b60add-c341-4e56-8c6b-fa4dec53688e" type="rule"/>
+            <infoLink id="5ced0fc5-eb8b-4c4f-9544-f7a0a27393a7" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+            <infoLink id="05760763-5021-417a-a47c-9f372e141579" hidden="false" targetId="72dab6ac-4c9d-45f2-b150-7dd034d83b83" type="rule"/>
+            <infoLink id="d711e452-2378-4993-af6a-d7009f2b567b" hidden="false" targetId="d23596ad-5004-4bc3-8600-2b61a05ee52d" type="rule"/>
+            <infoLink id="f92634b9-e13f-4050-af47-9a1c8d075f4e" name="Dagon Synapse" hidden="false" targetId="11c58885-7af7-4a83-89bf-55d7667b0b19" type="rule"/>
+            <infoLink id="f550c90d-462f-4d16-b77c-26ea6aab1907" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+            <infoLink id="65d7402a-a997-41e6-850a-36de54cf495d" name="Commander" hidden="false" targetId="e9675277-c408-4371-b969-6c9565fb2905" type="rule"/>
+            <infoLink id="546bb544-c758-404a-b01d-0f095df69d6f" name="Hive Mind Locus" hidden="false" targetId="91dd00da-b78c-4deb-b10f-36aa1a7e7c20" type="rule"/>
+            <infoLink id="32c3873f-657f-4398-b4c0-7fa3bf819d61" name="Titan Killer" hidden="false" targetId="cd277106-16dd-48d1-897f-01f2ba0c4483" type="rule"/>
+            <infoLink id="96f5427c-f08c-4877-bb18-8bbe3ada7f8b" hidden="false" targetId="06776887-98f0-49dd-8aca-d824d3c5d52c" type="rule"/>
+            <infoLink id="12a8cc23-ab56-400f-857d-98bb2df17478" name="Critical Hit: Wounded" hidden="false" targetId="fa2fe02b-8d57-454f-890f-04b90510f343" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="66a9213d-8da4-4135-9d9e-717b57a19095" name="Instinctive Swarms" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="34fcd1ec-9763-404a-af50-8c1290f1879d" name="Gaunt Swarm" hidden="false" collective="false" import="true" targetId="f8a384b4-b3d7-46f5-89f8-5740d18f9792" type="selectionEntry"/>
+            <entryLink id="3019badf-534b-4e21-899a-bea9fa37020f" name="Bio-Artillery" hidden="false" collective="false" import="true" targetId="d4b44b3c-de0d-4681-9673-5cb91275349a" type="selectionEntry"/>
+            <entryLink id="9f35c7c6-88b5-4a60-8cc4-4d08b764e49d" name="Gargoyle Swarm" hidden="false" collective="false" import="true" targetId="b16205ec-2756-452a-ac57-fe230738d7fe" type="selectionEntry"/>
+            <entryLink id="83a66599-c5a8-46b5-ab65-4335fced5063" name="Carnifex Swarm" hidden="false" collective="false" import="true" targetId="582fd0b7-5a0c-47a8-a902-03da277352da" type="selectionEntry"/>
+            <entryLink id="43fa5d34-fcb0-4cab-92ef-503b962424d4" name="Bio-Support" hidden="false" collective="false" import="true" targetId="7d004dfe-5f56-45e1-82be-2c7ed9477261" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="e560281c-e4a9-4e41-8821-2d04b1e60ec4" value="-1.0"/>
+              </modifiers>
+            </entryLink>
+            <entryLink id="8dc2decb-cafc-44f6-90dc-4f17ed0d71c1" name="Bio-Tank" hidden="false" collective="false" import="true" targetId="89178e87-76ed-4330-a516-44ff0fd06808" type="selectionEntry"/>
+            <entryLink id="5cd462cf-bfb5-4582-b410-b31b8e00728e" name="Barbed Hierodule" hidden="false" collective="false" import="true" targetId="3874211c-8446-4661-bb51-05edf6bf2c0d" type="selectionEntry"/>
+            <entryLink id="b4eec0bf-f500-4e67-b46b-d558b197255c" name="Burrowing Swarm" hidden="false" collective="false" import="true" targetId="7d61e410-e7b3-44db-b7f5-34f8b87c673f" type="selectionEntry"/>
+            <entryLink id="70dabf45-2538-465f-92e9-a444c703093d" name="Bio-Bombers" hidden="false" collective="false" import="true" targetId="4bc38966-9048-44fe-93b5-7aa8aa5b66bb" type="selectionEntry"/>
+            <entryLink id="7d7bccd6-f7bd-4741-9e5a-b34d7f3fa207" name="Scythed Hierodule" hidden="false" collective="false" import="true" targetId="a4c2d04a-3ea4-4a77-976c-1acec2898821" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="400.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f6dd7739-02b7-457c-9935-cf814a023aff" name="Major Swarm" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="4f79ecb7-8e7c-445a-bc80-ad9a3e1c84ad" hidden="false" targetId="e4013702-a119-46c3-9fd9-a64e58afe467" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="0f238d97-73c7-423d-a99d-ee7c72b291c8" name="Tyranids" hidden="false" collective="false" import="true" defaultSelectionEntryId="2fea3413-7fdc-40b1-84de-5f99302fd547">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="2fea3413-7fdc-40b1-84de-5f99302fd547" hidden="false" collective="false" import="true" targetId="285fb8e4-a54a-4443-8754-3fb75d55dd8e" type="selectionEntry"/>
+            <entryLink id="bbdd2fbd-8d6a-4eea-ad37-f477bf9ed100" name="Winged Tyranid Warriors" hidden="false" collective="false" import="true" targetId="ef110879-e6f2-44b0-a642-efa5042b5d7e" type="selectionEntry"/>
+            <entryLink id="36eacacb-64eb-4b56-ad6d-af2922de8a63" hidden="false" collective="false" import="true" targetId="7791cac4-0684-4302-ba15-2184683f5b0f" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="7f9e9198-89cf-4607-8abd-244648de4609" name="Synapse Creatures" hidden="false" collective="false" import="true" defaultSelectionEntryId="be34f195-27f8-48d6-b67c-5d3e43b97229">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="be34f195-27f8-48d6-b67c-5d3e43b97229" name="Hive Tyrant" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="b16096fb-4e0f-4b0b-82d7-95fb0debb920" name="Hive Tyrant" hidden="false" targetId="4cea4114-b7a7-4d5b-995c-d3a5dadece77" type="profile"/>
+                <infoLink id="5d63ea71-854f-4591-8cbc-ae6ca92e3652" hidden="false" targetId="e9675277-c408-4371-b969-6c9565fb2905" type="rule"/>
+                <infoLink id="8700187a-6f66-433f-a24f-91a92897c412" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+                <infoLink id="09589e54-bab4-44ad-96e6-43a9a636b473" hidden="false" targetId="72dab6ac-4c9d-45f2-b150-7dd034d83b83" type="rule"/>
+                <infoLink id="1a6f9e9b-68b4-4535-a27d-f914eb2cbfcb" hidden="false" targetId="d23596ad-5004-4bc3-8600-2b61a05ee52d" type="rule"/>
+                <infoLink id="53ff4286-dea6-4b7a-960b-febbef6c08ad" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+                <infoLink id="63a5b466-b810-40bc-a7b2-c85acdcafebf" name="Dagon Synapse" hidden="false" targetId="11c58885-7af7-4a83-89bf-55d7667b0b19" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="ae358eb5-e8c6-4b0e-b190-e1d033f03531" name="Dagon Overlord" hidden="false" collective="false" import="true" targetId="f655e53c-1da3-4adc-968a-346728681f48" type="selectionEntry"/>
+            <entryLink id="609721df-eadd-482b-81e6-58fcca020ed6" name="Winged Dagon Overlord" hidden="false" collective="false" import="true" targetId="6fd2af73-4083-4b99-be27-3c8128701344" type="selectionEntry"/>
+            <entryLink id="8994468d-0056-4a5c-8f7f-b6854ed52283" name="Winged Hive Tyrant" hidden="false" collective="false" import="true" targetId="d4682ed9-7dd0-42b6-929f-adb14df72367" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="620b3a4f-f1ed-4e28-9db0-0599e372e23b" name="Instinctive Swarms" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="6a3ab810-92fe-46f0-92c1-0a2595d7e2b0" type="min"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="879c0c7e-d51d-4def-8564-d3518307cce5" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="e55f4b2b-557e-4e7d-9741-f937f07a0617" name="Gaunt Swarm" hidden="false" collective="false" import="true" targetId="f8a384b4-b3d7-46f5-89f8-5740d18f9792" type="selectionEntry"/>
+            <entryLink id="0537e5b2-6ecd-4d54-95d4-e711cd67e5e4" name="Bio-Artillery" hidden="false" collective="false" import="true" targetId="d4b44b3c-de0d-4681-9673-5cb91275349a" type="selectionEntry"/>
+            <entryLink id="e81eda18-4a60-4b45-acbf-e46a260dd793" name="Gargoyle Swarm" hidden="false" collective="false" import="true" targetId="b16205ec-2756-452a-ac57-fe230738d7fe" type="selectionEntry"/>
+            <entryLink id="5a052beb-00e1-4b4b-ad40-28bc0eccfb97" name="Carnifex Swarm" hidden="false" collective="false" import="true" targetId="582fd0b7-5a0c-47a8-a902-03da277352da" type="selectionEntry"/>
+            <entryLink id="5d85fd24-21b1-4ed5-acf8-c090b5f21052" name="Bio-Support" hidden="false" collective="false" import="true" targetId="7d004dfe-5f56-45e1-82be-2c7ed9477261" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="e560281c-e4a9-4e41-8821-2d04b1e60ec4" value="-1.0"/>
+              </modifiers>
+            </entryLink>
+            <entryLink id="cd1e22ad-d3b9-40da-81d4-0d30dea0df57" name="Bio-Tank" hidden="false" collective="false" import="true" targetId="89178e87-76ed-4330-a516-44ff0fd06808" type="selectionEntry"/>
+            <entryLink id="f0fcb26a-5227-4983-816f-1b6f3b4bc297" name="Barbed Hierodule" hidden="false" collective="false" import="true" targetId="3874211c-8446-4661-bb51-05edf6bf2c0d" type="selectionEntry"/>
+            <entryLink id="49a376a7-4b7b-4613-8798-d8164c4bde6a" name="Burrowing Swarm" hidden="false" collective="false" import="true" targetId="7d61e410-e7b3-44db-b7f5-34f8b87c673f" type="selectionEntry"/>
+            <entryLink id="02bb2f95-a102-4d44-a41d-8fecb498ca23" name="Bio-Bombers" hidden="false" collective="false" import="true" targetId="4bc38966-9048-44fe-93b5-7aa8aa5b66bb" type="selectionEntry"/>
+            <entryLink id="3671e342-f669-4a34-8787-b24938be98ad" name="*Mycetic Spore" hidden="false" collective="false" import="true" targetId="b3ec706c-1b20-4947-84f7-bdf675cb25cc" type="selectionEntry"/>
+            <entryLink id="3566a37f-7e59-46ee-9c07-1f30736e3614" name="Scythed Hierodule" hidden="false" collective="false" import="true" targetId="a4c2d04a-3ea4-4a77-976c-1acec2898821" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="175.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="877e9c23-3ce5-477e-839e-5e4e24a09b30" name="Minor Swarm" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="0e0126ab-81b4-49c9-999c-e0e132c2c610" hidden="false" targetId="e4013702-a119-46c3-9fd9-a64e58afe467" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="312766c3-fa75-489a-ba40-a339eec2dbc0" name="Synapse Creatures" hidden="false" collective="false" import="true" defaultSelectionEntryId="b9c20dd5-a821-45c4-99eb-db4ed135d2b7">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="b9c20dd5-a821-45c4-99eb-db4ed135d2b7" hidden="false" collective="false" import="true" targetId="285fb8e4-a54a-4443-8754-3fb75d55dd8e" type="selectionEntry"/>
+            <entryLink id="f710bb88-5053-4a76-bfc6-4b0e7f9de7ca" name="Winged Tyranid Warriors" hidden="false" collective="false" import="true" targetId="ef110879-e6f2-44b0-a642-efa5042b5d7e" type="selectionEntry"/>
+            <entryLink id="aeb3feb9-dbcd-4e00-b9ca-d589274da953" hidden="false" collective="false" import="true" targetId="7791cac4-0684-4302-ba15-2184683f5b0f" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="d506d3c3-d02b-4a97-9f79-404930a7f5e5" name="Instinctive Swarms" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="6510bde0-c8b2-4c78-8b14-1ac9d4e4bea9" type="min"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="47677402-3a5a-4dac-982a-a90830161261" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="6e0cc88e-4e72-44b4-9f0d-ae8c49c9c533" name="Carnifex Swarm" hidden="false" collective="false" import="true" targetId="582fd0b7-5a0c-47a8-a902-03da277352da" type="selectionEntry"/>
+            <entryLink id="4d4634cb-74d1-461f-98c7-8898affcd5d5" name="Bio-Support" hidden="false" collective="false" import="true" targetId="7d004dfe-5f56-45e1-82be-2c7ed9477261" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="e560281c-e4a9-4e41-8821-2d04b1e60ec4" value="-1.0"/>
+              </modifiers>
+            </entryLink>
+            <entryLink id="02948172-fb4b-407d-b4c6-7e3e393baa9e" name="Bio-Tank" hidden="false" collective="false" import="true" targetId="89178e87-76ed-4330-a516-44ff0fd06808" type="selectionEntry"/>
+            <entryLink id="437e6a77-320b-4d86-8f90-59e15514438f" name="Barbed Hierodule" hidden="false" collective="false" import="true" targetId="3874211c-8446-4661-bb51-05edf6bf2c0d" type="selectionEntry"/>
+            <entryLink id="7c5389ed-df6e-432f-9ab6-0ce1d7530c81" name="Burrowing Swarm" hidden="false" collective="false" import="true" targetId="7d61e410-e7b3-44db-b7f5-34f8b87c673f" type="selectionEntry"/>
+            <entryLink id="76e297a9-cab3-4b43-9ee0-43e5ccc3e631" name="Bio-Bombers" hidden="false" collective="false" import="true" targetId="4bc38966-9048-44fe-93b5-7aa8aa5b66bb" type="selectionEntry"/>
+            <entryLink id="b845d4f2-864c-430b-8860-59e58b85e111" name="*Mycetic Spore" hidden="false" collective="false" import="true" targetId="b3ec706c-1b20-4947-84f7-bdf675cb25cc" type="selectionEntry"/>
+            <entryLink id="9237e135-caca-4cc9-ba79-be3cea33e5ca" name="Scythed Hierodule" hidden="false" collective="false" import="true" targetId="a4c2d04a-3ea4-4a77-976c-1acec2898821" type="selectionEntry"/>
+            <entryLink id="94e0db7b-9049-4180-b768-8ae678e4d854" name="Compulsory Swarms" hidden="false" collective="false" import="true" targetId="94097ac7-c04d-4787-adb8-110dff839a7f" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="100.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a66133a0-2b74-4769-b53f-708e565ddd30" name="Attack Swarm" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="da491f00-e031-4e33-91fa-f36076015d1e" name="1 per Formation" hidden="false" targetId="b893278c-34cb-41fa-ae9b-54676a0f6f87" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4e22d659-570a-4526-a461-23b62b07da50" name="Instinctive Swarms" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="d95a04a1-702c-4544-8504-820a5e0aec32" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="6eff2d66-72be-46a4-82cf-0c967247e9f0" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="a230ebcd-118b-426f-8ef6-d33dd05bac8e" name="Carnifex Swarm" hidden="false" collective="false" import="true" targetId="582fd0b7-5a0c-47a8-a902-03da277352da" type="selectionEntry"/>
+            <entryLink id="97b51ceb-9761-479b-9c90-dc37c989d492" name="Gaunt Swarm" hidden="false" collective="false" import="true" targetId="f8a384b4-b3d7-46f5-89f8-5740d18f9792" type="selectionEntry"/>
+            <entryLink id="9cce0e0d-9f35-4bf5-a421-e1643cfe14ec" name="Bio-Support" hidden="false" collective="false" import="true" targetId="7d004dfe-5f56-45e1-82be-2c7ed9477261" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="e560281c-e4a9-4e41-8821-2d04b1e60ec4" value="-1.0"/>
+              </modifiers>
+            </entryLink>
+            <entryLink id="335ff321-78c3-4cd9-9e9b-6b9994753641" name="Bio-Tank" hidden="false" collective="false" import="true" targetId="89178e87-76ed-4330-a516-44ff0fd06808" type="selectionEntry"/>
+            <entryLink id="4cafb750-0e03-4f0c-9695-8e4aff57037a" name="Barbed Hierodule" hidden="false" collective="false" import="true" targetId="3874211c-8446-4661-bb51-05edf6bf2c0d" type="selectionEntry"/>
+            <entryLink id="e657a9b7-a502-4b5a-b233-b7f21f0e3b23" name="Scythed Hierodule" hidden="false" collective="false" import="true" targetId="a4c2d04a-3ea4-4a77-976c-1acec2898821" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="52e0fb0c-7f81-428f-8923-16f60ddfba86" name="Synapse Creatures" hidden="false" collective="false" import="true" defaultSelectionEntryId="cab87d9b-d21c-46a5-b85d-a0fb7d5c68a1">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="dcb180e4-f205-4237-a857-0f17627ad1a0" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="87f4c89a-beec-4996-aced-4dae1babb190" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="cab87d9b-d21c-46a5-b85d-a0fb7d5c68a1" name="Barbed Hierodule Prime" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="44ba086f-8f61-4ba6-b041-b2a5a0a350b6" name="Hierodule Prime++++++++++++" hidden="false" targetId="8dfa6419-ff7d-446d-9424-439b20564929" type="profile"/>
+                <infoLink id="543f3756-5558-46c7-b785-b170c0d03175" name="Macro-weapon" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+                <infoLink id="ed8f05eb-54fb-4c43-8635-3203204e766b" name="Fearless" hidden="false" targetId="72dab6ac-4c9d-45f2-b150-7dd034d83b83" type="rule"/>
+                <infoLink id="b909c122-6539-46c5-926e-110bc1d9221b" name="Critical Hit: Destroyed" hidden="false" targetId="b4f624a1-c328-44fa-a985-ecbf2ce536c1" type="rule"/>
+                <infoLink id="6381c998-6a68-4c8c-91fc-a07c2cd92590" name="Reinforced Armour" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+                <infoLink id="cf86fd85-eb87-4df2-8068-5eb9ac67e996" name="Invulnerable Save" hidden="false" targetId="20b60add-c341-4e56-8c6b-fa4dec53688e" type="rule"/>
+                <infoLink id="c56b762f-64e0-497c-9e35-4eb80ce4188a" name="Dagon Synapse" hidden="false" targetId="11c58885-7af7-4a83-89bf-55d7667b0b19" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="906dc286-c813-42ec-b636-bdd474e01d53" name="Scythed Hierodule Prime" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="e1166022-69e7-43a1-ac9d-28f0df1ccfec" name="Reaper Hierodule Prime++++++++++++" hidden="false" targetId="c3b22131-5ffb-413a-a284-1f904eaa22df" type="profile"/>
+                <infoLink id="422e8d4c-3753-4302-91a3-46c7f6d251ec" name="Titan Kiler" hidden="false" targetId="cd277106-16dd-48d1-897f-01f2ba0c4483" type="rule"/>
+                <infoLink id="a0553178-41ed-41eb-a71d-014819523566" hidden="false" targetId="5087a733-1e15-4e06-b869-8728e657c9fa" type="rule"/>
+                <infoLink id="ba420f6e-08d3-467d-b1d4-6c2e42c5f817" hidden="false" targetId="b4f624a1-c328-44fa-a985-ecbf2ce536c1" type="rule"/>
+                <infoLink id="aa1a6a2f-02b2-41e3-accb-1b40f593076d" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+                <infoLink id="b35255f3-684d-4a66-924d-06ee8e7a11c6" name="Invulnerable Save" hidden="false" targetId="20b60add-c341-4e56-8c6b-fa4dec53688e" type="rule"/>
+                <infoLink id="6a5e7cf4-af47-45d5-9bcb-883ad6c84643" name="Fearless" hidden="false" targetId="72dab6ac-4c9d-45f2-b150-7dd034d83b83" type="rule"/>
+                <infoLink id="e222dffa-d5c2-4d56-96f5-0ee9555b8f1c" name="Dagon Synapse" hidden="false" targetId="11c58885-7af7-4a83-89bf-55d7667b0b19" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="150.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6a556d48-123c-4de6-a4f5-cd7e27fce27a" name="Bio-Titan" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="5a22b844-897e-4de0-a1d8-a754d9b90397" name="One Third - 33% - Group B" hidden="false" targetId="7f624b4d-09e2-4b25-a2fa-e025e411a09f" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="ecb2269a-5ab8-49f1-94d6-1c9cb868d384" name="Creature" hidden="false" collective="false" import="true" defaultSelectionEntryId="ff0a3c82-588d-4e83-bc3a-984db323c540">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="207b64b3-8a84-4176-ac1f-40dc811f831c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="17556c3d-56d5-49ca-a230-430f6cdc2363" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="ff0a3c82-588d-4e83-bc3a-984db323c540" name="Dagon Hierophant Bio-Titan" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="b47590cc-cbf6-4ab7-8923-f13f18303407" hidden="false" targetId="72dab6ac-4c9d-45f2-b150-7dd034d83b83" type="rule"/>
+                <infoLink id="985642c0-912a-4520-be75-2484a0a19164" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+                <infoLink id="af617f69-bc61-4a95-a0c8-5a90fbca03ce" hidden="false" targetId="cd277106-16dd-48d1-897f-01f2ba0c4483" type="rule"/>
+                <infoLink id="3031ba35-ff64-4d3e-9ebe-eee18af10d51" hidden="false" targetId="20b60add-c341-4e56-8c6b-fa4dec53688e" type="rule"/>
+                <infoLink id="1cba561d-fa03-4155-83a9-a660bf1eac76" name="Hierophant ferc------------------" hidden="false" targetId="7b63d27e-a31e-456a-bc64-e8ea110117d4" type="profile"/>
+                <infoLink id="9db8d85e-9a54-4ecb-af69-a2231be5b31a" name="Critical Hit: Wounded" hidden="false" targetId="fa2fe02b-8d57-454f-890f-04b90510f343" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6ecb991c-b817-4362-b9e5-d63b6a34f011" name="Hydraphant Bio-Titan" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="98c0d058-447e-440a-8fa9-16b91e10136d" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+                <infoLink id="1fc44ec2-9d60-40e9-a73a-d775215069ed" hidden="false" targetId="72dab6ac-4c9d-45f2-b150-7dd034d83b83" type="rule"/>
+                <infoLink id="575071b7-445b-4bf6-99ce-c3f89e77c7e2" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+                <infoLink id="fdd905aa-cd00-4bff-a46a-8cb427611393" hidden="false" targetId="20b60add-c341-4e56-8c6b-fa4dec53688e" type="rule"/>
+                <infoLink id="285eee54-992f-40b7-bbea-5fcf3aafbf90" hidden="false" targetId="cd277106-16dd-48d1-897f-01f2ba0c4483" type="rule"/>
+                <infoLink id="a8c748bf-24c2-4dda-8937-83353a2a1cf3" hidden="false" targetId="75101e3d-cca2-4420-acfe-e0a1db1314af" type="rule"/>
+                <infoLink id="fa978b01-f7fe-47e6-93eb-03a149a05f6e" name="Hydraphant ferc-----------------" hidden="false" targetId="5362ae08-e2c9-4f5f-b9af-87e9efe52c60" type="profile"/>
+                <infoLink id="ab5d8670-4f05-4878-ad84-f43210c9c3e7" name="Critical Hit: Wounded" hidden="false" targetId="fa2fe02b-8d57-454f-890f-04b90510f343" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="200.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="78c5455b-6929-40c6-99f3-cba92c610fa2" name="Rare Independent Swarm" hidden="false" collective="false" import="true" targetId="dd54eb41-1e81-4be9-bc8f-bc0cad47f3bc" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="350.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <infoLinks>
+    <infoLink id="976f71ff-d6f6-4ae7-9701-68b6ae111272" name="Strategy Rating &amp; Initiative (HFD)" hidden="false" targetId="362a5ecc-a23b-4af5-86ef-b2ecee3da77e" type="rule"/>
+    <infoLink id="b12560b9-db42-450b-8a2f-741232ddf212" name="The Fast &amp; The Slithering" hidden="false" targetId="ebbe1d96-f1d1-4b1a-af62-0d4339091547" type="rule">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8183dbe0-128d-44df-9d2f-587c40d576e7" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </infoLink>
+    <infoLink id="0b969705-b2db-4aeb-9a86-a3dfced12af8" name="Extreme Mobility" hidden="false" targetId="73478077-14cb-4d72-84fd-0be0a7ab802d" type="rule"/>
+    <infoLink id="10657244-7990-4046-a7dd-56026608625e" name="Vanguard Organisms" hidden="false" targetId="f67ae663-06c5-47a2-89bd-b98dc641ca29" type="rule"/>
+  </infoLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="d4b44b3c-de0d-4681-9673-5cb91275349a" name="Biovores" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="d81a3878-ae88-438a-adf6-5c8382505d39" name="Biovore" hidden="false" collective="true" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="7b11730c-fa71-4af6-86ee-30a45ab13cf7" hidden="false" targetId="3ce82386-071a-459b-bfbc-3564eec0fb90" type="profile"/>
+            <infoLink id="a3315571-76e8-45b8-93b2-e731c3ec9403" hidden="false" targetId="b027e9fd-08c7-436c-a239-dd516a6ce794" type="rule"/>
+            <infoLink id="5d501d0f-5539-415f-8c0c-a3e026f8860f" hidden="false" targetId="2dddba7a-76cc-472a-92a8-a9cf9025db6f" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="75.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7d004dfe-5f56-45e1-82be-2c7ed9477261" name="Bio-Support" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e560281c-e4a9-4e41-8821-2d04b1e60ec4" type="max"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="03ada146-ffc9-4a8a-b7d2-cf02261a64f5" name="Swarm" hidden="false" collective="false" import="true" defaultSelectionEntryId="1a0c7733-3b4d-44f5-8171-4b0d4451edb2">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="b9a4e26a-b2d1-455b-86a7-4c7d092fd5b8" name="3x Dagon Dactylis" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="56541129-3cb1-4c73-bd9d-c32914839bf3" hidden="false" targetId="d0bcde82-6633-46f2-8129-7ae7e02bfeb3" type="profile"/>
+                <infoLink id="4b2251e6-b1d0-44c9-b32e-0a7d41ec3092" hidden="false" targetId="b027e9fd-08c7-436c-a239-dd516a6ce794" type="rule"/>
+                <infoLink id="ecc2af13-7c84-426d-94bd-138094df8756" hidden="false" targetId="2dddba7a-76cc-472a-92a8-a9cf9025db6f" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1a0c7733-3b4d-44f5-8171-4b0d4451edb2" name="4x Dagon Exocrine" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="9c6f9617-1c63-485e-983f-633b1086485b" name="Dagon Exocrine" hidden="false" targetId="9295d6e7-30cd-4a39-85a1-413cf8aac170" type="profile"/>
+                <infoLink id="20091412-451a-4ab3-a734-eb93db2d70a2" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="125.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="89178e87-76ed-4330-a516-44ff0fd06808" name="Bio-Attack" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="5d4f01ab-78d0-45c3-9b05-5aece105c5b2" name="Swarm" hidden="false" collective="false" import="true" defaultSelectionEntryId="da5aa5f1-9326-4f58-96cf-b0270fbe3c6b">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="c9def794-913b-481f-8fcd-4b68f61365ba" name="2x Dagon Haruspex" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="6771a48e-30e3-4b68-aa9e-5164156a68d7" name="Dagon Haruspex" hidden="false" targetId="932c42b5-0605-44fa-b600-bd2a60db5e3c" type="profile"/>
+                <infoLink id="4fb20549-5498-464b-a506-847c0daffc86" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+                <infoLink id="9d4189af-3711-4839-acfa-ab9f4b71b5f0" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="da5aa5f1-9326-4f58-96cf-b0270fbe3c6b" name="2x Dagon Malefactor" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="71471ab7-8cf3-46c7-939e-97715551f473" hidden="false" targetId="ad13a7ac-7d09-488a-a706-bd086d2770b2" type="profile"/>
+                <infoLink id="c6b70748-4e89-47e5-b432-36db7c9d9bbc" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+                <infoLink id="f7eb3f1b-cde5-4817-8329-f610c2ca4780" name="Macro-weapon" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+                <infoLink id="be1f1643-934d-4487-9970-1b7356818401" name="Transport (HFD)" hidden="false" targetId="b7859b9c-160e-4f4f-a118-acfdf7e13895" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="75.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7d61e410-e7b3-44db-b7f5-34f8b87c673f" name="Burrower" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a6c6337b-9e95-4217-a262-7b8b080cdcc3" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <entryLinks>
+        <entryLink id="06a89973-9923-42e6-85b8-0b3506efb99d" name="Tunnellers" hidden="false" collective="false" import="true" targetId="1ab96b12-2cb6-49ff-839c-6a1a82e3ff24" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="100.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="582fd0b7-5a0c-47a8-a902-03da277352da" name="Carnifices" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="51ca766f-de9e-47a9-ae2e-787f2629d696" name="Carnifex" hidden="false" collective="true" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="dbf4d3a1-d15f-466c-9391-dd680fa4fea5" hidden="false" targetId="7549d918-f1f6-4bc5-a182-092c93f5d90a" type="profile"/>
+            <infoLink id="b3d62a24-a79e-4c95-95ea-dfb02d0d17dc" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+            <infoLink id="09c4b9ca-0e15-42a0-9dc2-d25982cab53e" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="125.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="95542a55-24b3-4aae-9c23-d5598ee246dc" name="EpicAU" hidden="true" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="8b80356d-afb5-4067-b5fd-0f2ee8210140" hidden="false" targetId="dc9a07f1-a27b-4fe5-9c63-0bd8f26768c5" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6a7b87a6-e3f4-4ba7-aaac-b20234ded31f" name="EpicUK" hidden="true" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="c488c732-6808-42f6-b913-4e0fdc3211b5" hidden="false" targetId="6d96644b-dbd3-410c-9a81-73313522e197" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8183dbe0-128d-44df-9d2f-587c40d576e7" name="F-ERC" hidden="true" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="02e3d899-0d34-499c-a354-cd1a86d641da" hidden="false" targetId="18e797f6-fb24-432c-9ee8-652427dbd28a" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b16205ec-2756-452a-ac57-fe230738d7fe" name="Gargoyles" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="e124bde8-e723-4ed3-bdd3-5f2d7d1b1049" name="Dagon Gargoyles" hidden="false" collective="true" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="25880806-d2f7-44bd-a8a7-fb1be6e54f71" hidden="false" targetId="bd46c137-6010-4d08-bb9b-ac0c1fa619d7" type="profile"/>
+            <infoLink id="7d960494-bbff-483b-a4d1-7c807b562814" name="Jump Packs" hidden="false" targetId="bef38f07-4cf3-4b21-a88e-e47542734de7" type="rule"/>
+            <infoLink id="0491d1c7-f91a-4d88-82d2-ecced8c55f44" name="Gaunts" hidden="false" targetId="789cdfbe-e7b3-4823-a2f0-d17a267b9c44" type="rule"/>
+            <infoLink id="d98a24dc-759d-4a87-899b-9e2902a2685f" name="Expendable" hidden="false" targetId="be1d6e9e-249e-47bd-bc9d-2eea7c735f45" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f8a384b4-b3d7-46f5-89f8-5740d18f9792" name="Gaunts" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="1040c2b1-bddd-4614-b180-448b8ed14d58" name="Swarm" hidden="false" collective="false" import="true" defaultSelectionEntryId="70cde1bb-5cb3-4f23-a415-26d0887efc61">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="f8a75478-268a-4bdb-92e9-9d818bd8be4e" type="min"/>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="ed498c04-326d-4ab3-a84f-a4894c7e1b3f" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="cee5e472-4ff9-45f5-a3e6-7465ddf10ed6" name="Hormagaunts" hidden="false" collective="false" import="true" type="unit">
+              <infoLinks>
+                <infoLink id="eaea13b2-2d3c-4de0-a988-9362c1809c55" name="Hormagaunt" hidden="false" targetId="b1f731a4-8851-4bcc-a8b3-15a958a63c55" type="profile"/>
+                <infoLink id="ffe3bbe1-bef1-47a1-82e0-5985848afba1" hidden="false" targetId="18b55dcf-3e60-458e-90e4-29f69deaa065" type="rule"/>
+                <infoLink id="84e3dbd1-fabb-45d6-9d77-e90ec7c874fc" name="Gaunts" hidden="false" targetId="789cdfbe-e7b3-4823-a2f0-d17a267b9c44" type="rule"/>
+                <infoLink id="3cff4ff0-2b8f-4b4e-bbe1-1101393bcf3d" name="Expendable" hidden="false" targetId="be1d6e9e-249e-47bd-bc9d-2eea7c735f45" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="70cde1bb-5cb3-4f23-a415-26d0887efc61" name="Termagants" hidden="false" collective="false" import="true" type="unit">
+              <infoLinks>
+                <infoLink id="0c171bbc-827f-44ad-bf41-5a3d00d0f2a5" name="Termagant" hidden="false" targetId="c6b60c84-fe84-4512-a376-becdd547a9c9" type="profile"/>
+                <infoLink id="cc48a17c-466a-4ca8-81ac-691ad29b8ff6" name="Gaunts" hidden="false" targetId="789cdfbe-e7b3-4823-a2f0-d17a267b9c44" type="rule"/>
+                <infoLink id="e93ac84e-d05d-4d4b-a4a4-7c45c9efe8bd" name="Expendable" hidden="false" targetId="be1d6e9e-249e-47bd-bc9d-2eea7c735f45" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="88a98d5f-b990-4741-9c4e-5761a2a7200f" name="GW" hidden="true" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="d45c527d-abf2-4575-9287-eb450d9207f4" hidden="false" targetId="debe925b-e324-4ed7-93d9-69992f678abf" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3874211c-8446-4661-bb51-05edf6bf2c0d" name="Barbed Hierodule" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="b4e3b011-27d2-46e1-a29a-35023afbb4b5" hidden="false" targetId="d193bf77-cb32-4df9-8657-127836171485" type="profile"/>
+        <infoLink id="49510f3e-6bec-447f-aa4c-69464b5becd7" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+        <infoLink id="a1cb8b2b-1fba-48d0-ac98-d50544d6382b" hidden="false" targetId="b4f624a1-c328-44fa-a985-ecbf2ce536c1" type="rule"/>
+        <infoLink id="7191ef84-4218-41e6-8997-07bf9d18ae40" name="Reinforced Armour" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="125.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bcb4b931-eab8-4312-9637-ca59bb1433ad" name="Hive Ship" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="a17aaa10-676f-49f4-b3b1-0e583133166c" hidden="false" targetId="fca2afad-79f6-454c-97f7-dec29f6e65d3" type="profile"/>
+        <infoLink id="29ff1977-27d0-427c-aa4b-15e6806ad4c6" hidden="false" targetId="9b5aac11-7fc4-46f0-a97c-479330f6b226" type="rule"/>
+        <infoLink id="aa5bf9be-c382-48bf-a029-ffc04a3cec43" name="Transport (HFD)" hidden="false" targetId="b7859b9c-160e-4f4f-a118-acfdf7e13895" type="rule"/>
+        <infoLink id="d2b47dd1-bcd2-4c5f-92c3-72102e182325" name="Macro-weapon" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="100.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b3ec706c-1b20-4947-84f7-bdf675cb25cc" name="Mycetic Spore" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="maxInForce" value="5.0">
+          <repeats>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bcb4b931-eab8-4312-9637-ca59bb1433ad" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="increment" field="maxInForce" value="2.0">
+          <repeats>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9d6195ad-0b1d-4003-b917-f7a80f195747" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a6c6337b-9e95-4217-a262-7b8b080cdcc3" type="instanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="aef5587a-246c-4099-85ff-f99a8110d8ed" value="0.0">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="89178e87-76ed-4330-a516-44ff0fd06808" type="atLeast"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b16205ec-2756-452a-ac57-fe230738d7fe" type="atLeast"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a4c2d04a-3ea4-4a77-976c-1acec2898821" type="atLeast"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6fd2af73-4083-4b99-be27-3c8128701344" type="atLeast"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d4682ed9-7dd0-42b6-929f-adb14df72367" type="atLeast"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7d004dfe-5f56-45e1-82be-2c7ed9477261" type="atLeast"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ef110879-e6f2-44b0-a642-efa5042b5d7e" type="atLeast"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4bc38966-9048-44fe-93b5-7aa8aa5b66bb" type="atLeast"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="33b6ab47-6231-4929-b650-dd5eacead757" type="atLeast"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3874211c-8446-4661-bb51-05edf6bf2c0d" type="atLeast"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="aef5587a-246c-4099-85ff-f99a8110d8ed" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="ababd596-a126-4920-888a-48e8f17fe159" hidden="false" targetId="49b79727-33f6-4791-a7e9-553a9e596686" type="profile"/>
+        <infoLink id="18f64d53-c41d-4afc-9079-c24df6af8365" hidden="false" targetId="9ef08ad3-012c-419c-a593-61e20961ab3f" type="rule"/>
+        <infoLink id="a6476f06-1ddf-474d-92a3-2dba501833f4" name="Transport (HFD)" hidden="false" targetId="b7859b9c-160e-4f4f-a118-acfdf7e13895" type="rule"/>
+        <infoLink id="2846f594-e838-453b-9101-6e9f5ba213cd" hidden="false" targetId="b027e9fd-08c7-436c-a239-dd516a6ce794" type="rule"/>
+        <infoLink id="5777c489-c840-4943-9c50-4d91998611bd" hidden="false" targetId="fc3b74b8-a44e-439f-995a-e8914e607a21" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7f0bed0e-1717-46a1-8225-09866b0dcc87" name="NetEA" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="d6ac146e-4389-4064-8889-e86ab9195260" hidden="false" targetId="ea98f36c-204c-4f57-805c-c280285f6660" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9d6195ad-0b1d-4003-b917-f7a80f195747" name="Razorfiend" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="98e97fd1-0403-4e3b-a7de-1abdafaf89a7" hidden="false" targetId="ef27c5b3-507c-4b19-81af-08073c6be014" type="profile"/>
+        <infoLink id="1da71e81-282b-4f03-88d1-0d993ee3815c" name="Transport (HFD)" hidden="false" targetId="b7859b9c-160e-4f4f-a118-acfdf7e13895" type="rule"/>
+        <infoLink id="807adcc6-99e3-4e04-b114-b3c4068205f3" name="Macro-weapon" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a4c2d04a-3ea4-4a77-976c-1acec2898821" name="Scythed Hierodule" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="1bfba365-a3b4-4832-ab82-606601b38eec" hidden="false" targetId="094adec0-3f66-474e-bd1a-b1dcbfd3d409" type="profile"/>
+        <infoLink id="e856745e-e187-489d-9e49-d03f148937a9" hidden="false" targetId="cd277106-16dd-48d1-897f-01f2ba0c4483" type="rule"/>
+        <infoLink id="b2de65b3-77d6-4906-bf75-e7d96d20ef30" hidden="false" targetId="5087a733-1e15-4e06-b869-8728e657c9fa" type="rule"/>
+        <infoLink id="4356ec80-4c41-45c0-a481-89b998b320fe" name="Critical Hit: Destroyed" hidden="false" targetId="b4f624a1-c328-44fa-a985-ecbf2ce536c1" type="rule"/>
+        <infoLink id="fe266dfa-928c-403c-8e53-fcde1eb3dce4" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="125.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="285fb8e4-a54a-4443-8754-3fb75d55dd8e" name="Tyranid Warriors" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="bb538bcc-9866-411b-be19-5eddbeea7acd" name="Tyranid Warriors" hidden="false" targetId="0775eaaf-df82-4962-95f9-66b94d0634f5" type="profile"/>
+        <infoLink id="29911bab-64f9-45e2-9b82-2b3811778bd9" hidden="false" targetId="72dab6ac-4c9d-45f2-b150-7dd034d83b83" type="rule"/>
+        <infoLink id="a37d9f6f-bc8b-4d4e-aef6-190ee59206b4" name="Dagon Synapse" hidden="false" targetId="11c58885-7af7-4a83-89bf-55d7667b0b19" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d4682ed9-7dd0-42b6-929f-adb14df72367" name="Winged Hive Tyrant" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="a0f3c4be-a594-4f5d-a091-ca3deb43220b" name="Winged Hive Tyrant" hidden="false" targetId="b989b30b-33cd-47b7-b00b-fd1c338d6490" type="profile"/>
+        <infoLink id="e0a24a9b-c463-46e2-a7de-c8a720cba0b4" name="Commander" hidden="false" targetId="e9675277-c408-4371-b969-6c9565fb2905" type="rule"/>
+        <infoLink id="dfc5dcb3-1f9a-481a-ac84-5103da027fad" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+        <infoLink id="85e5a2ca-8741-4593-b0ed-7fd3a9569636" name="Fearless" hidden="false" targetId="72dab6ac-4c9d-45f2-b150-7dd034d83b83" type="rule"/>
+        <infoLink id="3adc41ad-3a23-4195-98d6-d215ab915e43" name="Leader" hidden="false" targetId="d23596ad-5004-4bc3-8600-2b61a05ee52d" type="rule"/>
+        <infoLink id="24c81cce-a876-4481-90fd-f86f4a054b61" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+        <infoLink id="075bc189-edfd-4a50-9462-8aff890dfb58" name="Jump Packs" hidden="false" targetId="bef38f07-4cf3-4b21-a88e-e47542734de7" type="rule"/>
+        <infoLink id="37c238e7-313f-4b88-b395-87cb33b12946" name="Dagon Synapse" hidden="false" targetId="11c58885-7af7-4a83-89bf-55d7667b0b19" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ef110879-e6f2-44b0-a642-efa5042b5d7e" name="Winged Tyranid Warriors" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="88a9bf5b-eb9b-4925-aceb-854321d002fa" name="Winged Tyranid Warriors" hidden="false" targetId="d2ff3502-c930-487e-b3e0-e2f60a03cbcf" type="profile"/>
+        <infoLink id="ede9dec0-cc86-4515-96ff-f1cf8623ddd7" name="Fearless" hidden="false" targetId="72dab6ac-4c9d-45f2-b150-7dd034d83b83" type="rule"/>
+        <infoLink id="04aa31bf-afeb-4769-a0e9-085575f459fb" name="Jump Packs" hidden="false" targetId="bef38f07-4cf3-4b21-a88e-e47542734de7" type="rule"/>
+        <infoLink id="f08a1c7c-255f-40fd-bbfd-00d905095c34" name="Dagon Synapse" hidden="false" targetId="11c58885-7af7-4a83-89bf-55d7667b0b19" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7791cac4-0684-4302-ba15-2184683f5b0f" name="Zoanthrope" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="4bd02246-159e-4a29-b706-da37abccd645" hidden="false" targetId="d0db88dc-3428-47c1-b5f8-7b49758cf849" type="profile"/>
+        <infoLink id="0f4fe8ce-3af0-4b59-8607-0493d8c4b916" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+        <infoLink id="8f9cde7a-53f7-44d3-ac13-6e5ff2dad6f4" name="Invulnerable Save" hidden="false" targetId="20b60add-c341-4e56-8c6b-fa4dec53688e" type="rule"/>
+        <infoLink id="d01b9ab8-72e2-4569-8f87-05e9d425a380" hidden="false" targetId="72dab6ac-4c9d-45f2-b150-7dd034d83b83" type="rule"/>
+        <infoLink id="39f2f836-958e-443f-8f31-dc4ebfc9b471" name="Dagon Synapse" hidden="false" targetId="11c58885-7af7-4a83-89bf-55d7667b0b19" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="33b6ab47-6231-4929-b650-dd5eacead757" name="2x Trygon" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="cc33b758-8561-43ef-a687-c4fb6fd642e0" hidden="false" targetId="c2fb2c27-572c-4179-9834-7d87f48ad27a" type="profile"/>
+        <infoLink id="3f698914-c3b7-4268-a5e6-efe9ba1112fd" name="Reinforced Armour" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+        <infoLink id="58c7e256-4129-4b23-87c8-11f84c8f3ece" hidden="false" targetId="53197e36-5afd-4eca-a273-56a76ff444e4" type="rule"/>
+        <infoLink id="f8d69a4a-474e-478d-a771-27b48bd4e876" hidden="false" targetId="b4f624a1-c328-44fa-a985-ecbf2ce536c1" type="rule"/>
+        <infoLink id="c2179e46-ed5e-41ba-94bc-35669e3ba318" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f655e53c-1da3-4adc-968a-346728681f48" name="Dagon Overlord" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="b9d7b794-8ec7-4724-8957-47a922c1f63e" value="0.0">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6fd2af73-4083-4b99-be27-3c8128701344" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b9d7b794-8ec7-4724-8957-47a922c1f63e" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="4751927f-5c50-4db7-8337-92c31d97fa7d" name="Dagon Overlord" hidden="false" targetId="57cbd495-3672-460a-8018-699c12d54192" type="profile"/>
+        <infoLink id="974d440e-678d-481e-87a7-df2b2e357374" hidden="false" targetId="e9675277-c408-4371-b969-6c9565fb2905" type="rule"/>
+        <infoLink id="1306bba6-b0b5-4559-a3e2-f54e6ee61028" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+        <infoLink id="ea17fb82-5a3e-45d3-9733-56d8e01c66ee" name="Fearless" hidden="false" targetId="72dab6ac-4c9d-45f2-b150-7dd034d83b83" type="rule"/>
+        <infoLink id="5ae378fa-b1d0-46f6-b605-e909db939ada" hidden="false" targetId="d23596ad-5004-4bc3-8600-2b61a05ee52d" type="rule"/>
+        <infoLink id="f4bfe990-13db-4d7e-8098-a99aab5f1a46" name="Dagon Synapse" hidden="false" targetId="11c58885-7af7-4a83-89bf-55d7667b0b19" type="rule"/>
+        <infoLink id="be1c3f77-0440-40d2-82b6-88db551733fd" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+        <infoLink id="818c4149-4f82-41a9-877e-ea381113d896" name="Inspiring" hidden="false" targetId="06776887-98f0-49dd-8aca-d824d3c5d52c" type="rule"/>
+        <infoLink id="84f1a8e8-a7ba-4b7c-8897-acf0c96f1238" name="Hive Mind Locus" hidden="false" targetId="91dd00da-b78c-4deb-b10f-36aa1a7e7c20" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="100.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="70e2f1ec-62f4-47bd-98e0-78505bb2ad4c" name="Common Independent Swarm" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="increment" field="68012130-8de9-4afd-aaac-36c0f25c4f58" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e4013702-a119-46c3-9fd9-a64e58afe467" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="9d38af31-cf3f-425d-a6c0-7f691713ae33" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="b2d80984-7e6d-4ce9-b7b8-3fd9b01b0112" type="min"/>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="68012130-8de9-4afd-aaac-36c0f25c4f58" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dd54eb41-1e81-4be9-bc8f-bc0cad47f3bc" name="Rare Independent Swarm" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="increment" field="8cc214f4-8b16-4427-b5f3-b6601de50140" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e4013702-a119-46c3-9fd9-a64e58afe467" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="55e625ba-fcb4-4b40-b52c-75058388d633" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="31b33373-2607-4280-80ae-c0dba076fae7" type="min"/>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8cc214f4-8b16-4427-b5f3-b6601de50140" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4bc38966-9048-44fe-93b5-7aa8aa5b66bb" name="Bio-Bombers" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="5c98ed41-8ce2-4cd9-ab09-8762d445a68d" name="Harpies" hidden="false" collective="true" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="b2547fa8-2bfc-41d6-a734-08f519c96428" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="3f76e692-56ee-4461-ac1b-bf649511cb38" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="0318f1c7-9612-4c96-9edf-d0f616681666" name="Harpy" hidden="false" targetId="d2159ff8-6ae2-4dde-bd4b-193b061ac88f" type="profile"/>
+            <infoLink id="0625f5e8-a7f2-4651-9de5-a66fc18f33db" name="Skimmer" hidden="false" targetId="ae687b81-bb2b-4103-89da-77e3829e0051" type="rule"/>
+            <infoLink id="d35fc099-a687-4af3-b08d-c2bc72ea3979" name="Reinforced Armour" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+            <infoLink id="718359ae-c543-4da4-b0ed-4df85fb21705" name="Disrupt" hidden="false" targetId="b027e9fd-08c7-436c-a239-dd516a6ce794" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="100.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6fd2af73-4083-4b99-be27-3c8128701344" name="Winged Dagon Overlord" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="8cf02046-dede-43ea-b2d0-e5ca4d0b73df" value="0.0">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f655e53c-1da3-4adc-968a-346728681f48" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8cf02046-dede-43ea-b2d0-e5ca4d0b73df" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="d40ed3ad-9759-438d-89a2-6cad0734555d" name="Winged Dagon Overlord" hidden="false" targetId="cd9c34d4-c748-4027-8584-bb0624aa2bda" type="profile"/>
+        <infoLink id="3ee8e952-e5a9-47f3-b60e-f47278267fe7" hidden="false" targetId="e9675277-c408-4371-b969-6c9565fb2905" type="rule"/>
+        <infoLink id="5fd3ff95-63d1-452c-a5ef-ec0808e55144" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+        <infoLink id="f8dac994-71aa-4792-815d-e1e191c00323" name="Fearless" hidden="false" targetId="72dab6ac-4c9d-45f2-b150-7dd034d83b83" type="rule"/>
+        <infoLink id="6eb4a93c-5376-4409-9f9b-9bcaeb7f7461" hidden="false" targetId="d23596ad-5004-4bc3-8600-2b61a05ee52d" type="rule"/>
+        <infoLink id="1add1f41-9b95-4852-bbd5-6a1662f3a8d2" name="Dagon Synapse" hidden="false" targetId="11c58885-7af7-4a83-89bf-55d7667b0b19" type="rule"/>
+        <infoLink id="f345bb56-c4f6-42fa-9cb8-dc5a3ae95084" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+        <infoLink id="b7851529-ca01-4164-a01b-dfe18b36cb75" name="Inspiring" hidden="false" targetId="06776887-98f0-49dd-8aca-d824d3c5d52c" type="rule"/>
+        <infoLink id="0b05c5a4-466b-486a-aecf-ab4c74d8464d" name="Hive Mind Locus" hidden="false" targetId="91dd00da-b78c-4deb-b10f-36aa1a7e7c20" type="rule"/>
+        <infoLink id="e0b20b2b-6359-4630-8da5-b5d230612e4c" name="Jump Packs" hidden="false" targetId="bef38f07-4cf3-4b21-a88e-e47542734de7" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="100.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="94097ac7-c04d-4787-adb8-110dff839a7f" name="Compulsory Swarms" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="3dfd69ca-d7a1-4929-a34d-ed1015d929d3" type="min"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="964ae506-f062-4716-9725-3ca4d739eace" name="Gaunt Swarm" hidden="false" collective="false" import="true" targetId="f8a384b4-b3d7-46f5-89f8-5740d18f9792" type="selectionEntry"/>
+        <entryLink id="dab8349e-1177-434f-8302-49a17b782932" name="Bio-Artillery" hidden="false" collective="false" import="true" targetId="d4b44b3c-de0d-4681-9673-5cb91275349a" type="selectionEntry"/>
+        <entryLink id="2ae53e13-9959-4780-95fe-267635cb833f" name="Gargoyle Swarm" hidden="false" collective="false" import="true" targetId="b16205ec-2756-452a-ac57-fe230738d7fe" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="1ab96b12-2cb6-49ff-839c-6a1a82e3ff24" name="Tunnellers" hidden="false" collective="false" import="true" defaultSelectionEntryId="ddb72dbc-07e1-45e5-b184-23c96bdb6636">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c5ef4cd3-9584-41a3-a324-ba762677d46e" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e26cd80f-376f-4fc8-abcd-e78872b60760" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="ddb72dbc-07e1-45e5-b184-23c96bdb6636" name="5x Raveners" hidden="false" collective="false" import="true" type="model">
+          <infoLinks>
+            <infoLink id="9883ab50-7358-4041-9c2b-9619cac3283b" name="Raveners" hidden="false" targetId="b3941e5e-78ad-4a52-b099-cf88b39db4cc" type="profile"/>
+            <infoLink id="19f250dc-1e10-44ca-b6ac-1a6fe6eec2d5" hidden="false" targetId="18b55dcf-3e60-458e-90e4-29f69deaa065" type="rule"/>
+            <infoLink id="a754333b-d087-4d23-aad6-95b70d978e83" hidden="false" targetId="53197e36-5afd-4eca-a273-56a76ff444e4" type="rule"/>
+            <infoLink id="a3780cf1-b21c-45b4-bda5-95f16a13da86" name="Expendable" hidden="false" targetId="be1d6e9e-249e-47bd-bc9d-2eea7c735f45" type="rule"/>
+            <infoLink id="0477dd24-2419-40e9-8067-2441fd9aba0e" name="Gaunts" hidden="false" targetId="789cdfbe-e7b3-4823-a2f0-d17a267b9c44" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="d0da5fc5-ff08-4adf-8a95-5fbcdde46094" name="2x Trygon" hidden="false" collective="false" import="true" targetId="33b6ab47-6231-4929-b650-dd5eacead757" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <sharedRules>
+    <rule id="18e797f6-fb24-432c-9ee8-652427dbd28a" name="F-ERC" hidden="false">
+      <description>none</description>
+    </rule>
+    <rule id="9ef08ad3-012c-419c-a593-61e20961ab3f" name="Mycetic Spores" hidden="false">
+      <modifiers>
+        <modifier type="set" field="description" value="Spores Mycétiques: Une fois que les Spores ont atterries, les tentacules éventreurs s&apos;attaquent a chaque unité ennemie dans un rayon de 15cm. Chaque formation ainsi attaquée recoit un pion impact pour etre sous le feu de l’ennemi puis résolvez les attaques. Enfin, toutes les troupes transportée doivent débarquer a moins de 5cm des Spores ou a moins de 5cm d’une autre unité ayant déja débarqué, du moment que toutes les unités soient placées dans un rayon de 15cm autour des spores. &lt;BR&gt;Peut transporter un groupe synaptique ne comprenant que les unités suivantes : Termaguants ; Hormagaunts ; Biovores ; Rôdeur ; Carnifex ; Prince ; Guerriers Tyranides ; Zoanthropes. Jusqu’à deux spores mycétiques et tout ce qu’elles contiennent peut être transporté dans un Croiseur Razorfiend. Jusqu’à deux spores mycétiques et tout ce qu’elles contiennent peut être transporté dans un Vaisseau Ruche.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cae033eb-bb6f-4c6c-a304-2f50aaa0236a" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="description" value="Esporas Micéticas: Después de que la vaina de esporas aterriza, su explosión de esporas ácidas ataca a todas las unidades enemigas en un radio de 15 cm. Cada formación enemiga atacada recibe un Marcador de Explosión por estar bajo fuego, y Marcadores de Explosión por cada baja como es normal. Entonces cualquier unidad llevada en la vaina de esporas debe desembarcar a menos de 5cms de la vaina de esporas o a menos de 5cms de otra unidad del mismo enjambre que ya ha aterrizado, siempre que todas las unidades se coloquen a menos de 15cms de la vaina de esporas. Una vez que todas las unidades han sido colocadas, la cápsula de esporas es removida.  • Puede llevar un grupo sináptico que consiste sólo en las siguientes unidades: Termagantes; Hormagantes; Biovoros; Cuervos; Cárnifex; Tirano de Enjambre; Guerreros Tiránidos; Zoántropos.  • Hasta dos esporas micéticas y todo lo que hay en ellas puede ser transportado en un crucero Razorfiend. Hasta cinco esporas micéticas y todo en ellas puede ser transportado en una nave enjambre.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6df4e085-d889-4d87-b048-92b223091d04" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="description" value="Myzetisch Landungssporen: Nachdem die Sporenkapsel gelandet ist, greift ihr saurer Sporenausbruch alle feindlichen Einheiten im Umkreis von 15 cm an. Jede feindliche Formation, die angegriffen wird, erhält einen Blastmarker dafür, dass sie unter Beschuss geraten ist, und wie üblich Blastmarker für jedes Opfer. Dann muss jede Einheit, die in der Sporenkapsel getragen wird, im Umkreis von 5 cm von der Sporenkapsel oder im Umkreis von 5 cm von einer anderen Einheit desselben bereits gelandeten Schwarms von Bord gehen, solange alle Einheiten im Umkreis von 15 cm von der Sporenkapsel platziert sind. Sobald alle Einheiten platziert sind, wird die Sporenkapsel entfernt.  • Kann eine synaptische Gruppe tragen, die nur aus den folgenden Einheiten besteht: Termaganten; Hormaganten; Biovoren; Venatoren; Carnifexe; Schwarmtyranten; Tyranidenkrieger; Zoantrophen.  • Bis zu zwei Landungssporen und alles, was sich in ihnen befindet, können in einem Razorfiend Kreuzer transportiert werden. Bis zu fünf Landungssporen und alles in ihnen kann in einem Mutterschiff transportiert werden.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="17e1c84d-45e8-4447-a3c5-4c3d40b8fd78" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <description>After the Mycetic Spore Pod lands, its Acidic Spore Burst attacks all enemy units within 15cms. Each enemy formation attacked receives a Blast Marker for coming under fire, and Blast markers for each casualty as normal. Then any unit carried in the Spore Pod must disembark within 5cms of the Spore Pod or within 5cms of another unit from the same swarm that has already landed, so long as all units are placed within 15cms of the Spore Pod. Once all units have been placed, the Spore Pod is removed.
+May carry a synaptic group consisting of only the following units: Termagants; Hormagaunts; Biovores; Raveners; Carnifex; Hive Tyrant; Tyranid Warriors; Zoanthropes.
+Up to two mycetic spores and everything in them may be transported in a Razorfiend Cruiser. Up to five mycetic spores and everything in them may be transported in a Hive Ship.</description>
+    </rule>
+    <rule id="dc9a07f1-a27b-4fe5-9c63-0bd8f26768c5" name="EpicAU" hidden="false">
+      <description>none</description>
+    </rule>
+    <rule id="6d96644b-dbd3-410c-9a81-73313522e197" name="EpicUK" hidden="false">
+      <description>none</description>
+    </rule>
+    <rule id="debe925b-e324-4ed7-93d9-69992f678abf" name="GW" hidden="false">
+      <description>none
+Fanatic #02
+Fanatic #13</description>
+    </rule>
+    <rule id="ea98f36c-204c-4f57-805c-c280285f6660" name="NetEA" hidden="false">
+      <description>Hive Fleet Dagon 4,71</description>
+    </rule>
+    <rule id="b7859b9c-160e-4f4f-a118-acfdf7e13895" name="Transport (HFD)" hidden="false">
+      <description>As follows-
+Harridan: 4 Gargoyles.
+Hive Ship: 5 Mycetic Spores including cargo.
+Malefactor: 2 of the following: Termagaunts, Hormagaunts, Gargoyles, Tyranid Warriors, Zoanthropes, Raveners, Biovores. Light Vehicles take 2 spaces each.
+Mycetic Spore: 1 formation thats consist exclusively of the following: Termagaunts, Hormagaunts, Biovores, Carnifex, Raveners, Hive Tyrant, Dagon Overlord, Tyranid Warrior, Zoanthropes.
+Razorfiend: 2 Mycetic Spores including cargo.</description>
+    </rule>
+    <rule id="789cdfbe-e7b3-4823-a2f0-d17a267b9c44" name="Gaunts" hidden="false">
+      <description>Termagaunts, Hormagaunts, Dagon Gargoyles and Raveners that are killed in an assault do not count for combat resolution as long as the controlling Tyranid player initiated the assault and there is at least one model with Dagon Synapse still present in the formation.</description>
+    </rule>
+    <rule id="fa2fe02b-8d57-454f-890f-04b90510f343" name="Critical Hit: Wounded" hidden="false">
+      <modifiers>
+        <modifier type="set" field="description" value="Touche Critique: Blessé: Lancez 1D6 et consultez le tableau ci-dessous: &lt;BR&gt; 1 : Toute unité en contact avec son socle subit une attaque MA6+. &lt;BR&gt; 2-5 : Perd 1 CD supplémentaire. &lt;BR&gt; 6 : La Dominatrix perd 1D3 CD supplémentaires. Le Hierophant ou l&apos;Hydraphant est tuée.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cae033eb-bb6f-4c6c-a304-2f50aaa0236a" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8183dbe0-128d-44df-9d2f-587c40d576e7" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="description" value="Daño Crítico: Herida: Tira un d6 y consulta la tabla de abajo:  • 1: Cualquier otra unidad en contacto con la peana sufre un ataque MA6+.  • 2-5: La criatura pierde 1FD.  • 6: Una Dominatriz pierde d3FD. Un Hierofante o Hidrafante muere instantáneamente.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6df4e085-d889-4d87-b048-92b223091d04" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="description" value="Kritischer Treffer: Verwundet: Wirf einen W6 und konsultiere die folgende Tabelle:  • 1: Jede andere Einheit im Basekontakt erleidet einen Angriff von MW6 +.  • 2-5: Die Kreatur verliert 1 DC.  • 6: Eine Dominatrix verliert W3DC. Ein Hierophant oder Hydraphant wird augenblicklich getötet.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="17e1c84d-45e8-4447-a3c5-4c3d40b8fd78" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <description>Roll a D6 and consult the chart below:
+1- Any other unit in base contact suffers a MW6+ attack.
+2-5- The creature loses 1DC.
+6- A Dominatrix loses D3DC. A Hierophant or Hydraphant is instantly killed.</description>
+    </rule>
+    <rule id="73478077-14cb-4d72-84fd-0be0a7ab802d" name="Extreme Mobility" hidden="false">
+      <modifiers>
+        <modifier type="set" field="description" value="Mobilité Extrême: Véhicules blindés Tyranides et engins de guerre ont jamais à passer des tests de terrain dangereux pour déplacer à travers un terrain normal, tandis que Tyranides unités de véhicules légers peuvent se déplacer à travers un terrain comme si elles étaient l&apos;infanterie. &lt;BR&gt; Caractéristiques du terrain de fortification, tels que les champs de mines ou de fil de rasoir, et les caractéristiques du terrain spéciaux, tels que les coulées de lave, affectent Tyranides normalement. &lt;BR&gt; Le Dominatrix, Hierodule et Hierophant peuvent intervenir sur les unités et les terrains qui sont inférieurs à l&apos;abdomen de l&apos;unité et de moins de 2 cm de large.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cae033eb-bb6f-4c6c-a304-2f50aaa0236a" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="description" value="Movilidad: Los vehículos blindados y máquinas de guerra de los Tiránidos no deben realizar chequeos de terreno peligroso. &lt;BR&gt; Además, los vehículos ligeros de los Tiránidos cuentan como infantería a efectos del terreno. Las Posiciones Fortificadas y los elementos especiales, tales como el alambre de espino o los campos de minas, afectarán a los Tiránidos normalmente.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6df4e085-d889-4d87-b048-92b223091d04" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="description" value="Mobilität: Tyranidische gepanzerte Fahrzeug- und Kriegsmaschineneinheiten müssen keine Tests in gefährlichem Gelände absolvieren. Darüber hinaus gelten die leichten Fahrzeugeinheiten der Tyraniden als Infanterie für die Zwecke des Terrains. Befestigte Positionen wie Minenfelder oder Stacheldraht und besondere Geländemerkmale wie Lavaströme wirken sich normalerweise auf Tyraniden aus.  • Die Dominatrix, Hierodule und Hierophanten dürfen über Einheiten und Geländestücke treten, die niedriger als Bauch der Einheit und weniger als 2 cm breit sind.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="17e1c84d-45e8-4447-a3c5-4c3d40b8fd78" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <description>Tyranid armored vehicle and war engine units do not take dangerous terrain tests. In addition, Tyranid light vehicle units count as infantry for the purposes of Terrain. Fortified positions such as minefields or razorwire, and special terrain features such as lava flows affect Tyranids normally.
+The Dominatrix, Hierodule and Hierophant may step over units and pieces of terrain that are lower then the unit’s abdomen and less than 2cm wide.</description>
+    </rule>
+    <rule id="362a5ecc-a23b-4af5-86ef-b2ecee3da77e" name="Strategy Rating &amp; Initiative (HFD)" hidden="false">
+      <modifiers>
+        <modifier type="set" field="description" value="Estrategia e Iniciativa: Factor de Estrategia: 1.  • Valores de Iniciativa: Todas las formaciones: 1+.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6df4e085-d889-4d87-b048-92b223091d04" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="description" value="Stratégie &amp; Initiative: Les Tyranides possèdent une valeur stratégique de 1.  Toutes les formations possèdent une initiative de 1+.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cae033eb-bb6f-4c6c-a304-2f50aaa0236a" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="description" value="Strategie und Initiative: Strategiewert: 1.  • Alle Formationen haben die Initiativwert 1+.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="17e1c84d-45e8-4447-a3c5-4c3d40b8fd78" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <description>Hive Fleet Dagon Tyranids have a strategy rating of 1.
+All formations have an initiative rating of 1+.</description>
+    </rule>
+    <rule id="f67ae663-06c5-47a2-89bd-b98dc641ca29" name="Vanguard Organisms" hidden="false">
+      <description>Only Genestealers, Lictors and Nest Swarms may deploy as garrisons.</description>
+    </rule>
+    <rule id="11c58885-7af7-4a83-89bf-55d7667b0b19" name="Dagon Synapse" hidden="false">
+      <description>The following rules applies to Primary and Secondary Synapse Swarm formations only. Synapse creatures are any unit with the Dagon Synapse special rule.
+A Synapse Swarm with no remaining Synapse creatures has an initiative of 3+ and may neither capture nor contest objectives, including They Shall Not Pass.
+A Synapse Swarm with remaining Synapse creatures can absorb other synapse swarm formations with no remaining Synapse creatures at the end of its action. The formation must have one unit within 5cm of a unit from the formation(s) being absorbed. The units and blast markers of an absorbed formation become part of the formation. An absorbed formation is considered completely destroyed for the purposes of tiebreak and the Break Their Spirit objective.</description>
+    </rule>
+    <rule id="91dd00da-b78c-4deb-b10f-36aa1a7e7c20" name="Hive Mind Locus" hidden="false">
+      <description>As long as the Tyranid army still contains a Dagon Dominatrix and/or a Dagon Overlord it may re-roll a single failed Initiative test (of any type) once per turn (unless all models with Hive Mind Locus are located offboard).
+Hive Mind Locus also allows for the removal of an additional blast marker when rallying.
+Formations with at least one model with Hive Mind Locus ignores the -2 modifier for being broken when it is attempting to rally.</description>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile id="3ce82386-071a-459b-bfbc-3564eec0fb90" name="Biovore" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">6+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">6+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Spore Mines</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">30cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">AP5+/AT6+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Disrupt, Indirect Fire</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429"/>
+      </characteristics>
+    </profile>
+    <profile id="7549d918-f1f6-4bc5-a182-092c93f5d90a" name="Carnifex" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Armoured Vehicle</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">20cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">4+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">3+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Large Claws</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapon</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Macro-weapon, +1A</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Reinforced Armour</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d0bcde82-6633-46f2-8129-7ae7e02bfeb3" name="Dagon Dactylis" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Armoured Vehicle</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">25cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">5+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">5+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Bio-Acid-Venom Pods</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">45cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">1BP</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Disrupt, Indirect Fire</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429"/>
+      </characteristics>
+    </profile>
+    <profile id="ba2bbd51-7f55-4c49-a15a-cb053ae70f8a" name="Dagon Dominatrix" hidden="false" typeId="1653b936-3bef-42ef-adfe-653bdfc7f321" typeName="War Engine">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">War Engine</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">20cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">4+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">3+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Monstrous Claws&lt;BR&gt;&lt;BR&gt;Bio-Plasmic Ray&lt;BR&gt;and&lt;BR&gt;&lt;BR&gt;Bio-Plasma&lt;BR&gt;&lt;BR&gt;Bio-Titan Bio-Cannon</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)&lt;BR&gt;&lt;BR&gt;30cm&lt;BR&gt;and (15cm)&lt;BR&gt;&lt;BR&gt;15cm&lt;BR&gt;&lt;BR&gt;60cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapon&lt;BR&gt;&lt;BR&gt;AP4+/AT4+/AA5+&lt;BR&gt;and Small Arms&lt;BR&gt;&lt;BR&gt;4BP&lt;BR&gt;&lt;BR&gt;4x AP3+/AT4+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Titan Killer (D3), +2A&lt;BR&gt;&lt;BR&gt;Macro-weapon&lt;BR&gt;and Macro-weapon, +1A&lt;BR&gt;&lt;BR&gt;Fixed Forward Arc, Macro-weapon&lt;BR&gt;&lt;BR&gt;Fixed Forward Arc</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Commander, Dagon Synapse, Fearless, Hive Mind Locus, Inspiring, Invulnerable Save, Leader, Reinforced Armour</characteristic>
+        <characteristic name="DC" typeId="2377629f-6ded-4aa4-b356-7d506954faa6">6</characteristic>
+        <characteristic name="Crit" typeId="8dbc632e-e06c-461d-a0fa-d51a1a624c11">Wounded</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9295d6e7-30cd-4a39-85a1-413cf8aac170" name="Dagon Exocrine" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Armoured Vehicle</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">25cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">5+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">5+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Bio-Plasmic Cannon&lt;BR&gt;and</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">30cm&lt;BR&gt;and (15cm)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">2x MW5+&lt;BR&gt;and Small Arms</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">-&lt;BR&gt;and Macro-weapon</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429"/>
+      </characteristics>
+    </profile>
+    <profile id="bd46c137-6010-4d08-bb9b-ac0c1fa619d7" name="Dagon Gargoyles " hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">30cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">-</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">6+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">6+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Swarm Strike</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">15cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">AA6+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Expendable, Gaunts, Jump Pack</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7b350e2d-de69-4103-88db-49d861e47fc5" name="Genestealers" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">20cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">6+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">2+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">-</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Claws</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapons</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">First Strike, Infiltrator, Scout</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="408dfb9f-206c-45b9-8f7d-db0196dc6641" name="Harridan" hidden="false" typeId="1653b936-3bef-42ef-adfe-653bdfc7f321" typeName="War Engine">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">War Engine</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">35cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">5+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">5+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Large Fangs&lt;BR&gt;&lt;BR&gt;Bio-Cannon</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)&lt;BR&gt;&lt;BR&gt;45cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapon&lt;BR&gt;&lt;BR&gt;2x AP4+/AT5+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Macro-weapon, +1A&lt;BR&gt;&lt;BR&gt;Fixed Forward Arc</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Dagon Synapse, Fearless, Reinforced Armour, Skimmer, Transport</characteristic>
+        <characteristic name="DC" typeId="2377629f-6ded-4aa4-b356-7d506954faa6">3</characteristic>
+        <characteristic name="Crit" typeId="8dbc632e-e06c-461d-a0fa-d51a1a624c11">Damaged</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="932c42b5-0605-44fa-b600-bd2a60db5e3c" name="Dagon Haruspex" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Armoured Vehicle</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">25cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">5+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">4+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Acid Jets&lt;BR&gt;&lt;BR&gt;Massive Claws</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(15cm)&lt;BR&gt;&lt;BR&gt;(contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Small Arms&lt;BR&gt;&lt;BR&gt;Assault Weapon</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">+1A&lt;BR&gt;&lt;BR&gt;Macro-weapon, +2A</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Reinforced Armour</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d193bf77-cb32-4df9-8657-127836171485" name="Barbed Hierodule" hidden="false" typeId="1653b936-3bef-42ef-adfe-653bdfc7f321" typeName="War Engine">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">War Engine</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">25cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">5+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">4+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Large Claws&lt;BR&gt;&lt;BR&gt;Twin Bio-Cannon</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)&lt;BR&gt;&lt;BR&gt;45cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapon&lt;BR&gt;&lt;BR&gt;3x AP3+/AT4+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Macro-weapon, +1A&lt;BR&gt;&lt;BR&gt;Fixed Forward Arc</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Reinforced Armour</characteristic>
+        <characteristic name="DC" typeId="2377629f-6ded-4aa4-b356-7d506954faa6">3</characteristic>
+        <characteristic name="Crit" typeId="8dbc632e-e06c-461d-a0fa-d51a1a624c11">Destroyed</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6ff1d179-6028-4bbf-a2f0-faa6e1727bf5" name="Hive Nest" hidden="false" typeId="1653b936-3bef-42ef-adfe-653bdfc7f321" typeName="War Engine">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">War Engine</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">0cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">4+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">5+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">6+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Ripper Swarms</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapon</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">+1A</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Dagon Synapse, Fearless, Reinforced Armour, Thick Rear Armour</characteristic>
+        <characteristic name="DC" typeId="2377629f-6ded-4aa4-b356-7d506954faa6">3</characteristic>
+        <characteristic name="Crit" typeId="8dbc632e-e06c-461d-a0fa-d51a1a624c11">Destroyed</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="fca2afad-79f6-454c-97f7-dec29f6e65d3" name="Hive Ship" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Spacecraft</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">n/a</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">n/a</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">n/a</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">n/a</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Orbital Bombardment</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">n/a</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">8BP</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Macro-weapon</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Slow and Steady, Transport</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4cea4114-b7a7-4d5b-995c-d3a5dadece77" name="Hive Tyrant" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Armoured Vehicle</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">20cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">4+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">3+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Large Claws&lt;BR&gt;&lt;BR&gt;Venom Cannon</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)&lt;BR&gt;&lt;BR&gt;30cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapon&lt;BR&gt;&lt;BR&gt;AP4+/AT5+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Macro-weapon, +1A&lt;BR&gt;&lt;BR&gt;-</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Commander, Dagon Synapse, Fearless, Leader, Reinforced Armour</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b1f731a4-8851-4bcc-a8b3-15a958a63c55" name="Hormagaunts" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">20cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">-</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">3+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">-</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Claws</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapon</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Expendable, Infiltrators, Gaunts</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="96a380cf-7c30-4ebe-90fc-c857b0d516b5" name="Dagon Lictor" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Light Vehicle</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">5+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">3+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">6+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Rending Claws</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapon</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Sniper, +1A</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">First Strike, Infiltrators, Invulnerable Save, Scout, Teleport</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ad13a7ac-7d09-488a-a706-bd086d2770b2" name="Dagon Malefactor" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Armoured Vehicle</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">25cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">5+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">5+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Frag Spines&lt;BR&gt;&lt;BR&gt;Large Claws</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">15cm&lt;BR&gt;&lt;BR&gt;(contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">2x AP5+&lt;BR&gt;&lt;BR&gt;Assault Weapon</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">-&lt;BR&gt;&lt;BR&gt;Macro-weapon, +1A</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Reinforced Armour, Transport</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="49b79727-33f6-4791-a7e9-553a9e596686" name="Mycetic Spore" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Special</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">n/a</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">n/a</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">n/a</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">n/a</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Tentacles</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">15cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">AP6+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Disrupt</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Mycetic Spores, Planetfall, Transport</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ef27c5b3-507c-4b19-81af-08073c6be014" name="Razorfiend" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Spacecraft</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">n/a</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">n/a</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">n/a</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">n/a</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Orbital Bombardment</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">n/a</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">3BP</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Macro-weapon</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Transport</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="094adec0-3f66-474e-bd1a-b1dcbfd3d409" name="Scythed Hierodule" hidden="false" typeId="1653b936-3bef-42ef-adfe-653bdfc7f321" typeName="War Engine">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">War Engine</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">25cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">5+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">3+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Massive Scything Talons&lt;BR&gt;&lt;BR&gt;Pyro-Acid</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)&lt;BR&gt;&lt;BR&gt;(15cm)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapon&lt;BR&gt;&lt;BR&gt;Small Arms</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Titan Killer, +2A&lt;BR&gt;&lt;BR&gt;Ignore Cover, +1A</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Reinforced Armour</characteristic>
+        <characteristic name="DC" typeId="2377629f-6ded-4aa4-b356-7d506954faa6">3</characteristic>
+        <characteristic name="Crit" typeId="8dbc632e-e06c-461d-a0fa-d51a1a624c11">Destroyed</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c6b60c84-fe84-4512-a376-becdd547a9c9" name="Termagants" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">20cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">-</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">6+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Fleshborer</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(15cm)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Small Arms</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Expendable, Gaunts</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c2fb2c27-572c-4179-9834-7d87f48ad27a" name="Trygon" hidden="false" typeId="1653b936-3bef-42ef-adfe-653bdfc7f321" typeName="War Engine">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">War Engine</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">25cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">5+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">4+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">6+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Large Claws</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapon</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Macro-weapon, +1A</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Reinforced Armour, Tunneller</characteristic>
+        <characteristic name="DC" typeId="2377629f-6ded-4aa4-b356-7d506954faa6">2</characteristic>
+        <characteristic name="Crit" typeId="8dbc632e-e06c-461d-a0fa-d51a1a624c11">Destroyed</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0fbb0075-eb4e-457b-8e84-e3d6f76f7383" name="Trygon Prime" hidden="false" typeId="1653b936-3bef-42ef-adfe-653bdfc7f321" typeName="War Engine">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">War Engine</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">25cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">4+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">3+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Large Claws</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapon</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Macro-weapon, +1A</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Dagon Synapse, Fearless, Reinforced Armour, Tunneller</characteristic>
+        <characteristic name="DC" typeId="2377629f-6ded-4aa4-b356-7d506954faa6">2</characteristic>
+        <characteristic name="Crit" typeId="8dbc632e-e06c-461d-a0fa-d51a1a624c11">Destroyed</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0775eaaf-df82-4962-95f9-66b94d0634f5" name="Tyranid Warriors" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Light Vehicle</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">20cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">5+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">2+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Deathspitters</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">30cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">AP5+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Dagon Synapse, Fearless</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b989b30b-33cd-47b7-b00b-fd1c338d6490" name="Winged Hive Tyrant" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Armoured Vehicle</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">30cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">5+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">3+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Large Claws&lt;BR&gt;&lt;BR&gt;Venom Cannon</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)&lt;BR&gt;&lt;BR&gt;30cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapon&lt;BR&gt;&lt;BR&gt;AP4+/AT5+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Macro-weapon, +1A&lt;BR&gt;&lt;BR&gt;-</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Commander, Dagon Synapse, Fearless, Jump Pack, Leader, Reinforced Armour</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d2ff3502-c930-487e-b3e0-e2f60a03cbcf" name="Winged Tyranid Warriors" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Light Vehicle</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">30cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">6+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">2+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Deathspitters</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">30cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">AP5+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Dagon Synapse, Fearless, Jump Pack</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d0db88dc-3428-47c1-b5f8-7b49758cf849" name="Zoanthrope" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Light Vehicle</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">4+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">6+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Warp Blast&lt;BR&gt;and</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(15cm)&lt;BR&gt;and 30cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Small Arms&lt;BR&gt;and AP5+/AA6+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Macro-weapon&lt;BR&gt;and -</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Dagon Synapse, Fearless, Invulnerable Save</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c3b22131-5ffb-413a-a284-1f904eaa22df" name="Scythed Hierodule Prime" hidden="false" typeId="1653b936-3bef-42ef-adfe-653bdfc7f321" typeName="War Engine">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">War Engine</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">25cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">5+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">3+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Massive Scything Talons&lt;BR&gt;&lt;BR&gt;Pyro-Acid</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)&lt;BR&gt;&lt;BR&gt;(15cm)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapon&lt;BR&gt;&lt;BR&gt;Small Arms</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Titan Killer, +2A&lt;BR&gt;&lt;BR&gt;Ignore Cover, +1A</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Dagon Synapse, Fearless, Invulnerable Save, Reinforced Armour</characteristic>
+        <characteristic name="DC" typeId="2377629f-6ded-4aa4-b356-7d506954faa6">3</characteristic>
+        <characteristic name="Crit" typeId="8dbc632e-e06c-461d-a0fa-d51a1a624c11">Destroyed</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8dfa6419-ff7d-446d-9424-439b20564929" name="Barbed Hierodule Prime" hidden="false" typeId="1653b936-3bef-42ef-adfe-653bdfc7f321" typeName="War Engine">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">War Engine</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">25cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">5+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">4+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Large Claws&lt;BR&gt;&lt;BR&gt;Twin Bio-Cannon</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)&lt;BR&gt;&lt;BR&gt;45cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapon&lt;BR&gt;&lt;BR&gt;3x AP3+/AT4+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Macro-weapon, +1A&lt;BR&gt;&lt;BR&gt;Fixed Forward Arc</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Dagon Synapse, Fearless, Invulnerable Save, Reinforced Armour</characteristic>
+        <characteristic name="DC" typeId="2377629f-6ded-4aa4-b356-7d506954faa6">3</characteristic>
+        <characteristic name="Crit" typeId="8dbc632e-e06c-461d-a0fa-d51a1a624c11">Destroyed</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7b63d27e-a31e-456a-bc64-e8ea110117d4" name="Dagon Hierophant" hidden="false" typeId="1653b936-3bef-42ef-adfe-653bdfc7f321" typeName="War Engine">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">War Engine</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">25cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">5+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">3+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Bio-Titan Bio-Cannon&lt;BR&gt;&lt;BR&gt;Massive Scything Talons&lt;BR&gt;&lt;BR&gt;Barbed Spears</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">60cm&lt;BR&gt;&lt;BR&gt;(contact)&lt;BR&gt;&lt;BR&gt;(15cm)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">4x AP3+/AT4+&lt;BR&gt;&lt;BR&gt;Assault Weapon&lt;BR&gt;&lt;BR&gt;Small Arms</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Fixed Forward Arc&lt;BR&gt;&lt;BR&gt;Titan Killer, +2A&lt;BR&gt;&lt;BR&gt;+1A</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Fearless, Invulnerable Save, Reinforced Armour</characteristic>
+        <characteristic name="DC" typeId="2377629f-6ded-4aa4-b356-7d506954faa6">6</characteristic>
+        <characteristic name="Crit" typeId="8dbc632e-e06c-461d-a0fa-d51a1a624c11">Wounded</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5362ae08-e2c9-4f5f-b9af-87e9efe52c60" name="Hydraphant" hidden="false" typeId="1653b936-3bef-42ef-adfe-653bdfc7f321" typeName="War Engine">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">War Engine</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">25cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">4+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">3+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Bio-Titan Bio-Cannon&lt;BR&gt;&lt;BR&gt;Bio-Plasma&lt;BR&gt;&lt;BR&gt;Monstrous Claws&lt;BR&gt;&lt;BR&gt;Huge Tentacles&lt;BR&gt;&lt;BR&gt;Hail of Barbed Spears</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">60cm&lt;BR&gt;&lt;BR&gt;15cm&lt;BR&gt;&lt;BR&gt;(contact)&lt;BR&gt;&lt;BR&gt;(contact)&lt;BR&gt;&lt;BR&gt;(15cm)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">4x AP3+/AT4+&lt;BR&gt;&lt;BR&gt;4BP&lt;BR&gt;&lt;BR&gt;Assault Weapon&lt;BR&gt;&lt;BR&gt;Assault Weapon&lt;BR&gt;&lt;BR&gt;Small Arms</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Fixed Forward Arc&lt;BR&gt;&lt;BR&gt;Macro-weapon, Fixed Forward Arc&lt;BR&gt;&lt;BR&gt;Titan Killer (D3), +2A&lt;BR&gt;&lt;BR&gt;First Strike, +2A&lt;BR&gt;&lt;BR&gt;+2A</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Fearless, Invulnerable Save, Reinforced Armour</characteristic>
+        <characteristic name="DC" typeId="2377629f-6ded-4aa4-b356-7d506954faa6">8</characteristic>
+        <characteristic name="Crit" typeId="8dbc632e-e06c-461d-a0fa-d51a1a624c11">Wounded</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d255ea88-3ddb-44e4-92c9-327f6b5fb1af" name="Brood Lord" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Character</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">n/a</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">n/a</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">n/a</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">n/a</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">-</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b"/>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6"/>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Inspiring, Invulnerable Save, Leader</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="57cbd495-3672-460a-8018-699c12d54192" name="Dagon Overlord" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Armoured Vehicle</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">20cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">3+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">2+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">-</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Quad Boneswords</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapon</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Macro-weapon, +2A</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Commander, Dagon Synapse, Fearless, Hive Mind Locus, Inspiring, Leader, Reinforced Armour</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="cd9c34d4-c748-4027-8584-bb0624aa2bda" name="Winged Dagon Overlord" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Armoured Vehicle</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">30cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">4+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">2+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">-</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Quad Boneswords</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapon</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Macro-weapon, +2A</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Commander, Dagon Synapse, Fearless, Hive Mind Locus, Inspiring, Jump Pack, Leader, Reinforced Armour</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d2159ff8-6ae2-4dde-bd4b-193b061ac88f" name="Harpy" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Armoured Vehicle</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">35cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">5+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">4+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Stranglethorn Cannon&lt;BR&gt;&lt;BR&gt;Spore Cyst&lt;BR&gt;&lt;BR&gt;Grasping Talons</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">30cm&lt;BR&gt;&lt;BR&gt;15cm&lt;BR&gt;&lt;BR&gt;15cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">AP4+/AT6+&lt;BR&gt;&lt;BR&gt;1BP&lt;BR&gt;&lt;BR&gt;AA5+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Disrupt&lt;BR&gt;&lt;BR&gt;Disrupt&lt;BR&gt;&lt;BR&gt;-</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Reinforced Armour, Skimmer</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b3941e5e-78ad-4a52-b099-cf88b39db4cc" name="Raveners" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">20cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">5+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">4+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">-</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Claws</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapon</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">+1A</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Expendable, Gaunts, Infiltrators, Tunneller</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d31d895c-45ed-4f5f-8692-1510a330142b" name="Ravener Alpha" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Light Vehicle</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">20cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">4+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">4+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">-</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Claws</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapon</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">+1A</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Dagon Synapse, Fearless, Infiltrators, Tunneller</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>

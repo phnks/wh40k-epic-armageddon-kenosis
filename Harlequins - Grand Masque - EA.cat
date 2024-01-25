@@ -1,0 +1,909 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="7185eb74-1317-4c8a-b140-e88f12259501" name="Harlequins: Grand Masque" revision="31" battleScribeVersion="2.03" authorUrl="http://battlescribedata.appspot.com/#/repo/wh40k-epic-armageddon" library="false" gameSystemId="b7be77a3-9f44-4c5d-a0f7-a40bf046af2a" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="b67cb12e-eda7-411a-ab14-b6656ec85385" name="-Community-" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8a830798-cec9-4dc2-9a81-2668b09ba62b" name="Group" hidden="false" collective="false" import="true" defaultSelectionEntryId="5e7aabca-d4b7-4c86-8374-48f9dcc2ad88">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="e82d842c-e601-4481-a829-ef8414d1aa87" hidden="false" collective="false" import="true" targetId="88a98d5f-b990-4741-9c4e-5761a2a7200f" type="selectionEntry"/>
+            <entryLink id="5e7aabca-d4b7-4c86-8374-48f9dcc2ad88" hidden="false" collective="false" import="true" targetId="7f0bed0e-1717-46a1-8225-09866b0dcc87" type="selectionEntry"/>
+            <entryLink id="8e50abf9-2eb4-45e0-acfe-23675a8d4787" hidden="false" collective="false" import="true" targetId="6a7b87a6-e3f4-4ba7-aaac-b20234ded31f" type="selectionEntry"/>
+            <entryLink id="97758917-4d51-4b44-8cd9-d0f4dd9e4009" hidden="false" collective="false" import="true" targetId="8183dbe0-128d-44df-9d2f-587c40d576e7" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="06cfbf7c-3125-41cb-9b85-56995c1245ef" hidden="false" collective="false" import="true" targetId="1884eb4b-97e7-42ae-aed7-811bae8a02a9" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0bf654cb-37b5-42d4-b8f0-465ececc0dff" name="Animation" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="cedaf34f-f596-49d2-8785-b5f79b64f6cf" hidden="false" targetId="32fa31d8-c485-49c4-9fe1-59508cbee026" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="2acfdf80-095d-447e-8083-a365dcc41871" name="Harlequin Wraithlord" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="e4b40198-ed1d-48ab-b6fb-fb42e0cb5431" hidden="false" targetId="af7c9a08-0b5a-4734-b55c-f14567be152b" type="profile"/>
+            <infoLink id="358b900b-ca02-4e2d-bbb6-53df24bedb78" hidden="false" targetId="3792d3e5-937d-49e6-8a20-320f64f441ba" type="rule"/>
+            <infoLink id="fb18d3c3-5eab-4dfe-8c10-6731bf94befb" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+            <infoLink id="c3a40356-3f2e-4587-9e42-b7a364d34a7c" hidden="false" targetId="72dab6ac-4c9d-45f2-b150-7dd034d83b83" type="rule"/>
+            <infoLink id="be2206e4-6775-4068-bafd-d87bbe65fde7" hidden="false" targetId="7b368dc8-ea15-40aa-957f-0fed43279429" type="rule"/>
+            <infoLink id="cbc02548-b9ea-4954-afb9-ba3caf217c51" hidden="false" targetId="c1edf633-70c3-41c9-b259-802de9d2de32" type="rule"/>
+            <infoLink id="eb5a52c0-6881-49b9-aee2-269f1224b037" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="250.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="37608991-c91b-43fb-9661-b409a06bc0f7" name="Laughing God" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2077d943-7d5e-49c2-a31a-82500d012263" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="bb57c32f-e16a-4c71-93cd-3fd0c4f97ca8" name="The Laughing God" hidden="false" targetId="0646bbe2-07f2-482e-9d1c-20bfc034b962" type="rule"/>
+        <infoLink id="68148e6d-ab4f-4cbf-b567-d407b26ded76" hidden="false" targetId="af5fbc55-4ece-4fd3-8677-1c6508c4a636" type="profile"/>
+        <infoLink id="efc5096c-400d-4991-b187-e86c08e33cd1" hidden="false" targetId="4078a223-a2c4-4e6f-84d1-67f517636078" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="62bcef9c-6cd6-43a4-b536-c7ed8ad185cf" name="Mimic" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e57d6d33-7e39-4ed9-b25d-717906db0105" hidden="false" targetId="32fa31d8-c485-49c4-9fe1-59508cbee026" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="4e7f2188-e83e-4856-9bd5-8c9c0f7be591" name="Mimes" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="c0db7103-aac1-4c6e-b890-171c644aea1a" hidden="false" targetId="688f2bca-825e-4fca-87c0-044c852998a3" type="profile"/>
+            <infoLink id="ac3994a4-1c04-48d6-8680-ee2f6e24a96c" hidden="false" targetId="75101e3d-cca2-4420-acfe-e0a1db1314af" type="rule"/>
+            <infoLink id="a66e8917-dc32-4d72-970e-cd930ed47a3b" hidden="false" targetId="18b55dcf-3e60-458e-90e4-29f69deaa065" type="rule"/>
+            <infoLink id="87207dde-4149-491d-8906-cd417abbe3af" name="Scout" hidden="false" targetId="af143427-33d4-438b-aab2-16a8e2867f79" type="rule"/>
+            <infoLink id="14f29f00-58c6-49bc-93a8-4ca7d591e273" hidden="false" targetId="71ce5ada-8613-4124-bd2f-43c80fb9488b" type="rule"/>
+            <infoLink id="8550921c-bd03-4d17-822a-ddd7ad306c5a" name="Speed" hidden="false" targetId="0a001a68-e96f-4fbc-bfc7-3361899af9e8" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="fef3f53e-4c2a-492e-bace-9495d8fa061b" name="Master Mime" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="91fe286e-a33c-47ab-b10b-a443d948e63f" hidden="false" targetId="4820e29b-95e4-4c15-8b87-3ca56bc01ae5" type="profile"/>
+            <infoLink id="f01bcb77-6390-4b77-97e6-784b7282f563" hidden="false" targetId="d23596ad-5004-4bc3-8600-2b61a05ee52d" type="rule"/>
+            <infoLink id="83410e2e-a51d-4878-a4dc-2a73a25395d2" name="Inspiring" hidden="false" targetId="06776887-98f0-49dd-8aca-d824d3c5d52c" type="rule"/>
+            <infoLink id="52ae821e-f3d5-4f40-a550-fa00788b551d" hidden="false" targetId="20b60add-c341-4e56-8c6b-fa4dec53688e" type="rule"/>
+            <infoLink id="0eca764d-455b-4b8f-a71d-69f2d3dfad50" hidden="false" targetId="e9675277-c408-4371-b969-6c9565fb2905" type="rule"/>
+            <infoLink id="b2c65757-2b01-4488-80fa-c180895d1201" name="First Strike" hidden="false" targetId="75101e3d-cca2-4420-acfe-e0a1db1314af" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="50.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="34d974a5-7904-4c1e-b5ec-849b3fbd08e7" name="Transport" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="increment" field="maxSelections" value="1.0">
+              <conditions>
+                <condition field="selections" scope="62bcef9c-6cd6-43a4-b536-c7ed8ad185cf" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f0ae3090-0ccc-4626-8ffc-63b58127eccf" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="maxSelections" value="3.0">
+              <repeats>
+                <repeat field="selections" scope="62bcef9c-6cd6-43a4-b536-c7ed8ad185cf" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1e317683-cc79-41a9-b168-352ef3ff0bef" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="decrement" field="maxSelections" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="62bcef9c-6cd6-43a4-b536-c7ed8ad185cf" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9f3aba76-90d6-4b06-9bb5-69d5e4c0b63b" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="decrement" field="maxSelections" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="62bcef9c-6cd6-43a4-b536-c7ed8ad185cf" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b44e3268-0403-4087-82fb-79d5ee08ef49" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="ec116405-9e3d-4699-8ec7-c46c9aab7214" hidden="false" collective="false" import="true" targetId="1e317683-cc79-41a9-b168-352ef3ff0bef" type="selectionEntry"/>
+            <entryLink id="4eee8073-bcd3-4531-a908-9e3c903a3fcf" hidden="false" collective="false" import="true" targetId="4652f614-9e5a-4572-b95c-efbc855974c5" type="selectionEntry"/>
+            <entryLink id="8d70ed65-0bd4-4cdc-992a-7ff4830652b5" hidden="false" collective="false" import="true" targetId="9f3aba76-90d6-4b06-9bb5-69d5e4c0b63b" type="selectionEntry"/>
+            <entryLink id="578e4421-cc79-44eb-96eb-8f80eef88809" hidden="false" collective="false" import="true" targetId="b44e3268-0403-4087-82fb-79d5ee08ef49" type="selectionEntry"/>
+            <entryLink id="afb19e5e-b3c3-4629-8703-493bec5eec00" hidden="false" collective="false" import="true" targetId="3f9f5bdb-8d14-4359-babd-a3db54a27965" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="5d01a545-3488-4848-a40d-eeeeb03f4427" hidden="false" collective="false" import="true" targetId="f0ae3090-0ccc-4626-8ffc-63b58127eccf" type="selectionEntry"/>
+        <entryLink id="30d88a60-5a22-4a95-87cb-4c03f5feda91" hidden="false" collective="false" import="true" targetId="2b8771cf-d90b-496f-bda6-7a41d72704bb" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="250.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cc958a08-4dea-4267-adec-0edac22cfc3d" name="Promenade" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="76d3c402-f2e1-44ef-a039-02a6174260ac" hidden="false" targetId="32fa31d8-c485-49c4-9fe1-59508cbee026" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="b7b92da2-b1aa-4994-bee5-92f3312b06c7" name="Harlequin Jetbikes" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="afa6d59b-c443-4b34-9980-ae9db7fabe5a" hidden="false" targetId="f5f81d96-0eab-4a6f-a54e-c649db6778be" type="profile"/>
+            <infoLink id="76ba4464-c900-4703-95b9-42a3a5ff551f" name="Skimmer" hidden="false" targetId="ae687b81-bb2b-4103-89da-77e3829e0051" type="rule"/>
+            <infoLink id="d82cb6ae-6421-46d8-b1fd-8d62100c3af3" hidden="false" targetId="fe19cbf1-084a-4af7-93ef-b16ab5d2ba51" type="rule"/>
+            <infoLink id="20544014-8552-46c1-a6d8-65bbde280c3f" name="Speed" hidden="false" targetId="0a001a68-e96f-4fbc-bfc7-3361899af9e8" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="c46be1c5-0d3e-4f77-922c-1308160b8666" hidden="false" collective="false" import="true" targetId="fb9697bc-4fc0-4e5e-82a5-70bac56e3a07" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="200.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="63888452-7f43-4a17-9bbf-ff6d03b2136b" name="Troupe" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="c2e7726c-caad-45ca-b278-7c16639959f1" hidden="false" targetId="e4013702-a119-46c3-9fd9-a64e58afe467" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="be7b134d-2c50-4a73-8be4-b539092cf428" name="Death Jester" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="7d7d4d01-3f57-4468-8020-5b8ba68dfe4e" hidden="false" targetId="3d57e0fc-f9bb-4a7a-9791-ff6bfd8724f8" type="profile"/>
+            <infoLink id="aec3386d-b3a1-4dc7-8f82-e99cb24a762c" hidden="false" targetId="7b368dc8-ea15-40aa-957f-0fed43279429" type="rule"/>
+            <infoLink id="90cae738-0bfa-41e9-8c13-886ed7ee8009" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+            <infoLink id="071ce3cc-b226-4840-83c5-a71188b0ef45" hidden="false" targetId="af143427-33d4-438b-aab2-16a8e2867f79" type="rule"/>
+            <infoLink id="4fbffe4f-7836-4ba2-adec-2b3ad35dcb62" hidden="false" targetId="0a2c466f-8e38-4e54-a0f1-08ac199cd89c" type="rule"/>
+            <infoLink id="7442c8c8-bced-456f-988b-7d6f18aeaa5e" name="Speed" hidden="false" targetId="0a001a68-e96f-4fbc-bfc7-3361899af9e8" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="50.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="083d0c1e-8fd4-4dea-a3cc-8398328e0cb0" name="Players" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="ecedb840-3675-4484-937c-21d47992cc9b" hidden="false" targetId="58090cd2-99b5-487f-8b99-75c4bf703fa7" type="profile"/>
+            <infoLink id="9c54ef3f-add8-4eb7-85b2-740fb50f1a4b" hidden="false" targetId="75101e3d-cca2-4420-acfe-e0a1db1314af" type="rule"/>
+            <infoLink id="836306a9-f1b5-4576-8701-8b497f30354b" hidden="false" targetId="18b55dcf-3e60-458e-90e4-29f69deaa065" type="rule"/>
+            <infoLink id="3db7996e-f909-4353-93f5-ad18dac9f4ac" name="Speed" hidden="false" targetId="0a001a68-e96f-4fbc-bfc7-3361899af9e8" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="b203d35a-ca36-4988-a164-5520c791d720" name="Transport" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="increment" field="maxSelections" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="63888452-7f43-4a17-9bbf-ff6d03b2136b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="be7b134d-2c50-4a73-8be4-b539092cf428" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="increment" field="maxSelections" value="1.0">
+              <conditions>
+                <condition field="selections" scope="63888452-7f43-4a17-9bbf-ff6d03b2136b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f0ae3090-0ccc-4626-8ffc-63b58127eccf" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="maxSelections" value="3.0">
+              <repeats>
+                <repeat field="selections" scope="63888452-7f43-4a17-9bbf-ff6d03b2136b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1e317683-cc79-41a9-b168-352ef3ff0bef" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="decrement" field="maxSelections" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="63888452-7f43-4a17-9bbf-ff6d03b2136b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9f3aba76-90d6-4b06-9bb5-69d5e4c0b63b" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="decrement" field="maxSelections" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="63888452-7f43-4a17-9bbf-ff6d03b2136b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b44e3268-0403-4087-82fb-79d5ee08ef49" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="c4b82fde-9e52-4bed-8aa6-ba8502232433" hidden="false" collective="false" import="true" targetId="1e317683-cc79-41a9-b168-352ef3ff0bef" type="selectionEntry"/>
+            <entryLink id="ecb086ce-33b6-4935-80ac-655ac2dc922c" hidden="false" collective="false" import="true" targetId="4652f614-9e5a-4572-b95c-efbc855974c5" type="selectionEntry"/>
+            <entryLink id="132d24ec-697d-4154-9024-bb23d0102e3b" hidden="false" collective="false" import="true" targetId="9f3aba76-90d6-4b06-9bb5-69d5e4c0b63b" type="selectionEntry"/>
+            <entryLink id="a42fed00-f927-44e5-80d4-fc4b3fdff331" hidden="false" collective="false" import="true" targetId="b44e3268-0403-4087-82fb-79d5ee08ef49" type="selectionEntry"/>
+            <entryLink id="69eff93d-faa8-4866-8326-5fa84779b488" hidden="false" collective="false" import="true" targetId="3f9f5bdb-8d14-4359-babd-a3db54a27965" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="948c596c-f16e-43d4-a51e-2f72687b04b0" hidden="false" collective="false" import="true" targetId="2077d943-7d5e-49c2-a31a-82500d012263" type="selectionEntry"/>
+        <entryLink id="405ac0cf-a739-4df8-9260-d2717ac756ff" hidden="false" collective="false" import="true" targetId="fb9697bc-4fc0-4e5e-82a5-70bac56e3a07" type="selectionEntry"/>
+        <entryLink id="e51a29bc-8b2b-4f50-a0ac-5d598107e1d7" hidden="false" collective="false" import="true" targetId="f0ae3090-0ccc-4626-8ffc-63b58127eccf" type="selectionEntry"/>
+        <entryLink id="7dcd8cf1-c038-434f-90d9-17682d6a08c1" hidden="false" collective="false" import="true" targetId="2b8771cf-d90b-496f-bda6-7a41d72704bb" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="250.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b55b0b03-5a7b-44ab-9fc0-fcaead0855c0" name="Wraithgate" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="points" value="0.0">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2077d943-7d5e-49c2-a31a-82500d012263" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="b935496c-7def-441d-990b-2b00c34c259f" hidden="false" targetId="a523f0ec-830f-4856-90b0-b9d1758242f2" type="rule"/>
+        <infoLink id="9ffe7a39-f00c-4edd-8c3b-bdf3c51e89c9" hidden="false" targetId="0eb86651-fb31-4b78-bb9b-3812059376cc" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="50.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <infoLinks>
+    <infoLink id="976f71ff-d6f6-4ae7-9701-68b6ae111272" hidden="false" targetId="f4a2cde0-64b5-4cb1-b3c1-ef4e45e05236" type="rule"/>
+    <infoLink id="f1a2119c-d8ed-430c-9b97-1705c2d45c9d" name="Hit &amp; Run Tactics" hidden="false" targetId="fbb7b1cc-8b3f-4c24-979c-38aa14617c5a" type="rule"/>
+    <infoLink id="0febb7ae-c077-4eb2-9411-221371a1d9ee" name="Great Harlequin" hidden="false" targetId="b67e30a0-d719-41da-a126-0a1d0956930c" type="rule"/>
+    <infoLink id="b415aa93-46f5-452b-be33-2248df782c9a" name="Allies (Grand Masque)" hidden="false" targetId="0b711894-677b-4848-9604-400f35a5f7be" type="rule"/>
+    <infoLink id="11c6357b-8ddb-47a8-8509-63ac671382b2" name="Masters of the Webway" hidden="false" targetId="ea14b9fd-6513-4d1c-8844-8a76fb9a0180" type="rule"/>
+    <infoLink id="4f58efe2-33dc-43ad-a06b-20ee26db1ac2" name="Nomadic" hidden="false" targetId="f900fba8-95c1-4de5-8dab-02c4ac19e985" type="rule"/>
+    <infoLink id="75fda5e6-2d9c-4dbd-8190-7e0959f02ced" name="Assassination (optional rule)" hidden="false" targetId="3b706b34-8b75-46ed-a6bf-43531e59f7e0" type="rule"/>
+  </infoLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="1e317683-cc79-41a9-b168-352ef3ff0bef" name="Barge of Pleasure" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="d7fd8b8e-e6af-4c8b-a4f5-0cf2f5fdd289" hidden="false" targetId="b027e9fd-08c7-436c-a239-dd516a6ce794" type="rule"/>
+        <infoLink id="8e8894d6-5fed-4ad3-9fd4-d1d0c4cb30e1" hidden="false" targetId="7b368dc8-ea15-40aa-957f-0fed43279429" type="rule"/>
+        <infoLink id="a9e3e64d-fd80-4ac0-b666-31010ddaad6a" hidden="false" targetId="ae687b81-bb2b-4103-89da-77e3829e0051" type="rule"/>
+        <infoLink id="d7eca0da-aa6b-40cd-bb99-f225be3e3b78" hidden="false" targetId="71d90ddc-e0cd-457e-b908-e3a0696f3a4c" type="profile"/>
+        <infoLink id="d1a32a69-c140-42e9-bd0c-7e227e83c9f8" hidden="false" targetId="108553d5-6d74-4533-b6b3-db568eadd390" type="rule"/>
+        <infoLink id="c0fba03d-75ed-4bd7-a347-cf9a35f94376" name="Critical Hit: Weapons Damaged" hidden="false" targetId="bed2a27a-6d18-4367-96ae-0ee338c6f711" type="rule"/>
+        <infoLink id="94c4ef91-8c35-49f4-8225-7b6cec3a656b" hidden="false" targetId="c1edf633-70c3-41c9-b259-802de9d2de32" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="125.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6a7b87a6-e3f4-4ba7-aaac-b20234ded31f" name="EpicUK" hidden="true" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="9382b860-d591-4df9-a007-010c4b6dae51" hidden="false" targetId="6d96644b-dbd3-410c-9a81-73313522e197" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8183dbe0-128d-44df-9d2f-587c40d576e7" name="F-ERC" hidden="true" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="9efb53f4-f13c-43ed-a5e7-5e2a5b114cb2" hidden="false" targetId="18e797f6-fb24-432c-9ee8-652427dbd28a" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4652f614-9e5a-4572-b95c-efbc855974c5" name="Falcon" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="cee84ed1-13d8-411f-a2e8-e57727710aa8" hidden="false" targetId="14d9d0c5-0889-4cd5-8d13-0f2be6f3bdd9" type="profile"/>
+        <infoLink id="3831cc64-b017-46e0-8ea6-5e92b454393b" hidden="false" targetId="108553d5-6d74-4533-b6b3-db568eadd390" type="rule"/>
+        <infoLink id="04e2d512-2539-4149-a87d-1ba1b37237fb" hidden="false" targetId="ae687b81-bb2b-4103-89da-77e3829e0051" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2077d943-7d5e-49c2-a31a-82500d012263" name="Great Harlequin" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="maxSelections" value="0.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6c3d1d17-aa14-46c3-baf3-5451fd4be0d2" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="d7dd7299-ec78-43f3-9f4b-acbc24c45d07" hidden="false" targetId="7fc4a1d5-16f0-45d3-b68d-c808a5d5007d" type="profile"/>
+        <infoLink id="34edb738-c434-4064-9e9e-31ad1857b01d" hidden="false" targetId="06776887-98f0-49dd-8aca-d824d3c5d52c" type="rule"/>
+        <infoLink id="d0a39e7f-598d-4b41-8222-e6e2fecdb7f7" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+        <infoLink id="b5c4e04e-02ff-4e2c-a4f6-303afc678d41" name="Commander" hidden="false" targetId="e9675277-c408-4371-b969-6c9565fb2905" type="rule"/>
+        <infoLink id="fdd073c8-b9de-4904-b00e-3568847f08fc" hidden="false" targetId="d23596ad-5004-4bc3-8600-2b61a05ee52d" type="rule"/>
+        <infoLink id="05fd2c71-78fa-4c1b-a7a2-41dc721c5c44" hidden="false" targetId="9f458b5f-4ef7-437c-aba8-585963e07dcc" type="rule"/>
+        <infoLink id="82d205e6-8d97-428e-a370-2f8e02f6cf7d" hidden="false" targetId="20b60add-c341-4e56-8c6b-fa4dec53688e" type="rule"/>
+        <infoLink id="9cdc3388-9a00-4e7a-b54c-32a93a397a22" name="First Strike" hidden="false" targetId="75101e3d-cca2-4420-acfe-e0a1db1314af" type="rule"/>
+        <infoLink id="904acb41-fdf3-402c-ab15-5fbc3a55ec56" name="The Great Harlequin" hidden="false" targetId="53ff4fa5-cc0c-4680-9af1-0763dd38b531" type="rule"/>
+        <infoLink id="adcaa53b-abd4-4b2c-a238-386d0c3934c3" name="Veil of Tears" hidden="false" targetId="fc4f2b40-6c94-45e0-945b-f1bd32f727bf" type="rule"/>
+        <infoLink id="178f4751-9417-457b-ac30-e17f89d118d8" name="Farsight" hidden="false" targetId="79ea1565-334f-437a-9726-f5e37fa8e992" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="88a98d5f-b990-4741-9c4e-5761a2a7200f" name="GW" hidden="true" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="d45c527d-abf2-4575-9287-eb450d9207f4" hidden="false" targetId="debe925b-e324-4ed7-93d9-69992f678abf" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3f9f5bdb-8d14-4359-babd-a3db54a27965" name="Harlequin Venom" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3bb7332e-ce2d-406a-8955-39e5e2fc20c1" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="31984e2c-b31d-4a13-859f-da715c338a84" name="Holofields" hidden="false" targetId="c1edf633-70c3-41c9-b259-802de9d2de32" type="rule"/>
+        <infoLink id="ad94b409-7672-49bd-9771-f3e8b92e58c3" hidden="false" targetId="ae687b81-bb2b-4103-89da-77e3829e0051" type="rule"/>
+        <infoLink id="20629fb5-5289-4828-9a5a-2c1a9ed43879" hidden="false" targetId="e4cbbe80-aecb-4735-8835-463c49afcb28" type="profile"/>
+        <infoLink id="9d705dd1-c2b3-470f-9fdb-a86986f2d8a0" hidden="false" targetId="108553d5-6d74-4533-b6b3-db568eadd390" type="rule"/>
+        <infoLink id="8968f84c-6444-408a-a28c-b5ff3aca2cec" name="Speed" hidden="false" targetId="0a001a68-e96f-4fbc-bfc7-3361899af9e8" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7f0bed0e-1717-46a1-8225-09866b0dcc87" name="NetEA" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="6542bff1-e8eb-4424-b1ff-039d8810cc70" hidden="false" targetId="ea98f36c-204c-4f57-805c-c280285f6660" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b44e3268-0403-4087-82fb-79d5ee08ef49" name="Raider" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="140ace87-421a-4c6f-b0a0-7c68c46c3e64" hidden="false" targetId="b027e9fd-08c7-436c-a239-dd516a6ce794" type="rule"/>
+        <infoLink id="94a15345-ea24-47f9-89a3-aa99758777c0" hidden="false" targetId="7b368dc8-ea15-40aa-957f-0fed43279429" type="rule"/>
+        <infoLink id="54d3205e-74f4-4283-a134-02d5f7787df1" hidden="false" targetId="ae687b81-bb2b-4103-89da-77e3829e0051" type="rule"/>
+        <infoLink id="6ddc52cb-547a-48ae-88b9-f68e34c67024" hidden="false" targetId="e0b92a9d-a051-4338-83b4-cb0ee27e6592" type="profile"/>
+        <infoLink id="14802912-1bcf-4980-ad21-590bbf8a69a4" hidden="false" targetId="108553d5-6d74-4533-b6b3-db568eadd390" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2b8771cf-d90b-496f-bda6-7a41d72704bb" name="Shadowseer" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="88db7d99-491e-456f-876b-5e7b731a55e8" hidden="false" targetId="392c516d-1abf-4ec7-b6f5-f85b7d528d15" type="profile"/>
+        <infoLink id="cb799115-61cd-4e9a-a3b8-4cc87b709551" hidden="false" targetId="d23596ad-5004-4bc3-8600-2b61a05ee52d" type="rule"/>
+        <infoLink id="d5e39459-1c91-4b55-a359-f7746456f344" name="Invulnerable Save" hidden="false" targetId="20b60add-c341-4e56-8c6b-fa4dec53688e" type="rule"/>
+        <infoLink id="db8a37c3-8dab-4c80-808c-55859b86b780" hidden="false" targetId="fc4f2b40-6c94-45e0-945b-f1bd32f727bf" type="rule"/>
+        <infoLink id="9a10016e-1427-4dd0-bd32-626d40e4cf9b" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+        <infoLink id="6975ef75-2ea8-418b-96ea-c6705246edb8" hidden="false" targetId="79ea1565-334f-437a-9726-f5e37fa8e992" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f0ae3090-0ccc-4626-8ffc-63b58127eccf" name="Solitaire" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="d61e9b38-8731-4a7f-81c0-9c49c3a2a805" hidden="false" targetId="259a9d32-9cfb-48c7-a1e4-4ab5c36c05ea" type="profile"/>
+        <infoLink id="e501be24-c8a2-4c93-a0ca-c0ad2df61a8d" hidden="false" targetId="18b55dcf-3e60-458e-90e4-29f69deaa065" type="rule"/>
+        <infoLink id="2bca7e7c-180a-4b01-9991-a7fb19c3f7d4" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+        <infoLink id="d5d85c9a-d5c8-4fd6-a9d2-90c2fbc5dd69" hidden="false" targetId="20b60add-c341-4e56-8c6b-fa4dec53688e" type="rule"/>
+        <infoLink id="2df325b5-2d41-4ada-9ffc-5d93c1693757" hidden="false" targetId="af143427-33d4-438b-aab2-16a8e2867f79" type="rule"/>
+        <infoLink id="ffcb7092-a61e-4b1b-af4a-f03c198bce57" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+        <infoLink id="662edf09-41c7-4df9-a96f-05bec3b9e708" hidden="false" targetId="72dab6ac-4c9d-45f2-b150-7dd034d83b83" type="rule"/>
+        <infoLink id="71c8fb88-274c-4004-9b8c-23e5eb0a25dd" hidden="false" targetId="06776887-98f0-49dd-8aca-d824d3c5d52c" type="rule"/>
+        <infoLink id="689f5b47-852f-46c1-99f5-86c73b8f7fd0" hidden="false" targetId="75101e3d-cca2-4420-acfe-e0a1db1314af" type="rule"/>
+        <infoLink id="230a18b1-28cd-40c7-a24b-71542a10fe29" name="Speed" hidden="false" targetId="0a001a68-e96f-4fbc-bfc7-3361899af9e8" type="rule"/>
+        <infoLink id="c72e39c9-418d-43e3-9d03-7125e6ddef12" hidden="false" targetId="71ce5ada-8613-4124-bd2f-43c80fb9488b" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="125.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fb9697bc-4fc0-4e5e-82a5-70bac56e3a07" name="Troupe Leader" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="a146fe61-5f37-42e5-b231-782f20c936fc" hidden="false" targetId="ea0dc5c3-169b-46f8-b248-eb2bd5cd0cde" type="profile"/>
+        <infoLink id="31a369e0-8a7f-4d79-92e2-ca127bfa8bb8" hidden="false" targetId="d23596ad-5004-4bc3-8600-2b61a05ee52d" type="rule"/>
+        <infoLink id="ada6c71c-1f0e-4535-95ad-678ada7e3c8c" hidden="false" targetId="e9675277-c408-4371-b969-6c9565fb2905" type="rule"/>
+        <infoLink id="22141371-84c8-4cf3-8feb-d7d7ea7f6ac1" hidden="false" targetId="06776887-98f0-49dd-8aca-d824d3c5d52c" type="rule"/>
+        <infoLink id="207fdcd2-50f9-4f99-97de-5cb2adcb8dc6" hidden="false" targetId="20b60add-c341-4e56-8c6b-fa4dec53688e" type="rule"/>
+        <infoLink id="5601e6df-5917-4ab0-9d28-6bf2b9ed8e52" name="First Strike" hidden="false" targetId="75101e3d-cca2-4420-acfe-e0a1db1314af" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9f3aba76-90d6-4b06-9bb5-69d5e4c0b63b" name="Wave Serpent" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="cd0b51c9-cccf-4282-a9f5-5a6ea36bf413" hidden="false" targetId="ae687b81-bb2b-4103-89da-77e3829e0051" type="rule"/>
+        <infoLink id="20421672-2f6a-40d5-bf31-9fe06fb6108d" hidden="false" targetId="108553d5-6d74-4533-b6b3-db568eadd390" type="rule"/>
+        <infoLink id="3ff55ee0-5dfa-46a6-8ee8-6fc43a3df51e" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+        <infoLink id="ab41e033-1dbc-4251-a7aa-3db3b17deba1" hidden="false" targetId="90df75fd-93bb-4f66-a922-4b17d902cfef" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="50.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedRules>
+    <rule id="18e797f6-fb24-432c-9ee8-652427dbd28a" name="FERC" hidden="false">
+      <description>none</description>
+    </rule>
+    <rule id="6d96644b-dbd3-410c-9a81-73313522e197" name="EpicUK" hidden="false">
+      <description>none</description>
+    </rule>
+    <rule id="b67e30a0-d719-41da-a126-0a1d0956930c" name="Harlequin Grand Masque" hidden="false">
+      <modifiers>
+        <modifier type="set" field="description" value="Le Grande Masque de l&apos;Arlequin: Le personnage du Grand Arlequin ne peut être pris que comme le Commandant Suprême d&apos;un Grand Masque, où le nombre de formations Arlequin est plus grand que les autres formations Eldar. Le personnage du Grand Arlequin est ajouté à un socle dans un ost Arlequin.  • Sinon, les formations arlequins se battent comme alliés à une autre armée Eldar sous le contrôle de ce Commandant Suprême et le Grand Arlequin ne peut être inclus.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cae033eb-bb6f-4c6c-a304-2f50aaa0236a" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <description>A Harlequin Grand Masque is formed where the number of Harlequin formations is greater than other Eldar formations. The Great Harlequin character may only be taken as the Supreme Commander of a Grand Masque and may be added to any stand in a Harlequin warhost.
+Otherwise the Harlequin formations fight as allies to another Eldar army under the control of that Supreme commander and the Great Harlequin may not be included.</description>
+    </rule>
+    <rule id="debe925b-e324-4ed7-93d9-69992f678abf" name="GW" hidden="false">
+      <description>Stormwind
+none
+Fanatic #55
+Fanatic #02
+Fanatic #13</description>
+    </rule>
+    <rule id="4078a223-a2c4-4e6f-84d1-67f517636078" name="The Mirror of the Great Enemy" hidden="false">
+      <modifiers>
+        <modifier type="set" field="description" value="Le Miroir de la Grande Ennemie: Cegorach le dieu moqueur peut apparaître pendant les batailles impliquant les arlequins.  • Au début de chaque tour avant la phase de téléportation, Cegorach est repositionné par le joueur d&apos;Arlequin.  • A la fin de chaque tour, au moins une unité arlequin non démoralisé doit être à moins de 30 cm de Cegorach, le dieu moqueur, ou il disparaît et ne reviendra pas pour le reste de la partie.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cae033eb-bb6f-4c6c-a304-2f50aaa0236a" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <description>Cegorach the Laughing God may appear during battles involving the Harlequins, dazzling and hypnotizing their enemy while inspiring the Harlequins to even greater feats of mastery and speed.
+At the start of each turn before the teleport phase, Cegorach is repositioned by the Harlequin player.
+At the end of each turn, at least one unbroken Harlequin unit must be within 30cm of Cegorach the Laughing God or he disappears and will not return for the remainder of the game.</description>
+    </rule>
+    <rule id="ea98f36c-204c-4f57-805c-c280285f6660" name="NetEA" hidden="false">
+      <description>NetEA Eldar harlequin 4.2.3.a
+netea-tournament-pack-2018-06-07</description>
+    </rule>
+    <rule id="f4a2cde0-64b5-4cb1-b3c1-ef4e45e05236" name="Strategy Rating &amp; Initiative (HQN)" hidden="false">
+      <modifiers>
+        <modifier type="set" field="description" value="Stratégie &amp; Initiative: Les Arlequins qui prennent le Grand Arlequin ont une Valeur Stratégique de 5, sinon ils  ont une Valeur Stratégique de 4, ou la Valeur Stratégique des alliés Eldar. Les Arlequins ont une initiative de 1+. Toutes les autres formations ont une initiative de leur propre liste.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cae033eb-bb6f-4c6c-a304-2f50aaa0236a" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="description" value="Strategie und Initiative: Harlekin-Armeen, die den Großen Harlekin enthalten, haben einen Strategiewert von 5, ansonsten haben sie entweder einen Strategiewert von 4, oder den Strategiewert ihrer Eldar-Verbündeten.  • Harlekins haben einen Initiativwert von 1+. Andere Formationen haben die Initiativwert aus ihrer eigenen Liste.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="17e1c84d-45e8-4447-a3c5-4c3d40b8fd78" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <description>A Harlequin Grand Masque including the Great Harlequin has a strategy rating of 5, otherwise the Harlequins have a strategy rating of 4, or that of the Eldar Craftworld if the Harlequins are treated as their allies.
+Harlequins have an initiative rating of 1+. All other Eldar formations have the initiative rating from their own list.</description>
+    </rule>
+    <rule id="0646bbe2-07f2-482e-9d1c-20bfc034b962" name="The Laughing God" hidden="false">
+      <modifiers>
+        <modifier type="set" field="description" value="Le Dieu Moqueur: Cegorach est représenté par un marqueur; il est seulement et en tant que telle ne peut pas attaquer ou être attaqué, le mouvement de bloc ou de ligne de visée, de détenir ou de concours objectifs, ou affecter zone de contrôle en aucune façon un marqueur.  • Les formations ennemies avec au moins une unité à moins de 30 cm du marqueur Dieu moqueur subissent une pénalité de -1 à leur initiative (comme si elles avaient un marqueur d&apos;explosion). Cette pénalité s&apos;ajoute au -1 pour les pions d&apos;impact, les tentatives pour conserver l&apos;initiative et les modificateurs de ralliement.  • Toutes les formations d&apos;Arlequins qui tombent complètement à moins de 30 cm sont comptées comme inspirées et ont reçu un +1 à leurs jets d&apos;initiative.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cae033eb-bb6f-4c6c-a304-2f50aaa0236a" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <description>Cegorach the Laughing God is represented by a marker, and as such cannot attack or be attacked, block movement or Line-of-Sight, hold or contest objectives, or affect zone of control in any way.
+Enemy formations with at least one unit within 30cm of the Laughing God marker suffer a -1 to their initiative (as if they had a blast marker). This penalty is in addition to the -1 for blast markers, attempts to retain initiative, and rallying modifiers.
+All Harlequin formations that completely fall within 30cm are counted as Inspired and given a +1 to their initiative rolls.</description>
+    </rule>
+    <rule id="108553d5-6d74-4533-b6b3-db568eadd390" name="Transport (HQN)" hidden="false">
+      <modifiers>
+        <modifier type="set" field="description" value="La capacité de transport: Comme suit-  • Barge of Pleasure: 4 unités d&apos;infanterie sans Réacteurs Dorsaux ou Montés. Unités transportées sont susceptibles de tirer.  • Falcon: 1 unité d&apos;infanterie sans Réacteurs Dorsaux ou Montés.  • Harlequin Venom: 1 Harlequins, Mimes, Shadowseer, Solitaire, ou Death Jesters. Unités transportées sont dans le siège du passager, donc peuvent tirer avec leurs propres armes à distance et d&apos;utiliser leurs valeurs FF et CC dans un assaut ou à prêter appui feu. Les passagers peuvent être ciblés par des tirs ou d&apos;agression.  • Raider: 2 unités d&apos;infanterie sans Réacteurs Dorsaux ou Montés. Unités transportées sont susceptibles de tirer.  • Wave Serpent: 2 unités d&apos;infanterie sans Réacteurs Dorsaux ou Montés.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cae033eb-bb6f-4c6c-a304-2f50aaa0236a" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <description>As follows-
+Barge of Pleasure: 4 infantry units without Jump Packs or Mounted. Units being transported may shoot.
+Falcon: 1 infantry unit without Jump Packs or Mounted.
+Harlequin Venom: 1 of the following: Harlequins, Mimes, Shadowseer, Solitaire, and Death Jesters. Units being transported are in the passenger seat, so may fire with their own ranged weapons and use their firefight and close combat values in an assault or to lend supporting fire. Passengers may be targeted by shooting or assault.
+Raider: 2 two infantry units without Jump Packs or Mounted. Units being transported may shoot.
+Wave Serpent: 2 infantry units without Jump Packs or Mounted.</description>
+    </rule>
+    <rule id="fc4f2b40-6c94-45e0-945b-f1bd32f727bf" name="Veil of Tears" hidden="false">
+      <modifiers>
+        <modifier type="set" field="description" value="Voile des Larmes: Au début d&apos;un assaut, le Shadowseer invite quelques-uns à regarder la performance. Cela est déterminé avant toute première attaque de frappe sont roulés.  • D3 des unités non arlequins (pas EG) les plus proches du Shadowseer deviennent le «public» de la performance. Ces unités ne combattent pas, ne peuvent pas être ciblées pendant l&apos;assaut et perdent leur zone de contrôle tant que le Shadowseer est vivant.  • Combattez la mêlée comme d&apos;habitude avec le Shadowseer, le reste des formations et tout support.  • Exclure les unités hypnotisé lors de la résolution de l&apos;assaut. Ils ne sont pris en compte que dans la résolution d&apos;assaut et les touches supplémentaires si le Shadowseer est tué pendant l&apos;assaut.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cae033eb-bb6f-4c6c-a304-2f50aaa0236a" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <description>At the start of an assault, The Shadowseer invites a select few to watch the performance.This is determined before any first strike attacks are rolled. 
+D3 non-Harlequin units (not WE) nearest to the Shadowseer become the “audience” of the performance. This is determined before any first strike attacks are rolled. These units do not fight, cannot be targeted during the assault, and lose their ZoC as long as the Shadowseer is alive.  
+Fight the melee as usual with the Shadowseer, the rest of the formations, and any supports.
+Resolve the assault excluding the mesmerised units. They are only counted in the assault resolution and hack-downs if the Shadowseer has been killed during the assault.</description>
+    </rule>
+    <rule id="0b711894-677b-4848-9604-400f35a5f7be" name="Allies (Grand Masque)" hidden="false">
+      <modifiers>
+        <modifier type="set" field="description" value="Alliés (Grand Masque): Les unités et formations des listes Biel-Tan et Dark Eldar peuvent être utilisées comme alliés de cette liste. Toutes les unités et formations alliées doivent être tirées d&apos;une seule liste.  • Sauf si cette liste l&apos;annule, toutes les unités et formations alliées doivent suivre les contraintes de cette liste.  • Une fois sur la table, les chefs d&apos;Arlequin peuvent commander d&apos;autres formations alliées Eldar et vice versa.  • Un Grand Masque ne peut pas prendre des titans.  • Dans un Grand Masque, tout aéronef ou vaisseau spatial allié pris doit avoir un nombre équivalent d&apos;unités terrestres de cette liste.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cae033eb-bb6f-4c6c-a304-2f50aaa0236a" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <description>Units and formations from Biel Tan and Dark Elder lists may be used as allies to this list.
+All allied units and formations must be taken from a single list.
+Except where overridden by this list, all allied units and formations must follow the constraints of that list.
+Once on the table, Harlequin leaders can command other Eldar allied formations and visa versa.
+A Grand Masque may not take any titans.
+In a Grand Masque, any allied aircraft or spacecraft taken must have an equivalent number of ground units from that list.</description>
+    </rule>
+    <rule id="ea14b9fd-6513-4d1c-8844-8a76fb9a0180" name="Masters of the Webway" hidden="false">
+      <modifiers>
+        <modifier type="set" field="description" value="Maîtres de la Toile: Les Arlequins sont maîtres de la Toile.  • Les Mimes et le Solitaire ne pas avoir à rouler pour les pion d&apos;impact quand la téléportation.  • Toutes les formations Arlequins ignorent la limite de 1 formation qui applique normalement à portails fantômes.  • Toutes les formations Arlequins peut également réintégrer la Toile. La revenir de la Toile peut être accompli en se déplaçant vers un portail à proximité. Une fois dans la Toile, marqueurs fourneaux restent et auraient besoin d&apos;être enlevé par rallier comme d&apos;habitude.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cae033eb-bb6f-4c6c-a304-2f50aaa0236a" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <description>Mimes and Solitaire do not have to roll for blast markers when teleporting.
+All Harlequin formations ignore the 1 formation limit that normally applies to Webway Portals. 
+All Harlequin formations may also re-enter the Webway. Re-entry to the Webway can be accomplished by moving to a nearby gate. Once in the Webway, blast markers remain and would need to be removed through rallying as usual.</description>
+    </rule>
+    <rule id="0a001a68-e96f-4fbc-bfc7-3361899af9e8" name="Speed" hidden="false">
+      <modifiers>
+        <modifier type="set" field="description" value="Vitesse: Les Arlequins sont l&apos;éclairage des troupes de choc rapide qui comptent sur leur vitesse et leur tromperie pour prendre l&apos;initiative sur le champ de bataille. Ils disparaissent aussi vite qu&apos;ils apparaissent.  • Les formations d&apos;Arlequins peuvent choisir d&apos;agir avec une vitesse éblouissante, en recevant une pénalité de -1 à leur jet d&apos;initiative (cumulable avec d&apos;autres modificateurs). S&apos;il passe, il gagne Invulnérable jusqu&apos;à la fin du tour.  • Lorsque les formations Arlequin échouent à un test d&apos;Initiative qu&apos;elles retirent (2 coups), elles ne retiennent pas, ne tirent pas et ne récupèrent pas les pions d&apos;impact.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cae033eb-bb6f-4c6c-a304-2f50aaa0236a" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <description>Harlequins are lighting fast shock troops who rely on their speed and deception to take the initiative on the battlefield. They disappear as quickly as they appear.
+Harlequin formations may choose to act with dazzling speed, receiving -1 penalty to their initiative roll (cumulative to other modifiers). If it passes, it gains Invulnerable until the end of the turn.
+When Harlequin formations fail an Initiative test they Withdraw (2 moves), they do not Hold, shoot or recover BMs.</description>
+    </rule>
+    <rule id="f900fba8-95c1-4de5-8dab-02c4ac19e985" name="Nomadic" hidden="false">
+      <modifiers>
+        <modifier type="set" field="description" value="Nomade: Seulement formations Arlequin avec les dirigeants peuvent prétendre objectifs, d&apos;autres formations Arlequin peuvent contester, mais pas prétendre objectifs.  Formations Arlequin dans cette liste peut ne pas être déployé comme garnison.  • À la fin de virages trois, quatre et cinq, s&apos;il n&apos;y a pas de formations Arlequin contenant des leaders présents sur le bord toutes les formations restantes de l&apos;Arlequin se retirent dans la Toile.  • En dehors de la table, aucune formation Arlequin n&apos;est considérée comme une victime.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cae033eb-bb6f-4c6c-a304-2f50aaa0236a" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <description>Only Harlequin formations with leaders may claim objectives, other Harlequin formations may contest but not claim objectives. 
+No Harlequin formation in this list may garrison.
+At the end of turns three, four and five, if there are no Harlequin formations containing Leaders present on the board all remaining Harlequin formations retreat back into the Webway (the formations are removed from the table before the Rally phase). 
+When off-table no Harlequin formations are counted as casualties.</description>
+    </rule>
+    <rule id="53ff4fa5-cc0c-4680-9af1-0763dd38b531" name="The Great Harlequin" hidden="false">
+      <modifiers>
+        <modifier type="set" field="description" value="Le Grand Arlequin: Le Grand Arlequin prend le rôle du Shadowseer (gagnant le voile des larmes) lorsqu&apos;une unité de la troupe qu&apos;il accompagne se trouve à moins de 30 cm de Cegorach.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cae033eb-bb6f-4c6c-a304-2f50aaa0236a" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <description>The Great Harlequin takes on the role of the Shadowseer (gaining Veil of Tears) when any unit of the Troupe he accompanies is within 30cm of Cegorach.</description>
+    </rule>
+    <rule id="3b706b34-8b75-46ed-a6bf-43531e59f7e0" name="Assassination (optional rule)" hidden="false">
+      <modifiers>
+        <modifier type="set" field="description" value="Assassinat (règle optionnelle): Cette règle doit être acceptée par les deux joueurs avant le début de la partie. Cela reflète le fait que les Arlequins se spécialisent dans les assassinats d&apos;individus clés qui sont fortement gardés.  • Au cours de l&apos;assaut:  • Si l&apos;une de ces unités tue le commandant suprême ennemi dans CC sans être tué;  • Et la formation gagne l&apos;assaut (démoralisant la formation ennemie, reflétant le désarroi de cette formation);  • Les Arlequins ont atteint leur objectif stratégique et le joueur gagne la partie!">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cae033eb-bb6f-4c6c-a304-2f50aaa0236a" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <description>This rule must be agreed by both players before the start of the game. It reflects the fact that the Harlequins specialise in assassinations of key individuals who are heavily guarded.
+During an assault:
+If one of these units kills the enemy Supreme commander in CC without being killed;
+And the formation wins the assault (breaking the enemy formation, reflecting the dismay of that formation);
+The Harlequins have achieved their strategic goal and the player wins the game!</description>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile id="71d90ddc-e0cd-457e-b908-e3a0696f3a4c" name="Barge of Pleasure" hidden="false" typeId="1653b936-3bef-42ef-adfe-653bdfc7f321" typeName="War Engine">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">War Engine</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">30cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">5+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">5+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">4+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">2x Dark Lances&lt;BR&gt;&lt;BR&gt;Long Barrelled Splinter Cannon&lt;BR&gt;&lt;BR&gt;Desolator</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">30cm&lt;BR&gt;&lt;BR&gt;45cm&lt;BR&gt;&lt;BR&gt;30cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">AT5+&lt;BR&gt;&lt;BR&gt;AP5+&lt;BR&gt;&lt;BR&gt;2BP</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Lance&lt;BR&gt;&lt;BR&gt;-&lt;BR&gt;&lt;BR&gt;Disrupt</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">2 Sh, Skimmer, Transport</characteristic>
+        <characteristic name="DC" typeId="2377629f-6ded-4aa4-b356-7d506954faa6">3</characteristic>
+        <characteristic name="Crit" typeId="8dbc632e-e06c-461d-a0fa-d51a1a624c11">Weapons Damaged</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="af5fbc55-4ece-4fd3-8677-1c6508c4a636" name="Cegorach the Laughing God" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Character</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">Special</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">n/a</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">n/a</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">n/a</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Mirror of the Great Enemy</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">30cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">n/a</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Mirror of the Great Enemy, The Laughing God</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3d57e0fc-f9bb-4a7a-9791-ff6bfd8724f8" name="Death Jester" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">5+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">5+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">3+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Death Dealer Rifles&lt;BR&gt;and</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">30cm&lt;BR&gt;and (15cm)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">AP4+/AT5+&lt;BR&gt;and Small Arms</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Lance&lt;BR&gt;Lance, +1A</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Reinforced Armour, Scout, Sniper, Speed</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="14d9d0c5-0889-4cd5-8d13-0f2be6f3bdd9" name="Falcon" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Armoured Vehicle</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">35cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">5+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">6+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">4+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Pulse Laser&lt;BR&gt;&lt;BR&gt;Scatter Laser</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">45cm&lt;BR&gt;&lt;BR&gt;30cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">2x AT4+&lt;BR&gt;&lt;BR&gt;AP5+/AT5+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Skimmer, Transport</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7fc4a1d5-16f0-45d3-b68d-c808a5d5007d" name="Great Harlequin" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Character</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">n/a</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">n/a</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">n/a</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">n/a</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Harlequin Weapons</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapon</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">First Strike, Macro-weapon, +1A</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Farsight, Inspiring, Invulnerable Save, Supreme Commander, The Great Harlequin</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f5f81d96-0eab-4a6f-a54e-c649db6778be" name="Harlequin Jetbike" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">40cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">4+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">4+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Twin Shuriken Catapults&lt;BR&gt;&lt;BR&gt;Harlequin Swords</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(15cm)&lt;BR&gt;&lt;BR&gt;(contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Small Arms&lt;BR&gt;&lt;BR&gt;Assault Weapon</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">-&lt;BR&gt;&lt;BR&gt;+1A</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Mounted, Skimmer, Speed</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e4cbbe80-aecb-4735-8835-463c49afcb28" name="Harlequin Venom" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Light Vehicle</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">35cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">4+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">6+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Splinter Rifles&lt;BR&gt;&lt;BR&gt;Small Arms</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(15cm)&lt;BR&gt;&lt;BR&gt;15cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Small Arms&lt;BR&gt;&lt;BR&gt;AP5+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Holofield, Skimmer, Speed, Transport</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="af7c9a08-0b5a-4734-b55c-f14567be152b" name="Harlequin Wraithlord" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Armoured Vehicle</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">4+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">3+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">4+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Bright Lance&lt;BR&gt;&lt;BR&gt;Power Fists</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">30cm&lt;BR&gt;&lt;BR&gt;(contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">AT5+&lt;BR&gt;&lt;BR&gt;Assault Weapon</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Lance&lt;BR&gt;&lt;BR&gt;Macro-Weapon, +1A</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Fearless, Holofield, Reinforced Armour, Walker</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4820e29b-95e4-4c15-8b87-3ca56bc01ae5" name="Master Mime" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Character</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">n/a</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">n/a</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">n/a</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">n/a</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Dual Swords</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapon</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">First Strike, +2A</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Commander, Inspiring, Invulnerable Save, Leader</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="688f2bca-825e-4fca-87c0-044c852998a3" name="Mime" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">4+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">3+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">-</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Harlequin Weapons</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapon</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">First Strike, +1A</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Infiltrators, Scout, Speed, Teleport</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="58090cd2-99b5-487f-8b99-75c4bf703fa7" name="Player" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">4+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">4+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">6+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Shuriken Catapults&lt;BR&gt;&lt;BR&gt;Riveblades</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(15cm)&lt;BR&gt;&lt;BR&gt;(contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Small Arms&lt;BR&gt;&lt;BR&gt;Assault Weapon</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">-&lt;BR&gt;&lt;BR&gt;First Strike, +1A</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Infiltrators, Speed</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e0b92a9d-a051-4338-83b4-cb0ee27e6592" name="Raider" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Light Vehicle</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">35cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">4+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">6+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Dark Lance&lt;BR&gt;&lt;BR&gt;Horrorfex</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">30cm&lt;BR&gt;&lt;BR&gt;15cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">AT5+&lt;BR&gt;&lt;BR&gt;AP6+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Lance&lt;BR&gt;&lt;BR&gt;Disrupt</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Skimmer, Transport</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="392c516d-1abf-4ec7-b6f5-f85b7d528d15" name="Shadowseer" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Character</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">n/a</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">n/a</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">n/a</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">n/a</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Psychic Attacks&lt;BR&gt;&lt;BR&gt;Veil of Tears&lt;BR&gt;and</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(15cm)&lt;BR&gt;&lt;BR&gt;(15cm)&lt;BR&gt;and (contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Small Arms&lt;BR&gt;&lt;BR&gt;Small Arms&lt;BR&gt;and Assault Weapon</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Macro-weapon, +1A&lt;BR&gt;&lt;BR&gt;-&lt;BR&gt;- </characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Farsight, Invulnerable Save, Leader, Veil of Tears</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="259a9d32-9cfb-48c7-a1e4-4ab5c36c05ea" name="Solitaire" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">20cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">4+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">3+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">6+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Power Blades </characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapon</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Macro-weapon, +2A</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Fearless, First Strike, Infiltrators, Inspiring, Invulnerable Save, Reinforced Armour, Scout, Speed, Teleport</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ea0dc5c3-169b-46f8-b248-eb2bd5cd0cde" name="Troupe Leader" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Character</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">n/a</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">n/a</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">n/a</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">n/a</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Harlequin’s Kiss</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapon</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">First Strike, +1A</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Commander, Inspiring, Invulnerable Save, Leader</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="90df75fd-93bb-4f66-a922-4b17d902cfef" name="Wave Serpent" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Armoured Vehicle</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">35cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">5+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">6+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">4+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Twin Shuriken Cannon</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">30cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">AP4+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Reinforced Armour, Skimmer, Transport</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0eb86651-fb31-4b78-bb9b-3812059376cc" name="Wraithgate" hidden="false" typeId="15f85bd9-0629-4d4e-b352-7c76ddef23c1" typeName="Structure">
+      <modifiers>
+        <modifier type="set" field="bd4da179-9f54-4de9-b6df-125028b5c429" value="Al principio del juego, designa un objetivo de tu mitad de la mesa como Puerta Fantasmal, antes del despliegue de naves espaciales y patrullas. Para propósitos de reglas, la Puerta Fantasmal funciona como un portal a la telaraña, y como un objetivo. No puede ser destruida.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6df4e085-d889-4d87-b048-92b223091d04" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="bd4da179-9f54-4de9-b6df-125028b5c429" value="Après placement des objectifs, le joueur eldar remplace l&apos;un des objectifs de sa moitié de table par un portail fantôme. Celui-ci est indestructible et fonctionne à la fois comme un objectif et un portail fantôme d&apos;un point de vue des règles du jeu.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cae033eb-bb6f-4c6c-a304-2f50aaa0236a" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <characteristics>
+        <characteristic name="Infantry" typeId="38c479b9-4206-4a54-bef3-45fac56a90f9">May use</characteristic>
+        <characteristic name="Vehicle" typeId="2218fc85-5769-4e89-9cc1-70dc073cb606">Light Vehicles &amp; Armoured Vehicles that have Walker may use</characteristic>
+        <characteristic name="War Engine" typeId="a113e73a-6f33-45d5-969f-7dd2b23cb4ea">Impassable</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">The Eldar player may choose to replace one of the Objective markers in his half of the table with a Wraithgate. It functions both as a Webway portal and as an objective for rules purposes. It may not be attacked or destroyed.</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>

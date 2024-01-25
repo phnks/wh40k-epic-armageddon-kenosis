@@ -1,0 +1,885 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="3ad747b3-8172-42a6-82d1-75362f9293d1" name="Horus Heresy: Legio Custodes" revision="31" battleScribeVersion="2.03" authorUrl="http://battlescribedata.appspot.com/#/repo/wh40k-epic-armageddon" library="false" gameSystemId="b7be77a3-9f44-4c5d-a0f7-a40bf046af2a" gameSystemRevision="37" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="15c71a2d-a49d-4eba-8752-875721eecd4d" name="Orion Assault Squadron" page="0" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a6c6337b-9e95-4217-a262-7b8b080cdcc3" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="9a0e38b3-2b12-4fe5-95a0-c281e8c97692" name="New CategoryLink" hidden="false" targetId="1b1f8dd5-c152-49f8-ba43-ffdf4ff76a6a" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="5327622c-bc82-48dd-8cf7-428edebed37e" name="Orion Assault Ship" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c035d2b3-4339-4793-b087-a31dce41bd1a" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="114ca151-d6b6-4288-b3c9-ea20c1eccb2e" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="c01df66a-52c0-4825-8a1a-c0fd9d85e906" name="Orion Assault Dropship" hidden="false" targetId="6fb34631-b412-40f1-87dc-57ccbee9a4d2" type="profile"/>
+            <infoLink id="41f888e7-aaf1-4181-b29d-af540c1f79a9" name="Transport (LC)" hidden="false" targetId="96f879d0-e156-43f6-b3d0-12673e4cc9ef" type="rule"/>
+            <infoLink id="999908c4-2008-4b1e-82ea-61987a5cfa11" name="Critical Hit: Crash" hidden="false" targetId="5d06ddad-3c41-47b2-bb65-d8263db769e3" type="rule"/>
+            <infoLink id="df98c6f7-b852-4015-81c0-569de8643fc3" name="Invulnerable Save" hidden="false" targetId="20b60add-c341-4e56-8c6b-fa4dec53688e" type="rule"/>
+            <infoLink id="c645bda3-69ae-4cea-943d-5158dcf3cf4d" name="Reinforced Armour" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+            <infoLink id="e6ef50f7-22a9-421a-9c89-9ea145c296f4" name="Fleshbane" hidden="false" targetId="e35aec7a-4aea-4475-af17-4365566ed200" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="300.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6bdebb6c-1873-4a18-b905-9414d1242711" name="Caladius Grav-Tank Squadron" page="0" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="b7d661ca-249a-41f8-82af-e9772212b203" name="New CategoryLink" hidden="false" targetId="b4ffa9dd-04e2-4cb2-8e01-b803195bbe8e" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="4bfbabcb-9ea6-430e-8f77-005efa8e6778" name="Caladius Grav-Tank" page="0" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="8b56f12d-06e7-4b96-8bea-94a859e7eb96" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="a2d5bdb8-410f-49ac-9c0e-e8bbe5e560a5" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="14c00bd1-1ba5-4104-bd83-c07e3584647d" name="Caladius Grav-Tank" hidden="false" targetId="a0ce672b-c9aa-49ea-ba2d-c66929e79217" type="profile"/>
+            <infoLink id="1e38d017-0193-425d-8839-de88a435d311" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+            <infoLink id="6ff71c44-7819-4e07-bbbe-c0dfc7bf663e" name="Skimmer" hidden="false" targetId="ae687b81-bb2b-4103-89da-77e3829e0051" type="rule"/>
+            <infoLink id="9d59849d-0beb-46bf-bfda-05a7786282d5" name="Invulnerable Save" hidden="false" targetId="20b60add-c341-4e56-8c6b-fa4dec53688e" type="rule"/>
+            <infoLink id="3d784e8f-504e-4f82-9e81-ad39682719c8" name="Fleshbane" hidden="false" targetId="e35aec7a-4aea-4475-af17-4365566ed200" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="325.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="86bdf947-0aaa-4e9f-913b-82c5704e128d" name="Pallas Grav-Attack Squadron" page="0" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="4baf768f-34ff-40d0-9075-080c91722a01" name="New CategoryLink" hidden="false" targetId="b4ffa9dd-04e2-4cb2-8e01-b803195bbe8e" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="ebc912e9-9db6-485e-8493-4a2c042213dd" name="Pallas Grav-Attack Vehicle" page="0" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="9286b77a-08f8-4408-8b9d-c24f188d259d" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="f604700e-0a9b-4f53-b550-09813cb05b93" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="c0e079ae-1a98-4d3c-a7b5-668342151efe" name="Pallas Grav-Attack Vehicle" hidden="false" targetId="136f93bf-8b99-4fd2-8c9e-e76ef748a595" type="profile"/>
+            <infoLink id="a12186d8-bd57-475c-a625-0a0904402656" name="Reinforced Armour" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+            <infoLink id="fa42161e-0978-4bf4-a2e5-da86fab85d5d" name="Invulnerable Save" hidden="false" targetId="20b60add-c341-4e56-8c6b-fa4dec53688e" type="rule"/>
+            <infoLink id="658997fb-b34d-403a-9482-4fb05af5dd0c" name="Fleshbane" hidden="false" targetId="e35aec7a-4aea-4475-af17-4365566ed200" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="250.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fd0f3e57-4965-4501-863e-ce282b556f85" name="Morotoi Detachment" page="0" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="123c5a0d-7698-4332-be90-d1163761f388" name="New CategoryLink" hidden="false" targetId="b4ffa9dd-04e2-4cb2-8e01-b803195bbe8e" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7de3cd94-6c5e-4c78-88a2-a657058fb550" name="Custodes Dreadnoughts" hidden="false" collective="false" import="true" defaultSelectionEntryId="2b68273f-122d-4b67-875b-a1422b464c33">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="7b18ad04-b3f0-4c16-b2e3-5ac9363786ea" type="min"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="9bcc18ab-eee1-4b95-af9b-1bb18f89508f" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="186a19ea-03e1-48e2-8c3b-0bace45e566f" name="Contemptor-Achilles Dreadnought" page="0" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="81a231bc-a67b-4d2d-821a-3b52204e5f2e" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="2bd5d208-922d-4feb-b147-695dcbbe9380" name="Contemptor-Achilles Dreadnought" hidden="false" targetId="7cb6d1df-fabb-4e6f-915e-6d03d9594201" type="profile"/>
+                <infoLink id="9dd722bd-7305-4c0a-8d62-8319e8c81f48" name="Walker" hidden="false" targetId="3792d3e5-937d-49e6-8a20-320f64f441ba" type="rule"/>
+                <infoLink id="e9767912-4e34-4deb-9d1e-01937a163811" name="Invulnerable Save" hidden="false" targetId="20b60add-c341-4e56-8c6b-fa4dec53688e" type="rule"/>
+                <infoLink id="a214e2d6-ea77-4813-aa31-0133e989aa3e" name="Macro-weapon" hidden="false" targetId="1492850c-f75a-49bd-80f5-19dcd7ecf370" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2b68273f-122d-4b67-875b-a1422b464c33" name="Contemptor-Galatus Dreadnought" page="0" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c6b2f265-c818-4d0c-b8a7-ee43ee52aedc" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="ed9224c8-9a10-458d-a94a-0e813953c290" name="Contemptor-Galatus Dreadnought" hidden="false" targetId="53aeaf0e-3ecf-4dd3-bda0-40b9f8642c5f" type="profile"/>
+                <infoLink id="091d3444-a413-4d3d-9ab8-539cc84e134e" name="Walker" hidden="false" targetId="3792d3e5-937d-49e6-8a20-320f64f441ba" type="rule"/>
+                <infoLink id="b4ae56d9-fa2c-46ab-b788-6ad64ca53577" name="Invulnerable Save" hidden="false" targetId="20b60add-c341-4e56-8c6b-fa4dec53688e" type="rule"/>
+                <infoLink id="365f6b7b-0ece-47e6-8eff-df511707e9c1" name="Macro-weapon" hidden="false" targetId="1492850c-f75a-49bd-80f5-19dcd7ecf370" type="rule"/>
+                <infoLink id="61aa8777-8146-414a-b695-03432f39ed8d" name="Reinforced Armour" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+                <infoLink id="f11e7c26-6a6b-445c-9e04-f400c7cd6dcc" name="Ignore Cover" hidden="false" targetId="5087a733-1e15-4e06-b869-8728e657c9fa" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6dcf2bdf-eaa0-4ce4-b47a-e5d8eef7c5b5" name="Telemon Heavy Dreadnought" page="0" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="dc63f53a-3fe9-4219-acec-28711d00684b" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="0b31819a-b457-4da9-81d3-0b560c5236ad" name="Telemon Heavy Dreadnought" hidden="false" targetId="85226102-2874-46e0-af34-fd57c5d4f347" type="profile"/>
+                <infoLink id="fdb6dac2-8e49-453a-970f-db765f7db639" name="Titan Kiler" hidden="false" targetId="cd277106-16dd-48d1-897f-01f2ba0c4483" type="rule"/>
+                <infoLink id="701001d3-9a00-4ad8-b083-edddfdffaf8c" name="Invulnerable Save" hidden="false" targetId="20b60add-c341-4e56-8c6b-fa4dec53688e" type="rule"/>
+                <infoLink id="32b606ff-039c-4d5b-8924-b6cefe6603bd" name="Reinforced Armour" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+                <infoLink id="c0f6cc49-ab83-493b-9f85-bc151e11b921" name="Walker" hidden="false" targetId="3792d3e5-937d-49e6-8a20-320f64f441ba" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ebc9109f-44ce-4798-b67a-247cc5add3cc" name="Telemon Heavy Dreadnought (Close Combat)" page="0" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="5bde79da-8c61-40a9-8443-ded6b186c8a6" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="5d8f8788-c2eb-40c6-a502-80c7da5a19dd" name="Telemon Heavy Dreadnought (Close Combat)" hidden="false" targetId="b5190371-859b-4603-ba7e-9e5d627dc659" type="profile"/>
+                <infoLink id="429732e6-923a-47ac-a66f-48990b5496d1" name="Reinforced Armour" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+                <infoLink id="37b54a61-cbfb-4920-bab8-d5b80eda1156" name="Invulnerable Save" hidden="false" targetId="20b60add-c341-4e56-8c6b-fa4dec53688e" type="rule"/>
+                <infoLink id="3e5f9e75-0cf3-445d-856f-fadb0cc70d1a" name="Macro-weapon" hidden="false" targetId="1492850c-f75a-49bd-80f5-19dcd7ecf370" type="rule"/>
+                <infoLink id="ea3017aa-ddce-4103-8a54-220c24fba801" name="Walker" hidden="false" targetId="3792d3e5-937d-49e6-8a20-320f64f441ba" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="350.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ac7b9c7c-2a14-486f-8cd2-6e751265ef68" name="Sisters Detachment" page="0" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="af07a7f8-8129-4899-865f-83ec72f5b28e" name="New CategoryLink" hidden="false" targetId="b4ffa9dd-04e2-4cb2-8e01-b803195bbe8e" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="aa3d2342-5383-4fab-aa72-15448842c77a" name="Sisters of Silence" page="0" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="2e976313-d221-4701-a8c4-01da7efe1be0" type="min"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="6f8ea84a-a4c6-419f-9191-4bf3396bbd3b" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="05d3f2f3-b153-4ee0-b17b-26775dc61146" name="Sisters of Silence" hidden="false" targetId="2f098cb0-1f0f-4343-9be5-5d1d22b2983f" type="profile"/>
+            <infoLink id="1a1895a5-b6f6-4eee-a3f1-8ea384a94a0f" name="Fearless" hidden="false" targetId="72dab6ac-4c9d-45f2-b150-7dd034d83b83" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="8a05977c-48b1-4a88-a490-56e52d4ab6b3" name="Teleport" hidden="false" collective="false" import="true" targetId="85747c59-4076-49ff-91db-03f3cebcbaa7" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="250.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d9a0c961-14b1-401f-922d-97cf32db854b" name="Ephoroi Detachment" page="0" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="957f5c79-5bd1-4785-9379-d4dcc380c914" name="New CategoryLink" hidden="false" targetId="b4ffa9dd-04e2-4cb2-8e01-b803195bbe8e" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="f26a954f-9802-4c0f-8b56-b16c3d6c657b" name="Ephoroi Custodes" page="0" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="5d210e91-a2ba-4c2b-9e96-4c97f6bd5971" type="min"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="729a44c7-33fb-4f66-ae4d-c50d9d960362" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="3849687a-6e03-4a14-801e-bab89b88094a" name="Ephoroi Custodes" hidden="false" targetId="b4f2b343-5dfc-428e-a4d8-9682385060a7" type="profile"/>
+            <infoLink id="f2e948e6-f6d1-4c8d-aece-cc17ff0f07e3" name="Infiltrators" hidden="false" targetId="18b55dcf-3e60-458e-90e4-29f69deaa065" type="rule"/>
+            <infoLink id="a2fa849d-268e-4a31-b07a-2d29f54c46f4" name="Scout" hidden="false" targetId="af143427-33d4-438b-aab2-16a8e2867f79" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1ba09d00-04d7-43b8-894d-27dd60349ac2" name="2x Coronus Grav-Carrier" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="8ae33cdc-dd2c-473b-b91f-f2a199d92079" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="3c7b4818-153e-4c12-9722-3e94621f5c04" name="Coronus Grav-Carrier" hidden="false" targetId="3a3da88d-b808-4e19-b918-2ea8680c4ace" type="profile"/>
+            <infoLink id="a02049bc-252b-408f-96db-6a1c11f70677" name="Invulnerable Save" hidden="false" targetId="20b60add-c341-4e56-8c6b-fa4dec53688e" type="rule"/>
+            <infoLink id="22dda888-5586-4da0-9e49-d89cb1737784" name="Reinforced Armour" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+            <infoLink id="b54321a1-fb12-4a7e-be35-39b77816dbf8" name="Skimmer" hidden="false" targetId="ae687b81-bb2b-4103-89da-77e3829e0051" type="rule"/>
+            <infoLink id="272cb7a6-6a25-4b2a-ba3e-48d8201f3d0e" name="Thick Rear Armour" hidden="false" targetId="8eca9e45-4d25-4f1e-a395-eb8656a3889a" type="rule"/>
+            <infoLink id="37f12c4b-ea9c-4b15-856f-1b46761e7d70" name="Transport (LC)" hidden="false" targetId="96f879d0-e156-43f6-b3d0-12673e4cc9ef" type="rule"/>
+            <infoLink id="acdf9312-4408-407f-a446-306460d8ae6a" name="Fleshbane" hidden="false" targetId="e35aec7a-4aea-4475-af17-4365566ed200" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="150.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="325.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7ff76ed1-1262-4c84-9b5e-73bb5d3773d5" name="Tharanatoi Detachment" page="0" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="ed28635b-e47f-4220-8eac-36e78a5ca5b6" name="3 per Formation" hidden="false" targetId="b4ffa9dd-04e2-4cb2-8e01-b803195bbe8e" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e57a26ff-1950-4c1f-95c9-5eb3aba31d90" name="Aquilon Terminators" page="0" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="995873db-ff2f-480d-89fa-08f497ee1f17" type="min"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="b2913a8d-b5b4-4740-a799-2099c5818811" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="9a3742ae-29e2-4c81-8ffc-3a52d54ae61f" name="Aquilon Terminator" hidden="false" targetId="12efefd2-a75e-491f-aa4f-b191801e944b" type="profile"/>
+            <infoLink id="8eded454-af9b-4cce-88ef-2d0c67edc775" name="Invulnerable Save" hidden="false" targetId="20b60add-c341-4e56-8c6b-fa4dec53688e" type="rule"/>
+            <infoLink id="253aaf43-24c0-490f-976f-aa12ab0a2350" name="Macro-weapon" hidden="false" targetId="1492850c-f75a-49bd-80f5-19dcd7ecf370" type="rule"/>
+            <infoLink id="7c7f7ca5-f628-4afe-851a-2a2e8ebaa715" name="Reinforced Armour" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+            <infoLink id="506832be-ca5e-4e0e-8d6a-8a32973249de" name="Thick Rear Armour" hidden="false" targetId="8eca9e45-4d25-4f1e-a395-eb8656a3889a" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7de9e2b0-0845-447a-ae95-e4c8f7131544" name="Deployment" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="bf89bf00-9170-4f21-b5aa-53051d49a9d1" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="05f68de5-d27f-4dea-a009-c10a01b49365" name="4x Coronus Grav-Carrier" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="e4d0863b-d826-45a0-a45c-23dc9aa8fe5c" name="Coronus Grav-Carrier" hidden="false" targetId="3a3da88d-b808-4e19-b918-2ea8680c4ace" type="profile"/>
+                <infoLink id="9f9de43a-2dd0-448e-9fc6-5278bf9a208d" name="Invulnerable Save" hidden="false" targetId="20b60add-c341-4e56-8c6b-fa4dec53688e" type="rule"/>
+                <infoLink id="e281ad06-5dda-4781-b84b-8db79cf2d2ef" name="Reinforced Armour" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+                <infoLink id="4dee415b-43c5-4c95-9599-567c5119be3d" name="Skimmer" hidden="false" targetId="ae687b81-bb2b-4103-89da-77e3829e0051" type="rule"/>
+                <infoLink id="01d690f1-52c8-4432-bdf1-df43d1d64d56" name="Thick Rear Armour" hidden="false" targetId="8eca9e45-4d25-4f1e-a395-eb8656a3889a" type="rule"/>
+                <infoLink id="33623cbd-8028-47fa-82b1-9a7f55a7ddc2" name="Transport (LC)" hidden="false" targetId="96f879d0-e156-43f6-b3d0-12673e4cc9ef" type="rule"/>
+                <infoLink id="10439768-f741-4b69-b48a-8becfc8b25e1" name="Fleshbane" hidden="false" targetId="e35aec7a-4aea-4475-af17-4365566ed200" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="300.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="17ba1b76-4645-4c62-8ef1-0397389ae2bb" name="Teleport" hidden="false" collective="false" import="true" targetId="85747c59-4076-49ff-91db-03f3cebcbaa7" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="95b487d3-d08f-4555-9391-2c025123c955" name="Officer" hidden="false" collective="false" import="true" targetId="fd05385a-2f2a-47af-9341-9af57fa00738" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="375.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7e13cc43-dfd9-4a79-b093-2ad1ed68b63d" name="Kataphraktoi Detachment" page="0" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="f4aca688-dc68-4a45-b831-51ad7661253d" hidden="false" targetId="e4013702-a119-46c3-9fd9-a64e58afe467" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="9091db71-a800-47a4-82cb-9d093e488c8f" name="Custodes Agamatus" page="0" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="222edaaa-4fa2-4d2f-ba18-692680b1981b" type="min"/>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="ba353e5f-59bf-422d-a46f-864118d7db2a" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="ad8dc4d2-1166-437d-8388-7311cb16ae41" name="Custodes Agamatus" hidden="false" targetId="7ba4c51f-fe4d-469c-ab0d-e6ac20ecb852" type="profile"/>
+            <infoLink id="ab4dd0a4-a198-44ab-9b6e-73081b83ba0e" name="Skimmer" hidden="false" targetId="ae687b81-bb2b-4103-89da-77e3829e0051" type="rule"/>
+            <infoLink id="c7259c37-3c67-4fa7-876a-bb45eefe83d1" name="Macro-weapon" hidden="false" targetId="1492850c-f75a-49bd-80f5-19dcd7ecf370" type="rule"/>
+            <infoLink id="0f9e30d1-fcac-42c3-9d96-4576a0822a8f" name="Mounted" hidden="false" targetId="fe19cbf1-084a-4af7-93ef-b16ab5d2ba51" type="rule"/>
+            <infoLink id="e5407188-d938-4c18-ac80-25dd66e9d894" name="First Strike" hidden="false" targetId="75101e3d-cca2-4420-acfe-e0a1db1314af" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="fcc99670-16e7-45f7-924c-e13c78fc64e6" name="Tribune" hidden="false" collective="false" import="true" targetId="508f3eda-7f74-4362-90f5-dbfe1d8fa6aa" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="300.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0265231b-2233-40ff-8dcc-bc46ec85e578" name="Hykanatoi Detachment" page="0" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="ef9307d1-a036-4b79-8bff-c35f091c397f" hidden="false" targetId="e4013702-a119-46c3-9fd9-a64e58afe467" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e3d89f40-f77f-4a22-bf66-04128f76b21d" name="3x Coronus Grav-Carrier" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e08d0fed-324b-498e-9d24-303750b75411" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="0012e4f3-7ace-4c99-9d12-861353fc4630" name="Coronus Grav-Carrier" hidden="false" targetId="3a3da88d-b808-4e19-b918-2ea8680c4ace" type="profile"/>
+            <infoLink id="b49e9f35-5715-47a0-88d9-588373c2525e" name="Invulnerable Save" hidden="false" targetId="20b60add-c341-4e56-8c6b-fa4dec53688e" type="rule"/>
+            <infoLink id="47a7827b-85fe-4860-ae40-0b92e7c91ea8" name="Reinforced Armour" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+            <infoLink id="75519e93-10d0-4056-8780-d794e52ae080" name="Skimmer" hidden="false" targetId="ae687b81-bb2b-4103-89da-77e3829e0051" type="rule"/>
+            <infoLink id="1ab87d3b-393f-493e-ba65-e941f140990c" name="Thick Rear Armour" hidden="false" targetId="8eca9e45-4d25-4f1e-a395-eb8656a3889a" type="rule"/>
+            <infoLink id="13774d58-ac5a-4199-8e80-3e46a18266d1" name="Transport (LC)" hidden="false" targetId="96f879d0-e156-43f6-b3d0-12673e4cc9ef" type="rule"/>
+            <infoLink id="21170510-b4ec-45c3-8986-249a0502db78" name="Fleshbane" hidden="false" targetId="e35aec7a-4aea-4475-af17-4365566ed200" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="225.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="af3ce044-9685-4c1e-93c9-8dcb5b77368a" name="Detachment" hidden="false" collective="false" import="true" defaultSelectionEntryId="71536ca0-1e86-4ee1-ae8d-f43baf88c8df">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="df2be2f6-ab25-4f9a-b42e-fcd52d2e1721" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="ac71d39b-6265-44d9-9843-0b7af4868ba4" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="8c971f26-33ef-4dd9-90a0-12528786ab23" name="6x Sentinel Guard" page="0" hidden="false" collective="false" import="true" type="unit">
+              <infoLinks>
+                <infoLink id="91a71348-6024-455e-8be0-ad30640ccb75" name="Sentinel Guard" hidden="false" targetId="8db6b023-5758-4a8a-809b-70422ab387b7" type="profile"/>
+                <infoLink id="61e86ddd-3bc1-4c31-a818-95ae06b3846b" name="Fleshbane" hidden="false" targetId="e35aec7a-4aea-4475-af17-4365566ed200" type="rule"/>
+                <infoLink id="de59d4a6-5302-4e01-88a9-b4d82306ece8" name="Invulnerable Save" hidden="false" targetId="20b60add-c341-4e56-8c6b-fa4dec53688e" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="71536ca0-1e86-4ee1-ae8d-f43baf88c8df" name="6x Custodian Guard" page="0" hidden="false" collective="false" import="true" type="unit">
+              <infoLinks>
+                <infoLink id="c06b030d-aab7-413a-9570-b428b2f9dd60" name="Custodian Guard" hidden="false" targetId="fcc4e9a7-f685-4f1e-a718-5853127af8bd" type="profile"/>
+                <infoLink id="38fb661a-bddf-4f4e-828c-51c0f3f1279b" name="Fleshbane" hidden="false" targetId="e35aec7a-4aea-4475-af17-4365566ed200" type="rule"/>
+                <infoLink id="60b07ea9-27c6-4374-ae72-923aec589078" name="Invulnerable Save" hidden="false" targetId="20b60add-c341-4e56-8c6b-fa4dec53688e" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="07adfeba-0133-4186-99c8-5e1b6f820d54" name="6x Sagittarum Custodes" page="0" hidden="false" collective="false" import="true" type="unit">
+              <infoLinks>
+                <infoLink id="88034221-0d8f-4796-8041-c050f54b01a9" name="Sagittarum Custodes" hidden="false" targetId="450cfad6-e21b-4f18-82c1-4f5c74ff4c78" type="profile"/>
+                <infoLink id="65887d02-4199-4bbc-9a6e-80ff4b7a35ee" name="Invulnerable Save" hidden="false" targetId="20b60add-c341-4e56-8c6b-fa4dec53688e" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="798ff556-ff17-4fc5-be49-63c900fa0a0a" name="Officer" hidden="false" collective="false" import="true" targetId="fd05385a-2f2a-47af-9341-9af57fa00738" type="selectionEntryGroup"/>
+        <entryLink id="174dec71-1b69-4f6e-bcc5-fe329c90cc72" name="Teleport" hidden="false" collective="false" import="true" targetId="85747c59-4076-49ff-91db-03f3cebcbaa7" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="350.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="085c6477-9c0d-4578-9574-9e9a9be974c4" name="Venatari Detachment" page="0" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e0d23f6c-f790-4a6b-a779-9e795a2937a3" name="New CategoryLink" hidden="false" targetId="b4ffa9dd-04e2-4cb2-8e01-b803195bbe8e" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="01dc9e4c-ef3c-40dc-a4d8-d1de4358ebc3" name="Venatari Squads" page="0" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="cdc4479b-f463-4d1c-a28b-c28bc6e1ad90" type="min"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="4cb9e73e-9810-4b18-bbf7-2e938000aa81" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="6acb6408-bdc5-4814-a1f0-e50ee383cf25" name="Venatari Squad" hidden="false" targetId="edf4fbe9-b28a-4f34-ac3f-2a25628cb34f" type="profile"/>
+            <infoLink id="1d3d3071-5f7a-4a5d-8a55-31f1ebe5c510" name="Jump Packs" hidden="false" targetId="bef38f07-4cf3-4b21-a88e-e47542734de7" type="rule"/>
+            <infoLink id="619adce6-e945-45ca-afbc-90e2322a83d9" name="Scout" hidden="false" targetId="af143427-33d4-438b-aab2-16a8e2867f79" type="rule"/>
+            <infoLink id="2a183d52-493c-4c1b-98cd-447fa0a89c69" name="Invulnerable Save" hidden="false" targetId="20b60add-c341-4e56-8c6b-fa4dec53688e" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="350.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="53349eda-a62c-4eb0-ad9b-940c5af56dd6" name="Ares Strike Squadron" page="0" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a6c6337b-9e95-4217-a262-7b8b080cdcc3" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="f009a8e9-6336-4034-9279-f076e9fe73a0" name="New CategoryLink" hidden="false" targetId="1b1f8dd5-c152-49f8-ba43-ffdf4ff76a6a" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="2682a4a5-3af9-4695-9e47-8fed1f5a368c" name="Ares Gun Ship" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="8bcff6f7-6fd5-4695-ac26-f909356ff391" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="226223fb-dfa3-49fb-92dd-3f9a222e446e" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="74d95784-6c69-4612-b5dc-fc14e7e43e1d" name="Ares Gunship" hidden="false" targetId="d8c9d89a-745d-4c07-93be-670ff9b4476f" type="profile"/>
+            <infoLink id="fb72aa0d-2ee1-409b-bf86-5eb51a13a401" name="Transport (LC)" hidden="false" targetId="96f879d0-e156-43f6-b3d0-12673e4cc9ef" type="rule"/>
+            <infoLink id="2fbf8d94-6d0c-49d7-91fd-5c1f7552d51a" name="Critical Hit: Crash" hidden="false" targetId="5d06ddad-3c41-47b2-bb65-d8263db769e3" type="rule"/>
+            <infoLink id="b22240cb-11aa-490a-9f21-c47b07697a36" name="Invulnerable Save" hidden="false" targetId="20b60add-c341-4e56-8c6b-fa4dec53688e" type="rule"/>
+            <infoLink id="4bc46ccc-9e0b-4f5f-8896-6b1c5cf20951" name="Reinforced Armour" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+            <infoLink id="b3987f4d-336f-48da-8d53-24883afe0cb6" name="Fleshbane" hidden="false" targetId="e35aec7a-4aea-4475-af17-4365566ed200" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="275.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks>
+    <entryLink id="73196745-6dc0-4051-862b-0291527d599c" name="New EntryLink" hidden="false" collective="false" import="true" targetId="95542a55-24b3-4aae-9c23-d5598ee246dc" type="selectionEntry"/>
+  </entryLinks>
+  <infoLinks>
+    <infoLink id="877e3ac8-4bab-440f-aa6a-d3afd3caaa03" name="Strategy Rating &amp; Initiative (LC)" hidden="false" targetId="1dc5b828-653b-4d82-b45c-b3c0d9f6fe1d" type="rule"/>
+    <infoLink id="8152df1a-dd27-458b-8c4c-4a796dbce13a" name="Allies (LC)" hidden="false" targetId="e828e5c8-d308-40a1-9e4c-7968dd606ebd" type="rule"/>
+    <infoLink id="a92db92e-1063-46dc-bb08-d345920ada08" name="Legio Custodes" hidden="false" targetId="92eeb8d3-89a4-4dc3-98bf-bad7af40de60" type="rule"/>
+  </infoLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="95542a55-24b3-4aae-9c23-d5598ee246dc" name="EpicAU" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8d4551b0-a4cb-4506-a3a4-f9e762516378" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="7cbd4519-e45b-400e-8f3b-98809baa248c" hidden="false" targetId="dc9a07f1-a27b-4fe5-9c63-0bd8f26768c5" type="rule"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="d5e82b15-2052-4d4b-895c-2ed2abde5d46" hidden="false" collective="false" import="true" targetId="1884eb4b-97e7-42ae-aed7-811bae8a02a9" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="36439de4-2034-4b00-9536-177b953e565e" name="Captain-General" page="0" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="a7815685-f7ee-4a98-bab6-ab068b0e4b29" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3622477f-43ce-4f45-a4e1-87eec20a7927" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="a448202f-a2a0-4fae-b623-7caa66032f85" name="Captain-General" hidden="false" targetId="768483da-1fec-407b-9845-8152bc610303" type="profile"/>
+        <infoLink id="feda58c8-92f0-4ea8-8fe0-a63cf3a224f6" name="Commander" hidden="false" targetId="e9675277-c408-4371-b969-6c9565fb2905" type="rule"/>
+        <infoLink id="b5a6f852-e9a1-4d44-ba05-2a1e554e2bbb" name="Invulnerable Save" hidden="false" targetId="20b60add-c341-4e56-8c6b-fa4dec53688e" type="rule"/>
+        <infoLink id="392d6057-caf0-4f8a-8c79-702c0d1688e6" name="Inspiring" hidden="false" targetId="06776887-98f0-49dd-8aca-d824d3c5d52c" type="rule"/>
+        <infoLink id="08f2ae35-855a-4b1f-a451-519267aef754" name="Macro-weapon" hidden="false" targetId="1492850c-f75a-49bd-80f5-19dcd7ecf370" type="rule"/>
+        <infoLink id="b097d980-71bc-420d-84d8-d8320b614e72" name="Sniper (Horus Heresy)" hidden="false" targetId="c981b963-40c1-43ce-9184-94d17a700df8" type="rule"/>
+        <infoLink id="8fd66de5-f049-4dad-87b5-f7d3f0a5ae61" name="Supreme Commander" hidden="false" targetId="9f458b5f-4ef7-437c-aba8-585963e07dcc" type="rule"/>
+        <infoLink id="b3fc785e-b90e-4b37-b209-f5cb289f0195" name="Leader" hidden="false" targetId="d23596ad-5004-4bc3-8600-2b61a05ee52d" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="100.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="508f3eda-7f74-4362-90f5-dbfe1d8fa6aa" name="Tribune" page="0" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="409caf7d-9893-4b61-ac34-fb64e39fa4f7" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="921d24e1-d4c0-4942-ad90-97ab2e2c8cea" name="Tribune" hidden="false" targetId="cd174163-5ce2-413f-9a25-fc8ee9121a6e" type="profile"/>
+        <infoLink id="f9089ef7-8992-48a8-941d-df1b8a0e74d7" name="Commander" hidden="false" targetId="e9675277-c408-4371-b969-6c9565fb2905" type="rule"/>
+        <infoLink id="0025758e-6ba1-4052-9678-66a60db28e0b" name="Invulnerable Save" hidden="false" targetId="20b60add-c341-4e56-8c6b-fa4dec53688e" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="85747c59-4076-49ff-91db-03f3cebcbaa7" name="Teleport" page="0" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="fe358618-78e3-41c0-a2ae-d24b562d6a51" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="4c70cef0-517f-4b1f-9e2c-ff2bb84cb2ad" name="Teleport" hidden="false" targetId="71ce5ada-8613-4124-bd2f-43c80fb9488b" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="50.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="fd05385a-2f2a-47af-9341-9af57fa00738" name="Officer" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e6aa5aeb-1b76-44fa-acc2-f09e77fe29c7" type="max"/>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="f8311882-536f-407a-bd71-eb5dfb140b57" type="min"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="cb3aaf51-5d76-4f66-b77f-ecbaeef11d9b" name="Captain-General" hidden="false" collective="false" import="true" targetId="36439de4-2034-4b00-9536-177b953e565e" type="selectionEntry"/>
+        <entryLink id="e132a55c-2491-455a-bc84-9b9b5ac8d77e" name="Tribune" hidden="false" collective="false" import="true" targetId="508f3eda-7f74-4362-90f5-dbfe1d8fa6aa" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <sharedRules>
+    <rule id="dc9a07f1-a27b-4fe5-9c63-0bd8f26768c5" name="EpicAU" hidden="false">
+      <description>http://epicau.com/mw/index.php/Legio_Custodes
+http://epicau.com/mw/index.php/Legio_Custodes_Reference_List
+http://epicau.com/mw/index.php/Special_Rules
+27 november 2020</description>
+    </rule>
+    <rule id="e828e5c8-d308-40a1-9e4c-7968dd606ebd" name="Allies (LC)" hidden="false">
+      <modifiers>
+        <modifier type="set" field="description" value="Alliés (LC): Les Legio Custodes peuvent dépenser jusqu&apos;à la moitié de la valeur totale des points sur les Alliés et/ou les Seigneurs de la Guerre.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cae033eb-bb6f-4c6c-a304-2f50aaa0236a" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="description" value="Verbündete: Legio Custodes können bis zu 1/2 des Gesamtpunktwertes für Alliierte und/oder Kriegsherren ausgeben.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="17e1c84d-45e8-4447-a3c5-4c3d40b8fd78" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="description" value="Aliados: Los Legio Custodes pueden gastar hasta la mitad del valor total de puntos en Aliados y/o Señores de la Guerra.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6df4e085-d889-4d87-b048-92b223091d04" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <description>Legio Custodes can spend up to 1/2 of the total points value on Allies and/or Lords of War.</description>
+    </rule>
+    <rule id="96f879d0-e156-43f6-b3d0-12673e4cc9ef" name="Transport (LC)" hidden="false">
+      <modifiers>
+        <modifier type="set" field="description" value="La capacité de transport: Comme suit-  • Ares Gunship: 4 Aquilon Terminator; ou 6 des unités suivantes: Sentinel Guard, Custodian Guard.  • Coronus Grav-Carrier: 1 Aquilon Terminator; ou 2 des unités suivantes: Sentinel Guard, Custodian Guard.  • Orion Assault Dropship: 4 Aquilon Terminator; ou 6 des unités suivantes: Sentinel Guard, Custodian Guard.  • Remarque: Ephoroi Custodes et Sisters of Silence comptent comme Sentinel Guard. Les escouades Venatari sont considérées comme des Aquilon Terminators.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cae033eb-bb6f-4c6c-a304-2f50aaa0236a" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <description>As follows-
+Ares Gunship: 4 Aquilon Terminator; or 6 of the following units: Sentinel Guard, Custodian Guard.
+Coronus Grav-Carrier: 1 Aquilon Terminator; or 2 of the following units: Sentinel Guard, Custodian Guard.
+Orion Assault Dropship: 4 Aquilon Terminator; or 6 of the following units: Sentinel Guard, Custodian Guard.
+NB: Ephoroi Custodes &amp; Sisters of Silence count as Sentinel Guard. Venatari Squads count as Aquilon Terminators.</description>
+    </rule>
+    <rule id="1dc5b828-653b-4d82-b45c-b3c0d9f6fe1d" name="Strategy Rating &amp; Initiative (LC)" hidden="false">
+      <modifiers>
+        <modifier type="set" field="description" value="Stratégie &amp; Initiative: Les armées de la Legio Custodes ont une Valeur Stratégique de 1.  Toutes les formations ont une initiative de 1+.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cae033eb-bb6f-4c6c-a304-2f50aaa0236a" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="description" value="Strategie und Initiative: Strategiewert 1.  • Alle Formationen haben die Initiativwert 1+.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="17e1c84d-45e8-4447-a3c5-4c3d40b8fd78" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="description" value="Estrategia e Iniciativa: Factor de Estrategia: 1.  • Valores de Iniciativa: Todas las formaciones: 1+.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6df4e085-d889-4d87-b048-92b223091d04" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <description>Legio Custodes armies have a strategy rating of 1 and Legio Custodes formations have an initiative rating of 1+.</description>
+    </rule>
+    <rule id="92eeb8d3-89a4-4dc3-98bf-bad7af40de60" name="The Emperor&apos;s Chosen" hidden="false">
+      <modifiers>
+        <modifier type="set" field="description" value="L&apos;Élues de l&apos;Empereur: Il faut deux pions d&apos;impact pour neutraliser une unité Legio Custodes ou détruire une unité démoralisée (ignorez les pions d&apos;impacts en plus).  • Les formations Legio Custodes ne sont démoralisées qu’à partir du moment où elles ont deux pions d&apos;impact ou plus par unité.  • Formations Legio Custodes ne comptent la moitié de leur nombre de pions d&apos;impact dans la résolution d&apos;assaut (arrondi vers le bas - notez que la résolution d&apos;assaut nerecevra +1 pour ne pas avoir Pions d&apos;Impact si la formation a 1 Pion d&apos;Impact avant arrondi vers le bas).  • Lorsqu’une formation Legio Custodes démoralisée se rallie, elle reçoit un nombre de pions d&apos;impact égal au nombre d’unités plutôt qu’à la moitié du nombre d’unités.  • Les Meneurs Legio Custodes retirent deux pions d&apos;impact au lieu d&apos;habituellement un seul.  • Les formations Legio Custodes réduire de moitié le nombre d&apos;unités massacrées subies lorsqu&apos;une formation perd un assaut.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cae033eb-bb6f-4c6c-a304-2f50aaa0236a" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="description" value="Die Auserwählten von der Kaiser: Es werden 2 Blast-Marker benötigt, um eine Legio Custodes-Einheit zu unterdrücken oder eine Einheit in einer gebrochenen Formation zu töten (ignorieren Sie alle verbleibenden Blast-Marker).  • Legio Custodes-Formationen werden nur dann gebrochen, wenn sie 2 Blast-Marker pro Einheit haben.  • Legio Custodes-Formationen zählen als die Hälfte der Anzahl von Blast-Markern (abrunden: Beachten Sie, dass die Angriffsauflösung keine +1 erhält, wenn keine Blast-Marker vorhanden sind, wenn die Formation vor dem Abrunden 1 Blast-Marker hat), um die Auflösung des Angriffs zu ermöglichen.  • Gebrochene Formationen erhalten beim Sammeln 1 Blast-Marker pro Einheit.  • Legio Custodes-Leaders entfernen beim Sammeln 2 Blast-Marker.  • Legio Custodes Formationen halbieren die Anzahl der zusätzlichen Treffer, wenn eine Formation einen Angriff verliert.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="17e1c84d-45e8-4447-a3c5-4c3d40b8fd78" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="description" value="Los Elegidos del Emperador: Se requieren dos marcadores de explosión para acobardar una unidad de Legio Custodes o para eliminar una unidad de Legio Custodes de una formación desmoralizada (ignora los marcadores de explosión sobrantes).  •  Las formaciones de Legio Custodes sólo son desmoralizadas al acumular dos marcadores de explosión por cada unidad en la formación.  •  En la resolución del combate, los Legio Custodes sólo cuentan la mitad de los marcadores de explosión que tengan, redondeando hacia abajo (nótese que no recibirán el +1 por no tener marcadores de explosión si al menos tienen uno antes de dividirlo por dos). Divide por dos el número de impactos adicionales sufridos por una formación de Legio Custodes cuando es desmoralizada, redondeando hacia abajo a favor de los Custodes.  •  Cuando una formación de Legio Custodes se reorganiza, recibe un número de marcadores de explosión igual al número de unidades que tenga, en vez de la mitad. Las unidades de Legio Custodes con la habilidad de líder permiten retirar dos marcadores de explosión adicionales, en lugar de uno.  •  Las formaciones de Legio Custodes reducen a la mitad el número de impactos adicionales que sufren cuando una formación pierde un asalto.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6df4e085-d889-4d87-b048-92b223091d04" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <description>It takes 2 Blast markers to suppress a Legio Custodes unit or kill a unit in a broken formation (ignoring any leftover Blast markers).
+Legio Custodes formations are only considered broken if they have 2 blast markers per unit in the formation (as opposed to the standard one blast marker per unit).
+Legio Custodes formations only count half the number of blast markers in assault resolution (rounding down – note that assault resolution will not receive +1 for having no Blast markers if the formation has 1 Blast marker before rounding down).
+When a broken Legio Custodes formation rallies, it receives a number of Blast markers equal to the number of units, rather than half this number. Legio Custodes with the Leader special ability remove 2 Blast markers instead of 1.
+Legio Custodes formations halve the number of hackdowns suffered when a formation loses an assault.</description>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile id="6fb34631-b412-40f1-87dc-57ccbee9a4d2" name="Orion Assault Dropship" hidden="false" typeId="1653b936-3bef-42ef-adfe-653bdfc7f321" typeName="War Engine">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">War Engine, Aircraft</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">Bomber</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">4+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">6+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">4+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">2x Arachnus Heavy Blaze Cannon&lt;BR&gt;&lt;BR&gt;2x Lastrum Bolt Cannon&lt;BR&gt;&lt;BR&gt;2x Spiculus Heavy Bolt Launchers</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">15cm&lt;BR&gt;&lt;BR&gt;30cm&lt;BR&gt;&lt;BR&gt;30cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">2x AP4+/AT5+&lt;BR&gt;&lt;BR&gt;AP4+&lt;BR&gt;&lt;BR&gt;AP5+/AT5+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Fleshbane&lt;BR&gt;&lt;BR&gt;-&lt;BR&gt;&lt;BR&gt;-</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Invulnerable Save (6+), Reinforced Armour, Transport</characteristic>
+        <characteristic name="DC" typeId="2377629f-6ded-4aa4-b356-7d506954faa6">2</characteristic>
+        <characteristic name="Crit" typeId="8dbc632e-e06c-461d-a0fa-d51a1a624c11">Crash</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="768483da-1fec-407b-9845-8152bc610303" name="Captain-General" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Character</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">n/a</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">n/a</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">2+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">3+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Apollonian Spear</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapons</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Macro-weapon, Sniper, +1A</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Inspiring, Invulnerable Save (6+), Supreme Commander</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="cd174163-5ce2-413f-9a25-fc8ee9121a6e" name="Tribune" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Character</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">n/a</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">n/a</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">n/a</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">n/a</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">none</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b"/>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6"/>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Commander, Invulnerable Save (6+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="12efefd2-a75e-491f-aa4f-b191801e944b" name="Aquilon Terminator" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">3+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">3+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">3+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Lastrum Storm Bolter&lt;BR&gt;&lt;BR&gt;Solerite Power Gauntlet</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(15cm)&lt;BR&gt;&lt;BR&gt;(contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Small Arms&lt;BR&gt;&lt;BR&gt;Assault Weapons</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">+1A&lt;BR&gt;&lt;BR&gt;Macro-weapon, +1A</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Invulnerable Save (6+), Reinforced Armour, Thick Rear Armour</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="fcc4e9a7-f685-4f1e-a718-5853127af8bd" name="Custodian Guard" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">3+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">4+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">4+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Guardian Spear</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapons</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Fleshbane, +1A</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Invulnerable Save (6+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b4f2b343-5dfc-428e-a4d8-9682385060a7" name="Ephoroi Custodes" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">20cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">4+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">4+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">4+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Guardian Spear&lt;BR&gt;and</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(15cm)&lt;BR&gt;and (contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Small Arms&lt;BR&gt;and Assault Weapons</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">+1A&lt;BR&gt;and +1A</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Infiltrators, Scout</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8db6b023-5758-4a8a-809b-70422ab387b7" name="Sentinel Guard" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">3+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">4+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Sentinel Warblade</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapons</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Fleshbane, +1A</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Invulnerable Save (5+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2f098cb0-1f0f-4343-9be5-5d1d22b2983f" name="Sisters of Silence" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">5+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">4+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">4+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Boltguns</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(15cm)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Small Arms</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Fearless</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a0ce672b-c9aa-49ea-ba2d-c66929e79217" name="Caladius Grav-Tank" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Armoured Vehicle</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">25cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">4+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">4+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">4+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Lastrum Bolt Cannon&lt;BR&gt;&lt;BR&gt;Iliastus Accelerator Cannon</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">30cm&lt;BR&gt;&lt;BR&gt;45cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">2x AP4+&lt;BR&gt;&lt;BR&gt;AP4+/AT4+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">-&lt;BR&gt;&lt;BR&gt;Fleshbane</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Invulnerable Save (6+), Reinforced Armour, Skimmer</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7cb6d1df-fabb-4e6f-915e-6d03d9594201" name="Contemptor-Achilles Dreadnought" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Armoured Vehicle</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">3+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">4+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">4+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Achilles Dreadspear</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapons</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Macro-weapon, +2A</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Invulnerable Save (6+), Walker</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="53aeaf0e-3ecf-4dd3-bda0-40b9f8642c5f" name="Contemptor-Galatus Dreadnought" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Armoured Vehicle</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">4+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">4+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">4+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Galatus Warblade&lt;BR&gt;and</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)&lt;BR&gt;and (15cm)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapons&lt;BR&gt;and Small Arms</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Macro-weapon, +1A&lt;BR&gt;and Ignore Cover, +1A</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Invulnerable Save (6+), Reinforced Armour, Walker</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3a3da88d-b808-4e19-b918-2ea8680c4ace" name="Coronus Grav-Carrier" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Armoured Vehicle</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">25cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">4+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">6+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Iliastus Accelerator Cannon&lt;BR&gt;&lt;BR&gt;Arachnus Blaze Cannon</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">45cm&lt;BR&gt;&lt;BR&gt;30cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">AP4+/AT4+&lt;BR&gt;&lt;BR&gt;2x AP4+/AT5+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Fleshbane&lt;BR&gt;&lt;BR&gt;-</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Invulnerable Save (6+), Reinforced Armour, Skimmer, Thick Rear Armour, Transport</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7ba4c51f-fe4d-469c-ab0d-e6ac20ecb852" name="Custodes Agamatus" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Armoured Vehicle</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">35cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">5+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">4+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">4+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Power Lance&lt;BR&gt;&lt;BR&gt;Iliastus Bolt Cannon</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)&lt;BR&gt;&lt;BR&gt;(15cm)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapons&lt;BR&gt;&lt;BR&gt;Small Arms</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">First Strike, Macro-weapon&lt;BR&gt;&lt;BR&gt;-</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Mounted, Skimmer</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="136f93bf-8b99-4fd2-8c9e-e76ef748a595" name="Pallas Grav-Attack Vehicle" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Armoured Vehicle</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">35cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">5+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">6+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">4+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Arachnus Blaze Cannon</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">30cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">2x AP4+/AT5+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Fleshbane</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Invulnerable Save, Reinforced Armour</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b5190371-859b-4603-ba7e-9e5d627dc659" name="Telemon Heavy Dreadnought (Close Combat)" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Armoured Vehicle</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">3+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">4+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">2x Telemon Caestus</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapons</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Macro-weapon, +1A</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Invulnerable Save (6+), Reinforced Armour, Walker</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="85226102-2874-46e0-af34-fd57c5d4f347" name="Telemon Heavy Dreadnought" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Armoured Vehicle</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">3+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">4+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Arachnus Storm Cannon</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">15cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">AP4+/AT4+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Macro-weapon, Titan Killer</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Invulnerable Save (6+), Reinforced Armour, Walker</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="edf4fbe9-b28a-4f34-ac3f-2a25628cb34f" name="Venatari Squad" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">30cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">4+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">4+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">3+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Kinetic Destroyer</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(15cm)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Small Arms</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Invulnerable Save (6+), Jump Packs, Scout</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d8c9d89a-745d-4c07-93be-670ff9b4476f" name="Ares Gunship" hidden="false" typeId="1653b936-3bef-42ef-adfe-653bdfc7f321" typeName="War Engine">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">War Engine, Aircraft</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">Fighter</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">4+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">6+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">6+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">2x Arachnus Heavy Blaze Cannon&lt;BR&gt;&lt;BR&gt;Arachnus Magna-Blaze Cannon</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">15cm&lt;BR&gt;&lt;BR&gt;30cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">2x AP4+/AT5+&lt;BR&gt;&lt;BR&gt;AP4+/AT4+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Fleshbane&lt;BR&gt;&lt;BR&gt;Fleshbane</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Invulnerable Save (6+), Reinforced Armour, Transport</characteristic>
+        <characteristic name="DC" typeId="2377629f-6ded-4aa4-b356-7d506954faa6">2</characteristic>
+        <characteristic name="Crit" typeId="8dbc632e-e06c-461d-a0fa-d51a1a624c11">Crash</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="450cfad6-e21b-4f18-82c1-4f5c74ff4c78" name="Sagittarum Custodes" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">3+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">4+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">3+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Adrastus Bolt Caliver</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">30cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">2x AP4+/AT6+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Invulnerable Save (6+)</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>

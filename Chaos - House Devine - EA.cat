@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="7966a0d6-0e0e-4590-972a-4d3ab6155ae9" name="Chaos: House Devine" revision="30" battleScribeVersion="2.03" authorUrl="http://battlescribedata.appspot.com/#/repo/wh40k-epic-armageddon" library="false" gameSystemId="b7be77a3-9f44-4c5d-a0f7-a40bf046af2a" gameSystemRevision="37" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="61360c9d-09c2-4c3f-90f5-efe60ef460d8" name="-Community-" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4d0d3683-c6f7-4dd9-838d-62154099c3c6" name="Group" hidden="false" collective="false" import="true" defaultSelectionEntryId="8eef03ff-18bd-449c-9315-6cfb7e61f8a7">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="270974bd-50a5-49ca-ab8f-5e977e82a111" hidden="false" collective="false" import="true" targetId="88a98d5f-b990-4741-9c4e-5761a2a7200f" type="selectionEntry"/>
+            <entryLink id="8eef03ff-18bd-449c-9315-6cfb7e61f8a7" hidden="false" collective="false" import="true" targetId="7f0bed0e-1717-46a1-8225-09866b0dcc87" type="selectionEntry"/>
+            <entryLink id="7ba52ef4-b62e-4ab1-8d8c-6734eb772937" hidden="false" collective="false" import="true" targetId="6a7b87a6-e3f4-4ba7-aaac-b20234ded31f" type="selectionEntry"/>
+            <entryLink id="fe6b6560-0065-4cea-8344-3de09079759b" hidden="false" collective="false" import="true" targetId="8183dbe0-128d-44df-9d2f-587c40d576e7" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="7e98bca9-20fc-4acc-a5dc-5f26379153b2" hidden="false" collective="false" import="true" targetId="1884eb4b-97e7-42ae-aed7-811bae8a02a9" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c2a29030-7e8a-43b4-9bfb-ebae4c2bcf0c" name="Daemon Pool" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="122c8780-7963-41df-b4ce-439e7cf76652" name="Lesser Daemon" hidden="false" collective="false" import="true" type="upgrade">
+          <infoLinks>
+            <infoLink id="70d10497-0d6c-471a-acd6-d8cd5730760f" hidden="false" targetId="99a5a8e6-4d7b-4380-b5b5-918d6deb673d" type="profile"/>
+            <infoLink id="697de9ef-0c08-48a6-ba46-100ea9a7e6ea" hidden="false" targetId="ec4fa082-9d6a-42c0-9bc7-92a2d67cc56c" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f801d902-9f76-48c8-a10b-dc603298b1a2" name="Greater Daemon" hidden="false" collective="false" import="true" type="upgrade">
+          <infoLinks>
+            <infoLink id="1463be88-ba43-43d2-98fe-472d3205cde9" hidden="false" targetId="ef95505a-c6d7-418c-8062-5182f8f1a8f8" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="50.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e3786743-dab9-4687-a893-bf5e01a14558" name="Lesser Daemon (via Daemonic Pact)" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="increment" field="3dd10910-831f-4cb3-999a-c4ac3e6058d2" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="af1cc3e0-2f85-40bb-b597-bfb0c4608079" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="af1cc3e0-2f85-40bb-b597-bfb0c4608079" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3dd10910-831f-4cb3-999a-c4ac3e6058d2" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="fc3b6a9d-9ff7-4707-b085-32917a5687a2" hidden="false" targetId="99a5a8e6-4d7b-4380-b5b5-918d6deb673d" type="profile"/>
+            <infoLink id="d031d3f4-e703-4eec-a39f-cea3f5a8226a" hidden="false" targetId="ec4fa082-9d6a-42c0-9bc7-92a2d67cc56c" type="profile"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c77456f3-9d44-4baf-ad77-d49bb18894f6" name="Hell Blade Flight" page="0" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a6c6337b-9e95-4217-a262-7b8b080cdcc3" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="bfa8b809-82da-4b75-aed7-49bd305cd1f5" hidden="false" targetId="be26492f-4757-4b69-aa55-d6ef024fca60" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="b0be749f-ef59-4d85-9b70-c9e1144b6c13" name="Hell Blade" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="ecd744b9-411d-422c-b352-097efb5855a8" hidden="false" targetId="2fe4e7f5-7883-4e25-ad2a-f2cc7103f6ed" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="200.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="59d6bf90-0aac-48fa-9bd7-02873a0907f3" name="Hell Talon Flight" page="0" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a6c6337b-9e95-4217-a262-7b8b080cdcc3" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="50f87501-e9c4-410d-8be4-ac6c68ede2ec" type="min"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="c9b1f1e6-65a6-4d63-8c36-19e716fae9f0" hidden="false" targetId="be26492f-4757-4b69-aa55-d6ef024fca60" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="341a8cc7-b345-4c21-9a03-695fa1e1a32a" name="Hell Talon Fighter-bomber" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="bb4fcc60-232c-45eb-818f-a1f2c5057f2c" hidden="false" targetId="0c71aa0e-0eed-473b-8568-2d65324505a8" type="profile"/>
+            <infoLink id="772c2016-60a6-4e26-b5b5-2bdde88e781f" hidden="false" targetId="5087a733-1e15-4e06-b869-8728e657c9fa" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="225.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f3c019a9-5db3-4ff1-aa00-49a7debf15b2" name="Noise Marine Retinue" page="0" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="f21d4bbc-be53-4175-9157-6710661ba73d" hidden="false" targetId="b893278c-34cb-41fa-ae9b-54676a0f6f87" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="b0f093e1-5282-4f9a-bc7a-9c1db20a6920" name="Noise Marines" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="3ad81d7e-2b7c-4e40-a24b-c7dab8d17ab3" hidden="false" targetId="b027e9fd-08c7-436c-a239-dd516a6ce794" type="rule"/>
+            <infoLink id="06af1e53-f672-4bd3-bc8b-ff024d8e7452" hidden="false" targetId="82666363-07f1-4274-8633-021b4379ffb2" type="profile"/>
+            <infoLink id="c9f9844f-194e-4795-8d05-dd66442c8a79" hidden="false" targetId="72dab6ac-4c9d-45f2-b150-7dd034d83b83" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8084e0a6-2d94-47fa-a3cf-2a9a248c280a" name="3x Chaos Rhino" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="90752a28-97a0-4c8b-8a82-e505e7c55bf5" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="0dba4bdd-e9a4-4843-8fe2-5c84b216c1ab" hidden="false" targetId="ad1b8b7f-314e-4d76-8595-06e4676abba6" type="profile"/>
+            <infoLink id="e3f21923-eb04-4334-9b72-bba42c5ffbe9" hidden="false" targetId="22382ed4-e92d-41eb-a29c-ba98424c45a4" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="30.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="eeb2fc8f-457a-4f9f-8638-748123a4c47b" name="Chaos Lord" hidden="false" collective="false" import="true" defaultSelectionEntryId="13020a0a-5cb4-4722-b26f-4345755e3990">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="92893e3d-888b-4ce0-b16e-8678abf0d05a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="6516a10d-b570-4340-9975-3747c355b641" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="9e7ec0a1-8567-4acb-9c0b-f155290694c1" hidden="false" collective="false" import="true" targetId="550fb031-491e-4b54-aa27-263ffa11f583" type="selectionEntry"/>
+            <entryLink id="13020a0a-5cb4-4722-b26f-4345755e3990" hidden="false" collective="false" import="true" targetId="279242a1-3640-45c1-b7d5-f08e2e86b5d0" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="9a6b0b6b-f479-4d24-853c-65601fcd55da" hidden="false" collective="false" import="true" targetId="af1cc3e0-2f85-40bb-b597-bfb0c4608079" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="275.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6daa2d86-3127-4d1d-abe7-6fa08a63b784" name="Questor" page="0" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="b730bf57-2867-4dd9-ad21-e5815bc60c70" name="Critical Hit: Staggering Blow" hidden="false" targetId="1cb339a5-ca81-4d61-8a81-dc1b0b87d99c" type="rule"/>
+        <infoLink id="1c1c9356-49d3-4e24-a21f-a34af1bb80eb" name="Slaanesh Questor" hidden="false" targetId="9216141f-8b16-4021-bca9-b593a74120d7" type="profile"/>
+        <infoLink id="cfcc1b00-52e1-40b5-9b9f-db2b63ae7c6a" hidden="false" targetId="72dab6ac-4c9d-45f2-b150-7dd034d83b83" type="rule"/>
+        <infoLink id="4e632dfa-2482-43a6-b308-63e3bb9d74c7" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+        <infoLink id="9c60ee54-bfe6-471d-b036-601ea0bb5b18" hidden="false" targetId="d1361dbb-b26e-46f9-9bd3-570dccd848a5" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c1cd8880-aa8c-4da5-b7f2-9afdefaa58d1" hidden="false" targetId="be26492f-4757-4b69-aa55-d6ef024fca60" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="66388773-5412-48af-b604-115298aa16fa" hidden="false" collective="false" import="true" targetId="94bfa155-2dcb-4fd1-8a30-93866ab50219" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="275.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="23f069c5-a7d9-4216-ab6f-dc3920561a36" name="Subjugator" page="0" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="77b745eb-b721-477d-be79-bc47ba6dde8f" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+        <infoLink id="b823b561-b902-4fc6-9dec-6395286ae022" hidden="false" targetId="b8b06b0a-cbd3-48b8-be44-97d4d25c4398" type="profile"/>
+        <infoLink id="daaa7bdb-f07c-43e4-a7a1-c49c83788bdf" hidden="false" targetId="72dab6ac-4c9d-45f2-b150-7dd034d83b83" type="rule"/>
+        <infoLink id="d7a23011-501c-49b3-872f-1873c4b6ba33" hidden="false" targetId="d1361dbb-b26e-46f9-9bd3-570dccd848a5" type="rule"/>
+        <infoLink id="b9ed0a9d-1ba9-4778-a1d1-a8da1bf6ec4c" name="Critical Hit: Staggering Blow" hidden="false" targetId="1cb339a5-ca81-4d61-8a81-dc1b0b87d99c" type="rule"/>
+        <infoLink id="1cbce3de-cc3e-4703-93d3-1c76d78cb11a" hidden="false" targetId="cd277106-16dd-48d1-897f-01f2ba0c4483" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8bf7d489-18b0-4890-a509-799bfcf0a4ca" hidden="false" targetId="be26492f-4757-4b69-aa55-d6ef024fca60" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="198e318f-9680-41a2-a6fa-fa2ed371abd8" hidden="false" collective="false" import="true" targetId="94bfa155-2dcb-4fd1-8a30-93866ab50219" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="225.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="681040f3-c53b-427a-9367-0eb5f4b76d67" name="Hell Scourge" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="0eeffd67-75f2-4fa0-a5c6-03efbd788152" hidden="false" targetId="e4013702-a119-46c3-9fd9-a64e58afe467" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="95fa9634-9198-4401-bb34-bd13bc4d7cde" name="Hell-Scourge" page="0" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="11d17774-8f51-4a2b-9905-802b66d5c10d" type="min"/>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e826b2b7-ac84-4d8a-959b-c8a53ffbee72" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="1ee6bfe5-8e49-4c55-87a0-aa963e806f2d" hidden="false" targetId="b4f624a1-c328-44fa-a985-ecbf2ce536c1" type="rule"/>
+            <infoLink id="58de4d8b-3cc9-4e5a-9fe1-ea4844a11530" hidden="false" targetId="2427a837-d2ad-45cb-8817-a19693bf472f" type="profile"/>
+            <infoLink id="7c79796f-31f0-45b3-9eba-be5fe725de50" hidden="false" targetId="72dab6ac-4c9d-45f2-b150-7dd034d83b83" type="rule"/>
+            <infoLink id="83bab439-bf9b-4bf2-92bc-502fba2c7d1d" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+            <infoLink id="0191e433-8395-47a2-a63a-1369b6bd23aa" hidden="false" targetId="d1361dbb-b26e-46f9-9bd3-570dccd848a5" type="rule"/>
+            <infoLink id="088aa10e-c7c6-4b0e-b72e-d30f39b9c8e7" hidden="false" targetId="20b60add-c341-4e56-8c6b-fa4dec53688e" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="90.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="73a2fa0a-ba44-4d95-a86c-6e61c0723845" name="New EntryLink" hidden="false" collective="false" import="true" targetId="c8f4caf9-23b9-4667-8225-3cff91512fe4" type="selectionEntry"/>
+        <entryLink id="8ee4f077-ad71-41b2-b5c0-d30c41b5905d" name="New EntryLink" hidden="false" collective="false" import="true" targetId="127dc7fc-7981-42bd-b16d-866e147649c8" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b8e53f28-628f-4750-ac70-7385c293d1ab" name="Hell Knight" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="cce0d67f-8fc8-41f3-b92a-8a9d68e7d4eb" hidden="false" targetId="e4013702-a119-46c3-9fd9-a64e58afe467" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="2e41e709-cd2a-4193-b120-5e6145776ffc" name="Hell-Knight" page="0" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="d422865b-a249-42ed-931f-0cb76676c594" type="min"/>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="04069d75-4dd4-4736-b049-79a5517472b6" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="d444209f-760e-4924-9ad9-f6fe684a2da9" hidden="false" targetId="20b60add-c341-4e56-8c6b-fa4dec53688e" type="rule"/>
+            <infoLink id="2c76a8d9-0a78-4394-a983-13fc5e1c4b61" hidden="false" targetId="c2ac7235-4842-4fc3-a64e-e14096c1e4a2" type="profile"/>
+            <infoLink id="e51c96d3-8275-4fa8-b46c-1f513afaf413" hidden="false" targetId="72dab6ac-4c9d-45f2-b150-7dd034d83b83" type="rule"/>
+            <infoLink id="578161c8-b889-4381-bd7e-fc9d259f910d" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+            <infoLink id="6c8ede5e-a8db-4e9a-949a-ba569b899b0c" hidden="false" targetId="3792d3e5-937d-49e6-8a20-320f64f441ba" type="rule"/>
+            <infoLink id="b8fc7f70-68f5-4dd1-a048-4915fef84e6f" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+            <infoLink id="50612f02-d031-48b9-bb75-0cbf19644b1e" hidden="false" targetId="b4f624a1-c328-44fa-a985-ecbf2ce536c1" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="75.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="60447778-0670-4949-ade8-28dee2504614" name="New EntryLink" hidden="false" collective="false" import="true" targetId="c8f4caf9-23b9-4667-8225-3cff91512fe4" type="selectionEntry"/>
+        <entryLink id="d2f3b31e-a1d1-4407-ae7a-10c8b657e23a" name="New EntryLink" hidden="false" collective="false" import="true" targetId="127dc7fc-7981-42bd-b16d-866e147649c8" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4a66a4a6-e300-458d-8189-66a86822bf1d" name="Hell Strider" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="708c6d81-1b12-4e21-953a-40c343b3a5cb" hidden="false" targetId="e4013702-a119-46c3-9fd9-a64e58afe467" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="0a635610-23ae-4c4e-b89a-2f1b372c3b37" name="Hell-Strider" page="0" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="164d8ac9-e680-4ab2-ba76-b4f91bb00650" type="min"/>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="d905d952-16bd-41a4-a1d1-fb801be93a96" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="cb9f7392-579d-443b-b5d7-36e530d0c6d7" hidden="false" targetId="9be8bd0d-820f-4150-a637-110f9cd2358f" type="profile"/>
+            <infoLink id="c657437d-9de3-41cf-bf53-d4daedfeb404" hidden="false" targetId="72dab6ac-4c9d-45f2-b150-7dd034d83b83" type="rule"/>
+            <infoLink id="7fc5e8f0-8e3c-49be-8125-40542dfe73e8" hidden="false" targetId="d1361dbb-b26e-46f9-9bd3-570dccd848a5" type="rule"/>
+            <infoLink id="ba010a95-fdeb-452e-b062-37a4b23c6c06" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+            <infoLink id="3c541d11-ad75-44f4-b26e-3074ddbf5008" hidden="false" targetId="20b60add-c341-4e56-8c6b-fa4dec53688e" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="50.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="29b9e671-28ae-4476-870f-65a90849a3b0" name="New EntryLink" hidden="false" collective="false" import="true" targetId="c8f4caf9-23b9-4667-8225-3cff91512fe4" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="564db44a-ec01-46b3-9eb0-57a80aa7702c" name="Debaser" page="0" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="78eef1aa-9b39-4264-83b9-2c68f1a92b14" hidden="false" targetId="b893278c-34cb-41fa-ae9b-54676a0f6f87" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="a0f31ae6-c497-4671-8194-c91ba749d0a3" name="Debaser" page="0" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4e0214e-58d1-41e5-8852-24268ea76e5c" type="min"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="64ad5776-78ff-40ea-92f1-f14be906d61b" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="86a72ffd-a4d7-4be5-81a8-27c3deca5efe" hidden="false" targetId="20b60add-c341-4e56-8c6b-fa4dec53688e" type="rule"/>
+            <infoLink id="3874696b-7589-4f9f-b602-a4c74ddfb031" hidden="false" targetId="3792d3e5-937d-49e6-8a20-320f64f441ba" type="rule"/>
+            <infoLink id="55374870-6837-47da-a785-18d120bfcdfc" hidden="false" targetId="72dab6ac-4c9d-45f2-b150-7dd034d83b83" type="rule"/>
+            <infoLink id="28560d70-1aae-431a-ae44-254c6f14159f" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+            <infoLink id="3ec02f88-a1dc-4da0-8169-d0b49e96a180" hidden="false" targetId="75101e3d-cca2-4420-acfe-e0a1db1314af" type="rule"/>
+            <infoLink id="881cce74-d2fa-4384-9fcd-90b377f80270" hidden="false" targetId="7c5917fd-5871-4870-9b1e-1d15287b0d55" type="profile"/>
+            <infoLink id="e27cafd5-83f5-4f3d-87ef-7a9fce203639" hidden="false" targetId="b027e9fd-08c7-436c-a239-dd516a6ce794" type="rule"/>
+            <infoLink id="825634eb-5bd7-4c09-a06f-4dfa8f34b94b" hidden="false" targetId="18b55dcf-3e60-458e-90e4-29f69deaa065" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="275.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c0698ee4-48e4-48b6-85a8-968d659feb92" name="Cultists" page="0" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="0b91abd0-ee00-4306-8f49-7f04a1bd73e7" hidden="false" targetId="b893278c-34cb-41fa-ae9b-54676a0f6f87" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="4b39815b-6a87-4b45-b490-73084106c3e7" name="Demagogue" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b67f809b-146a-4272-9ec4-7f0a6803d0d3" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="96791c36-ec84-4e3e-8e8c-0f9b17eeaab7" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="f614e29b-5c8f-4461-920c-e8fb16926e8c" hidden="false" targetId="d4db3b17-fdfa-49f1-95ed-07e3f62887cf" type="profile"/>
+            <infoLink id="93c85caf-0aa5-42ad-b1ee-72b06edcb7a3" hidden="false" targetId="20b60add-c341-4e56-8c6b-fa4dec53688e" type="rule"/>
+            <infoLink id="19ea17ae-6928-4929-93ef-1c0c3b194182" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+            <infoLink id="0a0cc99d-7bab-4851-ab1b-48b5acd96a1d" name="Augment Summoning" hidden="false" targetId="bc948514-57b7-43e4-8786-a96aba528047" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="a8a0dd26-b3ee-4c68-8b68-458b00962cd4" name="Coven" hidden="false" collective="false" import="true" defaultSelectionEntryId="4024e33b-ea0a-4957-881a-2c1c6b78dceb">
+          <constraints>
+            <constraint field="selections" scope="parent" value="11.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e02d7685-9bb7-4815-aa58-7742d2d58562" type="min"/>
+            <constraint field="selections" scope="parent" value="11.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6f966be1-37dc-4c61-9f07-efa23547f385" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="4024e33b-ea0a-4957-881a-2c1c6b78dceb" name="Cultists" hidden="false" collective="false" import="true" type="unit">
+              <infoLinks>
+                <infoLink id="fded83c8-fa28-4635-9b0f-cc0f9bde0d92" hidden="false" targetId="0c90cd83-95f0-4d35-a0f6-be99375fa4e2" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9d4dab90-28b3-4b5a-9def-ec97699bb539" name="Mutants" hidden="false" collective="false" import="true" type="unit">
+              <infoLinks>
+                <infoLink id="e4f8eab4-b5e4-46e4-9fc9-4776bd4e951a" hidden="false" targetId="b069a86b-4e12-4b88-833a-d796532b3ac8" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="15.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="2015740d-1fc9-4067-8a3a-2b499ddd10ef" name="New EntryLink" hidden="false" collective="false" import="true" targetId="af1cc3e0-2f85-40bb-b597-bfb0c4608079" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="250.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <infoLinks>
+    <infoLink id="fc52df95-667a-403f-9d1c-ebab8f05804a" hidden="false" targetId="5fa490ce-87c3-474d-91de-4f49f72d4a6d" type="rule"/>
+    <infoLink id="9051da49-605b-47bd-ba19-7119bb4c53ad" name="Favour of the Gods - Fickle Masters" hidden="false" targetId="2ba1299d-de87-4409-991f-e7142d78a563" type="rule"/>
+    <infoLink id="41207a90-1f81-4b0e-8d59-e48b7897baf3" name="Summoned Units (NetEA)" hidden="false" targetId="29ed3f49-b1ca-48d9-ac85-c5439743c30d" type="rule"/>
+  </infoLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="279242a1-3640-45c1-b7d5-f08e2e86b5d0" name="Chaos Lord" page="0" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="18d11442-4b95-4534-b0a1-b66ead753b33" hidden="false" targetId="20b60add-c341-4e56-8c6b-fa4dec53688e" type="rule"/>
+        <infoLink id="45f0d02c-bf0e-48b9-b273-dda583b4c062" hidden="false" targetId="d23596ad-5004-4bc3-8600-2b61a05ee52d" type="rule"/>
+        <infoLink id="016db95c-c4d2-4cb7-8d7f-8c155114485a" hidden="false" targetId="e9675277-c408-4371-b969-6c9565fb2905" type="rule"/>
+        <infoLink id="9f73c292-64ca-4174-a812-6831e3292c74" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+        <infoLink id="a511ab18-e750-4d51-8eb6-284a74b52f42" hidden="false" targetId="c494cb9d-320a-4dbc-b84f-0ba7630ebb51" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="af1cc3e0-2f85-40bb-b597-bfb0c4608079" name="Daemonic Pact" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="5ff1ef43-44f2-43d5-abc9-b06953412904" name="Daemonic Pact" hidden="false" targetId="bcf3d47f-0bef-4474-8e63-9d63e575ba54" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6a7b87a6-e3f4-4ba7-aaac-b20234ded31f" name="EpicUK" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true"/>
+      </modifiers>
+      <infoLinks>
+        <infoLink id="e542b1cc-0de5-4656-9b18-fd8ecff0d728" hidden="false" targetId="6d96644b-dbd3-410c-9a81-73313522e197" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8183dbe0-128d-44df-9d2f-587c40d576e7" name="F-ERC" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true"/>
+      </modifiers>
+      <infoLinks>
+        <infoLink id="9ad8a5cf-1e38-4f26-b9d1-570eddeeb52a" hidden="false" targetId="18e797f6-fb24-432c-9ee8-652427dbd28a" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="88a98d5f-b990-4741-9c4e-5761a2a7200f" name="GW" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true"/>
+      </modifiers>
+      <infoLinks>
+        <infoLink id="26d06557-0e0f-4ed6-a895-2eab1f97c5ba" hidden="false" targetId="debe925b-e324-4ed7-93d9-69992f678abf" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7f0bed0e-1717-46a1-8225-09866b0dcc87" name="NetEA" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="e66db79a-74b0-466c-9852-b0f30a6c1d3d" hidden="false" targetId="ea98f36c-204c-4f57-805c-c280285f6660" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="550fb031-491e-4b54-aa27-263ffa11f583" name="Sorcerer Lord" page="0" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="16abddda-b223-4232-80aa-43ad13cb76de" hidden="false" targetId="20b60add-c341-4e56-8c6b-fa4dec53688e" type="rule"/>
+        <infoLink id="53520854-e02b-4f6a-b32b-ec01ca81ea65" hidden="false" targetId="d23596ad-5004-4bc3-8600-2b61a05ee52d" type="rule"/>
+        <infoLink id="4efc6e30-1c6f-4d2c-bffd-f4597f7bdec0" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+        <infoLink id="85fc32aa-9cff-427e-86f7-2ad9d00f0e0e" hidden="false" targetId="e9675277-c408-4371-b969-6c9565fb2905" type="rule"/>
+        <infoLink id="900bc27d-387e-4c21-9952-e1748a553f9c" hidden="false" targetId="017c6363-1f72-41d5-8781-bdebd7adfeeb" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="94bfa155-2dcb-4fd1-8a30-93866ab50219" name="Void Shield" hidden="false" collective="true" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="eacd1e2a-ba7e-4bf1-9e80-721d64720b2d" hidden="false" targetId="98b00393-722e-4fb9-8e40-23b4cfc6d978" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c8f4caf9-23b9-4667-8225-3cff91512fe4" name="Agonist" page="0" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="0ed1b498-47ee-464e-af10-2c5d43495047" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="ad5453ae-3f73-4a13-ac38-5236c490ba0e" hidden="false" targetId="e9675277-c408-4371-b969-6c9565fb2905" type="rule"/>
+        <infoLink id="1d7c05f0-b3a7-4560-836d-a5d3bc6728ef" hidden="false" targetId="9d532b52-e754-4188-8611-7028215913d9" type="profile"/>
+        <infoLink id="ad52fb39-fff8-4cb5-9020-9868f3a79ade" hidden="false" targetId="d23596ad-5004-4bc3-8600-2b61a05ee52d" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="127dc7fc-7981-42bd-b16d-866e147649c8" name="Arch-Sybarite" page="0" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="59656344-5a55-47cc-9adb-592555a00fa4" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0fec0a96-4f7f-453c-9d9b-81d34dbc3abd" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="bce99038-fec1-463f-9bc2-1da36200a412" hidden="false" targetId="06776887-98f0-49dd-8aca-d824d3c5d52c" type="rule"/>
+        <infoLink id="a3b79b4d-b235-41ef-ba27-8c5cb29860a9" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+        <infoLink id="7dfa2f82-7b08-48b9-9eda-b4051ff73964" hidden="false" targetId="ed7fb93f-ae9b-4629-a30d-097aa7b5afc3" type="profile"/>
+        <infoLink id="463fb264-1394-409b-bc32-7a8fab32dc8b" hidden="false" targetId="e9675277-c408-4371-b969-6c9565fb2905" type="rule"/>
+        <infoLink id="54118bbd-5bf3-4fd4-877e-390a02aac03b" hidden="false" targetId="d23596ad-5004-4bc3-8600-2b61a05ee52d" type="rule"/>
+        <infoLink id="71e3d18c-5092-4394-b14e-d080a81c41be" hidden="false" targetId="9f458b5f-4ef7-437c-aba8-585963e07dcc" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="100.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedRules>
+    <rule id="18e797f6-fb24-432c-9ee8-652427dbd28a" name="F-ERC" hidden="false">
+      <description>aucune</description>
+    </rule>
+    <rule id="6d96644b-dbd3-410c-9a81-73313522e197" name="EpicUK" hidden="false">
+      <description>none</description>
+    </rule>
+    <rule id="debe925b-e324-4ed7-93d9-69992f678abf" name="GW" hidden="false">
+      <description>none
+Fanatic #02
+Fanatic #13</description>
+    </rule>
+    <rule id="ea98f36c-204c-4f57-805c-c280285f6660" name="NetEA" hidden="false">
+      <description>HOUSE DEVINE KNIGHT HOUSEHOLD LIST V0.1
+HOUSE DEVINE KNIGHT HOUSEHOLD v0.1 QR</description>
+    </rule>
+    <rule id="22382ed4-e92d-41eb-a29c-ba98424c45a4" name="Transport (HD)" hidden="false">
+      <modifiers>
+        <modifier type="set" field="description" value="La capacité de transport: Comme suit-  • Rhinos: 2 unités d&apos;infanterie.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cae033eb-bb6f-4c6c-a304-2f50aaa0236a" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <description>As follows-
+Rhinos: 2 Infantry Units.</description>
+    </rule>
+    <rule id="5fa490ce-87c3-474d-91de-4f49f72d4a6d" name="Strategy Rating &amp; Initiative (HD)" hidden="false">
+      <modifiers>
+        <modifier type="set" field="description" value="Stratégie &amp; Initiative: Les armées de la maison Devine ont une valeur stratégique de 3. Toutes les formations ont une initiative de 2+, sauf les Noise Marines qui ont une valeur d&apos;initiative de 1+.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cae033eb-bb6f-4c6c-a304-2f50aaa0236a" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="description" value="Strategie und Initiative: Strategiewert: 3.  • Noise Marine-Formationen haben den Initiativwert 1+. Andere Formationen haben die Initiativwert 2+.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="17e1c84d-45e8-4447-a3c5-4c3d40b8fd78" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="description" value="Estrategia e Iniciativa: Factor de Estrategia: 3.  • Valores de Iniciativa: Formaciones de Marines Ruidosos: 1+; Resto de formaciones: 2+.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6df4e085-d889-4d87-b048-92b223091d04" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <description>House Devine armies have a strategy rating of 3. Noise Marine formations have an initiative of 1+, all other formations have an initiative of 2+.</description>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile id="c494cb9d-320a-4dbc-b84f-0ba7630ebb51" name="Chaos Lord" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Character</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">n/a</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">n/a</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">n/a</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">n/a</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Daemon Weapon</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapons</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Macro-weapon, +1A</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Commander, Invulnerable Save, Leader</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ad1b8b7f-314e-4d76-8595-06e4676abba6" name="Chaos Rhino" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Armoured Vehicle</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">30cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">5+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">6+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">6+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Combi-bolter</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(15cm)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Small Arms</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Transport</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="99a5a8e6-4d7b-4380-b5b5-918d6deb673d" name="Daemonettes of Slaanesh" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">4+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">3+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">-</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Daemonic Talons</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapons</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Expendable, First Strike, Invulnerable Save, Summoning cost (1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7c5917fd-5871-4870-9b1e-1d15287b0d55" name="Debaser" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Armoured Vehicle</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">20cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">4+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">4+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">3+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Sonic Disruptor&lt;BR&gt;&lt;BR&gt;2x Blast Master&lt;BR&gt;&lt;BR&gt;Battle Claws&lt;BR&gt;&lt;BR&gt;Warp Scream</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">45cm&lt;BR&gt;&lt;BR&gt;30cm&lt;BR&gt;&lt;BR&gt;(contact)&lt;BR&gt;&lt;BR&gt;(15cm)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">2x AP5+/AT6+/AA6+&lt;BR&gt;&lt;BR&gt;AP5+/AT6+&lt;BR&gt;&lt;BR&gt;Assault Weapon&lt;BR&gt;&lt;BR&gt;Small Arms</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Disrupt&lt;BR&gt;&lt;BR&gt;Disrupt&lt;BR&gt;&lt;BR&gt;Macro Weapon, +1A&lt;BR&gt;&lt;BR&gt;First Strike</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Fearless, Infiltrator, Invulnerable Save, Walker</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="82666363-07f1-4274-8633-021b4379ffb2" name="Emperor’s Children Noise Marine" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">4+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">4+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">3+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Sonic Blasters&lt;BR&gt;&lt;BR&gt;Blast Master</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(15cm)&lt;BR&gt;&lt;BR&gt;30cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Small Arms&lt;BR&gt;&lt;BR&gt;AP5+/AT6+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">-&lt;BR&gt;&lt;BR&gt;Disrupt</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Fearless</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ec4fa082-9d6a-42c0-9bc7-92a2d67cc56c" name="Fiends of Slaanesh" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">20cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">4+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">3+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">-</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Rending Claws</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapons</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Expendable, Infiltrator, Invulnerable Save, Summoning cost (1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2fe4e7f5-7883-4e25-ad2a-f2cc7103f6ed" name="Hell Blade" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Aircraft</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">Fighter</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">6+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">n/a</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">n/a</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">2x Reaper Autocannons</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">15cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">AP4+/AT6+/AA5+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429"/>
+      </characteristics>
+    </profile>
+    <profile id="0c71aa0e-0eed-473b-8568-2d65324505a8" name="Hell Talon" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Aircraft</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">Fighter-bomber</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">5+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">n/a</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">n/a</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Twin Lascannon&lt;BR&gt;&lt;BR&gt;Havoc Launcher&lt;BR&gt;&lt;BR&gt;Incendiary Bombs</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">30cm&lt;BR&gt;&lt;BR&gt;45cm&lt;BR&gt;&lt;BR&gt;15cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">AT4+/AA4+&lt;BR&gt;&lt;BR&gt;AP5+/AT6+&lt;BR&gt;&lt;BR&gt;2BP</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Fixed Forward Arc&lt;BR&gt;&lt;BR&gt;Fixed Forward Arc&lt;BR&gt;&lt;BR&gt;Ignore Cover, Fixed Forward Arc</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429"/>
+      </characteristics>
+    </profile>
+    <profile id="c2ac7235-4842-4fc3-a64e-e14096c1e4a2" name="Hell-Knight" hidden="false" typeId="1653b936-3bef-42ef-adfe-653bdfc7f321" typeName="War Engine">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">War Engine</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">30cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">5+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">6+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Thermal Lance&lt;BR&gt;and</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">30cm&lt;BR&gt;and (15cm)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">MW4+&lt;BR&gt;and Small Arms</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">-&lt;BR&gt;and Macro-weapon</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Fearless, Invulnerable Save, Reinforced Armour, Walker</characteristic>
+        <characteristic name="DC" typeId="2377629f-6ded-4aa4-b356-7d506954faa6">2</characteristic>
+        <characteristic name="Crit" typeId="8dbc632e-e06c-461d-a0fa-d51a1a624c11">Destroyed</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2427a837-d2ad-45cb-8817-a19693bf472f" name="Hell-Scourge" hidden="false" typeId="1653b936-3bef-42ef-adfe-653bdfc7f321" typeName="War Engine">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">War Engine</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">30cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">5+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">6+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">3+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Castigator Cannon</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">45cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">3x AP3+/AT5+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Fearless, Invulnerable Save, Reinforced Armour, Walker</characteristic>
+        <characteristic name="DC" typeId="2377629f-6ded-4aa4-b356-7d506954faa6">2</characteristic>
+        <characteristic name="Crit" typeId="8dbc632e-e06c-461d-a0fa-d51a1a624c11">Destroyed</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9be8bd0d-820f-4150-a637-110f9cd2358f" name="Hell-Strider" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Armoured Vehicle</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">30cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">5+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">6+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Lascannon&lt;BR&gt;&lt;BR&gt;Multi-melta&lt;BR&gt;and</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">45cm&lt;BR&gt;&lt;BR&gt;15cm&lt;BR&gt;and (15cm)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">AT5+&lt;BR&gt;&lt;BR&gt;MW5+&lt;BR&gt;and Small Arms</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">-&lt;BR&gt;&lt;BR&gt;-&lt;BR&gt;and Macro-weapon</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Fearless, Invulnerable Save, Walker</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ef95505a-c6d7-418c-8062-5182f8f1a8f8" name="Keeper of Secrets: Greater Daemon of Slaanesh" hidden="false" typeId="1653b936-3bef-42ef-adfe-653bdfc7f321" typeName="War Engine">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">War Engine</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">4+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">3+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">4+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Lash of Torment&lt;BR&gt;&lt;BR&gt;Gaze of Slaanesh&lt;BR&gt;and</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)&lt;BR&gt;&lt;BR&gt;30cm&lt;BR&gt;and (15cm)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapons&lt;BR&gt;&lt;BR&gt;3x MW4+&lt;BR&gt;and Small Arms</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Macro Weapon, First Strike, +1A&lt;BR&gt;&lt;BR&gt;-&lt;BR&gt;and Macro Weapon, First Strike, +1A</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Daemonic Focus, Expendable, Fearless, Inspiring, Invulnerable Save, Reinforced Armour, Walker, Summoning cost (8)</characteristic>
+        <characteristic name="DC" typeId="2377629f-6ded-4aa4-b356-7d506954faa6">3</characteristic>
+        <characteristic name="Crit" typeId="8dbc632e-e06c-461d-a0fa-d51a1a624c11">Banished</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9216141f-8b16-4021-bca9-b593a74120d7" name="Slaanesh Questor" hidden="false" typeId="1653b936-3bef-42ef-adfe-653bdfc7f321" typeName="War Engine">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">War Engine</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">35cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">4+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">6+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">2x Castigator Cannon&lt;BR&gt;&lt;BR&gt;2x Battlecannon</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">45cm&lt;BR&gt;&lt;BR&gt;75cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">3x AP3+/AT5+&lt;BR&gt;&lt;BR&gt;AP4+/AT4+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Fearless, Reinforced Armour, Walker (Titan), 2 Sh</characteristic>
+        <characteristic name="DC" typeId="2377629f-6ded-4aa4-b356-7d506954faa6">3</characteristic>
+        <characteristic name="Crit" typeId="8dbc632e-e06c-461d-a0fa-d51a1a624c11">Staggering Blow</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b8b06b0a-cbd3-48b8-be44-97d4d25c4398" name="Slaanesh Subjugator" hidden="false" typeId="1653b936-3bef-42ef-adfe-653bdfc7f321" typeName="War Engine">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">War Engine</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">35cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">5+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">3+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">2x Hellblades&lt;BR&gt;&lt;BR&gt;2x Battlecannon</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)&lt;BR&gt;&lt;BR&gt;75cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapon&lt;BR&gt;&lt;BR&gt;AP4+/AT4+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Titan Killer (D3), +1A&lt;BR&gt;&lt;BR&gt;-</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Fearless, Reinforced Armour, Walker (Titan), 2 Sh</characteristic>
+        <characteristic name="DC" typeId="2377629f-6ded-4aa4-b356-7d506954faa6">3</characteristic>
+        <characteristic name="Crit" typeId="8dbc632e-e06c-461d-a0fa-d51a1a624c11">Staggering Blow</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ed7fb93f-ae9b-4629-a30d-097aa7b5afc3" name="Arch-Sybarite" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Character</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">n/a</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">n/a</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">n/a</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">n/a</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Warp Bolt</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(15cm)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Small Arms</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Macro-weapon, +1A</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Inspiring, Supreme Commander</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9d532b52-e754-4188-8611-7028215913d9" name="Agonist" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Character</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">n/a</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">n/a</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">n/a</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">n/a</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">none</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b"/>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6"/>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Commander, Leader</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="017c6363-1f72-41d5-8781-bdebd7adfeeb" name="Sorcerer Lord" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Character</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">n/a</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">n/a</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">n/a</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">n/a</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Warp Bolt</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(15cm)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Small Arms</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Macro-weapon, +1A</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Commander, Invulnerable Save, Leader</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d4db3b17-fdfa-49f1-95ed-07e3f62887cf" name="Demagogue" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">6+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">5+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Firearms&lt;BR&gt;&lt;BR&gt;Heavy Weapons&lt;BR&gt;&lt;BR&gt;Daemon Weapon&lt;BR&gt;&lt;BR&gt;Arcane Powers</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(15cm)&lt;BR&gt;&lt;BR&gt;30cm&lt;BR&gt;&lt;BR&gt;(contact)&lt;BR&gt;&lt;BR&gt;30cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Small Arms&lt;BR&gt;&lt;BR&gt;AP6+/AT6+&lt;BR&gt;&lt;BR&gt;Assault Weapons&lt;BR&gt;&lt;BR&gt;MW6+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">-&lt;BR&gt;&lt;BR&gt;-&lt;BR&gt;&lt;BR&gt;Macro-weapon, +1A&lt;BR&gt;&lt;BR&gt;-</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Augment Summoning, Invulnerable Save</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0c90cd83-95f0-4d35-a0f6-be99375fa4e2" name="Cultist" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">-</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">5+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">6+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Firearms&lt;BR&gt;&lt;BR&gt;Heavy Weapons</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(15cm)&lt;BR&gt;&lt;BR&gt;30cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Small Arms&lt;BR&gt;&lt;BR&gt;AP6+/AT6+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429"/>
+      </characteristics>
+    </profile>
+    <profile id="b069a86b-4e12-4b88-833a-d796532b3ac8" name="Mutant" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">6+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">4+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">6+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Firearms&lt;BR&gt;&lt;BR&gt;Melee Weapons</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(15cm)&lt;BR&gt;&lt;BR&gt;(contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Small Arms&lt;BR&gt;&lt;BR&gt;Assault Weapons</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429"/>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>

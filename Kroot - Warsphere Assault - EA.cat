@@ -1,0 +1,1160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="764a1dab-60ff-421f-a395-2c1569e0c612" name="Kroot: Warsphere Assault" revision="28" battleScribeVersion="2.03" authorUrl="http://battlescribedata.appspot.com/#/repo/wh40k-epic-armageddon" library="false" gameSystemId="b7be77a3-9f44-4c5d-a0f7-a40bf046af2a" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="b67cb12e-eda7-411a-ab14-b6656ec85385" name="-Community-" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8a830798-cec9-4dc2-9a81-2668b09ba62b" name="Group" hidden="false" collective="false" import="true" defaultSelectionEntryId="5e7aabca-d4b7-4c86-8374-48f9dcc2ad88">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="e82d842c-e601-4481-a829-ef8414d1aa87" hidden="false" collective="false" import="true" targetId="88a98d5f-b990-4741-9c4e-5761a2a7200f" type="selectionEntry"/>
+            <entryLink id="5e7aabca-d4b7-4c86-8374-48f9dcc2ad88" hidden="false" collective="false" import="true" targetId="7f0bed0e-1717-46a1-8225-09866b0dcc87" type="selectionEntry"/>
+            <entryLink id="8e50abf9-2eb4-45e0-acfe-23675a8d4787" hidden="false" collective="false" import="true" targetId="6a7b87a6-e3f4-4ba7-aaac-b20234ded31f" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="f4ec5e0a-4ae3-4858-927d-c7c60e0613ce" name="" hidden="false" collective="false" import="true" targetId="1884eb4b-97e7-42ae-aed7-811bae8a02a9" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5fea417a-7a6d-4de5-9a6d-ea762988c3f7" name="Kroot Warsphere" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a6c6337b-9e95-4217-a262-7b8b080cdcc3" type="instanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="fbb9a621-48a0-4b65-83d0-2a481c59d88c" value="0.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a6c6337b-9e95-4217-a262-7b8b080cdcc3" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fbb9a621-48a0-4b65-83d0-2a481c59d88c" type="min"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c182039f-f800-4e8f-89ac-77330b0388a3" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="74a1974e-bf25-47e8-84f7-2f4233ff3408" hidden="false" targetId="85c36fa8-ec68-4989-8f34-1d68498fe703" type="profile"/>
+        <infoLink id="c58ec48d-336a-4d4c-9cee-08c4cb9c45b0" hidden="false" targetId="c7f9b141-3fe6-4378-bfe8-8cd478c9d828" type="rule"/>
+        <infoLink id="903a03ed-6ea1-4bfb-999c-4a7a83478f73" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="200.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7e3c85c6-c75f-41da-90e8-a9086637c86e" name="Kroot Troopship" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a6c6337b-9e95-4217-a262-7b8b080cdcc3" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink id="470e8cc9-f64c-4bd0-9c2f-96e9de4007b5" hidden="false" targetId="2184bc04-4cfa-42fa-bf38-8f5880727837" type="profile"/>
+        <infoLink id="42821f10-7c87-4ed8-bdb0-e1d369082367" hidden="false" targetId="c7f9b141-3fe6-4378-bfe8-8cd478c9d828" type="rule"/>
+        <infoLink id="950fadbb-1d76-499a-aef5-e248849c3654" hidden="false" targetId="fc3b74b8-a44e-439f-995a-e8914e607a21" type="rule"/>
+        <infoLink id="e6278b85-6624-415f-878a-6fbf7169b8eb" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+        <infoLink id="b61b5909-94f2-4a6b-a625-0889de3eaf38" hidden="false" targetId="5d06ddad-3c41-47b2-bb65-d8263db769e3" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="aec1357f-0511-449c-a6a8-4507f997fe4c" hidden="false" targetId="be26492f-4757-4b69-aa55-d6ef024fca60" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="175.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="31a3f9d4-4923-46ca-bffb-e631b65f1395" name="Ygothlac Forest Spitting Terrors" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="c4a4d44d-f1e1-483f-962d-11ba9da719a8" hidden="false" targetId="be26492f-4757-4b69-aa55-d6ef024fca60" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="5b997996-07cf-4205-919a-c42bd0927905" name="Ygothlac Forest Spitting Terror" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7fc27b74-7189-4105-94e3-fe93b68d2097" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33613d8a-3789-4914-96a2-b1ed8505bda4" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="d22c7fd4-468b-49a6-8c65-a97b5f90dd49" hidden="false" targetId="9182dfd2-a0cb-4c9f-b1d0-e2b40f5c3892" type="profile"/>
+            <infoLink id="7419068f-70fd-4dfb-87df-6b635edef1b3" hidden="false" targetId="5087a733-1e15-4e06-b869-8728e657c9fa" type="rule"/>
+            <infoLink id="20b7207a-c853-4880-bb31-b3459a42d0ee" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+            <infoLink id="ed8e1d3a-c70d-4050-8a4c-82ba1eaab184" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+            <infoLink id="cb99e104-867b-4050-bbb5-61dfde9d2e0a" hidden="false" targetId="ae687b81-bb2b-4103-89da-77e3829e0051" type="rule"/>
+            <infoLink id="2c01520f-55f9-4938-8e6c-d81c68359cf3" hidden="false" targetId="b4f624a1-c328-44fa-a985-ecbf2ce536c1" type="rule"/>
+            <infoLink id="d40eeaa7-6f77-4ddb-852c-e10058f31581" hidden="false" targetId="72dab6ac-4c9d-45f2-b150-7dd034d83b83" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="350.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="91902837-dbb8-4e81-aff2-62bcdf9b8d93" name="Kroot Carnivore Kindred" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="96a87489-8206-47fc-9e63-06998e24ce09" hidden="false" targetId="e4013702-a119-46c3-9fd9-a64e58afe467" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e115867b-e570-4b78-84eb-ce1504418966" name="Kroot Master Shaper" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="2b7b2820-ca82-4a19-8422-72f034cd6b17" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="a927a819-1b4c-4972-a331-1d004dc67ae0" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="4f98094d-9417-4c48-8e7c-4a934dcd4486" hidden="false" targetId="97b99002-0521-40d5-a099-eeceb83c2c39" type="profile"/>
+            <infoLink id="52fe80d7-0266-44dd-b80c-a4a0a178e649" hidden="false" targetId="18b55dcf-3e60-458e-90e4-29f69deaa065" type="rule"/>
+            <infoLink id="b24b464b-0fd0-4209-b8ed-bea8e43ef9c8" hidden="false" targetId="d23596ad-5004-4bc3-8600-2b61a05ee52d" type="rule"/>
+            <infoLink id="8a25d2cc-b812-4eab-bc91-86ccd7d68b97" hidden="false" targetId="af143427-33d4-438b-aab2-16a8e2867f79" type="rule"/>
+            <infoLink id="5c18a64d-daaa-4b44-9de9-c00069589572" hidden="false" targetId="31e87847-629d-494c-ab77-179a6b854c8a" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="649d763f-201e-4708-88f5-30c4fbf19958" name="Upgrades" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="decrement" field="5ccda075-ff9f-4f41-82d9-d9e2dcf2a1e1" value="1">
+              <conditions>
+                <condition field="selections" scope="91902837-dbb8-4e81-aff2-62bcdf9b8d93" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5cd0162b-f1fa-4b77-924f-8cf45352b65a" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="5ccda075-ff9f-4f41-82d9-d9e2dcf2a1e1" value="1">
+              <conditions>
+                <condition field="selections" scope="91902837-dbb8-4e81-aff2-62bcdf9b8d93" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c4de6d92-f161-46d4-83be-5aa8039531ff" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5ccda075-ff9f-4f41-82d9-d9e2dcf2a1e1" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="a199c922-26ba-44fd-980e-39e6734aa43f" name="3x Krootox Herd Unit" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="7f04ff22-8cbf-4a04-9072-0f03fac13a16" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="f247ce6a-928a-4674-9caa-dc4cfea5209f" hidden="false" targetId="b3658645-8b2d-460c-9a92-a4b014312798" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="50.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="32d3743b-7b31-4c8c-91b6-87de3b631be9" name="3x Kroot Hunter Unit" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="f640614d-96de-4645-b588-65786dc337f8" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="e78421aa-4624-42ed-a76d-8d0310f592c5" hidden="false" targetId="edc158c5-b918-4172-a5a8-66264665ce20" type="profile"/>
+                <infoLink id="47286edd-c717-4f0a-8d02-4ec7934f7f68" hidden="false" targetId="18b55dcf-3e60-458e-90e4-29f69deaa065" type="rule"/>
+                <infoLink id="071de4ef-6a33-4837-ac00-c0641cbaae45" hidden="false" targetId="af143427-33d4-438b-aab2-16a8e2867f79" type="rule"/>
+                <infoLink id="fe24f5cd-90b7-46f6-8b38-1d07a28a8c41" hidden="false" targetId="0a2c466f-8e38-4e54-a0f1-08ac199cd89c" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="100.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8ac5aab0-6d80-425c-8254-9c6a2975b36b" name="Drop Pods" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a6c6337b-9e95-4217-a262-7b8b080cdcc3" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="375d83a4-da34-4373-a76f-a8b92a175701" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="3332a82d-11a9-4ab8-a43e-996813e0c0d5" hidden="false" targetId="f51da309-dbc8-4895-a72c-a2115d00d327" type="profile"/>
+                <infoLink id="fc742478-5fe5-4465-9661-ef50d52e56b0" hidden="false" targetId="3d2f3b8a-4d8e-4f18-94fa-80518851eb9b" type="rule"/>
+                <infoLink id="bc384756-eaca-4ecc-a8e4-db9205d66354" hidden="false" targetId="fc3b74b8-a44e-439f-995a-e8914e607a21" type="rule"/>
+                <infoLink id="61ed347b-64a6-4b46-b322-907bc41c6f92" hidden="false" targetId="c7f9b141-3fe6-4378-bfe8-8cd478c9d828" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="25.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="76b8698b-662c-416d-b6e2-df0712a0dc20" name="3x Feral Kroot Unit" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c073be76-edbb-4d9a-9706-e55c4312dd66" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="b7bc2802-c8b6-4a79-91b9-8f920a05ce5c" hidden="false" targetId="4e322013-d364-49e6-9b56-add22ce56844" type="profile"/>
+                <infoLink id="4e29b3e9-a88c-4fb0-a719-366551a972f6" hidden="false" targetId="18b55dcf-3e60-458e-90e4-29f69deaa065" type="rule"/>
+                <infoLink id="6f114b48-e0ab-4f6e-a8ad-c065f0e92a4f" hidden="false" targetId="72dab6ac-4c9d-45f2-b150-7dd034d83b83" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="75.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="2fb3ea7f-603d-4102-81ab-708269b0b375" hidden="false" collective="false" import="true" targetId="efefe552-dcc7-4398-bdcc-3752e785c8fe" type="selectionEntry"/>
+            <entryLink id="a6d30389-8e67-4b70-a7b9-8949a3ee4280" hidden="false" collective="false" import="true" targetId="e7739e53-4f3a-4b59-a589-949dcb947686" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="e37b00fb-d557-4947-8ee0-02834d5d83b4" name="Warriors" hidden="false" collective="false" import="true" defaultSelectionEntryId="5f15391f-08b3-4397-9f34-416aa91f52f1">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="09d53eea-bf17-4e91-b015-87aeb8c3ea22" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="a033c6be-6861-4fad-9f91-9e5b6ce8f63b" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="5f15391f-08b3-4397-9f34-416aa91f52f1" name="9x Kroot Carnivore Unit" hidden="false" collective="false" import="true" type="unit">
+              <infoLinks>
+                <infoLink id="adffacde-e85d-42c4-8367-80d69eaaec44" hidden="false" targetId="9bf85109-4794-417f-8ef5-86d84d2317c7" type="profile"/>
+                <infoLink id="cae36f50-b45b-44fc-9f6a-027fa2992b42" hidden="false" targetId="18b55dcf-3e60-458e-90e4-29f69deaa065" type="rule"/>
+                <infoLink id="f0fb01c3-a3d5-43f8-8a1d-4fe0b205387e" hidden="false" targetId="af143427-33d4-438b-aab2-16a8e2867f79" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c4de6d92-f161-46d4-83be-5aa8039531ff" name="14x Kroot Carnivore Unit" hidden="false" collective="false" import="true" type="unit">
+              <infoLinks>
+                <infoLink id="04575b74-1b6b-44f8-ac1b-c79c3804e9bf" hidden="false" targetId="9bf85109-4794-417f-8ef5-86d84d2317c7" type="profile"/>
+                <infoLink id="69933438-95b3-4be5-b41d-b264bf48de2e" hidden="false" targetId="18b55dcf-3e60-458e-90e4-29f69deaa065" type="rule"/>
+                <infoLink id="fa23c755-cef8-47f0-906a-ca035cf64eb6" hidden="false" targetId="af143427-33d4-438b-aab2-16a8e2867f79" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="75.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="68528afc-f212-4d53-8454-ce3a11de275c" hidden="false" collective="false" import="true" targetId="5cd0162b-f1fa-4b77-924f-8cf45352b65a" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="175.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1ac19211-9a49-4fe3-8b09-69259b11a2c7" name="Kroot Vulture Kindred" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="53642da8-579a-458b-a2f0-0002b9ae4ffc" hidden="false" targetId="32fa31d8-c485-49c4-9fe1-59508cbee026" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="65ec3db0-fb2c-453c-bfb2-efeceef07513" name="Warriors" hidden="false" collective="false" import="true" defaultSelectionEntryId="7dd018e8-c9a5-4551-bf03-6605168964e6">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="641749b8-3795-49f3-8dd0-781d410eeb8e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="f55f6c9b-b808-4381-aa50-359bd3e6c07e" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="7dd018e8-c9a5-4551-bf03-6605168964e6" name="4x Kroot Vulture Unit" hidden="false" collective="false" import="true" type="unit">
+              <infoLinks>
+                <infoLink id="661bd5c1-b4d5-45d2-ac26-cd10270cfa2b" hidden="false" targetId="9f9f37f9-b8e3-4605-9684-a2ebd5baa181" type="profile"/>
+                <infoLink id="53f148fd-492a-4822-8d2f-236d04e070d3" hidden="false" targetId="bef38f07-4cf3-4b21-a88e-e47542734de7" type="rule"/>
+                <infoLink id="9700ecb0-3622-47ee-8f80-37b822dcdbb8" hidden="false" targetId="af143427-33d4-438b-aab2-16a8e2867f79" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1c12ad0d-7df1-4412-8aac-52cc5fadc461" name="9x Kroot Vulture Unit" hidden="false" collective="false" import="true" type="unit">
+              <infoLinks>
+                <infoLink id="c0afc253-4274-4464-bc37-69193ac6837d" hidden="false" targetId="9f9f37f9-b8e3-4605-9684-a2ebd5baa181" type="profile"/>
+                <infoLink id="852baf32-90f8-4d8b-908a-6d2e5059f947" hidden="false" targetId="bef38f07-4cf3-4b21-a88e-e47542734de7" type="rule"/>
+                <infoLink id="3fa9ec93-ca42-4afc-8175-f585d015958e" hidden="false" targetId="af143427-33d4-438b-aab2-16a8e2867f79" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="75.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4a308bdb-8a4a-4edc-b538-dd696287e40d" name="14x Kroot Vulture Unit" hidden="false" collective="false" import="true" type="unit">
+              <infoLinks>
+                <infoLink id="f3919098-94bb-4aba-912c-c57d1252dbe9" hidden="false" targetId="9f9f37f9-b8e3-4605-9684-a2ebd5baa181" type="profile"/>
+                <infoLink id="9a3b0ff9-fbf0-41b7-a015-cbe67a77a5b6" hidden="false" targetId="bef38f07-4cf3-4b21-a88e-e47542734de7" type="rule"/>
+                <infoLink id="c6bd6c01-0901-4bfc-a741-639849661e85" hidden="false" targetId="af143427-33d4-438b-aab2-16a8e2867f79" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="150.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4023d414-c142-44c1-bcd9-96628335d75c" name="19x Kroot Vulture Unit" hidden="false" collective="false" import="true" type="unit">
+              <infoLinks>
+                <infoLink id="b5bf0ae6-af23-4462-a9b3-2e1edaa0a5b6" hidden="false" targetId="9f9f37f9-b8e3-4605-9684-a2ebd5baa181" type="profile"/>
+                <infoLink id="7431f66f-809f-4f75-b561-fcbe613580b9" hidden="false" targetId="bef38f07-4cf3-4b21-a88e-e47542734de7" type="rule"/>
+                <infoLink id="97c87c32-662e-4e56-aca8-a9a639a64e3f" hidden="false" targetId="af143427-33d4-438b-aab2-16a8e2867f79" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="225.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="005fe500-d7ca-4a6f-abf8-eff270d81f26" hidden="false" collective="false" import="true" targetId="5ece2f73-c714-4068-85d1-895c5685f9dc" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="150.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="52a8f16f-a60f-45ac-86be-6f3be9191f2a" name="Kroot Stalker Kindred" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="a2e41bfa-534b-4add-9e4f-0fc24fc911e1" hidden="false" targetId="32fa31d8-c485-49c4-9fe1-59508cbee026" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="f2d3e6b3-9fc7-42ac-93e1-33a7901487f3" name="Kroot Stalker Unit" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a022b1c5-a1b4-4214-96d5-421ce58aba7b" type="min"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="307130f0-5ad8-47f3-b55b-4c6def72a949" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="23568a23-bc74-49a0-bda6-f1c6469cc206" hidden="false" targetId="b0dd29e6-2c76-45b4-aba6-27b01a528dd2" type="profile"/>
+            <infoLink id="a5731d04-1860-4aa2-87fe-8b55a1727432" hidden="false" targetId="18b55dcf-3e60-458e-90e4-29f69deaa065" type="rule"/>
+            <infoLink id="4d340e9e-cb81-4c16-8de0-a000e32d4272" hidden="false" targetId="af143427-33d4-438b-aab2-16a8e2867f79" type="rule"/>
+            <infoLink id="189ce808-ae80-4ef3-9a61-43dc9abe164d" hidden="false" targetId="8c9dcd69-c483-4585-9c5f-5681332d9ae3" type="rule"/>
+            <infoLink id="c61d1b61-6cfe-47a0-993e-abbe45cb2f58" hidden="false" targetId="71ce5ada-8613-4124-bd2f-43c80fb9488b" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="4812fed3-a22e-434c-b877-2adebacfc0f1" hidden="false" collective="false" import="true" targetId="5ece2f73-c714-4068-85d1-895c5685f9dc" type="selectionEntry"/>
+        <entryLink id="1d1cd222-abe4-4b37-b782-4997ef90e9d7" hidden="false" collective="false" import="true" targetId="5cd0162b-f1fa-4b77-924f-8cf45352b65a" type="selectionEntryGroup"/>
+        <entryLink id="12bf9876-456f-4da1-8827-5d92d9c4cb16" hidden="false" collective="false" import="true" targetId="e7739e53-4f3a-4b59-a589-949dcb947686" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="a9910dbb-ec81-4aa1-9139-e8c8daecb337" value="2">
+              <conditions>
+                <condition field="selections" scope="52a8f16f-a60f-45ac-86be-6f3be9191f2a" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5cd0162b-f1fa-4b77-924f-8cf45352b65a" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="175.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="41d8f2cb-3a0b-42d8-993c-48cf15e8aa0d" name="Kroot Hunter Kindred" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="2f4b3be2-c277-4ca9-b117-d6dcc62ffc5d" hidden="false" targetId="32fa31d8-c485-49c4-9fe1-59508cbee026" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="d2eba8fb-3e68-4f5c-946b-87fb9debac0b" name="Warriors" hidden="false" collective="false" import="true" defaultSelectionEntryId="0d6ecf01-1c52-492d-b5e0-f85f65bc6093">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="d7f9b9b8-2df3-4b5d-8fa2-b66dff9b7790" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="1d934163-724e-41f8-b3eb-12533617504f" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="0d6ecf01-1c52-492d-b5e0-f85f65bc6093" name="4x Kroot Hunter Unit" hidden="false" collective="false" import="true" type="unit">
+              <infoLinks>
+                <infoLink id="bda90798-0def-4dd2-b180-1e15d18509f1" hidden="false" targetId="edc158c5-b918-4172-a5a8-66264665ce20" type="profile"/>
+                <infoLink id="19952282-9885-4df6-8af4-7cb55c41dff0" hidden="false" targetId="18b55dcf-3e60-458e-90e4-29f69deaa065" type="rule"/>
+                <infoLink id="20c36e42-b3cd-4473-aa3f-ec08f063cf84" hidden="false" targetId="af143427-33d4-438b-aab2-16a8e2867f79" type="rule"/>
+                <infoLink id="4c5f16c6-7858-4109-9a31-c067c2941d1e" hidden="false" targetId="0a2c466f-8e38-4e54-a0f1-08ac199cd89c" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="28206702-debd-4368-aa80-f43f429978de" name="9x Kroot Hunter Unit" hidden="false" collective="false" import="true" type="unit">
+              <infoLinks>
+                <infoLink id="a1259d66-de08-4be7-b2f8-4bf3cbf2eea1" hidden="false" targetId="edc158c5-b918-4172-a5a8-66264665ce20" type="profile"/>
+                <infoLink id="818cef6c-4385-4f6c-8c9d-5a8c28dd9780" hidden="false" targetId="18b55dcf-3e60-458e-90e4-29f69deaa065" type="rule"/>
+                <infoLink id="25ac802c-8d53-476e-a683-1ab467364e2f" hidden="false" targetId="af143427-33d4-438b-aab2-16a8e2867f79" type="rule"/>
+                <infoLink id="fefaad6b-e935-48db-98c5-404d16ab2831" hidden="false" targetId="0a2c466f-8e38-4e54-a0f1-08ac199cd89c" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="100.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="64a180c6-2ea6-426c-9b5e-58eda4bef0c4" name="14x Kroot Hunter Unit" hidden="false" collective="false" import="true" type="unit">
+              <infoLinks>
+                <infoLink id="86c8fb80-278c-4d56-adbb-f9f84218ab35" hidden="false" targetId="edc158c5-b918-4172-a5a8-66264665ce20" type="profile"/>
+                <infoLink id="e46c2726-7d31-4312-aeec-f6c0c772c6a1" hidden="false" targetId="18b55dcf-3e60-458e-90e4-29f69deaa065" type="rule"/>
+                <infoLink id="173ad066-8dea-4b72-a67f-72762980a0ed" hidden="false" targetId="af143427-33d4-438b-aab2-16a8e2867f79" type="rule"/>
+                <infoLink id="4d73163c-eb51-4a56-9005-29e76efb8249" hidden="false" targetId="0a2c466f-8e38-4e54-a0f1-08ac199cd89c" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="200.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="01fcff58-d84d-4006-8e66-799612788926" name="19x Kroot Hunter Unit" hidden="false" collective="false" import="true" type="unit">
+              <modifiers>
+                <modifier type="set" field="e34f2792-fe2d-4bb6-af2a-f5d7007bc503" value="0">
+                  <conditions>
+                    <condition field="selections" scope="41d8f2cb-3a0b-42d8-993c-48cf15e8aa0d" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5cd0162b-f1fa-4b77-924f-8cf45352b65a" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e34f2792-fe2d-4bb6-af2a-f5d7007bc503" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="2a5902f5-6081-44e1-9081-ed91cf60b5ee" hidden="false" targetId="edc158c5-b918-4172-a5a8-66264665ce20" type="profile"/>
+                <infoLink id="8ff2e341-443e-4711-93f0-25224b2625d3" hidden="false" targetId="18b55dcf-3e60-458e-90e4-29f69deaa065" type="rule"/>
+                <infoLink id="57b0cf42-0102-4c94-9466-67cca7b6a443" hidden="false" targetId="af143427-33d4-438b-aab2-16a8e2867f79" type="rule"/>
+                <infoLink id="9bcb4750-b756-4f55-9db0-b1fa690c8073" hidden="false" targetId="0a2c466f-8e38-4e54-a0f1-08ac199cd89c" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="300.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="c0ee03ca-336e-47f1-ba35-4ee04687053b" hidden="false" collective="false" import="true" targetId="5ece2f73-c714-4068-85d1-895c5685f9dc" type="selectionEntry"/>
+        <entryLink id="371fb068-79cf-45db-a1c6-c744fb6469f3" hidden="false" collective="false" import="true" targetId="5cd0162b-f1fa-4b77-924f-8cf45352b65a" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="150.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="90168cbb-8191-4871-a4b0-449894356711" name="Feral Kroot Kindred" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="5eb180f7-d0dd-43c9-93f3-5c3f176b91a6" hidden="false" targetId="32fa31d8-c485-49c4-9fe1-59508cbee026" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="a26fe054-600e-405a-9f39-9a6da9ed6f46" name="Feral Kroot Unit" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5cc8520c-edbd-44ae-b408-94d6f6087b39" type="min"/>
+            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54487e70-58d8-4724-a799-4d04c2abca80" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="43528fa0-8572-45c8-b33e-e6ec372af31d" hidden="false" targetId="4e322013-d364-49e6-9b56-add22ce56844" type="profile"/>
+            <infoLink id="29189d87-920a-4286-aeb3-656d947d3e8d" hidden="false" targetId="18b55dcf-3e60-458e-90e4-29f69deaa065" type="rule"/>
+            <infoLink id="3529df44-8d31-4ea9-a6b6-8655e385727c" hidden="false" targetId="72dab6ac-4c9d-45f2-b150-7dd034d83b83" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="250.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c58d42d9-0e09-4dcb-85f0-dfae0725d7af" name="Kroot Hound Pack" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="6a6308ed-d9c3-4e26-9d23-a85ab564c193" hidden="false" targetId="32fa31d8-c485-49c4-9fe1-59508cbee026" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="b17a14b3-db00-4d52-a0b9-a79593c7bd86" name="Hounds" hidden="false" collective="false" import="true" defaultSelectionEntryId="09db64f6-7496-4927-acf2-b1027551996c">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="96ceaafd-9855-4288-b9db-478bad340cc2" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e646ae14-31fb-4ae3-9783-e5396a3637c4" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="09db64f6-7496-4927-acf2-b1027551996c" name="10x Kroot Hound Unit" hidden="false" collective="false" import="true" type="unit">
+              <infoLinks>
+                <infoLink id="4c05917a-b8e1-4037-b545-52ae9ff116fd" hidden="false" targetId="888bf38d-be01-47d1-8170-2221b0da0d62" type="profile"/>
+                <infoLink id="2569ec1b-45b5-4900-be55-c310173f6151" hidden="false" targetId="18b55dcf-3e60-458e-90e4-29f69deaa065" type="rule"/>
+                <infoLink id="81a4cab6-c4d5-43c2-860b-e87b4275b984" hidden="false" targetId="af143427-33d4-438b-aab2-16a8e2867f79" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3c6e862c-c3a1-40ef-ad8d-32ee391b49f5" name="13x Kroot Hound Unit" hidden="false" collective="false" import="true" type="unit">
+              <infoLinks>
+                <infoLink id="04ff7822-2588-4e15-980b-b712ea883d53" hidden="false" targetId="888bf38d-be01-47d1-8170-2221b0da0d62" type="profile"/>
+                <infoLink id="f11427ae-c211-41b6-bb23-a805d09969b7" hidden="false" targetId="18b55dcf-3e60-458e-90e4-29f69deaa065" type="rule"/>
+                <infoLink id="cb359a4d-72a3-4ab8-8cf9-44cc09c1d449" hidden="false" targetId="af143427-33d4-438b-aab2-16a8e2867f79" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="50.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="775da0a4-19e2-41c0-a13f-27a0758d7099" name="16x Kroot Hound Unit" hidden="false" collective="false" import="true" type="unit">
+              <infoLinks>
+                <infoLink id="a3b3029a-11f4-40dd-a0cb-a2dd8eb97ace" hidden="false" targetId="888bf38d-be01-47d1-8170-2221b0da0d62" type="profile"/>
+                <infoLink id="63c50e37-5972-4d22-a376-d71dc03b37af" hidden="false" targetId="18b55dcf-3e60-458e-90e4-29f69deaa065" type="rule"/>
+                <infoLink id="6407c0bd-dad3-49a8-8094-4cdfdf352ea1" hidden="false" targetId="af143427-33d4-438b-aab2-16a8e2867f79" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="100.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="25ca5f0f-9c05-45cc-85ce-27a4d2e49b2a" name="19x Kroot Hound Unit" hidden="false" collective="false" import="true" type="unit">
+              <infoLinks>
+                <infoLink id="8713cb10-d206-4d28-851e-91202c55f20f" hidden="false" targetId="888bf38d-be01-47d1-8170-2221b0da0d62" type="profile"/>
+                <infoLink id="44144f5d-26b3-4cef-86eb-bb092dbec150" hidden="false" targetId="18b55dcf-3e60-458e-90e4-29f69deaa065" type="rule"/>
+                <infoLink id="60c5a64d-f055-40a2-9826-bdb993f5f808" hidden="false" targetId="af143427-33d4-438b-aab2-16a8e2867f79" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="150.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="200.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="60dbee83-a6b6-46bb-abe4-c37a19d151f2" name="Kroot Tracker Kindred" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="9ba102ed-9e5b-4748-abc1-bdc531347829" hidden="false" targetId="32fa31d8-c485-49c4-9fe1-59508cbee026" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="d93fe21e-7c1f-4728-af4f-98fbdbdf95f4" name="Warriors" hidden="false" collective="false" import="true" defaultSelectionEntryId="6df51800-c477-4bba-a00a-fcd9c1275364">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="62514363-4589-4fac-b9ee-be6e8f96364d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="98de4ee4-0f5a-4217-b0ef-20a1bd451878" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="6df51800-c477-4bba-a00a-fcd9c1275364" name="4x Kroot Tracker Unit" hidden="false" collective="false" import="true" type="unit">
+              <infoLinks>
+                <infoLink id="c1dfd9b4-de58-4a37-963c-740f56b2cde3" hidden="false" targetId="ee5279d3-5862-41f5-8f08-e18947cbd33e" type="profile"/>
+                <infoLink id="e84a3921-7e45-4175-bf59-bbaf472ec7a2" hidden="false" targetId="af143427-33d4-438b-aab2-16a8e2867f79" type="rule"/>
+                <infoLink id="170adae4-47dd-44db-9412-a0599574f50a" hidden="false" targetId="0a2c466f-8e38-4e54-a0f1-08ac199cd89c" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b36ca5cc-0622-47a1-a1b1-6d6ada6f4992" name="9x Kroot Tracker Unit" hidden="false" collective="false" import="true" type="unit">
+              <infoLinks>
+                <infoLink id="7a3b1264-2b97-4ab1-9190-10850cab78aa" hidden="false" targetId="ee5279d3-5862-41f5-8f08-e18947cbd33e" type="profile"/>
+                <infoLink id="d3b4c129-49f4-439d-b45c-ee9158228bf4" hidden="false" targetId="af143427-33d4-438b-aab2-16a8e2867f79" type="rule"/>
+                <infoLink id="69cc7868-5f80-4658-b010-8bd97f6464db" hidden="false" targetId="0a2c466f-8e38-4e54-a0f1-08ac199cd89c" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="125.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="eeac161b-c21e-405f-9692-11eae6a1ce0c" name="14x Kroot Tracker Unit" hidden="false" collective="false" import="true" type="unit">
+              <infoLinks>
+                <infoLink id="f70d06c3-073b-401d-87fc-f04f1be3b479" hidden="false" targetId="ee5279d3-5862-41f5-8f08-e18947cbd33e" type="profile"/>
+                <infoLink id="5c28bf61-e1c5-4518-8644-4e132c7c27db" hidden="false" targetId="af143427-33d4-438b-aab2-16a8e2867f79" type="rule"/>
+                <infoLink id="95e37b20-e60e-4294-96d0-178d804b93a7" hidden="false" targetId="0a2c466f-8e38-4e54-a0f1-08ac199cd89c" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="250.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="aacf8d4f-0440-442b-93ce-bd21e7a2a2f7" name="19x Kroot Tracker Unit" hidden="false" collective="false" import="true" type="unit">
+              <modifiers>
+                <modifier type="set" field="35c9ab6b-fa27-4a78-8467-3cdac52814bf" value="0">
+                  <conditions>
+                    <condition field="selections" scope="60dbee83-a6b6-46bb-abe4-c37a19d151f2" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5cd0162b-f1fa-4b77-924f-8cf45352b65a" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35c9ab6b-fa27-4a78-8467-3cdac52814bf" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="cc76677b-f2c5-4900-9ebd-d6d4dd382962" hidden="false" targetId="ee5279d3-5862-41f5-8f08-e18947cbd33e" type="profile"/>
+                <infoLink id="fa48eddb-2b7e-494f-b010-83acbef37ab0" hidden="false" targetId="af143427-33d4-438b-aab2-16a8e2867f79" type="rule"/>
+                <infoLink id="2fc6e6a9-6dfc-42a6-8991-0107b8006b5f" hidden="false" targetId="0a2c466f-8e38-4e54-a0f1-08ac199cd89c" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="375.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="ec2d7d25-7e2c-4c10-8a0b-96473ef8a476" hidden="false" collective="false" import="true" targetId="5ece2f73-c714-4068-85d1-895c5685f9dc" type="selectionEntry"/>
+        <entryLink id="c87b0e1e-61b2-4a61-9129-89720c315816" hidden="false" collective="false" import="true" targetId="5cd0162b-f1fa-4b77-924f-8cf45352b65a" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="175.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4c86394d-5ede-4886-b94c-decd38ac74e6" name="Krootox Herd" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="f38c4206-bb4b-434f-8dba-0965e3b47df7" hidden="false" targetId="32fa31d8-c485-49c4-9fe1-59508cbee026" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="0cd65435-8b5b-4f28-9c23-5ad790bac511" name="Krootox Herd Unit" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58ed52cf-da2f-493a-9733-3780e0257acc" type="min"/>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2657e11e-4555-4087-8c42-562156d3b74c" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="41b4bd84-1f9d-466d-a58d-0da4229de694" hidden="false" targetId="b3658645-8b2d-460c-9a92-a4b014312798" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="200.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0beaeae7-c0b7-4200-8dc1-7ebc0b07a048" name="Kroot Abominations Unit" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="f3ef9874-6952-4d5d-b5e0-868a2605dbb7" hidden="false" targetId="32fa31d8-c485-49c4-9fe1-59508cbee026" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4e63e2f8-4145-42e1-8dba-824940a89c12" name="Abominations" hidden="false" collective="false" import="true" defaultSelectionEntryId="4d6d9564-c46e-466c-aefd-997ff0a0bb46">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="aaa4689f-ff03-48c8-95b1-418b2f9aa8c3" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="fec78e8d-7e12-442b-a95e-b75391dbe17c" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="4d6d9564-c46e-466c-aefd-997ff0a0bb46" name="4x Kroot Abominations Unit" hidden="false" collective="false" import="true" type="unit">
+              <infoLinks>
+                <infoLink id="b43cb16b-d8e8-4c20-b775-4d676c650629" hidden="false" targetId="821c815b-459a-451d-8d1a-554e91fb77cc" type="profile"/>
+                <infoLink id="9e7db08c-74dc-44b4-857a-ef3bec77edc1" hidden="false" targetId="20b60add-c341-4e56-8c6b-fa4dec53688e" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="975d3630-7f50-4194-be8a-77b76939e879" name="6x Kroot Abominations Unit" hidden="false" collective="false" import="true" type="unit">
+              <infoLinks>
+                <infoLink id="ff0ba761-c0ec-4f70-9ae8-bdc83c9d5d44" hidden="false" targetId="821c815b-459a-451d-8d1a-554e91fb77cc" type="profile"/>
+                <infoLink id="1cae8ad7-284b-40a5-8cfc-35a86b5573ff" hidden="false" targetId="20b60add-c341-4e56-8c6b-fa4dec53688e" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="75.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1178d634-a98d-44a1-8dd9-0e689c91fb59" name="8x Kroot Abominations Unit" hidden="false" collective="false" import="true" type="unit">
+              <infoLinks>
+                <infoLink id="e4ecb054-66ee-4d25-aba3-e2ad9f5952c3" hidden="false" targetId="821c815b-459a-451d-8d1a-554e91fb77cc" type="profile"/>
+                <infoLink id="9ef8c900-682d-40f8-99be-104af8289829" hidden="false" targetId="20b60add-c341-4e56-8c6b-fa4dec53688e" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="150.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f22e1d9d-17f9-4725-a68c-29564fb8dce4" name="10x Kroot Abominations Unit" hidden="false" collective="false" import="true" type="unit">
+              <infoLinks>
+                <infoLink id="ad46fecb-3f6a-4d75-9387-6f6a648a4d92" hidden="false" targetId="821c815b-459a-451d-8d1a-554e91fb77cc" type="profile"/>
+                <infoLink id="f7292e12-9000-43f7-8386-9552e975a570" hidden="false" targetId="20b60add-c341-4e56-8c6b-fa4dec53688e" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="225.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="175.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c7e99425-da81-4d65-a2b6-47c1a9242288" name="Great Knarloc" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="9121e7ae-e200-4abe-b692-04a27a6f50ac" hidden="false" targetId="32fa31d8-c485-49c4-9fe1-59508cbee026" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="34e96c7d-aaf1-461d-95db-6d724894a5a0" name="3x Great Knarloc" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52509f41-dc29-4b62-841b-372c70d46e6a" type="min"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1478f545-68bb-497d-96b3-0faf80e5f516" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="7d8d5e87-7d3b-43e6-a094-5c093b0f0d77" hidden="false" targetId="a7e6f514-c5aa-425e-a70c-02db1385f976" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="175.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="002dcd71-ec98-4e12-9245-1a67b7e8eb57" name="3x Great Knarloc &apos;Skyray&apos;" hidden="false" collective="false" import="true" type="unit">
+          <modifiers>
+            <modifier type="decrement" field="8ac895b2-7692-4e45-bca9-69b4bb193947" value="1">
+              <repeats>
+                <repeat field="selections" scope="c7e99425-da81-4d65-a2b6-47c1a9242288" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="34e96c7d-aaf1-461d-95db-6d724894a5a0" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd1fe4a6-9670-4927-a270-79be53b48375" type="min"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ac895b2-7692-4e45-bca9-69b4bb193947" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="5ab9f25a-a5cd-4a4c-bd05-b9bdc951e659" hidden="false" targetId="f5457f08-a797-4e65-8635-71e1c834e64d" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="175.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <infoLinks>
+    <infoLink id="976f71ff-d6f6-4ae7-9701-68b6ae111272" hidden="false" targetId="b0897f93-2345-49ed-9130-b7f9165ea046" type="rule"/>
+  </infoLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="6a7b87a6-e3f4-4ba7-aaac-b20234ded31f" name="EpicUK" hidden="true" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="c488c732-6808-42f6-b913-4e0fdc3211b5" hidden="false" targetId="6d96644b-dbd3-410c-9a81-73313522e197" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="88a98d5f-b990-4741-9c4e-5761a2a7200f" name="GW" hidden="true" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="d45c527d-abf2-4575-9287-eb450d9207f4" hidden="false" targetId="debe925b-e324-4ed7-93d9-69992f678abf" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7f0bed0e-1717-46a1-8225-09866b0dcc87" name="NetEA" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="d6ac146e-4389-4064-8889-e86ab9195260" hidden="false" targetId="ea98f36c-204c-4f57-805c-c280285f6660" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="efefe552-dcc7-4398-bdcc-3752e785c8fe" name="Kroot High Master Shaper" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="9c88cf26-ea45-47ac-a00f-dc2bee5bef4b" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="47cbca9d-7607-4a87-8e5c-1c78c3a228a2" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="f8336136-18ab-491e-9766-7cad6012c506" hidden="false" targetId="012f66a1-4381-440e-a20a-e79f54dabdb3" type="profile"/>
+        <infoLink id="a258b1c5-79be-4d04-a2f7-4980a65ff513" hidden="false" targetId="31e87847-629d-494c-ab77-179a6b854c8a" type="rule"/>
+        <infoLink id="467050fd-5258-4f32-b315-c4c68a3914ee" hidden="false" targetId="d23596ad-5004-4bc3-8600-2b61a05ee52d" type="rule"/>
+        <infoLink id="aa28092f-ca0c-4fef-8aee-39afa40144d3" hidden="false" targetId="9f458b5f-4ef7-437c-aba8-585963e07dcc" type="rule"/>
+        <infoLink id="9dca3bf0-97ba-4dc8-94f1-883329953aa6" hidden="false" targetId="e9675277-c408-4371-b969-6c9565fb2905" type="rule"/>
+        <infoLink id="7de5eadd-70f6-4bf7-b4a8-08a697ad4a62" hidden="false" targetId="06776887-98f0-49dd-8aca-d824d3c5d52c" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="75.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e7739e53-4f3a-4b59-a589-949dcb947686" name="3x Kroot Hound Unit" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="a9910dbb-ec81-4aa1-9139-e8c8daecb337" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="0f4a5a69-4407-44a5-9217-599be0aa8479" hidden="false" targetId="888bf38d-be01-47d1-8170-2221b0da0d62" type="profile"/>
+        <infoLink id="0c72f15b-4d1b-4deb-b0d5-74fff1831157" hidden="false" targetId="18b55dcf-3e60-458e-90e4-29f69deaa065" type="rule"/>
+        <infoLink id="7434fc3c-fec4-4958-a82e-30ca895af46e" hidden="false" targetId="af143427-33d4-438b-aab2-16a8e2867f79" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5ece2f73-c714-4068-85d1-895c5685f9dc" name="Kroot Shaper" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ddd68f87-4a1e-4244-a0db-c25308009004" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cc19771c-3fcb-41e2-b12f-116c602d9baf" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="c8ceca27-113c-4257-9063-f6ac20b20bde" hidden="false" targetId="86a8167f-1ad5-4e9c-8915-815e02b7d541" type="profile"/>
+        <infoLink id="24a86005-da07-4f6d-9437-215ba68b9fd3" hidden="false" targetId="31e87847-629d-494c-ab77-179a6b854c8a" type="rule"/>
+        <infoLink id="24541138-6bb9-4e19-badf-64ce9b25f850" hidden="false" targetId="d23596ad-5004-4bc3-8600-2b61a05ee52d" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="5cd0162b-f1fa-4b77-924f-8cf45352b65a" name="Commander" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="ec0bdf55-03ee-4b61-8488-b742175d5277" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="ba4c4914-3081-4a31-b8b8-78bf2c2e07f6" name="Kroot Shaman" hidden="false" collective="false" import="true" type="upgrade">
+          <infoLinks>
+            <infoLink id="78f47d66-0a52-4baa-877d-eb12f520fdbc" hidden="false" targetId="70a1e40d-56d6-4c76-bf88-89952e48fb16" type="profile"/>
+            <infoLink id="d2cdfb82-7f98-49d2-8597-18926773a472" hidden="false" targetId="d23596ad-5004-4bc3-8600-2b61a05ee52d" type="rule"/>
+            <infoLink id="59c24bec-db33-4515-a782-48960da5394a" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="25.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c7e70027-8558-4870-936f-26594eafa8fd" name="Kroot Big Game Hunter" hidden="false" collective="false" import="true" type="upgrade">
+          <infoLinks>
+            <infoLink id="fb55fd60-99e6-4bc0-9d99-c4eb72506821" hidden="false" targetId="0fb200c1-76a1-46e0-9f76-cd370f7ee124" type="profile"/>
+            <infoLink id="b2609371-3097-4ccc-8a74-c26b7b465734" hidden="false" targetId="0a2c466f-8e38-4e54-a0f1-08ac199cd89c" type="rule"/>
+            <infoLink id="d899853b-0066-4fc6-98e2-640e53811f8b" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+            <infoLink id="384bccde-22a0-428d-9662-541f171e781d" hidden="false" targetId="75101e3d-cca2-4420-acfe-e0a1db1314af" type="rule"/>
+            <infoLink id="48c17c89-e750-41bb-b9c2-7510d8726f98" hidden="false" targetId="20b60add-c341-4e56-8c6b-fa4dec53688e" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="50.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <sharedRules>
+    <rule id="18e797f6-fb24-432c-9ee8-652427dbd28a" name="F-ERC" hidden="false">
+      <description>aucune</description>
+    </rule>
+    <rule id="6d96644b-dbd3-410c-9a81-73313522e197" name="EpicUK" hidden="false">
+      <description>none</description>
+    </rule>
+    <rule id="debe925b-e324-4ed7-93d9-69992f678abf" name="GW" hidden="false">
+      <description>none
+Fanatic #02
+Fanatic #13</description>
+    </rule>
+    <rule id="ea98f36c-204c-4f57-805c-c280285f6660" name="NetEA" hidden="false">
+      <description>[NetEA] Kroot Warsphere Assault List v0.3</description>
+    </rule>
+    <rule id="b0897f93-2345-49ed-9130-b7f9165ea046" name="Strategy Rating &amp; Initiative (KWA)" hidden="false">
+      <modifiers>
+        <modifier type="set" field="description" value="Stratégie &amp; Initiative: L&apos;armée Kroot a une Valeur Stratégique de 3. Toutes formations ont une initiative de 2+.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cae033eb-bb6f-4c6c-a304-2f50aaa0236a" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="description" value="Strategie und Initiative: Strategiewert 3.  • Alle Formationen haben die Initiativwert 2+.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="17e1c84d-45e8-4447-a3c5-4c3d40b8fd78" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <description>Kroot armies have a Strategy rating of 3. All Kroot formations have an initiative rating of 2+.</description>
+    </rule>
+    <rule id="c7f9b141-3fe6-4378-bfe8-8cd478c9d828" name="Transport (KWA)" hidden="false">
+      <modifiers>
+        <modifier type="set" field="description" value="La capacité de transport: Comme suit-  • Drop Pod: ne peut transporter que des unités suivantes: Kroot Carnivore, Hounds, Hunter, Feral, Krootox.  • Kroot Troopship: 10 des unités suivantes: Kroot Carnivore, Hounds, Hunter, Feral, Krootox.  • Kroot Warsphere: 80 unités Kroot et assez de modules d&apos;atterrissage, plus 6 navires de transport.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cae033eb-bb6f-4c6c-a304-2f50aaa0236a" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <description>As follows- 
+Drop Pod: 1 formation of only the following units: Kroot Carnivore, Hounds, Hunter, Feral, Krootox.
+Kroot Troopship: 10 of the following units: Kroot Carnivore, Hounds, Hunter, Feral, Krootox.
+Kroot Warsphere: 80 Kroot units and enough Drop Pods to transport them, plus 6 Troop Ships.</description>
+    </rule>
+    <rule id="31e87847-629d-494c-ab77-179a6b854c8a" name="Shaper" hidden="false">
+      <modifiers>
+        <modifier type="set" field="description" value="Mentor: Tout Kindred contenant une unité avec la capacité Mentor peut choisir une des adaptations suivantes qui prendra effet sur l&apos;ensemble des Kindred. Ces effets durent pour la durée du jeu et ne sont pas perdus avec la mort d&apos;un Mentor ou son retrait du jeu.  • Hardi - Le Kindred peut retirer un pion d&apos;impact supplémentaire lors de ralliement ou de regroupement.  • Chameleon - Toute unité dans le Kindred sans sauvegarde d&apos;armure ou avec une sauvegarde d&apos;armure de 6 + gagner la capacité de sauvegarde invulnérable.  • Yeux d&apos;Aigle - Les unités du Kindred peuvent relancer n&apos;importe quel jet de dés de 1 lors du tir ou lors de l&apos;utilisation de leur FF tout en combattant dans un engagement.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cae033eb-bb6f-4c6c-a304-2f50aaa0236a" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <description>Any Kindred containing a unit with the Shaper ability can choose one of the following adaptations which will take effect on the whole Kindred. These effects last for the length of the game and are not lost with a Shaper&apos;s death or removal from play.
+Bold - The Kindred can remove one additional blast marker when rallying or regrouping.
+Chameleon - Any units in the Kindred with no armour save or an armour save of 6+ gain the invulnerable save ability.
+Eagle Eyes - Units in the Kindred may re-roll any dice roll of 1 when shooting or when using their FF while fighting in an engagement.</description>
+    </rule>
+    <rule id="8c9dcd69-c483-4585-9c5f-5681332d9ae3" name="Stalker" hidden="false">
+      <modifiers>
+        <modifier type="set" field="description" value="Rabatteur: Peut relancer des tests de terrain dangereux.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cae033eb-bb6f-4c6c-a304-2f50aaa0236a" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <description>May re-roll dangerous terrain tests.</description>
+    </rule>
+    <rule id="3d2f3b8a-4d8e-4f18-94fa-80518851eb9b" name="Kroot Drop Pod" hidden="false">
+      <modifiers>
+        <modifier type="set" field="description" value="Module d&apos;Atterrissage Kroot: Disposez les unités à 5cm du module ou les unes des autres tout en restant dans un rayon de 15cm du module. Les modules ne peuvent pas être utilisés pour réclamer un feu croisé.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cae033eb-bb6f-4c6c-a304-2f50aaa0236a" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <description>Any troops carried in the drop pod must disembark within 5cm of the drop pod or within 5cm of another unit from the same formation that has already landed, so long as all units are placed within 15cm of the drop pod. Drop pods may not be used to claim crossfire.</description>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile id="9bf85109-4794-417f-8ef5-86d84d2317c7" name="Kroot Carnivore Unit" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">-</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">4+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Kroot Rifles</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(15cm)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Small Arms</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Infiltrators, Scout</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="888bf38d-be01-47d1-8170-2221b0da0d62" name="Kroot Hound Unit" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">20cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">-</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">3+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">-</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Fangs</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapons</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Infiltrators, Scout</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="97b99002-0521-40d5-a099-eeceb83c2c39" name="Kroot Master Shaper" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">6+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">4+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Kroot Rifles&lt;BR&gt;&lt;BR&gt;Mercenary Weapons</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(15cm)&lt;BR&gt;&lt;BR&gt;(contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Small Arms&lt;BR&gt;&lt;BR&gt;Assault Weapons</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">-&lt;BR&gt;&lt;BR&gt;+1A</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Leader, Infiltrators, Scout, Shaper</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b3658645-8b2d-460c-9a92-a4b014312798" name="Krootox Herd Unit" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">4+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">4+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Kroot Guns&lt;BR&gt;&lt;BR&gt;Claws</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">45cm&lt;BR&gt;&lt;BR&gt;(contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">AP5+/AT6+&lt;BR&gt;&lt;BR&gt;Assault Weapons</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">-&lt;BR&gt;&lt;BR&gt;+1A</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429"/>
+      </characteristics>
+    </profile>
+    <profile id="012f66a1-4381-440e-a20a-e79f54dabdb3" name="Kroot High Master Shaper" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Character</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">n/a</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">n/a</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">n/a</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">n/a</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Kroot Rifles&lt;BR&gt;&lt;BR&gt;Mercenary Weapons</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(15cm)&lt;BR&gt;&lt;BR&gt;(contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Small Arms&lt;BR&gt;&lt;BR&gt;Assault Weapons</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">-&lt;BR&gt;&lt;BR&gt;+1A</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Inspiring, Shaper, Supreme Commander</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="70a1e40d-56d6-4c76-bf88-89952e48fb16" name="Kroot Shaman" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Character</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">n/a</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">n/a</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">n/a</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">n/a</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Shaman Staff</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapons</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Macro-weapon, +1A</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Leader</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0fb200c1-76a1-46e0-9f76-cd370f7ee124" name="Kroot Big Game Hunter" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Character</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">n/a</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">n/a</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">n/a</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">n/a</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Power Blade&lt;BR&gt;&lt;BR&gt;Kroot Hunting Rifle</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)&lt;BR&gt;&lt;BR&gt;30cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapons&lt;BR&gt;&lt;BR&gt;AP5+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Macro-weapon, +1A&lt;BR&gt;&lt;BR&gt;Sniper</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">First Strike, Invulnerable Save</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="86a8167f-1ad5-4e9c-8915-815e02b7d541" name="Kroot Shaper" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Character</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">n/a</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">n/a</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">n/a</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">n/a</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Kroot Rifles</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(15cm)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Small Arms</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Leader, Shaper</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b0dd29e6-2c76-45b4-aba6-27b01a528dd2" name="Kroot Stalker Unit" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">-</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">3+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Acid Venom&lt;BR&gt;&lt;BR&gt;Kroot Rifle</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)&lt;BR&gt;&lt;BR&gt;(15cm)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapons&lt;BR&gt;&lt;BR&gt;Small Arms</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Infiltrator, Scout, Stalker, Teleport</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="edc158c5-b918-4172-a5a8-66264665ce20" name="Kroot Hunter Unit" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">-</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">4+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Kroot Hunting Rifles</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">30cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">AP5+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Sniper</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Infiltrator, Scout</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4e322013-d364-49e6-9b56-add22ce56844" name="Feral Kroot Unit" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">-</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">3+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">-</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Claws &amp; Beaks</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapons</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Fearless, Infiltrator</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9f9f37f9-b8e3-4605-9684-a2ebd5baa181" name="Kroot Vulture Unit" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">30cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">-</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">4+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Kroot Rifles</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(15cm)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Small Arms</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Jump Pack, Scout</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ee5279d3-5862-41f5-8f08-e18947cbd33e" name="Kroot Tracker Unit" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">20cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">4+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">4+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Kroot Hunting Rifles&lt;BR&gt;&lt;BR&gt;Claws</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">30cm&lt;BR&gt;&lt;BR&gt;(contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">AP5+&lt;BR&gt;&lt;BR&gt;Assault Weapons</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Sniper&lt;BR&gt;&lt;BR&gt;+1A</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Scout</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="821c815b-459a-451d-8d1a-554e91fb77cc" name="Kroot Abominations Unit" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">5+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">2+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">6+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Rending Claws&lt;BR&gt;&lt;BR&gt;Kroot Rifles</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)&lt;BR&gt;&lt;BR&gt;(15cm)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapons&lt;BR&gt;&lt;BR&gt;Small Arms</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">+1A&lt;BR&gt;&lt;BR&gt;-</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Invulnerable Save</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a7e6f514-c5aa-425e-a70c-02db1385f976" name="Great Knarloc" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Light Vehicle</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">20cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">3+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">4+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Kroot Guns&lt;BR&gt;&lt;BR&gt;Claws</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">45cm&lt;BR&gt;&lt;BR&gt;(contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">AP5+/AT6+&lt;BR&gt;&lt;BR&gt;Assault Weapons</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">-&lt;BR&gt;&lt;BR&gt;+1A</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429"/>
+      </characteristics>
+    </profile>
+    <profile id="f5457f08-a797-4e65-8635-71e1c834e64d" name="Great Knarloc &apos;Skyray&apos;" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Light Vehicle</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">20cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">3+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">4+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">2x Hunter Missiles&lt;BR&gt;&lt;BR&gt;Claws</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">60cm&lt;BR&gt;&lt;BR&gt;(contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">AA5+&lt;BR&gt;&lt;BR&gt;Assault Weapons</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">-&lt;BR&gt;&lt;BR&gt;+1A</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429"/>
+      </characteristics>
+    </profile>
+    <profile id="9182dfd2-a0cb-4c9f-b1d0-e2b40f5c3892" name="Ygothlac Forest Spitting Terror" hidden="false" typeId="1653b936-3bef-42ef-adfe-653bdfc7f321" typeName="War Engine">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">War Engine</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">30cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">5+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">3+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">4+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Tank Killer Rockets&lt;BR&gt;&lt;BR&gt;Acid Breath&lt;BR&gt;&lt;BR&gt;Large Teeth &amp; Claws</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">30cm&lt;BR&gt;&lt;BR&gt;30cm&lt;BR&gt;&lt;BR&gt;(contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">AT4+&lt;BR&gt;&lt;BR&gt;2BP&lt;BR&gt;&lt;BR&gt;Assault Weapons</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Fixed Forward Arc&lt;BR&gt;&lt;BR&gt;Ignore Cover&lt;BR&gt;&lt;BR&gt;Macro-weapon, +1A</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Fearless, Reinforced Armour, Skimmer</characteristic>
+        <characteristic name="DC" typeId="2377629f-6ded-4aa4-b356-7d506954faa6">3</characteristic>
+        <characteristic name="Crit" typeId="8dbc632e-e06c-461d-a0fa-d51a1a624c11">Destroyed</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2184bc04-4cfa-42fa-bf38-8f5880727837" name="Kroot Troopship" hidden="false" typeId="1653b936-3bef-42ef-adfe-653bdfc7f321" typeName="War Engine">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">War Engine, Aircraft</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">Bomber</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">5+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">6+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">2x Kroot Big Guns&lt;BR&gt;&lt;BR&gt;2x Tank Killer Rockets</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">15cm&lt;BR&gt;&lt;BR&gt;30cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">AP4+/AT5+/AA5+&lt;BR&gt;&lt;BR&gt;AT4+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">-&lt;BR&gt;&lt;BR&gt;Fixed Forward Arc</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Planetfall, Reinforced Armour, Transport</characteristic>
+        <characteristic name="DC" typeId="2377629f-6ded-4aa4-b356-7d506954faa6">3</characteristic>
+        <characteristic name="Crit" typeId="8dbc632e-e06c-461d-a0fa-d51a1a624c11">Crash</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="85c36fa8-ec68-4989-8f34-1d68498fe703" name="Kroot Warsphere" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Spaceship</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">n/a</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">n/a</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">n/a</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">n/a</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Orbital Bombardment</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">n/a</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">6BP</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Macro-weapon</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Transport</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f51da309-dbc8-4895-a72c-a2115d00d327" name="Kroot Drop Pod" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Special</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">n/a</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">n/a</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">n/a</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">n/a</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">n/a</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">n/a</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">n/a</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Drop Pod, Planetfall, Transport</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>

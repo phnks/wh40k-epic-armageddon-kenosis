@@ -1,0 +1,2072 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="e16b7f61-5ccf-4c5c-9c4a-13c5c7049bb0" name="Orks: Warlord Snagga-snagga&apos;s Feral Ork Horde" revision="36" battleScribeVersion="2.03" authorUrl="http://battlescribedata.appspot.com/#/repo/wh40k-epic-armageddon" library="false" gameSystemId="b7be77a3-9f44-4c5d-a0f7-a40bf046af2a" gameSystemRevision="37" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="b67cb12e-eda7-411a-ab14-b6656ec85385" name="-Community-" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minInForce" type="min"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8a830798-cec9-4dc2-9a81-2668b09ba62b" name="Group" hidden="false" collective="false" import="true" defaultSelectionEntryId="e82d842c-e601-4481-a829-ef8414d1aa87">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="e82d842c-e601-4481-a829-ef8414d1aa87" hidden="false" collective="false" import="true" targetId="88a98d5f-b990-4741-9c4e-5761a2a7200f" type="selectionEntry"/>
+            <entryLink id="5e7aabca-d4b7-4c86-8374-48f9dcc2ad88" hidden="false" collective="false" import="true" targetId="7f0bed0e-1717-46a1-8225-09866b0dcc87" type="selectionEntry"/>
+            <entryLink id="8e50abf9-2eb4-45e0-acfe-23675a8d4787" hidden="false" collective="false" import="true" targetId="6a7b87a6-e3f4-4ba7-aaac-b20234ded31f" type="selectionEntry"/>
+            <entryLink id="97758917-4d51-4b44-8cd9-d0f4dd9e4009" hidden="false" collective="false" import="true" targetId="8183dbe0-128d-44df-9d2f-587c40d576e7" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="736c23c0-d831-4b0e-be5a-02bde0e3429a" hidden="false" collective="false" import="true" targetId="1884eb4b-97e7-42ae-aed7-811bae8a02a9" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c168592b-2e74-45be-8153-d838c9835b02" name="Boarboyz Horde" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="bd2303ec-8156-4db6-9f89-95116343707f" hidden="false" targetId="e4013702-a119-46c3-9fd9-a64e58afe467" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="6def010a-34fd-4be2-a3c6-628ae885187a" name="Wyrdboy" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="2.0">
+              <conditions>
+                <condition field="selections" scope="c168592b-2e74-45be-8153-d838c9835b02" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="78826b5c-ff33-4098-8463-75fcdfe8eced" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="maxSelections" value="3.0">
+              <conditions>
+                <condition field="selections" scope="c168592b-2e74-45be-8153-d838c9835b02" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e6d30877-a00b-41eb-9d25-ab5826d8bd12" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="3a27b251-9e19-4b85-8589-31e5d8b2edda" hidden="false" targetId="4b4d4ccd-f421-4629-ac14-5c5ec88aaacb" type="profile"/>
+            <infoLink id="80d667c8-f01e-42db-a358-312491414dfa" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="50.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="f928d463-8794-4498-941d-ee3704f347aa" name="Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="34f2bfb8-4fb7-461c-8ac8-7e4932500f47">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="e6d30877-a00b-41eb-9d25-ab5826d8bd12" name="&apos;Uge" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="0c126236-3860-40d1-be92-abbdf677d885" name="Boarboyz" hidden="false" collective="false" import="true" type="unit">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="15.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+                    <constraint field="selections" scope="parent" value="15.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="b65bf6dd-7ab4-4d4c-9b83-c4481f54defa" hidden="false" targetId="a528d783-65d6-4fa6-a7f1-e6062a3fc8c7" type="profile"/>
+                    <infoLink id="7d5948c3-127d-4afa-bafa-557613e6e3bb" hidden="false" targetId="fe19cbf1-084a-4af7-93ef-b16ab5d2ba51" type="rule"/>
+                    <infoLink id="db3720e6-a350-4268-970a-4332ec96a02e" hidden="false" targetId="18b55dcf-3e60-458e-90e4-29f69deaa065" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="25.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="points" value="-125.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="34f2bfb8-4fb7-461c-8ac8-7e4932500f47" name="Normal" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="3ede791e-664d-4560-b882-d16ac36a3354" name="Boarboyz" hidden="false" collective="false" import="true" type="unit">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+                    <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="1a3a9a65-93b2-4372-be7f-11820a12339d" hidden="false" targetId="a528d783-65d6-4fa6-a7f1-e6062a3fc8c7" type="profile"/>
+                    <infoLink id="503f8719-3239-4a93-b6d6-897ad757e56c" hidden="false" targetId="fe19cbf1-084a-4af7-93ef-b16ab5d2ba51" type="rule"/>
+                    <infoLink id="ad4a5c96-c6c4-425e-9a0d-3132c2ef7555" hidden="false" targetId="18b55dcf-3e60-458e-90e4-29f69deaa065" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="25.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="points" value="-25.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="78826b5c-ff33-4098-8463-75fcdfe8eced" name="Big" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="7031232d-5480-4fed-a540-1c64f5250cbc" name="Boarboyz" hidden="false" collective="false" import="true" type="unit">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+                    <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="277cfe39-2b2f-4d78-abfd-0b949db745dc" hidden="false" targetId="a528d783-65d6-4fa6-a7f1-e6062a3fc8c7" type="profile"/>
+                    <infoLink id="f4944dd8-9c9b-48f2-a7b0-8e1189c63df2" hidden="false" targetId="fe19cbf1-084a-4af7-93ef-b16ab5d2ba51" type="rule"/>
+                    <infoLink id="b1594dac-6d5a-4a4c-9ea5-3c8a47d72869" hidden="false" targetId="18b55dcf-3e60-458e-90e4-29f69deaa065" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="25.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="points" value="-75.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="c68f2bd2-c39d-4084-baba-6e2b3539255f" hidden="false" collective="false" import="true" targetId="7a6ee5f5-051c-404b-bd0a-a0b317907a6a" type="selectionEntry"/>
+        <entryLink id="0e86a2d4-50df-44f7-bca0-5a7855b231d7" hidden="false" collective="false" import="true" targetId="b57356d4-217c-44fb-be5a-d61ba490916a" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="44092683-6da9-4317-92ce-752d8db52755" name="Junka Brigade" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="fd31e5ce-f1d5-4eb2-9e5f-9f05f08ed034" hidden="false" targetId="e4013702-a119-46c3-9fd9-a64e58afe467" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="888480b1-634c-4995-8d6c-e01985f4b290" name="Nobz" hidden="false" collective="false" import="true" type="unit">
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="2.0">
+              <conditions>
+                <condition field="selections" scope="44092683-6da9-4317-92ce-752d8db52755" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0b778ad6-cc95-4f78-8d33-b8d86e462ed0" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="maxSelections" value="3.0">
+              <conditions>
+                <condition field="selections" scope="44092683-6da9-4317-92ce-752d8db52755" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ede05c20-ae0d-42e5-ab53-c6c79e66d32a" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="points" value="50.0">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7f0bed0e-1717-46a1-8225-09866b0dcc87" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6a7b87a6-e3f4-4ba7-aaac-b20234ded31f" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="cd11b77c-5d39-46dc-a911-898b465a0a18" hidden="false" targetId="6efd0a5e-fb9a-4e63-a38a-f0b0c6889da2" type="profile"/>
+            <infoLink id="666a126d-bf7e-4ccb-b93a-0d701576406c" hidden="false" targetId="d23596ad-5004-4bc3-8600-2b61a05ee52d" type="rule"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="9e2735c8-72cf-4313-82a4-65792098def3" hidden="false" collective="false" import="true" targetId="3cb68a16-db34-43cb-adff-60f17037adec" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="35.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5cb3f433-71ed-477d-a27a-9d80f2275763" name="Boyz" hidden="false" collective="false" import="true" type="unit">
+          <infoLinks>
+            <infoLink id="cd209b13-f112-4ea7-9d93-045eb2a2bb46" hidden="false" targetId="ea401f3d-e40b-4472-9901-2081850ca6aa" type="profile"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="5e9142a2-0de6-4915-a018-08c865d12006" hidden="false" collective="false" import="true" targetId="3cb68a16-db34-43cb-adff-60f17037adec" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="25.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9e39629a-4450-403c-b3b4-58cdfeb76175" name="Wyrdboy" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="2.0">
+              <conditions>
+                <condition field="selections" scope="44092683-6da9-4317-92ce-752d8db52755" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0b778ad6-cc95-4f78-8d33-b8d86e462ed0" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="maxSelections" value="3.0">
+              <conditions>
+                <condition field="selections" scope="44092683-6da9-4317-92ce-752d8db52755" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ede05c20-ae0d-42e5-ab53-c6c79e66d32a" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="9a73e3e6-f412-46e9-be8c-edbb502eb863" hidden="false" targetId="4b4d4ccd-f421-4629-ac14-5c5ec88aaacb" type="profile"/>
+            <infoLink id="1e10516b-c80d-4ebe-8d54-e5a1aa0590ef" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="50.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c5a474d7-a59a-4382-941b-06c884feb53d" name="Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="b2f60019-ea2a-4794-860f-886b9901a8b3">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="ede05c20-ae0d-42e5-ab53-c6c79e66d32a" name="&apos;Uge" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8183dbe0-128d-44df-9d2f-587c40d576e7" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6a7b87a6-e3f4-4ba7-aaac-b20234ded31f" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7f0bed0e-1717-46a1-8225-09866b0dcc87" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="c2479bc1-a5ef-4b88-860f-09d07b6d8582" name="Boyz" hidden="false" collective="false" import="true" type="unit">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="18.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+                    <constraint field="selections" scope="parent" value="18.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="4cf061b5-1a61-49a4-b193-d2718ceb0cee" hidden="false" targetId="ea401f3d-e40b-4472-9901-2081850ca6aa" type="profile"/>
+                  </infoLinks>
+                  <entryLinks>
+                    <entryLink id="7f082ff9-f0e2-4269-a156-b0e9b099ead8" hidden="false" collective="false" import="true" targetId="3cb68a16-db34-43cb-adff-60f17037adec" type="selectionEntry"/>
+                  </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="25.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="points" value="-100.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b2f60019-ea2a-4794-860f-886b9901a8b3" name="Normal" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="points" value="25.0">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8183dbe0-128d-44df-9d2f-587c40d576e7" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6a7b87a6-e3f4-4ba7-aaac-b20234ded31f" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7f0bed0e-1717-46a1-8225-09866b0dcc87" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="ffa2c807-fc67-4414-9cd9-51f3d8ca35e7" name="Boyz" hidden="false" collective="false" import="true" type="unit">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+                    <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="212a06ef-491f-4366-a992-912e9b7dfa2f" hidden="false" targetId="ea401f3d-e40b-4472-9901-2081850ca6aa" type="profile"/>
+                  </infoLinks>
+                  <entryLinks>
+                    <entryLink id="2dbb383a-2e72-4780-8332-296ba558edc9" hidden="false" collective="false" import="true" targetId="3cb68a16-db34-43cb-adff-60f17037adec" type="selectionEntry"/>
+                  </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="25.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0b778ad6-cc95-4f78-8d33-b8d86e462ed0" name="Big" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="points" value="0.0">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8183dbe0-128d-44df-9d2f-587c40d576e7" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6a7b87a6-e3f4-4ba7-aaac-b20234ded31f" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7f0bed0e-1717-46a1-8225-09866b0dcc87" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="aa168409-4054-4022-9b23-3b642dd3d87c" name="Boyz" hidden="false" collective="false" import="true" type="unit">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+                    <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="f604251f-895f-4a7c-a1b0-11bdbdd2a09f" hidden="false" targetId="ea401f3d-e40b-4472-9901-2081850ca6aa" type="profile"/>
+                  </infoLinks>
+                  <entryLinks>
+                    <entryLink id="a085746e-722d-42b6-8024-b0f2b19aa2b6" hidden="false" collective="false" import="true" targetId="3cb68a16-db34-43cb-adff-60f17037adec" type="selectionEntry"/>
+                  </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="25.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="points" value="-50.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="e284095e-0390-4442-91d9-ac8ce35f41ff" hidden="false" collective="false" import="true" targetId="b57356d4-217c-44fb-be5a-d61ba490916a" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4d705af6-32bc-4bbe-8ebe-8098b5e9ee09" name="Madboyz Horde" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="f94c2382-e249-47f7-8011-9e34f464016e" hidden="false" targetId="e4013702-a119-46c3-9fd9-a64e58afe467" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="f5a99870-13a0-404d-97c8-cb3d3847e02a" name="Madboyz" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="2b60650e-0bed-4b2e-99bc-55746c3cbcdc" hidden="false" targetId="fb3726c1-cc6d-4093-9e3a-e45f875a2337" type="profile"/>
+            <infoLink id="c92b4ac5-b2d1-4835-9998-751d4fdce167" hidden="false" targetId="72dab6ac-4c9d-45f2-b150-7dd034d83b83" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="bb742a5e-fe3c-4f8a-a2cd-1f39009b2e57" name="Wyrdboy" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="5c66ba55-8908-46ec-b203-15e7ddf45f57" hidden="false" targetId="4b4d4ccd-f421-4629-ac14-5c5ec88aaacb" type="profile"/>
+            <infoLink id="f8639bdf-9918-4f5d-b6ef-87d542eb2886" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="50.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="56d6e1f7-2a42-48f7-b884-9f43a29836ef" hidden="false" collective="false" import="true" targetId="b57356d4-217c-44fb-be5a-d61ba490916a" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a0f448f2-86ca-4a82-8bac-a676e9fa4c58" name="Steam Gargants" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="76c7f8ce-d962-43cd-9c46-2ab148125e02" hidden="false" targetId="e4013702-a119-46c3-9fd9-a64e58afe467" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9baef8e0-658a-404f-a70b-a3133bd3361a" name="Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="6eb0e19f-7ec7-4411-a4a8-1790287b494c">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="4a2aef9f-6161-40e9-a26f-1a344c578360" name="&apos;Uge Mob (3x Steam Gargant)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+                <constraint field="points" scope="parent" value="-100.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minPoints" type="min"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="e8c0c8c4-19dd-4339-a4e6-1da8a6195188" name="Steam Gargant" hidden="false" collective="false" import="true" type="model">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+                    <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="97cc2c76-de26-4929-b988-8b5a4086ea14" hidden="false" targetId="5882b880-faec-41b7-b34c-fa5c9d103da9" type="profile">
+                      <modifiers>
+                        <modifier type="append" field="548ecef9-18e1-4523-8f1a-711e5d496caa" value="&lt;BR&gt;Soopagun">
+                          <conditions>
+                            <condition field="selections" scope="e8c0c8c4-19dd-4339-a4e6-1da8a6195188" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="700a15b4-0fa3-4884-a9af-7c35e3fb62ae" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                        <modifier type="append" field="548ecef9-18e1-4523-8f1a-711e5d496caa" value="&lt;BR&gt;Mega-choppa">
+                          <conditions>
+                            <condition field="selections" scope="e8c0c8c4-19dd-4339-a4e6-1da8a6195188" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5fccb1b4-f558-4e51-bc2d-d1f6fb9ccc7f" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                        <modifier type="append" field="548ecef9-18e1-4523-8f1a-711e5d496caa" value="&lt;BR&gt;Soopagun">
+                          <conditions>
+                            <condition field="selections" scope="e8c0c8c4-19dd-4339-a4e6-1da8a6195188" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="927af7da-b28b-4ec7-a5f7-e7c709183457" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                        <modifier type="append" field="548ecef9-18e1-4523-8f1a-711e5d496caa" value="&lt;BR&gt;Mega-choppa">
+                          <conditions>
+                            <condition field="selections" scope="e8c0c8c4-19dd-4339-a4e6-1da8a6195188" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ddbfd58c-235b-48a5-856d-b2f943eff0f0" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </infoLink>
+                    <infoLink id="ecea0060-ccfe-496a-adfc-25657a18d8b1" hidden="false" targetId="4f04933e-396b-445f-bb9c-a9150be61f03" type="rule"/>
+                    <infoLink id="6da50be8-4264-4e7b-ae47-cf74b22d7808" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+                    <infoLink id="7b82bc4d-b273-40c0-a6ea-d8a43490c71b" hidden="false" targetId="72dab6ac-4c9d-45f2-b150-7dd034d83b83" type="rule"/>
+                    <infoLink id="26dc3104-fee5-42d8-b8c3-64f73388f9ea" hidden="false" targetId="3792d3e5-937d-49e6-8a20-320f64f441ba" type="rule"/>
+                  </infoLinks>
+                  <selectionEntries>
+                    <selectionEntry id="3f7df002-7221-4327-b7dd-7590df56b1fc" name="Fist of Gork" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="2cd30e67-0a49-4ca5-9b90-6b11ceff6a85" hidden="false" targetId="57fdc694-b535-416b-84b5-da3091b83326" type="profile"/>
+                        <infoLink id="713d5991-d610-480b-838a-6bc6f2db346f" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup id="f5cffff7-cbdf-4691-807d-0c8a175eca7c" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="700a15b4-0fa3-4884-a9af-7c35e3fb62ae">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+                      </constraints>
+                      <selectionEntries>
+                        <selectionEntry id="700a15b4-0fa3-4884-a9af-7c35e3fb62ae" name="Soopagun" hidden="false" collective="false" import="true" type="upgrade">
+                          <infoLinks>
+                            <infoLink id="e1856c2b-7677-4dcf-be30-76ee043e2d7d" hidden="false" targetId="a4c34879-abbf-4c47-a4b4-ddeda72b9b72" type="profile"/>
+                            <infoLink id="8002a7a6-c283-4915-8887-88af643c54e8" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="points" value="0.0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry id="ddbfd58c-235b-48a5-856d-b2f943eff0f0" name="Mega-choppa" hidden="false" collective="false" import="true" type="upgrade">
+                          <infoLinks>
+                            <infoLink id="804d02c3-b511-48d5-83fe-be9033665b0f" hidden="false" targetId="021ab77d-22ea-4504-8f27-76bf1eb74cc2" type="profile"/>
+                            <infoLink id="747a5270-694c-4b9f-baca-fcb63bb94184" hidden="false" targetId="cd277106-16dd-48d1-897f-01f2ba0c4483" type="rule"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="points" value="0.0"/>
+                          </costs>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </selectionEntryGroup>
+                    <selectionEntryGroup id="459e3a31-0936-4fa0-aae4-61a38fa8693e" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="5fccb1b4-f558-4e51-bc2d-d1f6fb9ccc7f">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+                      </constraints>
+                      <selectionEntries>
+                        <selectionEntry id="927af7da-b28b-4ec7-a5f7-e7c709183457" name="Soopagun" hidden="false" collective="false" import="true" type="upgrade">
+                          <infoLinks>
+                            <infoLink id="66fd4ca4-5a3a-403b-8bcd-3eb10ffd254a" hidden="false" targetId="a4c34879-abbf-4c47-a4b4-ddeda72b9b72" type="profile"/>
+                            <infoLink id="d0a7a85f-973a-4b52-adb7-4b5ef16aaa54" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="points" value="0.0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry id="5fccb1b4-f558-4e51-bc2d-d1f6fb9ccc7f" name="Mega-choppa" hidden="false" collective="false" import="true" type="upgrade">
+                          <infoLinks>
+                            <infoLink id="2afd19e2-c558-449f-b3ad-d1ab50ab5ed6" hidden="false" targetId="021ab77d-22ea-4504-8f27-76bf1eb74cc2" type="profile"/>
+                            <infoLink id="40f2fdf4-e95a-4e9d-9be1-42c6ef5f119c" hidden="false" targetId="cd277106-16dd-48d1-897f-01f2ba0c4483" type="rule"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="points" value="0.0"/>
+                          </costs>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                  <costs>
+                    <cost name="pts" typeId="points" value="200.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="points" value="-100.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9f7152bd-3472-4121-b138-27f6f2fffcb6" name="Big Mob (2x Steam Gargant)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+                <constraint field="points" scope="parent" value="-50.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minPoints" type="min"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="98772ea0-cdbb-40e0-89ed-37244eefcf7c" name="Steam Gargant" hidden="false" collective="false" import="true" type="model">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="381b8438-0c2d-44f2-9a33-8db9ff2aa654" hidden="false" targetId="5882b880-faec-41b7-b34c-fa5c9d103da9" type="profile">
+                      <modifiers>
+                        <modifier type="append" field="548ecef9-18e1-4523-8f1a-711e5d496caa" value="&lt;BR&gt;Soopagun">
+                          <conditions>
+                            <condition field="selections" scope="98772ea0-cdbb-40e0-89ed-37244eefcf7c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="028ec827-9b88-4847-b2ba-6a5dcd3f5eb1" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                        <modifier type="append" field="548ecef9-18e1-4523-8f1a-711e5d496caa" value="&lt;BR&gt;Mega-choppa">
+                          <conditions>
+                            <condition field="selections" scope="98772ea0-cdbb-40e0-89ed-37244eefcf7c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="169cbd03-34f0-43ee-98cb-19cd9d0eb02e" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                        <modifier type="append" field="548ecef9-18e1-4523-8f1a-711e5d496caa" value="&lt;BR&gt;Soopagun">
+                          <conditions>
+                            <condition field="selections" scope="98772ea0-cdbb-40e0-89ed-37244eefcf7c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8cbfda8a-b90c-47bf-9854-545e4d9681d8" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                        <modifier type="append" field="548ecef9-18e1-4523-8f1a-711e5d496caa" value="&lt;BR&gt;Mega-choppa">
+                          <conditions>
+                            <condition field="selections" scope="98772ea0-cdbb-40e0-89ed-37244eefcf7c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ad7493b3-9ad2-445e-9228-805e22ef2985" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </infoLink>
+                    <infoLink id="1e8e2db2-f18c-4d74-b6ef-a4c94df8e90f" hidden="false" targetId="4f04933e-396b-445f-bb9c-a9150be61f03" type="rule"/>
+                    <infoLink id="0d163304-da4b-4adf-9f57-bfe3a6b242b8" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+                    <infoLink id="b18c9507-0583-421c-9a5b-753cc3c44618" hidden="false" targetId="72dab6ac-4c9d-45f2-b150-7dd034d83b83" type="rule"/>
+                    <infoLink id="0f758c6e-bc46-4618-88a2-9b1e9222403b" hidden="false" targetId="3792d3e5-937d-49e6-8a20-320f64f441ba" type="rule"/>
+                  </infoLinks>
+                  <selectionEntries>
+                    <selectionEntry id="acc9aa70-5ed2-4bf2-beba-b9f80ff71957" name="Fist of Gork" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="31faddd4-2a7a-4672-9f13-d8f92efcca2a" hidden="false" targetId="57fdc694-b535-416b-84b5-da3091b83326" type="profile"/>
+                        <infoLink id="1ad4532f-68b6-4b41-acff-c5f5c41dec95" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup id="f06a054e-5074-4d8d-9407-b9c9f229f1f1" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="028ec827-9b88-4847-b2ba-6a5dcd3f5eb1">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+                      </constraints>
+                      <selectionEntries>
+                        <selectionEntry id="028ec827-9b88-4847-b2ba-6a5dcd3f5eb1" name="Soopagun" hidden="false" collective="false" import="true" type="upgrade">
+                          <infoLinks>
+                            <infoLink id="b8fa1537-717c-444b-8ff0-09832619e7c7" hidden="false" targetId="a4c34879-abbf-4c47-a4b4-ddeda72b9b72" type="profile"/>
+                            <infoLink id="2468edd7-8f8c-432f-8d3c-b021441e9362" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="points" value="0.0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry id="ad7493b3-9ad2-445e-9228-805e22ef2985" name="Mega-choppa" hidden="false" collective="false" import="true" type="upgrade">
+                          <infoLinks>
+                            <infoLink id="a9645ed8-4259-4b13-ad53-968e605b150c" hidden="false" targetId="021ab77d-22ea-4504-8f27-76bf1eb74cc2" type="profile"/>
+                            <infoLink id="a2906c62-7527-40ed-b3e6-404b42d1366c" hidden="false" targetId="cd277106-16dd-48d1-897f-01f2ba0c4483" type="rule"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="points" value="0.0"/>
+                          </costs>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </selectionEntryGroup>
+                    <selectionEntryGroup id="fe3b5fe2-5d19-4018-9dad-960c2f32bcd5" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="169cbd03-34f0-43ee-98cb-19cd9d0eb02e">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+                      </constraints>
+                      <selectionEntries>
+                        <selectionEntry id="8cbfda8a-b90c-47bf-9854-545e4d9681d8" name="Soopagun" hidden="false" collective="false" import="true" type="upgrade">
+                          <infoLinks>
+                            <infoLink id="592c8315-f439-4104-a6ca-69ecff965de8" hidden="false" targetId="a4c34879-abbf-4c47-a4b4-ddeda72b9b72" type="profile"/>
+                            <infoLink id="4503d7f1-5f42-4451-ada1-91b2e8d5bc9d" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="points" value="0.0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry id="169cbd03-34f0-43ee-98cb-19cd9d0eb02e" name="Mega-choppa" hidden="false" collective="false" import="true" type="upgrade">
+                          <infoLinks>
+                            <infoLink id="bb2723c3-47f1-4b23-b81a-50abfbbd813b" hidden="false" targetId="021ab77d-22ea-4504-8f27-76bf1eb74cc2" type="profile"/>
+                            <infoLink id="915b0ec2-4b10-44a1-8b0e-4168adcb88ce" hidden="false" targetId="cd277106-16dd-48d1-897f-01f2ba0c4483" type="rule"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="points" value="0.0"/>
+                          </costs>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                  <costs>
+                    <cost name="pts" typeId="points" value="200.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="points" value="-50.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6eb0e19f-7ec7-4411-a4a8-1790287b494c" name="Steam Gargant" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="21c7cde3-597e-456e-bb65-c6614a0161ae" hidden="false" targetId="5882b880-faec-41b7-b34c-fa5c9d103da9" type="profile">
+                  <modifiers>
+                    <modifier type="append" field="548ecef9-18e1-4523-8f1a-711e5d496caa" value="&lt;BR&gt;Soopagun">
+                      <conditions>
+                        <condition field="selections" scope="6eb0e19f-7ec7-4411-a4a8-1790287b494c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d9074e33-e153-4b5b-81b3-9f2633e2f224" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="append" field="548ecef9-18e1-4523-8f1a-711e5d496caa" value="&lt;BR&gt;Mega-choppa">
+                      <conditions>
+                        <condition field="selections" scope="6eb0e19f-7ec7-4411-a4a8-1790287b494c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f704d219-a4a4-48b5-9cef-060f1730b870" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="append" field="548ecef9-18e1-4523-8f1a-711e5d496caa" value="&lt;BR&gt;Soopagun">
+                      <conditions>
+                        <condition field="selections" scope="6eb0e19f-7ec7-4411-a4a8-1790287b494c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d8caa5e9-295e-4092-b47a-1b740527e84d" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="append" field="548ecef9-18e1-4523-8f1a-711e5d496caa" value="&lt;BR&gt;Mega-choppa">
+                      <conditions>
+                        <condition field="selections" scope="6eb0e19f-7ec7-4411-a4a8-1790287b494c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="da5ec4ee-d40d-4441-ab61-6cc17177e16c" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="3e49b2f7-4789-44e0-a4df-165fb0ad0b8d" hidden="false" targetId="4f04933e-396b-445f-bb9c-a9150be61f03" type="rule"/>
+                <infoLink id="9c863753-c15d-405f-a081-d30f0d2d230f" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+                <infoLink id="7dc49573-a926-4341-a6ac-854bd34a3380" hidden="false" targetId="72dab6ac-4c9d-45f2-b150-7dd034d83b83" type="rule"/>
+                <infoLink id="d4b024c8-afe1-45e6-90ed-af0b3f7f3257" hidden="false" targetId="3792d3e5-937d-49e6-8a20-320f64f441ba" type="rule"/>
+              </infoLinks>
+              <selectionEntries>
+                <selectionEntry id="653b94f0-cc07-4676-9e85-d0a2f9cd537a" name="Fist of Gork" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="eb9ba00c-43e2-438c-82e8-67aa1efc495d" hidden="false" targetId="57fdc694-b535-416b-84b5-da3091b83326" type="profile"/>
+                    <infoLink id="4e5937c5-97c4-4bd3-9889-5c76682d07fb" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="ed8cdfa8-8c0a-4a74-88f0-54d94499ee74" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="da5ec4ee-d40d-4441-ab61-6cc17177e16c">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="d9074e33-e153-4b5b-81b3-9f2633e2f224" name="Soopagun" hidden="false" collective="false" import="true" type="upgrade">
+                      <infoLinks>
+                        <infoLink id="6b231749-4581-4d76-ade3-9149fda50b80" hidden="false" targetId="a4c34879-abbf-4c47-a4b4-ddeda72b9b72" type="profile"/>
+                        <infoLink id="b47789ec-738e-4180-948e-2dd4b68b6819" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="da5ec4ee-d40d-4441-ab61-6cc17177e16c" name="Mega-choppa" hidden="false" collective="false" import="true" type="upgrade">
+                      <infoLinks>
+                        <infoLink id="4e1c015b-76cb-4c9d-8298-179d3ec5c586" hidden="false" targetId="021ab77d-22ea-4504-8f27-76bf1eb74cc2" type="profile"/>
+                        <infoLink id="25523e2e-5f74-4c6e-bbee-057f43943b9e" hidden="false" targetId="cd277106-16dd-48d1-897f-01f2ba0c4483" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="d1a2eb87-cbc5-406f-ad4b-6561720c19ce" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="d8caa5e9-295e-4092-b47a-1b740527e84d">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="d8caa5e9-295e-4092-b47a-1b740527e84d" name="Soopagun" hidden="false" collective="false" import="true" type="upgrade">
+                      <infoLinks>
+                        <infoLink id="9e9e52f3-a01b-4c03-bda9-b496e41a5f48" hidden="false" targetId="a4c34879-abbf-4c47-a4b4-ddeda72b9b72" type="profile"/>
+                        <infoLink id="fa330610-9eea-4bd8-af0f-02eee1bb9ddf" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="f704d219-a4a4-48b5-9cef-060f1730b870" name="Mega-choppa" hidden="false" collective="false" import="true" type="upgrade">
+                      <infoLinks>
+                        <infoLink id="b198cb35-b8f1-4fb3-97d3-9aaa8aed8dfd" hidden="false" targetId="021ab77d-22ea-4504-8f27-76bf1eb74cc2" type="profile"/>
+                        <infoLink id="6fa8a44e-9f92-4736-a9d6-844490c2916e" hidden="false" targetId="cd277106-16dd-48d1-897f-01f2ba0c4483" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="points" value="200.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="4dcd7a2e-16fb-40d2-bcbe-339ad3235f45" hidden="false" collective="false" import="true" targetId="b57356d4-217c-44fb-be5a-d61ba490916a" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="869f038e-fbdc-41db-aaa7-1fbf44860938" name="Trappas" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="f306eb5d-1e50-4b9e-8518-03bfd2367fcf" hidden="false" targetId="e4013702-a119-46c3-9fd9-a64e58afe467" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="c522fc98-d33e-43cb-9c18-43e56a5aa480" name="Wildboyz" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="a7e1fd96-7543-4e9e-a6b2-87e18db2d696" name="Wildboyz" hidden="false" targetId="1eba1c0b-54c2-4225-99fa-98f4de0606b8" type="profile">
+              <modifiers>
+                <modifier type="set" field="bd4da179-9f54-4de9-b6df-125028b5c429" value="Scout">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="869f038e-fbdc-41db-aaa7-1fbf44860938" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </infoLink>
+            <infoLink id="69d36928-81db-46c7-9b8e-9e1573470fcf" hidden="false" targetId="af143427-33d4-438b-aab2-16a8e2867f79" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7368700d-650a-4625-849b-595954f6fca7" name="Nobz" hidden="false" collective="false" import="true" type="unit">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8183dbe0-128d-44df-9d2f-587c40d576e7" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="f6d8b8c5-1680-464f-9f71-2ad33768ea0c" hidden="false" targetId="6efd0a5e-fb9a-4e63-a38a-f0b0c6889da2" type="profile"/>
+            <infoLink id="48f062d0-a4ee-4a03-b960-5d727addd79d" hidden="false" targetId="d23596ad-5004-4bc3-8600-2b61a05ee52d" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="35.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="65ecb4ce-6e93-475a-ae59-4a4b19496063" hidden="false" collective="false" import="true" targetId="b57356d4-217c-44fb-be5a-d61ba490916a" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="150.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6d07ee32-054c-4032-9312-a239fc5fd825" name="Warband" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="d8881131-2ae6-419f-9a01-874780b8b35f" hidden="false" targetId="e4013702-a119-46c3-9fd9-a64e58afe467" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="85fca549-aea4-47bf-ba88-5311733bcb4b" name="Nobz" hidden="false" collective="false" import="true" type="unit">
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="2.0">
+              <conditions>
+                <condition field="selections" scope="6d07ee32-054c-4032-9312-a239fc5fd825" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0173dbec-74bf-49be-bf69-f0433c83bd9f" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="maxSelections" value="3.0">
+              <conditions>
+                <condition field="selections" scope="6d07ee32-054c-4032-9312-a239fc5fd825" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a117f6d6-7a46-4404-ae59-42388d21a0fc" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="d109656a-339f-4a90-b229-f44ae1dab56a" hidden="false" targetId="6efd0a5e-fb9a-4e63-a38a-f0b0c6889da2" type="profile"/>
+            <infoLink id="3c8dd700-c01b-403a-ab3e-94cf22887eea" hidden="false" targetId="d23596ad-5004-4bc3-8600-2b61a05ee52d" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="35.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="054b4a31-2c30-4315-9a12-c619c814ddb5" name="Wyrdboy" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="2.0">
+              <conditions>
+                <condition field="selections" scope="6d07ee32-054c-4032-9312-a239fc5fd825" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0173dbec-74bf-49be-bf69-f0433c83bd9f" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="maxSelections" value="3.0">
+              <conditions>
+                <condition field="selections" scope="6d07ee32-054c-4032-9312-a239fc5fd825" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a117f6d6-7a46-4404-ae59-42388d21a0fc" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="a4e975bd-fa32-43c7-9215-5ed0adbf3ea5" hidden="false" targetId="4b4d4ccd-f421-4629-ac14-5c5ec88aaacb" type="profile"/>
+            <infoLink id="314494a1-4181-470a-9a62-a5d006431316" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="50.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f7fa5a65-e304-4575-9bdf-3c4042a868f7" name="Extra Grotz" hidden="false" collective="false" import="true" type="unit">
+          <modifiers>
+            <modifier type="increment" field="maxSelections" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="6d07ee32-054c-4032-9312-a239fc5fd825" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b02b7a3f-04eb-430f-b37a-fdcc37a0ab04" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="a418c416-873d-4215-9986-4afeee0f758f" hidden="false" targetId="604c185a-b382-4899-8a11-5117520bd28f" type="profile"/>
+            <infoLink id="f09544a2-5315-409f-983c-84a25b0fcc47" hidden="false" targetId="950cf521-0f72-4ae2-8ef4-7b3c21c0989c" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b02b7a3f-04eb-430f-b37a-fdcc37a0ab04" name="Extra Boyz" hidden="false" collective="false" import="true" type="unit">
+          <infoLinks>
+            <infoLink id="d1ec9898-fbbc-4eed-b409-5108c940d42e" hidden="false" targetId="ea401f3d-e40b-4472-9901-2081850ca6aa" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="25.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d00fe214-51c5-4eca-be49-f97e5cc336c3" name="Squig Katapult" hidden="false" collective="false" import="true" type="model">
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="3.0">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="6d07ee32-054c-4032-9312-a239fc5fd825" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f3fd250f-6ea8-465b-9e5f-fe09679161da" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8183dbe0-128d-44df-9d2f-587c40d576e7" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6a7b87a6-e3f4-4ba7-aaac-b20234ded31f" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7f0bed0e-1717-46a1-8225-09866b0dcc87" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="maxSelections" value="6.0">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="6d07ee32-054c-4032-9312-a239fc5fd825" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0173dbec-74bf-49be-bf69-f0433c83bd9f" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8183dbe0-128d-44df-9d2f-587c40d576e7" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6a7b87a6-e3f4-4ba7-aaac-b20234ded31f" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7f0bed0e-1717-46a1-8225-09866b0dcc87" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="maxSelections" value="9.0">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="6d07ee32-054c-4032-9312-a239fc5fd825" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a117f6d6-7a46-4404-ae59-42388d21a0fc" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8183dbe0-128d-44df-9d2f-587c40d576e7" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6a7b87a6-e3f4-4ba7-aaac-b20234ded31f" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7f0bed0e-1717-46a1-8225-09866b0dcc87" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="a0552003-1ffc-4c40-bf15-192442a2bdd0" hidden="false" targetId="7f3a3330-528f-41d5-801b-9b76c452de02" type="profile"/>
+            <infoLink id="0419d12a-3762-4af2-8820-cbaac638bcbb" hidden="false" targetId="b027e9fd-08c7-436c-a239-dd516a6ce794" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="25.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="44c85cbf-8841-4285-8f57-99771d9efd4a" name="Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="f3fd250f-6ea8-465b-9e5f-fe09679161da">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="a117f6d6-7a46-4404-ae59-42388d21a0fc" name="&apos;Uge" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="5d74dca4-5183-4496-8fe3-2b430b95172f" name="18x Boyz" hidden="false" collective="false" import="true" type="unit">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="fb295a04-e35d-4faa-9e86-bffd355fe997" hidden="false" targetId="ea401f3d-e40b-4472-9901-2081850ca6aa" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="450.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="c41cdeec-f2dd-4ca7-95f1-3874a2f33aa5" name="Nobz" hidden="false" collective="false" import="true" type="unit">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+                    <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="f50954fb-12b2-49b8-8438-52c1144ccd97" hidden="false" targetId="6efd0a5e-fb9a-4e63-a38a-f0b0c6889da2" type="profile"/>
+                    <infoLink id="ddc0e837-489c-44dc-af2c-511a00338135" hidden="false" targetId="d23596ad-5004-4bc3-8600-2b61a05ee52d" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="35.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="1ea9809c-3949-4f3d-a461-3b13e4dadad3" name="Grotz" hidden="false" collective="false" import="true" type="unit">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+                    <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="94ae0cc7-f297-428f-8bd1-f9375c9231cf" hidden="false" targetId="604c185a-b382-4899-8a11-5117520bd28f" type="profile"/>
+                    <infoLink id="777ce9ae-7164-4721-9c0d-2dc84de90d81" hidden="false" targetId="950cf521-0f72-4ae2-8ef4-7b3c21c0989c" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="points" value="-160.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f3fd250f-6ea8-465b-9e5f-fe09679161da" name="Normal" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="b7146a42-a1c2-492a-b850-b38aff89aec5" name="6x Boyz" hidden="false" collective="false" import="true" type="unit">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="f3ac64e7-5780-4a63-b19e-56670ddd1fcb" hidden="false" targetId="ea401f3d-e40b-4472-9901-2081850ca6aa" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="150.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="952eeaf1-5fdb-4cae-8406-93f3a872b0c5" name="Nobz" hidden="false" collective="false" import="true" type="unit">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="04ead486-dc77-4ade-a953-7c1a2ea7d9e7" hidden="false" targetId="6efd0a5e-fb9a-4e63-a38a-f0b0c6889da2" type="profile"/>
+                    <infoLink id="bd3b06c8-16c4-4429-b507-3bd77b1d7582" hidden="false" targetId="d23596ad-5004-4bc3-8600-2b61a05ee52d" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="35.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="b94bf6ea-22af-4121-8c62-6b5e34d72bf0" name="Grotz" hidden="false" collective="false" import="true" type="unit">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="fa1c0822-c9bb-415a-aa77-4064b2493b12" hidden="false" targetId="604c185a-b382-4899-8a11-5117520bd28f" type="profile"/>
+                    <infoLink id="81342501-07fc-4399-89d7-e795792e25f7" hidden="false" targetId="950cf521-0f72-4ae2-8ef4-7b3c21c0989c" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="points" value="-20.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0173dbec-74bf-49be-bf69-f0433c83bd9f" name="Big" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="f707f33a-858a-4c63-bcd7-fb706e779d0a" name="12x Boyz" hidden="false" collective="false" import="true" type="unit">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="0061df84-16c9-4124-bafd-e90c886633ba" hidden="false" targetId="ea401f3d-e40b-4472-9901-2081850ca6aa" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="300.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="eb872680-5ecb-482a-9aca-e65615173253" name="Nobz" hidden="false" collective="false" import="true" type="unit">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+                    <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="baa07bb9-0ff5-460f-b88c-518c912c9a86" hidden="false" targetId="6efd0a5e-fb9a-4e63-a38a-f0b0c6889da2" type="profile"/>
+                    <infoLink id="5654d87a-b9b3-4205-9aef-22cbd5a2400c" hidden="false" targetId="d23596ad-5004-4bc3-8600-2b61a05ee52d" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="35.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="f87c98d7-30d6-4d72-b643-241994ca3914" name="Grotz" hidden="false" collective="false" import="true" type="unit">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+                    <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="a75ba314-7f2d-4358-bcc7-cec18ce0000c" hidden="false" targetId="604c185a-b382-4899-8a11-5117520bd28f" type="profile"/>
+                    <infoLink id="347b78cd-35ed-43d3-8fd9-d281fe41c5a0" hidden="false" targetId="950cf521-0f72-4ae2-8ef4-7b3c21c0989c" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="points" value="-90.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="8a4791d6-2921-445b-8625-3ea8740da3b1" hidden="false" collective="false" import="true" targetId="b57356d4-217c-44fb-be5a-d61ba490916a" type="selectionEntry"/>
+        <entryLink id="2c42437b-388f-4b83-ae33-ef9a2c435279" hidden="false" collective="false" import="true" targetId="3187c21f-2b61-45ae-9ec3-849d1b7eeba1" type="selectionEntry"/>
+        <entryLink id="ff4abcef-590a-4fc7-9876-cf268124eb19" name="Boarboyz" hidden="false" collective="false" import="true" targetId="7a6ee5f5-051c-404b-bd0a-a0b317907a6a" type="selectionEntry"/>
+        <entryLink id="d71ef895-694f-483a-8656-3428e573d6a3" hidden="false" collective="false" import="true" targetId="afe9a947-3eaf-4950-9074-fcdf4d5d31f9" type="selectionEntry"/>
+        <entryLink id="86d32a9b-9bba-41a8-b664-4d7fe2bddd77" name="Orkeosaurus" hidden="false" collective="false" import="true" targetId="c05cb301-fee4-430b-9bc8-bf65e1f5f13f" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="52d2df72-34cf-42de-a74f-7539ca873e47" value="2">
+              <conditions>
+                <condition field="selections" scope="6d07ee32-054c-4032-9312-a239fc5fd825" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0173dbec-74bf-49be-bf69-f0433c83bd9f" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="52d2df72-34cf-42de-a74f-7539ca873e47" value="3">
+              <conditions>
+                <condition field="selections" scope="6d07ee32-054c-4032-9312-a239fc5fd825" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a117f6d6-7a46-4404-ae59-42388d21a0fc" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c076651e-21a4-4b5d-afb9-dd245583dbc1" name="Wildboyz" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="0ec5a3b3-1c07-4b9d-a2d9-824419735b29" hidden="false" targetId="e4013702-a119-46c3-9fd9-a64e58afe467" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="fdb57cf5-246b-48db-b91c-28361c8facb5" name="Nobz" hidden="false" collective="false" import="true" type="unit">
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="2.0">
+              <conditions>
+                <condition field="selections" scope="c076651e-21a4-4b5d-afb9-dd245583dbc1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ca4d2424-4d6d-4b95-882c-f3fda957a75a" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="maxSelections" value="3.0">
+              <conditions>
+                <condition field="selections" scope="c076651e-21a4-4b5d-afb9-dd245583dbc1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="24c4751e-46fc-406c-ad65-2bd170fe96fd" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="510d8f34-29cf-4b7e-8c8b-a913590c0671" hidden="false" targetId="6efd0a5e-fb9a-4e63-a38a-f0b0c6889da2" type="profile"/>
+            <infoLink id="1da56161-320a-4e57-a616-5c43ade49c54" hidden="false" targetId="d23596ad-5004-4bc3-8600-2b61a05ee52d" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="35.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b7e931a9-3628-4414-9f6e-bcc330e75593" name="Wyrdboy" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="2.0">
+              <conditions>
+                <condition field="selections" scope="c076651e-21a4-4b5d-afb9-dd245583dbc1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ca4d2424-4d6d-4b95-882c-f3fda957a75a" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="maxSelections" value="3.0">
+              <conditions>
+                <condition field="selections" scope="c076651e-21a4-4b5d-afb9-dd245583dbc1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="24c4751e-46fc-406c-ad65-2bd170fe96fd" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="8b0d4a4f-5f9e-454b-9f89-265af40b665d" hidden="false" targetId="4b4d4ccd-f421-4629-ac14-5c5ec88aaacb" type="profile"/>
+            <infoLink id="1c4b1036-deed-47ec-a89e-6e9bce42f729" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="50.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="13d5f67a-b577-4dd4-98a9-aa63da0a7e1d" name="Squig Katapult" hidden="false" collective="false" import="true" type="model">
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="3.0">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="c076651e-21a4-4b5d-afb9-dd245583dbc1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="eec60819-4982-4e8b-b7de-ad8d1916f849" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8183dbe0-128d-44df-9d2f-587c40d576e7" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6a7b87a6-e3f4-4ba7-aaac-b20234ded31f" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7f0bed0e-1717-46a1-8225-09866b0dcc87" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="maxSelections" value="6.0">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="c076651e-21a4-4b5d-afb9-dd245583dbc1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ca4d2424-4d6d-4b95-882c-f3fda957a75a" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8183dbe0-128d-44df-9d2f-587c40d576e7" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6a7b87a6-e3f4-4ba7-aaac-b20234ded31f" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7f0bed0e-1717-46a1-8225-09866b0dcc87" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="maxSelections" value="9.0">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="c076651e-21a4-4b5d-afb9-dd245583dbc1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="24c4751e-46fc-406c-ad65-2bd170fe96fd" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8183dbe0-128d-44df-9d2f-587c40d576e7" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6a7b87a6-e3f4-4ba7-aaac-b20234ded31f" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7f0bed0e-1717-46a1-8225-09866b0dcc87" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="ec8efdfb-8b63-4ac2-ac62-0d0a98b48b9f" hidden="false" targetId="7f3a3330-528f-41d5-801b-9b76c452de02" type="profile"/>
+            <infoLink id="4355d31a-2594-452e-a081-5a150bf816c4" hidden="false" targetId="b027e9fd-08c7-436c-a239-dd516a6ce794" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="25.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="aa0ee62a-912c-4906-8176-c6afe8a99c7a" name="Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="eec60819-4982-4e8b-b7de-ad8d1916f849">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="24c4751e-46fc-406c-ad65-2bd170fe96fd" name="&apos;Uge" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="points" value="-110.0">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7f0bed0e-1717-46a1-8225-09866b0dcc87" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6a7b87a6-e3f4-4ba7-aaac-b20234ded31f" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="1bffceb1-040a-470f-b8d4-5093630dab2c" name="18x Wildboyz" hidden="false" collective="false" import="true" type="unit">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="ecdb59b8-88ba-4910-86ae-fe4d0431adeb" hidden="false" targetId="1eba1c0b-54c2-4225-99fa-98f4de0606b8" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="225.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="e662395a-e473-47c4-a6bc-30c6c0087b20" name="Nobz" hidden="false" collective="false" import="true" type="unit">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+                    <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="220d0759-5dac-4cf1-b0ef-6be08b85dc07" hidden="false" targetId="6efd0a5e-fb9a-4e63-a38a-f0b0c6889da2" type="profile"/>
+                    <infoLink id="5ddae2b9-495c-411c-94ce-9447c8f1bd1d" hidden="false" targetId="d23596ad-5004-4bc3-8600-2b61a05ee52d" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="35.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="points" value="-85.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="eec60819-4982-4e8b-b7de-ad8d1916f849" name="Normal" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="points" value="-20.0">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7f0bed0e-1717-46a1-8225-09866b0dcc87" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6a7b87a6-e3f4-4ba7-aaac-b20234ded31f" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="cfe623bd-20b9-4c55-a534-53cd91df5431" name="6x Wildboyz" hidden="false" collective="false" import="true" type="unit">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="ad243bc1-d11a-4744-beac-f34107b650df" name="Wildboyz" hidden="false" targetId="1eba1c0b-54c2-4225-99fa-98f4de0606b8" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="75.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="54b4aecf-5a25-49a8-84cc-c96cfa919572" name="Nobz" hidden="false" collective="false" import="true" type="unit">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="0b242c3b-888e-4119-a88a-efab960d8cb1" hidden="false" targetId="6efd0a5e-fb9a-4e63-a38a-f0b0c6889da2" type="profile"/>
+                    <infoLink id="cce6e8a4-2cf7-4b42-89de-f56f124e1a29" hidden="false" targetId="d23596ad-5004-4bc3-8600-2b61a05ee52d" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="35.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ca4d2424-4d6d-4b95-882c-f3fda957a75a" name="Big" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="points" value="-65.0">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7f0bed0e-1717-46a1-8225-09866b0dcc87" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6a7b87a6-e3f4-4ba7-aaac-b20234ded31f" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="5257a931-978a-4028-9f16-66192a6ff8fb" name="12x Wildboyz" hidden="false" collective="false" import="true" type="unit">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="f4b64ee1-a989-4f09-83b3-c3c4fd36ada6" hidden="false" targetId="1eba1c0b-54c2-4225-99fa-98f4de0606b8" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="150.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="8399b350-35fc-4c57-8421-5539db6edbfa" name="Nobz" hidden="false" collective="false" import="true" type="unit">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+                    <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="89e2de5d-1713-4458-8d05-84358460ce60" hidden="false" targetId="6efd0a5e-fb9a-4e63-a38a-f0b0c6889da2" type="profile"/>
+                    <infoLink id="2c3f2cc7-2ef1-46a1-a852-e2a7813bc523" hidden="false" targetId="d23596ad-5004-4bc3-8600-2b61a05ee52d" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="35.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="points" value="-40.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="4d58d74c-0166-4b70-8984-3e6658862373" hidden="false" collective="false" import="true" targetId="b57356d4-217c-44fb-be5a-d61ba490916a" type="selectionEntry"/>
+        <entryLink id="fc37cec8-2cc2-444e-8288-440d73627d4e" hidden="false" collective="false" import="true" targetId="3187c21f-2b61-45ae-9ec3-849d1b7eeba1" type="selectionEntry"/>
+        <entryLink id="931e7d9a-a63e-43db-8132-2094eb135c31" hidden="false" collective="false" import="true" targetId="7a6ee5f5-051c-404b-bd0a-a0b317907a6a" type="selectionEntry"/>
+        <entryLink id="fd1aef2e-13dd-40a5-8a28-bb14abd3358c" hidden="false" collective="false" import="true" targetId="afe9a947-3eaf-4950-9074-fcdf4d5d31f9" type="selectionEntry"/>
+        <entryLink id="5dd6757f-7a84-4f34-ab39-778de2c2346c" name="Orkeosaurus" hidden="false" collective="false" import="true" targetId="c05cb301-fee4-430b-9bc8-bf65e1f5f13f" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="52d2df72-34cf-42de-a74f-7539ca873e47" value="2">
+              <conditions>
+                <condition field="selections" scope="c076651e-21a4-4b5d-afb9-dd245583dbc1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ca4d2424-4d6d-4b95-882c-f3fda957a75a" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="52d2df72-34cf-42de-a74f-7539ca873e47" value="3">
+              <conditions>
+                <condition field="selections" scope="c076651e-21a4-4b5d-afb9-dd245583dbc1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="24c4751e-46fc-406c-ad65-2bd170fe96fd" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks>
+    <entryLink id="7488edfd-ad90-4106-b953-910284e8a747" hidden="false" collective="false" import="true" targetId="b57356d4-217c-44fb-be5a-d61ba490916a" type="selectionEntry"/>
+  </entryLinks>
+  <infoLinks>
+    <infoLink id="737e9900-cd6d-43d8-a474-47f3efbec5d9" hidden="false" targetId="24bfa75e-d96f-4d24-b2fb-caa8ab6a29ce" type="rule"/>
+    <infoLink id="cd05d821-35f9-47fd-b09f-60c7347ff4d8" hidden="false" targetId="ca5d5539-18f9-45b5-a4c6-5cd6b45ee366" type="rule"/>
+    <infoLink id="e04afe6a-61db-4704-9947-c355f50962e1" name="Feral Power of the Waaagh!" hidden="false" targetId="6136936a-388f-406a-ad24-00d4aa5a9ba6" type="rule">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8183dbe0-128d-44df-9d2f-587c40d576e7" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </infoLink>
+    <infoLink id="63644a3d-13ec-4a63-b300-378e0e83feb1" hidden="false" targetId="6e59ae38-c019-4a88-b771-1b054ab8318d" type="rule"/>
+    <infoLink id="f286fefc-15bd-4139-abe6-47cc15496231" name="Power of the Waaagh! (F-ERC)" hidden="false" targetId="2a813703-56da-4d00-8c14-dffd7be2ff38" type="rule">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8183dbe0-128d-44df-9d2f-587c40d576e7" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </infoLink>
+  </infoLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="7a6ee5f5-051c-404b-bd0a-a0b317907a6a" name="Boarboyz" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="9882e7f5-84bf-41ea-8f1e-21dea2c8c760" hidden="false" targetId="a528d783-65d6-4fa6-a7f1-e6062a3fc8c7" type="profile"/>
+        <infoLink id="95f63b65-1bde-48af-ad19-ea877d721762" hidden="false" targetId="fe19cbf1-084a-4af7-93ef-b16ab5d2ba51" type="rule"/>
+        <infoLink id="a3130155-edb4-4fbe-bf15-528a3f527a6d" hidden="false" targetId="18b55dcf-3e60-458e-90e4-29f69deaa065" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6a7b87a6-e3f4-4ba7-aaac-b20234ded31f" name="EpicUK" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="24264b6f-699c-43a1-948f-cf14b8e42907" hidden="false" targetId="6d96644b-dbd3-410c-9a81-73313522e197" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8183dbe0-128d-44df-9d2f-587c40d576e7" name="FERC" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="85a6b9fa-e2a2-4ac1-9108-11c4c4406cb4" hidden="false" targetId="18e797f6-fb24-432c-9ee8-652427dbd28a" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="88a98d5f-b990-4741-9c4e-5761a2a7200f" name="GW" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="d45c527d-abf2-4575-9287-eb450d9207f4" hidden="false" targetId="debe925b-e324-4ed7-93d9-69992f678abf" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3cb68a16-db34-43cb-adff-60f17037adec" name="Junkatrukk" hidden="false" collective="true" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="670b9f83-82ca-48a1-a116-e637a478cc17" hidden="false" targetId="3ae4faa0-d80c-41e1-8684-ba83e3057151" type="profile"/>
+        <infoLink id="00b133be-c805-48c1-b779-98af5094ff07" hidden="false" targetId="d3154337-3098-4607-870f-9bfa1896beaf" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7f0bed0e-1717-46a1-8225-09866b0dcc87" name="NetEA" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="3dc163b7-5072-452b-b39e-3b1239222af9" hidden="false" targetId="ea98f36c-204c-4f57-805c-c280285f6660" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b57356d4-217c-44fb-be5a-d61ba490916a" name="Ork Warlord" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="minInForce" value="1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a6c6337b-9e95-4217-a262-7b8b080cdcc3" type="notInstanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInForce" type="min"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="0f4ddb85-1774-4140-99c2-7a631188a226" hidden="false" targetId="6d335233-d0db-472c-98c2-15b0222065bf" type="profile"/>
+        <infoLink id="74352f0c-3d91-407f-ae3d-aa1adc8834c1" hidden="false" targetId="9f458b5f-4ef7-437c-aba8-585963e07dcc" type="rule"/>
+        <infoLink id="0bfe204e-ea5f-42c8-bad3-a2796cf6a7e7" hidden="false" targetId="e9675277-c408-4371-b969-6c9565fb2905" type="rule"/>
+        <infoLink id="db13a3fc-6ed8-4979-802c-50eb2a68e2b6" hidden="false" targetId="d23596ad-5004-4bc3-8600-2b61a05ee52d" type="rule"/>
+        <infoLink id="cbcd29c0-d3a8-4826-be06-19f49394c943" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3187c21f-2b61-45ae-9ec3-849d1b7eeba1" name="Pair of Wildboyz" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="8a2c47c9-f3d4-4a6f-8387-822437f32c01" hidden="false" targetId="1eba1c0b-54c2-4225-99fa-98f4de0606b8" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="afe9a947-3eaf-4950-9074-fcdf4d5d31f9" name="Squiggoth" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="1d7ad03a-411c-409e-bfb6-c4face06efd7" hidden="false" targetId="cd9ff0cc-07a2-483a-adcb-a546a750052a" type="profile"/>
+        <infoLink id="50eecf82-e469-4c48-ac8c-3ff8186ffaca" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+        <infoLink id="44451e3a-c632-4645-a727-4e13829e6b4a" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+        <infoLink id="bdcd9a9b-f762-46b4-97cb-8677733826f1" hidden="false" targetId="d3154337-3098-4607-870f-9bfa1896beaf" type="rule"/>
+        <infoLink id="4997ac30-b1ca-4c63-b03e-f5ca6e515447" hidden="false" targetId="8eca9e45-4d25-4f1e-a395-eb8656a3889a" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c05cb301-fee4-430b-9bc8-bf65e1f5f13f" name="Orkeosaurus" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="points" value="150">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="88a98d5f-b990-4741-9c4e-5761a2a7200f" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="52d2df72-34cf-42de-a74f-7539ca873e47" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="9ca3f26f-ef09-40cd-9a8c-3fc71ab6e63b" hidden="false" targetId="c89ec9ba-04ec-4955-9bb9-d7576f8fbaa6" type="profile"/>
+        <infoLink id="064869fb-c378-42a0-9805-54ce42f2b111" name="Critical Hit: Enraged" hidden="false" targetId="a36ced75-1467-416b-b9bc-5c4053ebf5e0" type="rule">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6a7b87a6-e3f4-4ba7-aaac-b20234ded31f" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="fee1ec81-cb48-4b99-8406-7319118a1dc9" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+        <infoLink id="45feaf03-8340-4c8e-aca8-b1813dd21462" hidden="false" targetId="d3154337-3098-4607-870f-9bfa1896beaf" type="rule"/>
+        <infoLink id="118b9772-d5c4-4ce0-96e5-a54746d543b5" hidden="false" targetId="8eca9e45-4d25-4f1e-a395-eb8656a3889a" type="rule"/>
+        <infoLink id="cbb2bbd7-1fc5-477e-9f3a-ac9962146782" hidden="false" targetId="cd277106-16dd-48d1-897f-01f2ba0c4483" type="rule"/>
+        <infoLink id="8a3b6fc5-d57c-4065-ad8b-3238720d78d2" hidden="false" targetId="fbd08efb-f014-4842-ad2d-ce5cd8ced0ba" type="rule"/>
+        <infoLink id="b05977e8-be8a-4365-a064-0fef6c32c4fd" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+        <infoLink id="727bdc27-ef51-4a6c-8e4e-a7a16002a8c3" name="Critical Hit: Enraged" hidden="false" targetId="f191f281-54e1-407a-8931-1514d906ecc1" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="175.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedRules>
+    <rule id="18e797f6-fb24-432c-9ee8-652427dbd28a" name="F-ERC" hidden="false">
+      <description>FERC_Orks Sauvages_11062013</description>
+    </rule>
+    <rule id="4f04933e-396b-445f-bb9c-a9150be61f03" name="Critical Hit: Boiler Rupture" hidden="false">
+      <modifiers>
+        <modifier type="set" field="description" value="Daño Crítico: Ruptura de la Caldera: La unidad es destruida. Todas las unidades a 2D6cm sufren un impacto.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6df4e085-d889-4d87-b048-92b223091d04" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="description" value="Touche Critique: Rupture de la Chaudière: Détruit. Toutes les unités dans un rayon de 2D6cm subissent une touche.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cae033eb-bb6f-4c6c-a304-2f50aaa0236a" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="description" value="Kritischer Treffer: Kesselbruch: Die Einheit ist zerstört. Alle Einheiten innerhalb von 2W6cm erleiden einen Treffer.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="17e1c84d-45e8-4447-a3c5-4c3d40b8fd78" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <description>Destroyed, all units within 2D6cm suffer a hit.</description>
+    </rule>
+    <rule id="6d96644b-dbd3-410c-9a81-73313522e197" name="EpicUK" hidden="false">
+      <description>FeralOrksQuickRef #01122014
+CodexOrks #011214</description>
+    </rule>
+    <rule id="ca5d5539-18f9-45b5-a4c6-5cd6b45ee366" name="Feral Ork Mob Rule" hidden="false">
+      <modifiers>
+        <modifier type="set" field="description" value="Cuantoz Máz Mejor: Los Orkos creen que, mientas queden suficientes de ellos (¡lo ideal es algunos más de los que puedan contar!), siempre tienen las de ganar. Para representar esto, las formaciones Orkas de más de cinco unidades (es decir, más de los dedos de una mano) sin incluir a los Kanijoz ni a las Katapultaz de Garrapatoz, recibirán un +1 a los chequeos de reagrupamiento. Las formaciones con más de diez unidades de este tipo recibirán un +2. Para estos propósitos, cada máquina de guerra cuenta como un número de unidades igual a su factor de daños inicial.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6df4e085-d889-4d87-b048-92b223091d04" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="description" value="Quanti Ziamo? (Ferino): Le formazioni di Orki con più di cinque unità (cioè più numerosi di quanti ne puoi contare sulle dita di una mano), senza includere le unità di Zgorbi o Catapulte Squig, ricevono un modificatore +1 per ogni tiro di chiamata a raccolta che fanno, e formazioni con più di 10 di tali unità ricevono un modificatore di +2. Allo scopo di questa regola, per le macchine da guerra conta ogni punto di capacità di danno iniziale come un’unità.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9107b912-aebe-429f-bf1d-da168d897465" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="description" value="R&apos;mise en Bande: Lorsque les bandes Orks tentent un test de ralliement, ils reçoivent un bonus de +1 lorsqu&apos;ils sont plus de 5 et de +2 lorsqu&apos;ils sont plus de 10. Les engins de guerre faisant partis de ces bandes comptent pour autant d&apos;unités que leur capacité de dommage de départ. Ne sont pas comptabilisables dans le calcul les grots et les groskalibr&apos;.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cae033eb-bb6f-4c6c-a304-2f50aaa0236a" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="description" value="Feral Ork Pöbelherrschaft: Ork-Formationen mit mehr als fünf Einheiten (ohne Grotz- oder Squig-Katapults-Einheiten) erhalten einen +1-Modifikator für alle von ihnen durchgeführten Rally-Wurf, und Formationen mit mehr als zehn solcher Einheiten erhalten einen +2-Modifikator. Für diese Regel zählen Kriegsmaschinen jeden Punkt der Startschadenskapazität als Einheit.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="17e1c84d-45e8-4447-a3c5-4c3d40b8fd78" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <description>Ork formations with more than five units (ie, too many to count on the fingers of one hand), not including Grotz or Squig Katapultz units, receive a +1 modifier to any Rally rolls they make, and formations with more than 10 such units receive a +2 modifier. For the purposes of this rule War Engines count each point of starting damage capacity as a unit.</description>
+    </rule>
+    <rule id="24bfa75e-d96f-4d24-b2fb-caa8ab6a29ce" name="Feral Ork Warlords" hidden="false">
+      <modifiers>
+        <modifier type="set" field="description" value="Kaudillo: Cada ejército Orko debe incluir un comandante en jefe llamado Kaudillo. El Kaudillo es gratuito, no hay que pagar puntos por él. El Kaudillo Orko debe añadirse a la formación con mayor número de unidades. Las máquinas de guerra cuentan como tantas unidades como factor de daños inicial tengan. Si hay varias formaciones empatadas, puedes elegir cualquiera de ellas.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6df4e085-d889-4d87-b048-92b223091d04" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="description" value="Seigneurs de Guerre: Chaque armée d’Orks Sauvages doit inclure une unité de commandant suprême appelée Seigneur de Guerre. Cette unité est gratuite et doit être ajoutée à la formation de votre armée comportant le plus d’unités. Les engins de guerre comptent un nombre d’unités égal à leur capacité de dommages de départ. En cas d’égalité choisissez quelle formation doit rejoindre le Seigneur de Guerre.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cae033eb-bb6f-4c6c-a304-2f50aaa0236a" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="description" value="Feral Ork Kriegsherren: Jede orkische Armee muss einen Obersten Kommandeur haben, den sogenannten Kriegsherr. Der Charakter des Kriegsherrn ist frei; Sie müssen dafür keine Punkte bezahlen. Der Kriegsherr-Charakter muss zu der Formation in der Armee mit den meisten Einheiten hinzugefügt werden (Kriegsmaschinen zählen als Anzahl Einheiten, die ihrer Anfangsschadenskapazität entsprechen).">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="17e1c84d-45e8-4447-a3c5-4c3d40b8fd78" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <description>Every Feral Ork army must include a supreme commander character called a Warlord. The Warlord character is free; you don’t have to pay any points for it. The Warlord character must be added to the formation in the army with the most units (war engines count as a number of units equal to their starting damage capacity).</description>
+    </rule>
+    <rule id="6136936a-388f-406a-ad24-00d4aa5a9ba6" name="Feral Power of the Waaagh!" hidden="false">
+      <modifiers>
+        <modifier type="set" field="description" value="El Poder del ¡Waaaagh!: Las formaciones Orkas que declaren acciones Dobles o de Atacar, recibirán un +2 a su chequeo de acción.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6df4e085-d889-4d87-b048-92b223091d04" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="description" value="Il Potere della Waaagh! (Ferino): Le formazioni di Orki che stanno provando ad ingaggiare o a far doppie mosse ricevono un modificatore +2 al loro tiro della prova di azione.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9107b912-aebe-429f-bf1d-da168d897465" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="description" value="Pouvoir de la Waaagh: Les Orks ne sont pas de fins stratèges mais la perspective d&apos;une bonne bagarre les galvanise toujours. Afin de représenter ceci, une formation tentant une action d&apos;avance rapide ou d&apos;assaut reçoit toujours +2 à l&apos;initiative pour son test d&apos;action. Les formations aériennes, ont toujours +2 de bonus pour les tests d&apos;actions lorsqu&apos;elles tentent une Interception ou une Attaque au sol.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cae033eb-bb6f-4c6c-a304-2f50aaa0236a" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="description" value="Feral Ork Macht der Waaagh!: Ork-Formationen, die versuchen, die Aktionen Charge oder Double auszuführen, erhalten einen Modifikator von +2 für ihre Aktionstestrolle.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="17e1c84d-45e8-4447-a3c5-4c3d40b8fd78" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <description>Ork formations that are attempting to take Charge or Double actions receive a +2 modifier to their Action test roll.</description>
+    </rule>
+    <rule id="debe925b-e324-4ed7-93d9-69992f678abf" name="GW" hidden="false">
+      <description>Swordwind
+m1320006_Epic_Errata_2008
+Fanatic #02
+Fanatic #13</description>
+    </rule>
+    <rule id="ea98f36c-204c-4f57-805c-c280285f6660" name="NetEA" hidden="false">
+      <description>netea-tournament-pack-2018-07-16</description>
+    </rule>
+    <rule id="fbd08efb-f014-4842-ad2d-ce5cd8ced0ba" name="Orkeosaurus" hidden="false">
+      <modifiers>
+        <modifier type="set" field="description" value="Orkosaurios: Los Orkosaurios que formen parte de una Partida de Guerra tan sólo podrán transportar unidades de su misma formación.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6df4e085-d889-4d87-b048-92b223091d04" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="description" value="Orkeosaurus: Ces unités peuvent seulement transporter les unités de leur propre formation.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cae033eb-bb6f-4c6c-a304-2f50aaa0236a" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="description" value="Orkeosaurus: Orkeosaurus, die Teil eines Kriegsbands sind, dürfen nur Einheiten aus ihrer eigenen Formation transportieren.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="17e1c84d-45e8-4447-a3c5-4c3d40b8fd78" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <description>Orkeosaurus that are part of a warband may only transport units from their own formation.</description>
+    </rule>
+    <rule id="6e59ae38-c019-4a88-b771-1b054ab8318d" name="Strategy Rating &amp; Initiative (Feral)" hidden="false">
+      <modifiers>
+        <modifier type="set" field="description" value="Estrategia e Iniciativa: Factor de Estrategia: 3.  • Valores de Iniciativa: Todas las formaciones: 3+.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6df4e085-d889-4d87-b048-92b223091d04" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="description" value="Strategia e Iniziativa: Gli Orki hanno un valore di strategia di 3. Tutte le formazioni hanno iniziativa 3+, ma ricevono modificatori a seconda delle azioni scelte durante un test di azione, o della dimensione della banda durante la chiamata a raccolta.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9107b912-aebe-429f-bf1d-da168d897465" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="description" value="Stratégie &amp; Initiative: La Waaagh Ork a une valeur stratégique de 3.  Toutes les formations Orks ont une valeur d&apos;initiative de 3+ mais reçoivent des modificateurs en fonction des actions choisies lors qu&apos;elles effectuent un test d&apos;action (Pouvoir de la Waaagh) ou de leur taille lorsqu&apos;elles tentent de se rallier (R&apos;mise en bande).">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cae033eb-bb6f-4c6c-a304-2f50aaa0236a" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="description" value="Strategie und Initiative: Strategiewert 3.  • Alle Formationen haben die Initiativwert 3+. Sie erhalten jedoch Modifikatoren, die von der gewählten Aktion beim Durchführen eines Aktionstests oder von der Größe des Kriegsbands beim Sammeln abhängen.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="17e1c84d-45e8-4447-a3c5-4c3d40b8fd78" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <description>Ork armies have Strategy Rating 3. 
+Ork formations have Initiative Rating 3+, but receive modifiers depending on the action chosen when taking an action test, or the size of the warband when rallying.</description>
+    </rule>
+    <rule id="d3154337-3098-4607-870f-9bfa1896beaf" name="Transport (Feral)" hidden="false">
+      <modifiers>
+        <modifier type="set" field="description" value="La capacité de transport: Comme suit-  • Junkatrukk: 1 unité parmi: Boyz, Nobz, Wildboyz et une unité de Grots. Les unités transportées peuvent tirer en étant embarquées.  • Squiggoths: 4 unités parmi: Boyz, Nobz, Wildboyz, peut transporter 2 unités de Grots en plus des autres unités.  • Orkeosaurus: 12 unités parmi: Boyz, Nobz, Wildboyz. Peut embarquer 6 unité de Grots en plus des autres unités.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cae033eb-bb6f-4c6c-a304-2f50aaa0236a" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <description>As follows-
+Junkatrukk: 1 Grot plus any 1 of the following units: Boyz, Nobz, Wildboyz. Units being transported may fire with any ranged weapons, and use their firefight value in an assault or to lend supporting fire.
+Squiggoths: 4 of the following units: Boyz, Nobz, Wildboyz. May carry 2 Grotz in addition to any other units.
+Orkeosaurus: 12 of the following units: Boyz, Nobz, Wildboyz. May carry 6 Grotz in addition to any other units.</description>
+    </rule>
+    <rule id="f191f281-54e1-407a-8931-1514d906ecc1" name="Critical Hit: Enraged" hidden="false">
+      <modifiers>
+        <modifier type="set" field="description" value="Kritischer Treffer: Wütend: Der Orkeosaurus wütet sofort in einer zufälligen Richtung um volle 3W6cm und erleidet zusätzlich einen Schadenspunkt. Wenn dieser Zug sie in unpassierbares Gelände bringt, bleibt er sofort stehen und wird zerstört. Wenn dieser Zug es in eine Kriegsmaschine bringt, stoppt es sofort und erleidet einen zusätzlichen Schadenspunkt. Alle Einheiten, die überfahren oder kontaktiert werden, erleiden einen Makro-Waffentreffer mit einem Wurf von 4+.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="17e1c84d-45e8-4447-a3c5-4c3d40b8fd78" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6a7b87a6-e3f4-4ba7-aaac-b20234ded31f" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="description" value="Daño Crítico: Enfurecido: El Orkosaurio sufre un punto de daño y se mueve 3D6cm en una dirección aleatoria. Si mueve hasta terreno intransitable se detendrá y será destruido. Si se mueve a una Máquina de Guerra se detendrá y sufrirá un punto de daño adicional. Las unidades atravesadas sufrirán un impacto de macroarma con un 4+ en 1D6.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6df4e085-d889-4d87-b048-92b223091d04" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="description" value="Touche Critique: Enragé: L&apos;Orkeosaurus se déchaîne immédiatement sur une distance de 3d6 cm dans une direction aléatoire et subit un point de dommage supplémentaire. Si ce mouvement l&apos;amène sur un terrain impraticable, il s&apos;arrête immédiatement et est détruit. Si ce mouvement l&apos;emmène dans une engin de guerre, il s&apos;arrête immédiatement et subit un point de dommage supplémentaire. Toute unité traversée ou contactée subit un coup de macro-arme sur un jet de D6 de 4+.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cae033eb-bb6f-4c6c-a304-2f50aaa0236a" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <description>The Orkeosaurus immediately rampages a full 3D6cm in a random direction and takes an additional point of damage. If this move takes it into impassable terrain then it stops immediately and is destroyed. If this move takes it into a War Engine then it stops immediately and takes an additional point of damage. Any units moved over or contacted take a macro weapon hit on a D6 roll of 4+.</description>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile id="a528d783-65d6-4fa6-a7f1-e6062a3fc8c7" name="Boarboyz" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <modifiers>
+        <modifier type="set" field="b5c08271-b51b-427f-aa70-48559f285323" value="20cm">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8183dbe0-128d-44df-9d2f-587c40d576e7" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6a7b87a6-e3f4-4ba7-aaac-b20234ded31f" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7f0bed0e-1717-46a1-8225-09866b0dcc87" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="61ca30a7-e4b9-437f-b038-f985a8f69fdb" value="5+">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8183dbe0-128d-44df-9d2f-587c40d576e7" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6a7b87a6-e3f4-4ba7-aaac-b20234ded31f" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7f0bed0e-1717-46a1-8225-09866b0dcc87" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">25cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">6+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">4+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">6+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Shootas&lt;BR&gt;&lt;BR&gt;Choppas</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(15cm)&lt;BR&gt;&lt;BR&gt;(contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Small Arms&lt;BR&gt;&lt;BR&gt;Assault Weapon</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Mounted, Infiltrators</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ea401f3d-e40b-4472-9901-2081850ca6aa" name="Boyz" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">6+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">4+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">6+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Shootas&lt;BR&gt;&lt;BR&gt;Big Shootas&lt;BR&gt;&lt;BR&gt;Choppas</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(15cm)&lt;BR&gt;&lt;BR&gt;30cm&lt;BR&gt;&lt;BR&gt;(contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Small Arms&lt;BR&gt;&lt;BR&gt;AP6+/AT6+&lt;BR&gt;&lt;BR&gt;Assault Weapon</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429"/>
+      </characteristics>
+    </profile>
+    <profile id="57fdc694-b535-416b-84b5-da3091b83326" name="Fist of Gork" hidden="false" typeId="4175fd39-9d2f-43cd-a59f-4943c291cb87" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">45cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">MW5+/AA5+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Macro-weapon</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="604c185a-b382-4899-8a11-5117520bd28f" name="Grotz" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">none</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">6+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">6+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Shootas</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(15cm)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Small Arms</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Grotz</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3ae4faa0-d80c-41e1-8684-ba83e3057151" name="Junkatrukk" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <modifiers>
+        <modifier type="set" field="548ecef9-18e1-4523-8f1a-711e5d496caa" value="-">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8183dbe0-128d-44df-9d2f-587c40d576e7" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="8c8a2f87-8724-4b33-b3d5-4355fd72c65b" value="-">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8183dbe0-128d-44df-9d2f-587c40d576e7" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="8aaf4a58-3fbc-4af5-a555-f01226ea45c6" value="-">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8183dbe0-128d-44df-9d2f-587c40d576e7" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Light Vehicle</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">25cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">5+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">5+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">6+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Big Shootas</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">30cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">AP6+/AT6+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Transport</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="fb3726c1-cc6d-4093-9e3a-e45f875a2337" name="Madboyz" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">6+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">4+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">6+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Shootas&lt;BR&gt;&lt;BR&gt;Choppas</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(15cm)&lt;BR&gt;&lt;BR&gt;(contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Small Arms&lt;BR&gt;&lt;BR&gt;Assault Weapon</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Fearless</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="021ab77d-22ea-4504-8f27-76bf1eb74cc2" name="Mega-choppa" hidden="false" typeId="4175fd39-9d2f-43cd-a59f-4943c291cb87" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapon</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Titan Killer (D3), +1A</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6efd0a5e-fb9a-4e63-a38a-f0b0c6889da2" name="Nobz" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">4+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">3+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Shootas&lt;BR&gt;&lt;BR&gt;2x Big Shootas&lt;BR&gt;&lt;BR&gt;Big Choppas</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(15cm)&lt;BR&gt;&lt;BR&gt;30cm&lt;BR&gt;&lt;BR&gt;(contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Small Arms&lt;BR&gt;&lt;BR&gt;AP6+/AT6+&lt;BR&gt;&lt;BR&gt;Assault Weapon</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">-&lt;BR&gt;&lt;BR&gt;-&lt;BR&gt;&lt;BR&gt;+1A</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Leader</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6d335233-d0db-472c-98c2-15b0222065bf" name="Ork Warlord" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Character</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">n/a</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">n/a</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">n/a</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">n/a</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Massive Choppas</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapon</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Macro-weapon, +1A</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Supreme Commander</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c89ec9ba-04ec-4955-9bb9-d7576f8fbaa6" name="Orkeosaurus" hidden="false" typeId="1653b936-3bef-42ef-adfe-653bdfc7f321" typeName="War Engine">
+      <modifiers>
+        <modifier type="set" field="548ecef9-18e1-4523-8f1a-711e5d496caa" value="2x Big Gun&lt;BR&gt;&lt;BR&gt;4x Twin Big Shoota&lt;BR&gt;&lt;BR&gt;Goring Tusks&lt;BR&gt;or">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8183dbe0-128d-44df-9d2f-587c40d576e7" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6a7b87a6-e3f4-4ba7-aaac-b20234ded31f" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7f0bed0e-1717-46a1-8225-09866b0dcc87" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">War Engine</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">4+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">4+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">2x Big Gun&lt;BR&gt;&lt;BR&gt;4x Big Shoota&lt;BR&gt;&lt;BR&gt;Goring Tusks&lt;BR&gt;or</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">45cm&lt;BR&gt;&lt;BR&gt;30cm&lt;BR&gt;&lt;BR&gt;(contact)&lt;BR&gt;or (contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">AP5+/AT5+&lt;BR&gt;&lt;BR&gt;AP5+/AT6+&lt;BR&gt;&lt;BR&gt;Assault Weapon&lt;BR&gt;or Assault Weapon</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">-&lt;BR&gt;&lt;BR&gt;-&lt;BR&gt;&lt;BR&gt;Macro-weapon, +D3A&lt;BR&gt;or Titan Killer (D3), +1A</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Reinforced Armour, Thick Rear Armour,Transport</characteristic>
+        <characteristic name="DC" typeId="2377629f-6ded-4aa4-b356-7d506954faa6">6</characteristic>
+        <characteristic name="Crit" typeId="8dbc632e-e06c-461d-a0fa-d51a1a624c11">Enraged</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a4c34879-abbf-4c47-a4b4-ddeda72b9b72" name="Soopagun" hidden="false" typeId="4175fd39-9d2f-43cd-a59f-4943c291cb87" typeName="Weapon">
+      <modifiers>
+        <modifier type="set" field="9bed88b3-aca6-4b51-ab86-06b36be3a332" value="Fixed Forward Arc, Macro-weapon">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7f0bed0e-1717-46a1-8225-09866b0dcc87" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <characteristics>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">60cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">2BP</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Macro-weapon</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7f3a3330-528f-41d5-801b-9b76c452de02" name="Squig Katapult" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">10cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">-</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">6+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Squig Katapult</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">45cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">1BP</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Disrupt</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429"/>
+      </characteristics>
+    </profile>
+    <profile id="cd9ff0cc-07a2-483a-adcb-a546a750052a" name="Squiggoths" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Light Vehicle</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">20cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">4+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">4+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">2x Twin Big Shoota&lt;BR&gt;&lt;BR&gt;Teeth &amp; Horns&lt;BR&gt;&lt;BR&gt;Big Gun</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">30cm&lt;BR&gt;&lt;BR&gt;(contact)&lt;BR&gt;&lt;BR&gt;45cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">AP5+/AT6+&lt;BR&gt;&lt;BR&gt;Assault Weapon&lt;BR&gt;&lt;BR&gt;AP5+/AT5+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">-&lt;BR&gt;&lt;BR&gt;Macro-weapon, +D3A&lt;BR&gt;&lt;BR&gt;-</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Reinforced Armour, Thick Rear Armour,Transport</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5882b880-faec-41b7-b34c-fa5c9d103da9" name="Steam Gargant" hidden="false" typeId="1653b936-3bef-42ef-adfe-653bdfc7f321" typeName="War Engine">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">War Engine</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">4+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">4+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">4+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Fist of Gork</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">*</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">*</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">*</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Fearless, Reinforced Armour, Walker</characteristic>
+        <characteristic name="DC" typeId="2377629f-6ded-4aa4-b356-7d506954faa6">4</characteristic>
+        <characteristic name="Crit" typeId="8dbc632e-e06c-461d-a0fa-d51a1a624c11">Boiler Rupture</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1eba1c0b-54c2-4225-99fa-98f4de0606b8" name="Wildboyz" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">6+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">4+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">n/a</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Choppas</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapon</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429"/>
+      </characteristics>
+    </profile>
+    <profile id="4b4d4ccd-f421-4629-ac14-5c5ec88aaacb" name="Wyrdboy" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Character</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">n/a</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">n/a</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">n/a</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">n/a</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Fist of Gork</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">45cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">MW5+/AA5+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Macro-weapon</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429"/>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>

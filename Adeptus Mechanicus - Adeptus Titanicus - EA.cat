@@ -1,0 +1,1440 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="d9e1e030-fba9-453a-9c32-20b920d343bf" name="Adeptus Mechanicus: Adeptus Titanicus" revision="25" battleScribeVersion="2.03" authorUrl="http://battlescribedata.appspot.com/#/repo/wh40k-epic-armageddon" library="false" gameSystemId="b7be77a3-9f44-4c5d-a0f7-a40bf046af2a" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <publications>
+    <publication id="1a5fbf30-976c-413b-8890-f0d2fc154e5c" name="Ion Gauntlet Shield"/>
+  </publications>
+  <selectionEntries>
+    <selectionEntry id="61360c9d-09c2-4c3f-90f5-efe60ef460d8" name="-Community-" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4d0d3683-c6f7-4dd9-838d-62154099c3c6" name="Group" hidden="false" collective="false" import="true" defaultSelectionEntryId="7ba52ef4-b62e-4ab1-8d8c-6734eb772937">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="8eef03ff-18bd-449c-9315-6cfb7e61f8a7" hidden="false" collective="false" import="true" targetId="7f0bed0e-1717-46a1-8225-09866b0dcc87" type="selectionEntry"/>
+            <entryLink id="7ba52ef4-b62e-4ab1-8d8c-6734eb772937" hidden="false" collective="false" import="true" targetId="6a7b87a6-e3f4-4ba7-aaac-b20234ded31f" type="selectionEntry"/>
+            <entryLink id="fe6b6560-0065-4cea-8344-3de09079759b" hidden="false" collective="false" import="true" targetId="8183dbe0-128d-44df-9d2f-587c40d576e7" type="selectionEntry"/>
+            <entryLink id="b1ef4cd5-1e23-4ba7-a8be-0ef3fe26d7a1" hidden="false" collective="false" import="true" targetId="88a98d5f-b990-4741-9c4e-5761a2a7200f" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="06193ac7-74e9-4bbf-bc87-a625de241648" hidden="false" collective="false" import="true" targetId="1884eb4b-97e7-42ae-aed7-811bae8a02a9" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d48dce59-38bf-424c-9de3-dafbba87dbfe" name="Adeptus Mechanicus Cruiser" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a6c6337b-9e95-4217-a262-7b8b080cdcc3" type="instanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="maxInForce" value="0.0">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a606b357-2e1c-444e-ad2a-da6cc6160447" type="atLeast"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7354f781-17bc-4148-8e96-19e508e72b61" type="atLeast"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="db859388-fbf4-438f-b211-d43ccea24f87" name="Adeptus Mechanicus Cruiser" hidden="false" targetId="3a47a400-f227-416f-9581-4016eb231f81" type="profile"/>
+        <infoLink id="591345aa-aabc-40ba-addb-dcc06ea5f1a8" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+        <infoLink id="27f93d6b-9710-496d-b851-8766144caa7a" hidden="false" targetId="cd277106-16dd-48d1-897f-01f2ba0c4483" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d67961f6-364b-47a8-85de-125ef25c7c8c" name="Formations" hidden="false" targetId="e4013702-a119-46c3-9fd9-a64e58afe467" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="150.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a455face-b901-4e73-88f9-974cd5b69f61" name="Reaver Battle Titan" page="0" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="6f716aa4-1951-44ce-8d0f-ed0c20a6b39f" name="Reaver Titan" hidden="false" targetId="839a12c5-6e77-4ef8-9054-7bc587e01625" type="profile">
+          <modifiers>
+            <modifier type="append" field="548ecef9-18e1-4523-8f1a-711e5d496caa" value="Melta Cannon&lt;BR&gt;">
+              <repeats>
+                <repeat field="selections" scope="a455face-b901-4e73-88f9-974cd5b69f61" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7332c32e-b1f5-4095-bba1-eb223bfb4178" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="append" field="548ecef9-18e1-4523-8f1a-711e5d496caa" value="Vulcan Mega-bolter&lt;BR&gt;">
+              <conditions>
+                <condition field="selections" scope="a455face-b901-4e73-88f9-974cd5b69f61" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="67580576-2aad-430d-b0ce-986395f2cc8c" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="548ecef9-18e1-4523-8f1a-711e5d496caa" value="Turbo-Laser Destructor&lt;BR&gt;">
+              <conditions>
+                <condition field="selections" scope="a455face-b901-4e73-88f9-974cd5b69f61" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e341bb3c-dd7b-4baa-abfd-21f7541f5b63" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="548ecef9-18e1-4523-8f1a-711e5d496caa" value="Gatling Blaster&lt;BR&gt;">
+              <repeats>
+                <repeat field="selections" scope="a455face-b901-4e73-88f9-974cd5b69f61" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cdbe2484-6426-45bc-82d5-640af660ce15" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="append" field="548ecef9-18e1-4523-8f1a-711e5d496caa" value="Laser Blaster&lt;BR&gt;">
+              <repeats>
+                <repeat field="selections" scope="a455face-b901-4e73-88f9-974cd5b69f61" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cd684e68-08ca-4ee0-ba4e-f8a9b7052a65" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="append" field="548ecef9-18e1-4523-8f1a-711e5d496caa" value="Power Fist&lt;BR&gt;">
+              <repeats>
+                <repeat field="selections" scope="a455face-b901-4e73-88f9-974cd5b69f61" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e41c9ec3-889d-4149-8ef8-174dfaddb766" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="append" field="548ecef9-18e1-4523-8f1a-711e5d496caa" value="Chainfist&lt;BR&gt;">
+              <repeats>
+                <repeat field="selections" scope="a455face-b901-4e73-88f9-974cd5b69f61" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7242a76a-1f73-4584-8a76-a712d9e749c9" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="append" field="548ecef9-18e1-4523-8f1a-711e5d496caa" value="Volcano Cannon&lt;BR&gt;">
+              <repeats>
+                <repeat field="selections" scope="a455face-b901-4e73-88f9-974cd5b69f61" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="815d67be-b0f1-49b6-bcd3-d6f92e254496" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="append" field="548ecef9-18e1-4523-8f1a-711e5d496caa" value="Warp Missile&lt;BR&gt;">
+              <conditions>
+                <condition field="selections" scope="a455face-b901-4e73-88f9-974cd5b69f61" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="07d51e62-5765-4496-bdda-a4a674d5b76e" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="548ecef9-18e1-4523-8f1a-711e5d496caa" value="Apocalypse Missile Launcher&lt;BR&gt;">
+              <conditions>
+                <condition field="selections" scope="a455face-b901-4e73-88f9-974cd5b69f61" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cefc64a0-cf32-48d1-a91b-aa112ccb3f38" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="54ae28ec-7dfe-4866-b978-d01556451770" name="Fearless" hidden="false" targetId="72dab6ac-4c9d-45f2-b150-7dd034d83b83" type="rule"/>
+        <infoLink id="6c640fa8-4ce0-450a-88c5-a0609eddcf0d" name="Reinforced Armour" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+        <infoLink id="756e9e82-b762-4533-82bd-e072319aa5c2" name="Walker (Titan)" hidden="false" targetId="d1361dbb-b26e-46f9-9bd3-570dccd848a5" type="rule"/>
+        <infoLink id="200572e0-1821-4dd5-98d4-9a6b43c49b93" name="Critical Hit: Reactor Damage" hidden="false" targetId="7bfb2122-7a4b-42d7-ab28-525c2bbb59ed" type="rule"/>
+        <infoLink id="7b0547bf-dbf2-4745-93a0-e45a3e65be4c" name="Void Shields" hidden="false" targetId="98b00393-722e-4fb9-8e40-23b4cfc6d978" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6dde05b0-7484-4044-9392-ea4b3bdcb77a" hidden="false" targetId="e4013702-a119-46c3-9fd9-a64e58afe467" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2dc00cb0-db99-4109-8fd6-6c09a1e1f196" name="Arm Weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="5fe13c78-710a-481e-b16c-27e69f2921da" name="Reaver Titan Power Fist" hidden="false" collective="false" import="true" targetId="e41c9ec3-889d-4149-8ef8-174dfaddb766" type="selectionEntry"/>
+            <entryLink id="54b3cd12-8f60-449f-b0e0-24fc6541596c" name="Gatling Blaster" hidden="false" collective="false" import="true" targetId="cdbe2484-6426-45bc-82d5-640af660ce15" type="selectionEntry"/>
+            <entryLink id="b2ce8a91-cfe2-48e5-9a88-e60f12a951e2" name="Laser Blaster" hidden="false" collective="false" import="true" targetId="cd684e68-08ca-4ee0-ba4e-f8a9b7052a65" type="selectionEntry"/>
+            <entryLink id="cd81fe90-f3ab-42d2-bb24-eeb2069d93d1" name="Reaver Titan Chainfist" hidden="false" collective="false" import="true" targetId="7242a76a-1f73-4584-8a76-a712d9e749c9" type="selectionEntry"/>
+            <entryLink id="c566c6a1-2e9a-43a4-83dc-eafdd558ca66" name="Melta Cannon" hidden="false" collective="false" import="true" targetId="7332c32e-b1f5-4095-bba1-eb223bfb4178" type="selectionEntry"/>
+            <entryLink id="1edeb7dd-23fc-44eb-a77a-c0fd35bd803b" name="Volcano Cannon" hidden="false" collective="false" import="true" targetId="815d67be-b0f1-49b6-bcd3-d6f92e254496" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="69238ee4-8bbd-4856-a17d-09c04d799348" name="Carapace Weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c6160f69-bc76-461b-a576-dedd4124d40a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="60a78c9c-c889-404b-b4aa-52efec07259a" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="6337070f-60f7-4932-bf12-55ec731230bb" name="Warp Missile" hidden="false" collective="false" import="true" targetId="07d51e62-5765-4496-bdda-a4a674d5b76e" type="selectionEntry"/>
+            <entryLink id="0fa17748-c4ef-45e3-a55b-e71289789572" name="Turbo-Laser Destructor" hidden="false" collective="false" import="true" targetId="e341bb3c-dd7b-4baa-abfd-21f7541f5b63" type="selectionEntry"/>
+            <entryLink id="4118dba6-cd41-4b79-b387-8a55721aa4bd" name="Apocalypse Missile Launcher" hidden="false" collective="false" import="true" targetId="cefc64a0-cf32-48d1-a91b-aa112ccb3f38" type="selectionEntry"/>
+            <entryLink id="5ed3fe41-e481-46fe-bee1-8eb7db5c7899" name="Vulcan Mega-bolter" hidden="false" collective="false" import="true" targetId="67580576-2aad-430d-b0ce-986395f2cc8c" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="f6d12597-9bc3-400d-b1ce-0a04bf0c4f7f" name="Veteran Princeps" hidden="false" collective="false" import="true" targetId="d434c36a-36a8-4936-889e-685128c2f82d" type="selectionEntry"/>
+        <entryLink id="4964d160-abc7-4bb3-a32d-242bab33c701" name="Carapace Multilasers" hidden="false" collective="false" import="true" targetId="87460805-0cf7-4ad6-8a83-a805be3726c4" type="selectionEntry"/>
+        <entryLink id="adfbb8b0-4388-4a9d-a01e-8bdb1ec764d7" name="Legate" hidden="false" collective="false" import="true" targetId="ddaf9dc1-da7c-4c95-9d1a-c6229edcfd05" type="selectionEntry"/>
+        <entryLink id="fc14855e-b8a5-4ff9-b86e-0c63b512b8f0" name="Battle Titan" hidden="false" collective="false" import="true" targetId="c41be944-9901-45f7-b5d4-bc8c25d34ac5" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="650.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="213749ad-6345-4d4c-86ca-e23704a619c6" name="Warhound Scout Titan" page="0" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="f3410a98-974b-4ca0-89d6-668700c46490" name="Warhound Titan" hidden="false" targetId="06f0a8b7-c02e-4763-96ec-2d6cec9d5336" type="profile">
+          <modifiers>
+            <modifier type="append" field="548ecef9-18e1-4523-8f1a-711e5d496caa" value="Vulcan Mega-bolter&lt;BR&gt;">
+              <repeats>
+                <repeat field="selections" scope="213749ad-6345-4d4c-86ca-e23704a619c6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="67580576-2aad-430d-b0ce-986395f2cc8c" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="append" field="548ecef9-18e1-4523-8f1a-711e5d496caa" value="Scout Turbo Laser&lt;BR&gt;">
+              <repeats>
+                <repeat field="selections" scope="213749ad-6345-4d4c-86ca-e23704a619c6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1179969e-6305-4ab4-8a87-e558d9d2e618" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="append" field="548ecef9-18e1-4523-8f1a-711e5d496caa" value="Scout Inferno Gun&lt;BR&gt;">
+              <repeats>
+                <repeat field="selections" scope="213749ad-6345-4d4c-86ca-e23704a619c6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a10fd635-64f4-45ff-bd9f-3ac079378c40" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="append" field="548ecef9-18e1-4523-8f1a-711e5d496caa" value="Plasma Blastgun&lt;BR&gt;">
+              <repeats>
+                <repeat field="selections" scope="213749ad-6345-4d4c-86ca-e23704a619c6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="534fe3a5-4622-41bf-969b-2def4dff91ce" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="6d81f85b-4871-47d0-9561-be1c06962510" name="Fearless" hidden="false" targetId="72dab6ac-4c9d-45f2-b150-7dd034d83b83" type="rule"/>
+        <infoLink id="ad9e06ae-dfb2-458a-b3cf-d1babe0d9b4a" name="Reinforced Armour" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+        <infoLink id="c2f83b23-59e4-49fd-812d-eda6e6b15858" name="Walker (Titan)" hidden="false" targetId="d1361dbb-b26e-46f9-9bd3-570dccd848a5" type="rule"/>
+        <infoLink id="2ca658b7-5f8d-46e3-a8c7-35585219a6bf" name="Critical Hit: Staggering Blow" hidden="false" targetId="1cb339a5-ca81-4d61-8a81-dc1b0b87d99c" type="rule"/>
+        <infoLink id="011fe6ed-45c9-4f47-ba4a-9eb68c9dda21" name="Void Shields" hidden="false" targetId="98b00393-722e-4fb9-8e40-23b4cfc6d978" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="cc33482d-1a4e-45ee-b846-70ded22b95c2" name="Formations" hidden="false" targetId="e4013702-a119-46c3-9fd9-a64e58afe467" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="3d76dbf9-b48b-4f52-8d9b-20919a536562" name="Scout Weapons" hidden="false" collective="false" import="true" targetId="386df85c-832c-49e4-86b5-91a1fc5fc6de" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="300.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="33ce71eb-2482-49ca-884a-dfbca5e98116" name="Warhounds" page="0" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="493ed71b-81cd-4373-914e-85594524bd0a" name="Formations" hidden="false" targetId="e4013702-a119-46c3-9fd9-a64e58afe467" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="05f93379-7a1c-4df5-ae0b-be42d80c8a65" name="Warhound Scout Titan" hidden="false" collective="false" import="true" targetId="c7c66fd9-06d9-46ed-829a-d379bba35700" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="550.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="035c82da-a08c-4d71-a9e2-158082e95999" name="Warlord Battle Titan" page="0" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="minInForce" value="1">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a455face-b901-4e73-88f9-974cd5b69f61" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minInForce" type="min"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="0296cbde-98ac-443b-afb8-d6200ee1def4" name="Warlord Titan" hidden="false" targetId="5bdac9c3-2f0c-43f2-a1f2-6f69d0dfdba6" type="profile">
+          <modifiers>
+            <modifier type="append" field="548ecef9-18e1-4523-8f1a-711e5d496caa" value="Sunfury Plasma Annihilator&lt;BR&gt;">
+              <repeats>
+                <repeat field="selections" scope="035c82da-a08c-4d71-a9e2-158082e95999" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="321487c9-4518-4bbb-8fa0-36642fdf9000" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="append" field="548ecef9-18e1-4523-8f1a-711e5d496caa" value="Paired Laser Blasters&lt;BR&gt;">
+              <conditions>
+                <condition field="selections" scope="035c82da-a08c-4d71-a9e2-158082e95999" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="497df004-ec20-44c9-9ab5-c96594ed8660" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="548ecef9-18e1-4523-8f1a-711e5d496caa" value="Macro-Gatling Blaster&lt;BR&gt;">
+              <repeats>
+                <repeat field="selections" scope="035c82da-a08c-4d71-a9e2-158082e95999" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="03b6ac4b-b6c7-42f1-9ebc-9e61d557f01a" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="append" field="548ecef9-18e1-4523-8f1a-711e5d496caa" value="Arioch Titan Power Claw&lt;BR&gt;">
+              <repeats>
+                <repeat field="selections" scope="035c82da-a08c-4d71-a9e2-158082e95999" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="129f2d01-c5db-46cc-a2e5-fc06b24c2b91" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="append" field="548ecef9-18e1-4523-8f1a-711e5d496caa" value="Paired Turbo-Lasers&lt;BR&gt;">
+              <conditions>
+                <condition field="selections" scope="035c82da-a08c-4d71-a9e2-158082e95999" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="359f41c8-1dd4-44ea-8524-c9ddf1f4971e" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="548ecef9-18e1-4523-8f1a-711e5d496caa" value="Belicosa Volcano Cannon&lt;BR&gt;">
+              <repeats>
+                <repeat field="selections" scope="035c82da-a08c-4d71-a9e2-158082e95999" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7fc48b7e-97b0-42b5-8906-6fd3fa3a8211" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="append" field="548ecef9-18e1-4523-8f1a-711e5d496caa" value="Mori Quake Cannon&lt;BR&gt;">
+              <repeats>
+                <repeat field="selections" scope="035c82da-a08c-4d71-a9e2-158082e95999" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="83d5ce85-33c7-423a-8033-8ea4d61cdceb" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="append" field="548ecef9-18e1-4523-8f1a-711e5d496caa" value="Paired Gatling Blasters&lt;BR&gt;">
+              <conditions>
+                <condition field="selections" scope="035c82da-a08c-4d71-a9e2-158082e95999" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="89a95050-f035-497f-99c0-5589f1ca3ab2" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="548ecef9-18e1-4523-8f1a-711e5d496caa" value="Paired Melta Cannon&lt;BR&gt;">
+              <conditions>
+                <condition field="selections" scope="035c82da-a08c-4d71-a9e2-158082e95999" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="dc856004-cedb-4f38-8c81-748b8a1ae72c" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="548ecef9-18e1-4523-8f1a-711e5d496caa" value="Apocalypse Missile Launchers&lt;BR&gt;">
+              <conditions>
+                <condition field="selections" scope="035c82da-a08c-4d71-a9e2-158082e95999" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="430808d5-334b-4ee6-ab7a-d3a6100bddb3" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="548ecef9-18e1-4523-8f1a-711e5d496caa" value="Vulcan Mega Bolters&lt;BR&gt;">
+              <conditions>
+                <condition field="selections" scope="035c82da-a08c-4d71-a9e2-158082e95999" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e5c5d927-d671-4e0f-a3f5-95b4e6c8aba0" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="9e9aa2d8-f856-4c29-a01f-1f2e122127e6" hidden="false" targetId="72dab6ac-4c9d-45f2-b150-7dd034d83b83" type="rule"/>
+        <infoLink id="fb1ccf65-869a-4d40-bb7b-dcd741eab75f" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+        <infoLink id="5040b7f0-84c2-40a0-b9d7-00b661e91b8d" hidden="false" targetId="8eca9e45-4d25-4f1e-a395-eb8656a3889a" type="rule"/>
+        <infoLink id="4fb5ec5c-53f7-450f-a156-a3086cb96dff" name="Walker (Titan)" hidden="false" targetId="d1361dbb-b26e-46f9-9bd3-570dccd848a5" type="rule"/>
+        <infoLink id="e23b8027-e118-4e9c-8f6b-1f41811f2e39" name="Critical Hit: Reactor Damage" hidden="false" targetId="7bfb2122-7a4b-42d7-ab28-525c2bbb59ed" type="rule"/>
+        <infoLink id="72336680-7ea9-4541-93f4-08cec7b2e7f3" name="Void Shields" hidden="false" targetId="98b00393-722e-4fb9-8e40-23b4cfc6d978" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="9b1b08fe-8c4d-4cfe-8bd4-7012f265ccb7" hidden="false" targetId="e4013702-a119-46c3-9fd9-a64e58afe467" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7a4c7875-739e-48ed-ab8d-b7ef2eefb391" name="Arm Weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="359a2935-b9b7-4766-a28d-25e54c636127" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="9f35410c-80bd-4d3c-ab97-36f32d4c20ed" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="d2e34d90-6bcd-4f92-97cd-8ea67038e436" name="Macro-Gatling Blaster" hidden="false" collective="false" import="true" targetId="03b6ac4b-b6c7-42f1-9ebc-9e61d557f01a" type="selectionEntry"/>
+            <entryLink id="210baefa-80cd-49fd-a8ef-e286a5db186b" name="Sunfury Plasma Annihilator" hidden="false" collective="false" import="true" targetId="321487c9-4518-4bbb-8fa0-36642fdf9000" type="selectionEntry"/>
+            <entryLink id="a3f65352-c6f2-4f1b-b591-3d6a55bad6c1" name="Mori Quake Cannon" hidden="false" collective="false" import="true" targetId="83d5ce85-33c7-423a-8033-8ea4d61cdceb" type="selectionEntry"/>
+            <entryLink id="f7528736-1283-4983-b6b7-2c56f26af9d8" name="Arioch Titan Power Claw" hidden="false" collective="false" import="true" targetId="129f2d01-c5db-46cc-a2e5-fc06b24c2b91" type="selectionEntry"/>
+            <entryLink id="1ec1cdea-53e5-4ee0-84fb-4288538fbb93" name="Belicosa Volcano Cannon" hidden="false" collective="false" import="true" targetId="7fc48b7e-97b0-42b5-8906-6fd3fa3a8211" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="4fe77f24-512f-4976-90ac-6eb34304b112" name="Carapace Weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="ffb6d26a-ae30-4911-89f6-4eb664f1e574" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e4fb1e13-f676-4281-806b-f97db58a294c" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="d071c8e6-acb1-432d-a733-9a680d6d7e87" name="Apocalypse Missile Launchers" hidden="false" collective="false" import="true" targetId="430808d5-334b-4ee6-ab7a-d3a6100bddb3" type="selectionEntry"/>
+            <entryLink id="79675ff6-07cd-4934-b331-c1c94238a0f4" name="Paired Turbo-Lasers" hidden="false" collective="false" import="true" targetId="359f41c8-1dd4-44ea-8524-c9ddf1f4971e" type="selectionEntry"/>
+            <entryLink id="eb4eec9d-d0ce-4d75-ac27-1dd56e686a72" name="Paired Gatling Blasters" hidden="false" collective="false" import="true" targetId="89a95050-f035-497f-99c0-5589f1ca3ab2" type="selectionEntry"/>
+            <entryLink id="f0679852-8b9e-4268-8d47-0476a549e4b0" name="Paired Laser Blasters" hidden="false" collective="false" import="true" targetId="497df004-ec20-44c9-9ab5-c96594ed8660" type="selectionEntry"/>
+            <entryLink id="f24f5098-2186-4cd8-aa16-d0e95bed9e17" name="Paired Melta Cannon" hidden="false" collective="false" import="true" targetId="dc856004-cedb-4f38-8c81-748b8a1ae72c" type="selectionEntry"/>
+            <entryLink id="05dc2e7a-304c-4eca-b2a9-b5f15741d33a" name="Vulcan Mega-bolters" hidden="false" collective="false" import="true" targetId="e5c5d927-d671-4e0f-a3f5-95b4e6c8aba0" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="d799cec0-b7f7-4989-8739-0e6a473e6fb6" hidden="false" collective="false" import="true" targetId="ddaf9dc1-da7c-4c95-9d1a-c6229edcfd05" type="selectionEntry"/>
+        <entryLink id="aa6085ec-673d-425d-bf39-c35b05043ca2" name="Veteran Princeps" hidden="false" collective="false" import="true" targetId="d434c36a-36a8-4936-889e-685128c2f82d" type="selectionEntry"/>
+        <entryLink id="5e759b90-a9a6-4daf-946d-0529c1331f81" name="Carapace Multilasers" hidden="false" collective="false" import="true" targetId="87460805-0cf7-4ad6-8a83-a805be3726c4" type="selectionEntry"/>
+        <entryLink id="3a612824-8cbd-4a58-8eeb-8b73913d540f" name="Battle Titan" hidden="false" collective="false" import="true" targetId="c41be944-9901-45f7-b5d4-bc8c25d34ac5" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="850.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1a8cbc22-6f2c-4c0a-bc53-26ea236d5ff4" name="Questoris Knights" page="0" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="04d74993-91a8-4430-9fb3-bb466afe6424" name="Formations" hidden="false" targetId="e4013702-a119-46c3-9fd9-a64e58afe467" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2d9efebd-1c12-4905-82e9-a2724749386a" name="Lance" hidden="false" collective="false" import="true" defaultSelectionEntryId="22511779-c87b-4025-a8a2-ab768631aeb1">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="dff155e2-8f8c-42e7-a1fa-3593aaccb232" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="229dc717-dacc-47b5-a24f-eba00e32c8f1" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="22511779-c87b-4025-a8a2-ab768631aeb1" name="Questoris Knight w/ Battle Cannon" page="0" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="2873f1c8-5caa-47fe-ac30-c2a670e54553" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="686279e8-acd8-4bfb-8f96-b3078ac98583" name="Questoris Knight B" hidden="false" targetId="82be2924-f658-4859-8df3-3a6ca9eda57b" type="profile"/>
+                <infoLink id="459be521-ef63-49a9-bc06-24d6ba6c2181" name="Knight Commander" hidden="false" targetId="d4f6e682-2c84-4375-942d-eecfb2186e48" type="rule"/>
+                <infoLink id="18951be2-0781-4f7a-a58f-8a198df88e53" name="Reinforced Armour" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+                <infoLink id="885f112e-9f7c-4683-b093-75c068b97ef3" name="Walker" hidden="false" targetId="3792d3e5-937d-49e6-8a20-320f64f441ba" type="rule"/>
+                <infoLink id="3e86f7be-ee09-4564-afba-431eda9eaa14" name="Critical Hit: Destroyed" hidden="false" targetId="b4f624a1-c328-44fa-a985-ecbf2ce536c1" type="rule"/>
+                <infoLink id="e2bf00f0-8f4e-468b-ad27-4b323c26dfb3" name="Knight Shield" hidden="false" targetId="88f5f281-cdf5-4bcc-b6b2-703ff1ecad7f" type="rule"/>
+                <infoLink id="b3fd8cf5-f1a9-464b-92d9-63c0f6644e6c" name="Macro-weapon" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+                <infoLink id="7c9f3836-23e6-47d2-b73f-c4a10f0381c6" name="First Strike" hidden="false" targetId="75101e3d-cca2-4420-acfe-e0a1db1314af" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="175.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0547e257-f5f0-418e-9f54-1afdab8b53f5" name="Questoris Knight w/ Gatling Cannon" page="0" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="fd0f2a46-51d7-47ff-b80d-9f2e820c3ef7" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="ab843610-19c0-4782-b344-b29c09cd37da" name="Questoris Knight G" hidden="false" targetId="6bc4232b-86ce-401f-86b4-522718152541" type="profile"/>
+                <infoLink id="7056ddb6-cb65-4067-8538-333aaff78bc9" name="Knight Commander" hidden="false" targetId="d4f6e682-2c84-4375-942d-eecfb2186e48" type="rule"/>
+                <infoLink id="e73938c2-2fb7-490a-ba3f-121440e188f2" name="Reinforced Armour" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+                <infoLink id="db2b189c-a5d1-4421-b3d4-8f07ff8d1063" name="Walker" hidden="false" targetId="3792d3e5-937d-49e6-8a20-320f64f441ba" type="rule"/>
+                <infoLink id="ae3645a0-6897-4182-a942-7f61153864ed" name="Critical Hit: Destroyed" hidden="false" targetId="b4f624a1-c328-44fa-a985-ecbf2ce536c1" type="rule"/>
+                <infoLink id="1da65aa8-41f6-43a7-ba17-06eeab38d442" name="Knight Shield" hidden="false" targetId="88f5f281-cdf5-4bcc-b6b2-703ff1ecad7f" type="rule"/>
+                <infoLink id="53633af2-9350-414f-b270-084285aae08b" name="Macro-weapon" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+                <infoLink id="d5a95658-3796-491c-be85-cc398c7a751a" name="First Strike" hidden="false" targetId="75101e3d-cca2-4420-acfe-e0a1db1314af" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="175.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="fdbeb1d0-aa3a-4a26-8b59-1c58adcf8604" name="Questoris Knight w/ Thermal Cannon" page="0" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="cc06a8c3-7b46-4cfc-a05b-a589a75892ad" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="f4271705-30c9-430b-8920-00ef57d93e6f" name="Questoris Knight B" hidden="false" targetId="82be2924-f658-4859-8df3-3a6ca9eda57b" type="profile"/>
+                <infoLink id="7240f76f-c27e-4109-97ae-0b5b94152388" name="Knight Commander" hidden="false" targetId="d4f6e682-2c84-4375-942d-eecfb2186e48" type="rule"/>
+                <infoLink id="a16be8d4-aeeb-46c2-bdf9-2dd9615a8dfb" name="Reinforced Armour" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+                <infoLink id="f5a4bd4c-e016-42b9-892b-b5545b3285f7" name="Walker" hidden="false" targetId="3792d3e5-937d-49e6-8a20-320f64f441ba" type="rule"/>
+                <infoLink id="e0acfc2e-2bba-4959-99bd-3ba02f8d6640" name="Critical Hit: Destroyed" hidden="false" targetId="b4f624a1-c328-44fa-a985-ecbf2ce536c1" type="rule"/>
+                <infoLink id="d8df591c-7080-4d38-8284-b212f3e5e2e0" name="Knight Shield" hidden="false" targetId="88f5f281-cdf5-4bcc-b6b2-703ff1ecad7f" type="rule"/>
+                <infoLink id="8e46c229-f255-4510-a860-e4eb52d1ddfd" name="Macro-weapon" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+                <infoLink id="8c3e79f3-ed28-4e4a-99f7-39e93c18340f" name="First Strike" hidden="false" targetId="75101e3d-cca2-4420-acfe-e0a1db1314af" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="175.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="d2f8e8d5-7a86-4d49-a3cb-76665f1d416c" name="Carapace Rocket Launchers" hidden="false" collective="false" import="true" targetId="b1c64485-e173-44be-82fb-dfb5830ae2c8" type="selectionEntry"/>
+        <entryLink id="dc8f6b18-885e-4b01-8b92-58923bd34c62" name="Seneschal" hidden="false" collective="false" import="true" targetId="5997676a-02f2-4e7b-aa95-ed9ab2d2829c" type="selectionEntry"/>
+        <entryLink id="6c1b091c-9b4f-4b24-b431-de59033a699a" name="Seasoned Veteran" hidden="false" collective="false" import="true" targetId="4fc5af58-903c-48a2-afa2-9f17d50593fd" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b707d4ed-abdd-4013-9d76-ae6f42ef2319" name="Cerastus Knights" page="0" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="dcf0dfb4-ba96-4636-88ce-d47dcb88d565" name="Formations" hidden="false" targetId="e4013702-a119-46c3-9fd9-a64e58afe467" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="6ab90e68-9fd4-4433-99df-a0289cd66661" name="Cerastus Knight" page="0" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="ba76b5d4-e421-46c5-bfca-5a4af81f3522" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="6810e55f-fe7e-4130-a9e3-7037c3d05b3c" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="4681bb8d-419a-4a51-905c-f50bec0193b6" name="Cerastus Knight" hidden="false" targetId="8771ff89-8f11-4b3f-8e5f-41fe7c23ffa1" type="profile"/>
+            <infoLink id="b0bba53b-55cc-4fb9-a4e7-fac6b55825c2" name="Knight Commander" hidden="false" targetId="d4f6e682-2c84-4375-942d-eecfb2186e48" type="rule"/>
+            <infoLink id="d0277d2e-ec57-4b48-938c-00703faa69f9" name="Reinforced Armour" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+            <infoLink id="b742a59a-6642-4021-8ff4-5090fed55db4" name="Walker" hidden="false" targetId="3792d3e5-937d-49e6-8a20-320f64f441ba" type="rule"/>
+            <infoLink id="0046a56a-186c-41f6-b39a-ed5d42d21149" name="Critical Hit: Destroyed" hidden="false" targetId="b4f624a1-c328-44fa-a985-ecbf2ce536c1" type="rule"/>
+            <infoLink id="69ccb0fb-6a45-4cd3-8d88-ec1542ac683c" name="Knight Shield" hidden="false" targetId="88f5f281-cdf5-4bcc-b6b2-703ff1ecad7f" type="rule"/>
+            <infoLink id="790c06b6-ac5d-4e75-88d6-a2a32db0e7d4" name="Disrupt" hidden="false" targetId="b027e9fd-08c7-436c-a239-dd516a6ce794" type="rule"/>
+            <infoLink id="25648fd5-b93b-4981-acd2-f046f18d651a" name="First Strike" hidden="false" targetId="75101e3d-cca2-4420-acfe-e0a1db1314af" type="rule"/>
+            <infoLink id="fc40cfc1-5761-40ad-98ae-c4b99cb66e12" name="Ion Gauntlet Shield" hidden="false" targetId="72387589-8db4-4ea2-b2c1-1adc6c7c2bc6" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="175.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="5137e44b-d424-4c08-aef5-13e34d3d5d6f" name="Seneschal" hidden="false" collective="false" import="true" targetId="5997676a-02f2-4e7b-aa95-ed9ab2d2829c" type="selectionEntry"/>
+        <entryLink id="5c032ab4-e9cf-4ca5-84f2-041a0da60f00" name="Seasoned Veteran" hidden="false" collective="false" import="true" targetId="4fc5af58-903c-48a2-afa2-9f17d50593fd" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <infoLinks>
+    <infoLink id="fc52df95-667a-403f-9d1c-ebab8f05804a" name="Strategy Rating &amp; Initiative (AMAT)" hidden="false" targetId="1ff1535d-510f-4c7b-9a39-169a9518c859" type="rule"/>
+    <infoLink id="93a277ba-8319-4ce5-85ae-0d58d3d23dde" name="*Note" hidden="false" targetId="1433d4e9-ea4e-4b94-87b7-d365e679f415" type="rule"/>
+    <infoLink id="c4459e9a-f621-40f3-97d1-c4d90ac3c27e" name="They Shall Know No Fear (AMAT)" hidden="false" targetId="d7dc5d7b-71cc-44cf-9c45-1f2338852019" type="rule"/>
+  </infoLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="87460805-0cf7-4ad6-8a83-a805be3726c4" name="Carapace Multilasers" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="d5641144-5f41-4b1d-943f-c684ae3e7c72" hidden="false" targetId="433ae7a3-75cf-4c1c-91a8-62d625ce7d93" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6a7b87a6-e3f4-4ba7-aaac-b20234ded31f" name="EpicUK" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="5a4a4f0f-998a-4884-b4eb-f75d769ec195" hidden="false" targetId="6d96644b-dbd3-410c-9a81-73313522e197" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8183dbe0-128d-44df-9d2f-587c40d576e7" name="F-ERC" hidden="true" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="85af0be6-343f-4577-ae3a-e4a55faf42eb" hidden="false" targetId="18e797f6-fb24-432c-9ee8-652427dbd28a" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="03b6ac4b-b6c7-42f1-9ebc-9e61d557f01a" name="Macro-Gatling Blaster" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="6cd7d88a-1d9e-48fe-a794-241d920a13f7" name="Macro-Gatling Blaster" hidden="false" targetId="95eafd4a-a89c-41c1-bd03-7a0af58a7048" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="88a98d5f-b990-4741-9c4e-5761a2a7200f" name="GW" hidden="true" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="26d06557-0e0f-4ed6-a895-2eab1f97c5ba" hidden="false" targetId="debe925b-e324-4ed7-93d9-69992f678abf" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ddaf9dc1-da7c-4c95-9d1a-c6229edcfd05" name="Legate" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="91355a4e-82b3-418e-afe0-a9f4553aaee1" name="Legate" hidden="false" targetId="12fd8df8-e4d1-437e-8980-b0a12605080c" type="profile"/>
+        <infoLink id="db6de26e-0a37-4573-a2c5-320d89b92b37" name="Commander" hidden="false" targetId="e9675277-c408-4371-b969-6c9565fb2905" type="rule"/>
+        <infoLink id="8f392027-26ce-4de3-a6ec-a76c371a8ce9" name="Supreme Commander" hidden="false" targetId="9f458b5f-4ef7-437c-aba8-585963e07dcc" type="rule"/>
+        <infoLink id="7d609ba8-1b29-41a5-b126-304617e392d9" name="Leader" hidden="false" targetId="d23596ad-5004-4bc3-8600-2b61a05ee52d" type="rule"/>
+        <infoLink id="ab994d92-6b62-4dd7-86bb-66c9bc968a9e" name="Macro-weapon" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a10fd635-64f4-45ff-bd9f-3ac079378c40" name="Scout Inferno Gun" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="af4a796b-a113-4a30-8a00-63cbeaba75c6" name="Scout Inferno Gun" hidden="false" targetId="768388f9-e2d2-48d2-b2a3-e796c0edd676" type="profile"/>
+        <infoLink id="341d6143-a8bd-40a1-b71a-a63b7fde434d" name="Ignore Cover" hidden="false" targetId="5087a733-1e15-4e06-b869-8728e657c9fa" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1179969e-6305-4ab4-8a87-e558d9d2e618" name="Scout Turbo Laser" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="6ce5af5f-2296-43c0-bfb9-00c388478900" name="Scout Turbo Laser" hidden="false" targetId="fdc45458-096b-49e3-9c64-65bc5414d1a8" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7f0bed0e-1717-46a1-8225-09866b0dcc87" name="NetEA" hidden="true" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="dcf040c4-12ae-44a2-afc9-17a082687538" hidden="false" targetId="ea98f36c-204c-4f57-805c-c280285f6660" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="534fe3a5-4622-41bf-969b-2def4dff91ce" name="Plasma Blastgun" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="9903f518-557e-4189-b26d-644d68ef1106" hidden="false" targetId="d5743de8-3a42-4caa-b657-5fbf00016c0a" type="profile"/>
+        <infoLink id="9b4f1a13-c1ee-415c-a6b0-ace91150a608" hidden="false" targetId="e79df72c-47d8-4968-a84a-0b343c54b7c0" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="129f2d01-c5db-46cc-a2e5-fc06b24c2b91" name="Arioch Titan Power Claw" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="ea59d929-4c8b-49a8-a37a-ac353015e75e" name="Arioch Titan Power Claw" hidden="false" targetId="b1bff3b6-2c06-4d7b-bfa3-e5ef60b5440f" type="profile"/>
+        <infoLink id="0eb32ea2-95fd-4efe-878f-b1b179d8be9b" name="Titan Killer" hidden="false" targetId="cd277106-16dd-48d1-897f-01f2ba0c4483" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e341bb3c-dd7b-4baa-abfd-21f7541f5b63" name="Turbo-Laser Destructor" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="481e369e-a17f-4c0e-aa1c-571883be6179" name="Turbo-Laser Destructor" hidden="false" targetId="3f69730b-a484-482f-9c4f-f25ed26d1d86" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d434c36a-36a8-4936-889e-685128c2f82d" name="Veteran Princeps" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="9dffdfef-8cf2-4afa-9605-a2a66d899dfe" name="Veteran Princeps" hidden="false" targetId="50d88869-b1ad-4996-a022-74ab525435d0" type="profile"/>
+        <infoLink id="6da3c1da-61b8-45db-ae7a-3d76107cd362" name="Commander" hidden="false" targetId="e9675277-c408-4371-b969-6c9565fb2905" type="rule"/>
+        <infoLink id="7bdb0c8f-e3ab-4973-8d4a-cec3e17d508b" name="Leader" hidden="false" targetId="d23596ad-5004-4bc3-8600-2b61a05ee52d" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="67580576-2aad-430d-b0ce-986395f2cc8c" name="Vulcan Mega-bolter" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="62a29735-967d-4bdc-9afd-8c4bb9eba993" name="Vulcan Mega-bolter" hidden="false" targetId="b7fede56-d2b3-478a-9225-44dd00f43582" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c7c66fd9-06d9-46ed-829a-d379bba35700" name="Warhound Scout Titan" page="0" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="6b563a98-43e8-4f7c-9a3d-8e2da28fa606" name="Warhound Titan" hidden="false" targetId="06f0a8b7-c02e-4763-96ec-2d6cec9d5336" type="profile">
+          <modifiers>
+            <modifier type="append" field="548ecef9-18e1-4523-8f1a-711e5d496caa" value="Vulcan Mega-bolter&lt;BR&gt;">
+              <repeats>
+                <repeat field="selections" scope="c7c66fd9-06d9-46ed-829a-d379bba35700" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="67580576-2aad-430d-b0ce-986395f2cc8c" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="append" field="548ecef9-18e1-4523-8f1a-711e5d496caa" value="Scout Turbo Laser&lt;BR&gt;">
+              <repeats>
+                <repeat field="selections" scope="c7c66fd9-06d9-46ed-829a-d379bba35700" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1179969e-6305-4ab4-8a87-e558d9d2e618" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="append" field="548ecef9-18e1-4523-8f1a-711e5d496caa" value="Scout Inferno Gun&lt;BR&gt;">
+              <repeats>
+                <repeat field="selections" scope="c7c66fd9-06d9-46ed-829a-d379bba35700" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a10fd635-64f4-45ff-bd9f-3ac079378c40" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="append" field="548ecef9-18e1-4523-8f1a-711e5d496caa" value="Plasma Blastgun&lt;BR&gt;">
+              <repeats>
+                <repeat field="selections" scope="c7c66fd9-06d9-46ed-829a-d379bba35700" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="534fe3a5-4622-41bf-969b-2def4dff91ce" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="f1121921-a659-4859-aa60-3cdcd91ee8fe" hidden="false" targetId="72dab6ac-4c9d-45f2-b150-7dd034d83b83" type="rule"/>
+        <infoLink id="bb7442ec-50d9-400d-8aa2-43802dfc4200" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+        <infoLink id="70238719-5f3c-46c4-bff8-5419ea670680" hidden="false" targetId="d1361dbb-b26e-46f9-9bd3-570dccd848a5" type="rule"/>
+        <infoLink id="f341cc4c-503b-42ab-9d13-bf673303b4b7" name="Critical Hit: Staggering Blow" hidden="false" targetId="1cb339a5-ca81-4d61-8a81-dc1b0b87d99c" type="rule"/>
+        <infoLink id="92a456fe-e27e-4ce7-9634-176d1c5b43e9" name="Void Shields" hidden="false" targetId="98b00393-722e-4fb9-8e40-23b4cfc6d978" type="rule"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="05f8afa2-661b-4db8-9226-c48178735394" name="Scout Weapons" hidden="false" collective="false" import="true" targetId="386df85c-832c-49e4-86b5-91a1fc5fc6de" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="815d67be-b0f1-49b6-bcd3-d6f92e254496" name="Volcano Cannon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="6d43b834-cc77-455e-8ba5-72126627151e" name="Volcano Cannon" hidden="false" targetId="0e5fe4cf-8bf1-4e1b-a121-822db2306b29" type="profile"/>
+        <infoLink id="13c871fc-2ad2-4862-8754-cd2e334b38cd" name="Titan Killer" hidden="false" targetId="cd277106-16dd-48d1-897f-01f2ba0c4483" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="07d51e62-5765-4496-bdda-a4a674d5b76e" name="Warp Missile" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="0aeeb814-0bf5-45eb-8d82-8c570d8f8c3c" name="Warp Missile" hidden="false" targetId="fe645ac5-74a4-4243-b233-58fed39433bb" type="profile"/>
+        <infoLink id="f43715e6-98b8-44dc-a903-9f62acb8d9e1" name="Shield Piercer" hidden="false" targetId="c9b49e9b-55be-445e-84ac-2ac6090ae99d" type="rule"/>
+        <infoLink id="a7583857-3150-44df-bc9a-b0d5033b7c11" name="Titan Killer" hidden="false" targetId="cd277106-16dd-48d1-897f-01f2ba0c4483" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b1c64485-e173-44be-82fb-dfb5830ae2c8" name="Carapace Rocket Launchers" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="f29e69fe-b9fb-45a4-93a2-235176c39636" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="e18213fd-fe5a-45fa-b3cc-2518b0a2c715" name="Carapace Rocket Launchers" hidden="false" targetId="af65198a-62d6-4909-b1d8-f867f32397b6" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5997676a-02f2-4e7b-aa95-ed9ab2d2829c" name="Seneschal" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="60a11d48-120c-4840-a05b-995087d276b9" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="3f74e603-8b34-48bb-b651-1a4cb00aaac6" name="Knight Seneschal" hidden="false" targetId="e21a5b1d-4a82-4a94-8654-e07a60139921" type="profile"/>
+        <infoLink id="d7f060b1-7c41-4018-80ea-63b2f8f69066" name="Leader" hidden="false" targetId="d23596ad-5004-4bc3-8600-2b61a05ee52d" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4fc5af58-903c-48a2-afa2-9f17d50593fd" name="Seasoned Veteran" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="44b23b8f-3ce1-4aad-8fe5-32bda37e81f0" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="1296cf3f-3dcc-4e4b-bd18-501cf6d362fd" name="Knight Seasoned Veteran" hidden="false" targetId="4daf64b3-ca7d-4155-b494-aa1de1630ddb" type="profile"/>
+        <infoLink id="a5c6cf4b-3373-4933-91d8-368fd2402662" name="Fearless" hidden="false" targetId="72dab6ac-4c9d-45f2-b150-7dd034d83b83" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="83d5ce85-33c7-423a-8033-8ea4d61cdceb" name="Mori Quake Cannon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="1de06845-09b8-4fda-8929-083c2408b9f6" name="Mori Quake Cannon" hidden="false" targetId="5ec03ba5-c239-42c8-9d39-e845243822be" type="profile"/>
+        <infoLink id="be4d5ee7-eb37-478c-b875-45e9b410e2f4" name="Macro-weapon" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+        <infoLink id="6f68106e-a498-4e2b-9847-cfc596488b17" name="Slow Firing" hidden="false" targetId="e79df72c-47d8-4968-a84a-0b343c54b7c0" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="321487c9-4518-4bbb-8fa0-36642fdf9000" name="Sunfury Plasma Annihilator" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="ce3eea4c-9471-4c3c-a30c-148e7d92e607" name="Sunfury Plasma Annihilator" hidden="false" targetId="ce5a66da-77c3-41d3-b3d5-e9c11f4c195c" type="profile"/>
+        <infoLink id="33788501-9270-45e5-b897-6285c36a192d" name="Macro-weapon" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+        <infoLink id="3e532818-481c-4d96-bba6-c08a38081abc" name="Slow Firing" hidden="false" targetId="e79df72c-47d8-4968-a84a-0b343c54b7c0" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7fc48b7e-97b0-42b5-8906-6fd3fa3a8211" name="Belicosa Volcano Cannon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="85772661-1e17-45b8-b12a-721e1637a4fc" name="Belicosa Volcano Cannon" hidden="false" targetId="f4088a9b-5a7c-43b1-a2a1-f69b916a5569" type="profile"/>
+        <infoLink id="084f6f86-3b79-454e-a69d-36dfd8600fb8" name="Titan Killer" hidden="false" targetId="cd277106-16dd-48d1-897f-01f2ba0c4483" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="89a95050-f035-497f-99c0-5589f1ca3ab2" name="Paired Gatling Blasters" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="59fb0253-ea64-4fa7-95b8-429fb46860c5" name="Paired Gatling Blasters" hidden="false" targetId="0a90c296-3839-43bd-b17a-a7f7b1459de6" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="359f41c8-1dd4-44ea-8524-c9ddf1f4971e" name="Paired Turbo-Lasers" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="dbc1f6bc-76bf-4492-b7ef-0e10b9aaf7a9" name="Paired Turbo-Lasers" hidden="false" targetId="efe1feef-417e-4494-807f-2c4a1620e36b" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="497df004-ec20-44c9-9ab5-c96594ed8660" name="Paired Laser Blasters" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="8f29c9ec-1759-4c35-bdef-361bd05247b0" name="Paired Laser Blasters" hidden="false" targetId="ba5a3362-0e49-4b2e-9a10-74468307e8a0" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="430808d5-334b-4ee6-ab7a-d3a6100bddb3" name="Apocalypse Missile Launchers" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="271a8798-f1d3-4624-95ae-60132227c881" name="Apocalypse Missile Launchers" hidden="false" targetId="67f4e85a-d141-4c25-b415-0ff5118f19ea" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e5c5d927-d671-4e0f-a3f5-95b4e6c8aba0" name="Vulcan Mega-bolters" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="ecafcd12-f643-4f3d-a41a-c7b9ca7033aa" name="Vulcan Mega-bolters" hidden="false" targetId="8510e884-63f6-4d9d-b46c-534b7d0ef707" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dc856004-cedb-4f38-8c81-748b8a1ae72c" name="Paired Melta Cannon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="10069296-c09e-4a8c-9d75-5222387e77e6" name="Paired Melta Cannon" hidden="false" targetId="2ee69bfe-464e-4dd0-b45a-d6c468b59776" type="profile"/>
+        <infoLink id="be0a6a0d-ae16-44f1-a61f-2577ff01dc0a" name="Titan Killer" hidden="false" targetId="cd277106-16dd-48d1-897f-01f2ba0c4483" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cefc64a0-cf32-48d1-a91b-aa112ccb3f38" name="Apocalypse Missile Launcher" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="dd3758ce-a34c-4aba-8729-e49ca8f159c6" name="Apocalypse Missile Launcher" hidden="false" targetId="368b9aa1-7145-41ee-9479-477ccd1dd12f" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cd684e68-08ca-4ee0-ba4e-f8a9b7052a65" name="Laser Blaster" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="1b6d6b6e-b319-47ba-ac39-775061ed0c11" name="Laser Blaster" hidden="false" targetId="b4315122-34b6-4b9b-ba71-f876882d2ee9" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7242a76a-1f73-4584-8a76-a712d9e749c9" name="Reaver Titan Chainfist" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="1f325aa2-a3d5-4926-8471-17545f676f33" name="Reaver Titan Chainfist" hidden="false" targetId="f216e584-3150-497f-bcb5-9024e6757a86" type="profile"/>
+        <infoLink id="fe296c53-b166-4f7f-9783-33fa09fc34b3" name="Macro-weapon" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e41c9ec3-889d-4149-8ef8-174dfaddb766" name="Reaver Titan Power Fist" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="b0931c62-0f73-4696-89e5-d5405bc8c223" name="Reaver Titan Power Fist" hidden="false" targetId="6048d91a-eb5f-4caf-91ab-6e22d79b8acd" type="profile"/>
+        <infoLink id="eae9fb5c-5391-40f6-84ca-55e3970412d5" name="Titan Killer" hidden="false" targetId="cd277106-16dd-48d1-897f-01f2ba0c4483" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7332c32e-b1f5-4095-bba1-eb223bfb4178" name="Melta Cannon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="d927be7e-f5f9-4245-8bc9-a3689efe9a11" name="Melta Cannon" hidden="false" targetId="2c26034b-b3ee-45e3-80db-27fdcd872679" type="profile"/>
+        <infoLink id="acf237bd-0b14-4652-a897-4dfde3e28efb" name="Titan Killer" hidden="false" targetId="cd277106-16dd-48d1-897f-01f2ba0c4483" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cdbe2484-6426-45bc-82d5-640af660ce15" name="Gatling Blaster" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="e43526f7-ac49-4c79-9be0-d294ac68a13c" name="Gatling Blaster" hidden="false" targetId="533b5eca-e7f2-467b-94bc-831977ada82d" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c41be944-9901-45f7-b5d4-bc8c25d34ac5" name="Battle Titan" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="increment" field="c499f5f4-fa4a-48f3-b6dc-ba5b89aca846" value="1">
+          <repeats>
+            <repeat field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c499f5f4-fa4a-48f3-b6dc-ba5b89aca846" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="f59456a8-863f-45eb-a10c-ebe0d244fd41" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="28af6412-e0ac-459e-9c48-8c464a3023b0" type="min"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="344cea9d-9096-4e7d-8746-9858c0d48d08" name="*Arm" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="69a41398-f089-4f22-93e9-b3c817c94596" name="*Arioch Titan Power Claw" hidden="false" collective="false" import="true" targetId="129f2d01-c5db-46cc-a2e5-fc06b24c2b91" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="386df85c-832c-49e4-86b5-91a1fc5fc6de" name="Scout Weapons" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="41ea6bf6-ab83-4933-88e7-f933cbf2a644" name="*Light Turbo-Laser" hidden="false" collective="false" import="true" targetId="1179969e-6305-4ab4-8a87-e558d9d2e618" type="selectionEntry"/>
+        <entryLink id="066a24aa-2be0-453b-9d13-65a676fc0098" hidden="false" collective="false" import="true" targetId="a10fd635-64f4-45ff-bd9f-3ac079378c40" type="selectionEntry"/>
+        <entryLink id="77c97ef5-33ee-4d13-b991-eb79371dad54" name="*Plasma Blastgun" hidden="false" collective="false" import="true" targetId="534fe3a5-4622-41bf-969b-2def4dff91ce" type="selectionEntry"/>
+        <entryLink id="9dd0ef11-40ca-4318-adb3-28325810b180" name="*Vulcan Mega-bolter" hidden="false" collective="false" import="true" targetId="67580576-2aad-430d-b0ce-986395f2cc8c" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="bbbab4d6-48d7-48cb-8d06-6400608ad3ee" name="*Support Weapons" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+        <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="b6fb8d77-8a49-4e75-82b9-fac667084cae" name="*Volcano Cannon" hidden="false" collective="false" import="true" targetId="815d67be-b0f1-49b6-bcd3-d6f92e254496" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="83ecc604-b8bc-4e31-a35b-07fac99c8efe" name="*Tactical Weapons" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
+        <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="c34ea22e-ad3e-4072-879f-f7075e398106" name="*Macro-Gatling Blaster" hidden="false" collective="false" import="true" targetId="03b6ac4b-b6c7-42f1-9ebc-9e61d557f01a" type="selectionEntry"/>
+        <entryLink id="82ebd323-20a2-4488-97f5-6c1cab6b5bdc" hidden="false" collective="false" import="true" targetId="e341bb3c-dd7b-4baa-abfd-21f7541f5b63" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7f0bed0e-1717-46a1-8225-09866b0dcc87" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="9b43beef-2d2e-4606-983b-a0988ffb0d1a" hidden="false" collective="false" import="true" targetId="67580576-2aad-430d-b0ce-986395f2cc8c" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7f0bed0e-1717-46a1-8225-09866b0dcc87" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <sharedRules>
+    <rule id="18e797f6-fb24-432c-9ee8-652427dbd28a" name="F-ERC" hidden="false">
+      <description>aucune</description>
+    </rule>
+    <rule id="6d96644b-dbd3-410c-9a81-73313522e197" name="EpicUK" hidden="false">
+      <description>CodexAT #260119</description>
+    </rule>
+    <rule id="debe925b-e324-4ed7-93d9-69992f678abf" name="GW" hidden="false">
+      <description>none
+Fanatic #02
+Fanatic #13</description>
+    </rule>
+    <rule id="ea98f36c-204c-4f57-805c-c280285f6660" name="NetEA" hidden="false">
+      <description>none</description>
+    </rule>
+    <rule id="1433d4e9-ea4e-4b94-87b7-d365e679f415" name="Note" hidden="false">
+      <modifiers>
+        <modifier type="set" field="description" value="Remarque: L&apos;armée doit inclure un Titan de Bataille. Vous devez inclure un Titan de Bataille supplémentaire pour chaque millier de points en plus de deux mille points dans l&apos;armée.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cae033eb-bb6f-4c6c-a304-2f50aaa0236a" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="description" value="Beachten: Die Armee muss einen Kampftitan enthalten. Sie müssen einen zusätzlichen Kampftitan für jedes volle tausend Punkte zusätzlich zweitausend Punkte in der Armee hinzufügen.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="17e1c84d-45e8-4447-a3c5-4c3d40b8fd78" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="description" value="Nota: El ejército debe incluir un Titán de Batalla. Debes incluir un Titán de Batalla adicional por cada mil puntos adicionales a los dos mil del ejército.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6df4e085-d889-4d87-b048-92b223091d04" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <description>The army must include one Battle Titan. You must include one additional Battle Titan for every full one thousand points over and above two thousand points in the army.</description>
+    </rule>
+    <rule id="1ff1535d-510f-4c7b-9a39-169a9518c859" name="Strategy Rating &amp; Initiative (AMAT)" hidden="false">
+      <modifiers>
+        <modifier type="set" field="description" value="Stratégie &amp; Initiative: Les armées Adeptus Titanicus ont une Valeur Stratégique de 3. Les formations Auxilia ont une Initiative de 2+. Les autres formations ont une Initiative de 1+.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cae033eb-bb6f-4c6c-a304-2f50aaa0236a" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="description" value="Strategie und Initiative: Strategiewert: 3.  • Auxilia-Formationen haben den Initiativwert 2+. Andere Formationen haben die Initiativwert 1+.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="17e1c84d-45e8-4447-a3c5-4c3d40b8fd78" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="description" value="Estrategia e Iniciativa: Factor de Estrategia: 3.  • Las formaciones Auxilia tienen un valor de iniciativa de 2+. Resto de formaciones: 1+.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6df4e085-d889-4d87-b048-92b223091d04" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <description>Adeptus Titanicus armies have a strategy rating of 3. 
+Auxilia formations have an initiative rating of 2+. 
+All other Adeptus Titanicus formations have an initiative rating of 1+.</description>
+    </rule>
+    <rule id="d4f6e682-2c84-4375-942d-eecfb2186e48" name="Knight Commander" hidden="false">
+      <modifiers>
+        <modifier type="set" field="description" value="Commandants de Chevaliers: Cette règle suit le même principe que la règle spéciale du commandant, mais peut être utilisée pour tout type d&apos;activation et pas seulement pour un assaut.  • Les Commandants de Chevaliers peuvent faire appel à trois formations de chevaliers au maximum, à condition que toutes les formations aient au moins une unité à moins de 15 cm d’une unité de la formation du commandant et qu&apos;elles n&apos;ont pas encore agi au cours de ce tour. Faites un seul test d&apos;initiative pour toutes les formations, avec un malus de -1 si au moins l&apos;une d&apos;entre elles est sous l&apos;effet d&apos;un ou plusieurs pions d&apos;impact. Si le test est raté la formation du Commandant reçoit un pion d&apos;impact et doit recevoir l&apos;ordre Tenir, mais les autres formations ne sont pas affectées (et pourront agir plus tard dans le tour).  • Si le test réussi alors toutes les formations concernées peuvent recevoir un ordre d&apos;Assaut. Traitez-les comme une seule formation pendant la durée de l&apos;assaut. Un jet de 2D6 est utilisé pour résoudre les effets d&apos;un assaut combiné. Si l&apos;attaquant perd le combat, toutes ses formations sont démoralisées. S&apos;il gagne, ses formations reçoivent un nombre de pions d&apos;impact égal aux pertes qu&apos;elles ont subies pendant le combat.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cae033eb-bb6f-4c6c-a304-2f50aaa0236a" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="description" value="Ritterkommandant: Diese Regel folgt dem gleichen Prinzip wie die Sonderregel des Kommandanten, kann jedoch für jede Art von Aktivierung verwendet werden.  • Ritterkommandanten können bis zu drei Ritterformationen in Anspruch nehmen, sofern alle Formationen mindestens eine Einheit im Umkreis von 15 cm von einer Einheit der Kommandantenformation haben.  • Machen Sie eine einzige Initiativrolle für alle Formationen und zählen Sie einen -1-Modifikator, wenn Blast-Marker vorhanden sind. Wenn der Test nicht bestanden wird, erhält die Kommandantenformation einen Blast-Marker und muss eine Hold-Aktion durchführen, die anderen Formationen sind jedoch nicht betroffen (und können später in der Runde eine Aktion ausführen).  • Wenn der Test bestanden ist, können alle drei Formationen eine Aktivierungsaktion ausführen. Behandeln Sie die drei Formationen so, als wären sie für die Dauer des Angriffs für alle Regelzwecke eine einzige Formation. Eine 2W6-Rolle wird verwendet, um einen kombinierten Angriff aufzulösen. Wenn die Angreifer verlieren, ist jede Formation gebrochen. Wenn sie gewinnen, erhält jede Formation eine Anzahl von Blast-Markern, die den im Kampf erlittenen Opfern entspricht.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="17e1c84d-45e8-4447-a3c5-4c3d40b8fd78" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="description" value="Caballero Comandante: Esta regla sigue el mismo principio que la regla especial del Comandante, pero puede ser utilizada para cualquier tipo de activación y no sólo para un asalto.  • Los Caballeros Comandantes pueden pedir el apoyo de hasta tres formaciones de Caballeros, siempre y cuando todas las formaciones tengan al menos una unidad dentro de los 15cm de una unidad de la formación del comandante.  • Realiza un único chequeo de acción, con un -1 si alguna de las formaciones implicadas tiene algún marcador de explosión. Si el chequeo no se supera, la formación del comandante acumulará un marcador de explosión y deberá llevar a cabo una acción de Aguantar, pero las otras formaciones no sufren ninguna consecuencia adicional (y pueden llevar a cabo su acción más tarde en ese mismo turno).  • Si el chequeo se supera, todas las formaciones pueden realizar una acción de Atacar. Trata a todas las formaciones como si se tratasen de una sola durante el resto del asalto. El resultado del combate es determinado por única tirada de 2D6. Si son derrotadas, todas las formaciones resultarán desmoralizadas. Si son vencedoras, cada formación recibirá un número de marcadores de explosión igual a las bajas que hayan sufrido durante el asalto (considera cada formación individualmente).">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6df4e085-d889-4d87-b048-92b223091d04" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <description>This rule follows the same principle as the Commander special rule, but may be used for any type of activation and not just for an engagement.
+Knight Commanders may call on the support of up to three Knight formations, as long as all the formations have at least one unit within 15cm of a unit from the commander’s formation.
+Make a single initiative roll for all the formations, counting a -1 modifier if any have Blast markers. If the test is failed then the commander’s formation receives a Blast marker and must take a hold action, but the other formations are unaffected (and may take an action later in the turn).
+If the test is passed then all three formations may take an engage action. Treat the three formations as if they were a single formation for all rules purposes for the duration of the assault. A 2D6 roll is used to resolve a combined assault. If the attackers lose then each formation is broken. If they win then each formation receives a number of Blast markers equal to the casualties it suffered in the combat.</description>
+    </rule>
+    <rule id="c9b49e9b-55be-445e-84ac-2ac6090ae99d" name="Shield Piercer" hidden="false">
+      <modifiers>
+        <modifier type="set" field="description" value="Perceur de Bouclier: Ignorent les Boucliers Energétiques et les Champs Energétiques.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cae033eb-bb6f-4c6c-a304-2f50aaa0236a" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="description" value="Schildpiercing: Ignoriere Deflektorschilde und Energieschilde.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="17e1c84d-45e8-4447-a3c5-4c3d40b8fd78" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="description" value="Perforador de Escudos: Ignoren las pantallas de vacío y las pantallas de energía.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6df4e085-d889-4d87-b048-92b223091d04" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <description>Ignore Void Shields and Power Fields.</description>
+    </rule>
+    <rule id="88f5f281-cdf5-4bcc-b6b2-703ff1ecad7f" name="Knight Shield" hidden="false">
+      <modifiers>
+        <modifier type="set" field="description" value="Bouclier de Chevalier: Une unité ayant cette capacité reçoit une sauvegarde invulnérable de 5+ si elle rate sa première sauvegarde. Elles peuvent effectuer cette deuxième tentative contre n&apos;importe quelle attaque, même celles qui annulent normalement les sauvegardes d&apos;armures. Aucun modificateur ne s&apos;applique jamais à cette deuxième sauvegarde. Contre les attaques de Tueurs de Titans, un engine de guerre doit effectuer une sauvegarde invulnérable contre chaque point de dégâts séparé.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cae033eb-bb6f-4c6c-a304-2f50aaa0236a" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="description" value="Knight-Schild: Einheiten mit einem Knight-Schild erhalten einen unverwundbaren Rettung von 5+, wenn sie ihren ersten Rettung aus irgendeinem Grund versagen. Sie können diese zweite Rettung gegen jede Form von Angriff ablegen, selbst gegen Angriffe, bei denen normalerweise keine Rettung durchgeführt werden kann. Für die zweite Rettung gelten keine Modifikatoren. Gegen Titan Killer-Angriffe macht ein Kriegsmaschine eine unverwundbare Rettung gegen jeden einzelnen Schadenspunkt.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="17e1c84d-45e8-4447-a3c5-4c3d40b8fd78" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="description" value="Escudo de Caballero: Las unidades con un Escudo de Caballero reciben una salvación invulnerable de 5+ si fallan en su primera salvación por cualquier razón. Pueden realizar esta segunda salvación contra cualquier forma de ataque, incluso ataques que normalmente no permitirían realizar una salvación. No se aplica ningún modificador a la segunda parada. Contra los ataques del Matatitanes, un máquina de guerra hace una salvación invulnerable contra cada punto de daño.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6df4e085-d889-4d87-b048-92b223091d04" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <description>Units with an Knight Shield receive an invulnerable save of 5+ if they fail their first save for any reason. They may take this second save against any form of attack, even attacks that would normally not allow a save to be taken. No modifiers ever apply to the second save. Against Titan Killer attacks a war engine makes an invulnerable save against each point of damage.</description>
+    </rule>
+    <rule id="d7dc5d7b-71cc-44cf-9c45-1f2338852019" name="They Shall Know No Fear (AMAT)" hidden="false">
+      <modifiers>
+        <modifier type="set" field="description" value="Et Ils Ne Connaitront Pas La Peur: Il faut deux pions d&apos;impact pour neutraliser une formations de chevaliers ou détruire une unité démoralisée (ignorez les pions d&apos;impacts en plus).  • Les formations de chevaliers ne sont démoralisées qu’à partir du moment où elles ont deux pions d&apos;impact ou plus par unité.  • Lorsqu’une formations de chevaliers démoralisée subit un tir, comptez le nombre de pions impacts pour retirer les pertes subies à la fin de la phase de tir ennemi.  • Lors d&apos;une résolution d&apos;assaut, le fait d&apos;être plus nombreux que les chevaliers ne compte pas. Par contre le fait d&apos;être plus de deux fois plus nombreux que les chevaliers s&apos;applique toujours.  • Réduisez de moitié le nombre de touches supplémentaires subies par une formation de chevaliers perdant un assaut, en arrondissant à l’entier inférieur en faveur des chevaliers.  • Lorsqu’une formation de chevaliers démoralisée se rallie, elle reçoit un nombre de pions impact égal au nombre d’unités plutôt qu’à la moitié du nombre d’unités.   • Les Meneurs chevaliers retirent deux pions d&apos;impact au lieu d&apos;habituellement un seul.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cae033eb-bb6f-4c6c-a304-2f50aaa0236a" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="description" value="Sie Werden Keine Furcht Kennen: Es werden 2 Blast-Marker benötigt, um eine Knight-Einheit zu unterdrücken oder eine Einheit in einer gebrochenen Formation zu töten (ignorieren Sie alle verbleibenden Blast-Marker).  • Knight-Formationen werden nur dann gebrochen, wenn sie 2 Blast-Marker pro Einheit haben.  • Knight-Formationen zählen als die Hälfte ihrer Anzahl von Blast-Markern in Angriffsauflösung (Abrunden auf ein Minimum von einem Blast-Marker).  • Die Anzahl der zusätzlichen Treffer einer Knight-Formation, die einen Angriff verliert, halbieren und zugunsten der Knights abrunden.  • Gebrochene Formationen erhalten beim Sammeln 1 Blast-Marker pro Einheit.  • Knight-Leaders entfernen beim Sammeln 2 Blast-Marker.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="17e1c84d-45e8-4447-a3c5-4c3d40b8fd78" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="description" value="Y No Conocerán el Miedo…: Se requieren dos marcadores de explosión para acobardar una unidad de Caballeros o para eliminar una unidad de Caballeros de una formación desmoralizada (ignora los marcadores de explosión sobrantes).  • Las formaciones de Caballeros sólo son desmoralizadas al acumular dos marcadores de explosión por cada unidad en la formación.  • En la resolución del combate, los Caballeros sólo cuentan la mitad de los marcadores de explosión que tengan, redondeando hacia abajo.  • Divide por dos el número de impactos adicionales sufridos por una formación de Caballeros cuando es desmoralizada, redondeando hacia abajo a favor de los Caballeros.  • Cuando una formación de Caballeros se reorganiza, recibe un número de marcadores de explosión igual al número de unidades que tenga, en vez de la mitad. Las unidades de Caballeros con la habilidad de líder permiten retirar dos marcadores de explosión adicionales, en lugar de uno.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6df4e085-d889-4d87-b048-92b223091d04" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <description>It takes 2 Blast Markers to suppress a Knight unit or kill a unit in a broken formation (ignore any left over BMs).
+Knight formations are only broken if they have 2BMs per unit.
+Knight formations count as having half their number of blast markers in assault resolution (rounding down to a minimum of one blast marker).
+Halve the number of hits suffered by a Knight formation that loses an assault, rounding down in favour of the Knights.
+Broken formations receive 1BM per unit when rallying.
+Knight Leaders remove 2BMs when rallying.</description>
+    </rule>
+    <rule id="72387589-8db4-4ea2-b2c1-1adc6c7c2bc6" name="Ion Gauntlet Shield" hidden="false">
+      <modifiers>
+        <modifier type="set" field="description" value="Bouclier Gantelet Ionique: Augmentent le Sauvegarde Invulnérable de Bouclier de Chevalier à 3+ contre les attaques provenant d’unités de l’arc avant du chevalier.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cae033eb-bb6f-4c6c-a304-2f50aaa0236a" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="description" value="Ion Gauntlet Schild: Erhöht den unverwundbaren Rettungswurf des Knight-Schildes auf 3 gegen Angriffe, die von Einheiten im Vorwärtsbogen des Ritters stammen.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="17e1c84d-45e8-4447-a3c5-4c3d40b8fd78" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="description" value="Escudo Iónico Guantelete: Aumenta la Salvación Invulnerable del Escudo del Caballero a 3+ contra ataques originados por unidades dentro del Arco Frontal del Caballero.">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6df4e085-d889-4d87-b048-92b223091d04" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <description>Increase the Knight Shield Invulnerable save to 3+ against attacks originating from units within the Knight’s Forward Arc.</description>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile id="433ae7a3-75cf-4c1c-91a8-62d625ce7d93" name="Carapace Multilasers" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Character</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">n/a</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">n/a</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">n/a</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">n/a</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Carapace Multilasers</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">30cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">4x AA6+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429"/>
+      </characteristics>
+    </profile>
+    <profile id="95eafd4a-a89c-41c1-bd03-7a0af58a7048" name="Macro-Gatling Blaster" hidden="false" typeId="4175fd39-9d2f-43cd-a59f-4943c291cb87" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">60cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">6x AP4+/AT4+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+      </characteristics>
+    </profile>
+    <profile id="12fd8df8-e4d1-437e-8980-b0a12605080c" name="Legate" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Character</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">n/a</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">n/a</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">n/a</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">n/a</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Defence Turret</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(15cm)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Small Arms</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Macro-weapon, +1A</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Supreme Commander</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="768388f9-e2d2-48d2-b2a3-e796c0edd676" name="Scout Inferno Gun" hidden="false" typeId="4175fd39-9d2f-43cd-a59f-4943c291cb87" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">30cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">3BP</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Ignore Cover</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="fdc45458-096b-49e3-9c64-65bc5414d1a8" name="Scout Turbo Laser" hidden="false" typeId="4175fd39-9d2f-43cd-a59f-4943c291cb87" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">45cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">4x AP5+/AT3+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+      </characteristics>
+    </profile>
+    <profile id="d5743de8-3a42-4caa-b657-5fbf00016c0a" name="Plasma Blastgun" hidden="false" typeId="4175fd39-9d2f-43cd-a59f-4943c291cb87" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">45cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">3x MW2+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Slow Firing</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="839a12c5-6e77-4ef8-9054-7bc587e01625" name="Reaver Titan" hidden="false" typeId="1653b936-3bef-42ef-adfe-653bdfc7f321" typeName="War Engine">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">War Engine</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">20cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">4+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">3+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">3+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa"/>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">*</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">*</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Carapace has Fixed Forward Arc&lt;BR&gt;Arms have Forward Arc</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Fearless, Reinforced Armour, Walker (Titan), 4 Sh</characteristic>
+        <characteristic name="DC" typeId="2377629f-6ded-4aa4-b356-7d506954faa6">6</characteristic>
+        <characteristic name="Crit" typeId="8dbc632e-e06c-461d-a0fa-d51a1a624c11">Reactor Damage</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b1bff3b6-2c06-4d7b-bfa3-e5ef60b5440f" name="Arioch Titan Power Claw" hidden="false" typeId="4175fd39-9d2f-43cd-a59f-4943c291cb87" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapon</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Titan Killer (D3), +3A</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3f69730b-a484-482f-9c4f-f25ed26d1d86" name="Turbo-Laser Destructor" hidden="false" typeId="4175fd39-9d2f-43cd-a59f-4943c291cb87" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">60cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">6x AP5+/AT3+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+      </characteristics>
+    </profile>
+    <profile id="50d88869-b1ad-4996-a022-74ab525435d0" name="Veteran Princeps" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Character</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">n/a</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">n/a</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">n/a</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">n/a</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">none</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b"/>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6"/>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Commander, Leader</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0e5fe4cf-8bf1-4e1b-a121-822db2306b29" name="Volcano Cannon" hidden="false" typeId="4175fd39-9d2f-43cd-a59f-4943c291cb87" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">90cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">MW2+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Titan Killer (D3)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b7fede56-d2b3-478a-9225-44dd00f43582" name="Vulcan Mega-bolter" hidden="false" typeId="4175fd39-9d2f-43cd-a59f-4943c291cb87" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">45cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">6x AP3+/AT5+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+      </characteristics>
+    </profile>
+    <profile id="06f0a8b7-c02e-4763-96ec-2d6cec9d5336" name="Warhound Titan" hidden="false" typeId="1653b936-3bef-42ef-adfe-653bdfc7f321" typeName="War Engine">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">War Engine</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">30cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">5+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">4+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">4+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa"/>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">*</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">*</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Forward Arc</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Fearless, Reinforced Armour, Walker (Titan), 2 Sh</characteristic>
+        <characteristic name="DC" typeId="2377629f-6ded-4aa4-b356-7d506954faa6">3</characteristic>
+        <characteristic name="Crit" typeId="8dbc632e-e06c-461d-a0fa-d51a1a624c11">Staggering Blow</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5bdac9c3-2f0c-43f2-a1f2-6f69d0dfdba6" name="Warlord Titan" hidden="false" typeId="1653b936-3bef-42ef-adfe-653bdfc7f321" typeName="War Engine">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">War Engine</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">4+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">2+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">3+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa"/>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">*</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">*</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Carapaces have Fixed Forward Arc&lt;BR&gt;Arms have Forward Arc</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Fearless, Reinforced Armour, Thick Rear Armour, Walker (Titan), 6 Sh</characteristic>
+        <characteristic name="DC" typeId="2377629f-6ded-4aa4-b356-7d506954faa6">8</characteristic>
+        <characteristic name="Crit" typeId="8dbc632e-e06c-461d-a0fa-d51a1a624c11">Reactor Damage</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="fe645ac5-74a4-4243-b233-58fed39433bb" name="Warp Missile" hidden="false" typeId="4175fd39-9d2f-43cd-a59f-4943c291cb87" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">Unlimited</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">MW2+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">One Shot, Shield Piercer, Titan Killer (D6)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e21a5b1d-4a82-4a94-8654-e07a60139921" name="Knight Seneschal" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Character</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">n/a</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">n/a</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">n/a</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">n/a</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">none</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b"/>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6"/>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Leader</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4daf64b3-ca7d-4155-b494-aa1de1630ddb" name="Knight Seasoned Veteran" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Character</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">n/a</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">n/a</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">n/a</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">n/a</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">none</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b"/>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6"/>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Fearless</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="af65198a-62d6-4909-b1d8-f867f32397b6" name="Carapace Rocket Launchers" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Character</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">n/a</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">n/a</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">n/a</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">n/a</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Carapace Rocket Launchers</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">30cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">2x AP4+/AT5+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429"/>
+      </characteristics>
+    </profile>
+    <profile id="3a47a400-f227-416f-9581-4016eb231f81" name="Adeptus Mechanicus Cruiser" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Spacecraft</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">n/a</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">n/a</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">n/a</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">n/a</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Orbital Bombardment&lt;BR&gt;&lt;BR&gt;Pin-point Attack</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">n/a&lt;BR&gt;&lt;BR&gt;n/a</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">3BP&lt;BR&gt;&lt;BR&gt;MW2+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Macro-weapon&lt;BR&gt;&lt;BR&gt;Titan Killer (D3)</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429"/>
+      </characteristics>
+    </profile>
+    <profile id="8771ff89-8f11-4b3f-8e5f-41fe7c23ffa1" name="Cerastus Knight" hidden="false" typeId="1653b936-3bef-42ef-adfe-653bdfc7f321" typeName="War Engine">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">War Engine</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">30cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">5+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">4+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Cerastus Lance&lt;BR&gt;and&lt;BR&gt;&lt;BR&gt;Knight Shield</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">15cm&lt;BR&gt;and (15cm)&lt;BR&gt;&lt;BR&gt;(contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">2x AP3+/AT3+&lt;BR&gt;and Small Arms&lt;BR&gt;&lt;BR&gt;Assault Weapon</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Disrupt&lt;BR&gt;and Disrupt, First strike, +1A&lt;BR&gt;&lt;BR&gt;-</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Ion Gauntlet Shield, Knight Commander, Knight Shield, Reinforced Armour, Walker</characteristic>
+        <characteristic name="DC" typeId="2377629f-6ded-4aa4-b356-7d506954faa6">2</characteristic>
+        <characteristic name="Crit" typeId="8dbc632e-e06c-461d-a0fa-d51a1a624c11">Destroyed</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="82be2924-f658-4859-8df3-3a6ca9eda57b" name="Questoris Knight B" hidden="false" typeId="1653b936-3bef-42ef-adfe-653bdfc7f321" typeName="War Engine">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">War Engine</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">25cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">5+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">4+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Knight Chainsword&lt;BR&gt;&lt;BR&gt;Shock Field&lt;BR&gt;&lt;BR&gt;Heavy Stubber&lt;BR&gt;&lt;BR&gt;Rapid Fire Battle Cannon</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)&lt;BR&gt;&lt;BR&gt;(15cm)&lt;BR&gt;&lt;BR&gt;(15cm)&lt;BR&gt;&lt;BR&gt;60cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapon&lt;BR&gt;&lt;BR&gt;Small Arms&lt;BR&gt;&lt;BR&gt;Small Arms&lt;BR&gt;&lt;BR&gt;2x AP4+/AT4+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Macro-weapon, +1A&lt;BR&gt;&lt;BR&gt;First Strike, +1A&lt;BR&gt;&lt;BR&gt;+1A&lt;BR&gt;&lt;BR&gt;-</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Knight Commander, Knight Shield, Reinforced Armour, Walker</characteristic>
+        <characteristic name="DC" typeId="2377629f-6ded-4aa4-b356-7d506954faa6">2</characteristic>
+        <characteristic name="Crit" typeId="8dbc632e-e06c-461d-a0fa-d51a1a624c11">Destroyed</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0e3574ca-e4b7-4a02-a586-01fa51d83787" name="Questoris Knight T" hidden="false" typeId="1653b936-3bef-42ef-adfe-653bdfc7f321" typeName="War Engine">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">War Engine</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">25cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">5+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">4+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Knight Chainsword&lt;BR&gt;&lt;BR&gt;Shock Field&lt;BR&gt;&lt;BR&gt;Heavy Stubber&lt;BR&gt;&lt;BR&gt;Knight Thermal Cannon&lt;BR&gt;and</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)&lt;BR&gt;&lt;BR&gt;(15cm)&lt;BR&gt;&lt;BR&gt;(15cm)&lt;BR&gt;&lt;BR&gt;30cm&lt;BR&gt;and (15cm)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapon&lt;BR&gt;&lt;BR&gt;Small Arms&lt;BR&gt;&lt;BR&gt;Small Arms&lt;BR&gt;&lt;BR&gt;MW3+&lt;BR&gt;and Small Arms</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Macro-weapon, +1A&lt;BR&gt;&lt;BR&gt;First Strike, +1A&lt;BR&gt;&lt;BR&gt;+1A&lt;BR&gt;&lt;BR&gt;-&lt;BR&gt;and Macro-weapon, +1A</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Knight Commander, Knight Shield, Reinforced Armour, Walker</characteristic>
+        <characteristic name="DC" typeId="2377629f-6ded-4aa4-b356-7d506954faa6">2</characteristic>
+        <characteristic name="Crit" typeId="8dbc632e-e06c-461d-a0fa-d51a1a624c11">Destroyed</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6bc4232b-86ce-401f-86b4-522718152541" name="Questoris Knight G" hidden="false" typeId="1653b936-3bef-42ef-adfe-653bdfc7f321" typeName="War Engine">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">War Engine</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">25cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">5+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">4+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Knight Chainsword&lt;BR&gt;&lt;BR&gt;Shock Field&lt;BR&gt;&lt;BR&gt;Heavy Stubber&lt;BR&gt;&lt;BR&gt;Knight Gatling Cannon</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)&lt;BR&gt;&lt;BR&gt;(15cm)&lt;BR&gt;&lt;BR&gt;(15cm)&lt;BR&gt;&lt;BR&gt;45cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapon&lt;BR&gt;&lt;BR&gt;Small Arms&lt;BR&gt;&lt;BR&gt;Small Arms&lt;BR&gt;&lt;BR&gt;6x AP6+/AT6+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Macro-weapon, +1A&lt;BR&gt;&lt;BR&gt;First Strike, +1A&lt;BR&gt;&lt;BR&gt;+1A&lt;BR&gt;&lt;BR&gt;-</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Knight Commander, Knight Shield, Reinforced Armour, Walker</characteristic>
+        <characteristic name="DC" typeId="2377629f-6ded-4aa4-b356-7d506954faa6">2</characteristic>
+        <characteristic name="Crit" typeId="8dbc632e-e06c-461d-a0fa-d51a1a624c11">Destroyed</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8510e884-63f6-4d9d-b46c-534b7d0ef707" name="Vulcan Mega-bolters" hidden="false" typeId="4175fd39-9d2f-43cd-a59f-4943c291cb87" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">45cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">12x AP3+/AT5+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+      </characteristics>
+    </profile>
+    <profile id="0a90c296-3839-43bd-b17a-a7f7b1459de6" name="Paired Gatling Blasters" hidden="false" typeId="4175fd39-9d2f-43cd-a59f-4943c291cb87" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">60cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">12x AP4+/AT4+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+      </characteristics>
+    </profile>
+    <profile id="efe1feef-417e-4494-807f-2c4a1620e36b" name="Paired Turbo-Lasers" hidden="false" typeId="4175fd39-9d2f-43cd-a59f-4943c291cb87" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">60cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">12x AP5+/AT3+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+      </characteristics>
+    </profile>
+    <profile id="ba5a3362-0e49-4b2e-9a10-74468307e8a0" name="Paired Laser Blasters" hidden="false" typeId="4175fd39-9d2f-43cd-a59f-4943c291cb87" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">45cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">16x AP5+/AT3+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+      </characteristics>
+    </profile>
+    <profile id="67f4e85a-d141-4c25-b415-0ff5118f19ea" name="Apocalypse Missile Launchers" hidden="false" typeId="4175fd39-9d2f-43cd-a59f-4943c291cb87" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">60cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">8BP</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+      </characteristics>
+    </profile>
+    <profile id="2ee69bfe-464e-4dd0-b45a-d6c468b59776" name="Paired Melta Cannon" hidden="false" typeId="4175fd39-9d2f-43cd-a59f-4943c291cb87" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">30cm&lt;BR&gt;and (15cm)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">4x MW4+&lt;BR&gt;and Small Arms</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Titan Killer (D3)&lt;BR&gt;and Titan Killer, +4A</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ce5a66da-77c3-41d3-b3d5-e9c11f4c195c" name="Sunfury Plasma Annihilator" hidden="false" typeId="4175fd39-9d2f-43cd-a59f-4943c291cb87" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">60cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">4x MW3+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Slow Firing</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5ec03ba5-c239-42c8-9d39-e845243822be" name="Mori Quake Cannon" hidden="false" typeId="4175fd39-9d2f-43cd-a59f-4943c291cb87" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">60cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">4BP</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Macro-weapon, Slow Firing</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f4088a9b-5a7c-43b1-a2a1-f69b916a5569" name="Belicosa Volcano Cannon" hidden="false" typeId="4175fd39-9d2f-43cd-a59f-4943c291cb87" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">90cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">MW2+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Titan Killer (D3+1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="368b9aa1-7145-41ee-9479-477ccd1dd12f" name="Apocalypse Missile Launcher" hidden="false" typeId="4175fd39-9d2f-43cd-a59f-4943c291cb87" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">60cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">4BP</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+      </characteristics>
+    </profile>
+    <profile id="b4315122-34b6-4b9b-ba71-f876882d2ee9" name="Laser Blaster" hidden="false" typeId="4175fd39-9d2f-43cd-a59f-4943c291cb87" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">45cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">8x AP5+/AT3+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+      </characteristics>
+    </profile>
+    <profile id="6048d91a-eb5f-4caf-91ab-6e22d79b8acd" name="Reaver Titan Power Fist" hidden="false" typeId="4175fd39-9d2f-43cd-a59f-4943c291cb87" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapon</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Titan Killer (D3), +2A</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f216e584-3150-497f-bcb5-9024e6757a86" name="Reaver Titan Chainfist" hidden="false" typeId="4175fd39-9d2f-43cd-a59f-4943c291cb87" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapon</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Macro-weapon, +3A</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2c26034b-b3ee-45e3-80db-27fdcd872679" name="Melta Cannon" hidden="false" typeId="4175fd39-9d2f-43cd-a59f-4943c291cb87" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">30cm&lt;BR&gt;and (15cm)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">2x MW4+&lt;BR&gt;and Small Arms</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Titan Killer (D3)&lt;BR&gt;and Titan Killer, +1A</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="533b5eca-e7f2-467b-94bc-831977ada82d" name="Gatling Blaster" hidden="false" typeId="4175fd39-9d2f-43cd-a59f-4943c291cb87" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">60cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">6x AP4+/AT4+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>
