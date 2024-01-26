@@ -1,33 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1dc683aa-1556-4efe-8200-3055afbb5e87" name="Adeptus Mechanicus" revision="31" battleScribeVersion="2.03" authorUrl="http://battlescribedata.appspot.com/#/repo/wh40k-epic-armageddon" library="false" gameSystemId="b7be77a3-9f44-4c5d-a0f7-a40bf046af2a" gameSystemRevision="38" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1dc683aa-1556-4efe-8200-3055afbb5e87" name="Adeptus Mechanicus" revision="32" battleScribeVersion="2.03" authorUrl="http://battlescribedata.appspot.com/#/repo/wh40k-epic-armageddon" library="false" gameSystemId="b7be77a3-9f44-4c5d-a0f7-a40bf046af2a" gameSystemRevision="38" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
-    <selectionEntry id="61360c9d-09c2-4c3f-90f5-efe60ef460d8" name="-Community-" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
-      </constraints>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="4d0d3683-c6f7-4dd9-838d-62154099c3c6" name="Group" hidden="false" collective="false" import="true" defaultSelectionEntryId="fe6b6560-0065-4cea-8344-3de09079759b">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minSelections" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="8eef03ff-18bd-449c-9315-6cfb7e61f8a7" hidden="false" collective="false" import="true" targetId="7f0bed0e-1717-46a1-8225-09866b0dcc87" type="selectionEntry"/>
-            <entryLink id="7ba52ef4-b62e-4ab1-8d8c-6734eb772937" hidden="false" collective="false" import="true" targetId="6a7b87a6-e3f4-4ba7-aaac-b20234ded31f" type="selectionEntry"/>
-            <entryLink id="fe6b6560-0065-4cea-8344-3de09079759b" hidden="false" collective="false" import="true" targetId="8183dbe0-128d-44df-9d2f-587c40d576e7" type="selectionEntry"/>
-            <entryLink id="b1ef4cd5-1e23-4ba7-a8be-0ef3fe26d7a1" hidden="false" collective="false" import="true" targetId="88a98d5f-b990-4741-9c4e-5761a2a7200f" type="selectionEntry"/>
-            <entryLink id="81ad1cab-d6c0-4d05-8ce1-dee1e5940069" hidden="false" collective="false" import="true" targetId="95542a55-24b3-4aae-9c23-d5598ee246dc" type="selectionEntry"/>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="ada0f837-dc55-466d-91be-13e75e4c7532" hidden="false" collective="false" import="true" targetId="1884eb4b-97e7-42ae-aed7-811bae8a02a9" type="selectionEntryGroup"/>
-      </entryLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="9c14-2881-4f94-043a" name="Battle Maniple" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="9c14-2881-4f94-043a" name="Battle Maniple" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="0e7d-80a1-d615-4d13" name="Formations" hidden="false" targetId="e4013702-a119-46c3-9fd9-a64e58afe467" primary="true"/>
       </categoryLinks>
@@ -186,21 +160,13 @@
         <cost name="pts" typeId="points" value="100.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c249-6f37-1885-ac8b" name="Skitarii Ranger Cohort" page="0" hidden="false" collective="false" import="true" type="unit">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="50a3-e64e-ae1f-f74d" type="min"/>
-      </constraints>
+    <selectionEntry id="c249-6f37-1885-ac8b" name="Skitarii Ranger Cohort" page="0" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
         <infoLink id="9c9c-fe39-e902-b387" name="Skitarii Ranger" hidden="false" targetId="bfe481cc-59ea-4c58-9491-058fa80f9029" type="profile"/>
         <infoLink id="ff05-d9ba-d9e6-8b65" name="Invulnerable Save" hidden="false" targetId="20b60add-c341-4e56-8c6b-fa4dec53688e" type="rule"/>
         <infoLink id="ffbc-0b3c-0c6c-ae72" name="Scout" hidden="false" targetId="af143427-33d4-438b-aab2-16a8e2867f79" type="rule"/>
         <infoLink id="f321-7865-83c2-76bc" name="Sniper" hidden="false" targetId="0a2c466f-8e38-4e54-a0f1-08ac199cd89c" type="rule"/>
       </infoLinks>
-      <entryLinks>
-        <entryLink id="e033-44ba-a06a-80a7" name="Tunnellers" hidden="true" collective="false" import="true" targetId="91706064-834e-4ae9-a2a1-e8f306a32b26" type="selectionEntryGroup"/>
-        <entryLink id="c0df-d935-6cd1-792c" name="Magos" hidden="true" collective="false" import="true" targetId="5cf9f6d0-d975-49f0-8604-e2455b9e451b" type="selectionEntryGroup"/>
-        <entryLink id="0500-0af1-1c75-cbf2" name="3x Skorpius Dunerider" hidden="true" collective="false" import="true" targetId="858092d1-3e3a-4dc8-917d-d1fae48e15ec" type="selectionEntry"/>
-      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="33.0"/>
       </costs>
@@ -1062,6 +1028,32 @@
         <cost name="pts" typeId="points" value="225.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="4c7a-0f4a-3d34-7420" name="-Community-" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="67f0-12e4-41ac-b9ce" type="max"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="5cd7-281a-4e8f-e9ec" name="Group" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="4a21-e388-3a13-19cf" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="7ae6-4b1f-adef-fea4" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="4fe3-b1d4-06c5-6d32" name="NetEA" hidden="false" collective="false" import="true" targetId="7f0bed0e-1717-46a1-8225-09866b0dcc87" type="selectionEntry"/>
+            <entryLink id="e6c1-5cea-642e-3688" name="EpicUK" hidden="false" collective="false" import="true" targetId="6a7b87a6-e3f4-4ba7-aaac-b20234ded31f" type="selectionEntry"/>
+            <entryLink id="ca79-e68d-7249-ee36" name="F-ERC" hidden="false" collective="false" import="true" targetId="8183dbe0-128d-44df-9d2f-587c40d576e7" type="selectionEntry"/>
+            <entryLink id="1d4f-98c9-860d-b2b6" name="GW" hidden="false" collective="false" import="true" targetId="88a98d5f-b990-4741-9c4e-5761a2a7200f" type="selectionEntry"/>
+            <entryLink id="1c46-fc3e-14b8-a767" name="EpicAU" hidden="false" collective="false" import="true" targetId="95542a55-24b3-4aae-9c23-d5598ee246dc" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="2b80-9b8d-13ae-f701" hidden="false" collective="false" import="true" targetId="1884eb4b-97e7-42ae-aed7-811bae8a02a9" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="91706064-834e-4ae9-a2a1-e8f306a32b26" name="Tunnellers" hidden="false" collective="false" import="true">
@@ -1114,7 +1106,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="897f284b-10b5-49bd-9b65-0ca410a10b03" name="*Tech-priest Dominus" hidden="false" collective="false" import="true" targetId="b475e4b6-5888-4ef1-bcb4-0bc3f61ebe34" type="selectionEntry"/>
+        <entryLink id="897f284b-10b5-49bd-9b65-0ca410a10b03" name="Tech-priest Dominus" hidden="false" collective="false" import="true" targetId="b475e4b6-5888-4ef1-bcb4-0bc3f61ebe34" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
