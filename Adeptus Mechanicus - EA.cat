@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1dc683aa-1556-4efe-8200-3055afbb5e87" name="Adeptus Mechanicus" revision="32" battleScribeVersion="2.03" authorUrl="http://battlescribedata.appspot.com/#/repo/wh40k-epic-armageddon" library="false" gameSystemId="b7be77a3-9f44-4c5d-a0f7-a40bf046af2a" gameSystemRevision="38" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1dc683aa-1556-4efe-8200-3055afbb5e87" name="Adeptus Mechanicus" revision="33" battleScribeVersion="2.03" authorUrl="" library="false" gameSystemId="b7be77a3-9f44-4c5d-a0f7-a40bf046af2a" gameSystemRevision="38" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="9c14-2881-4f94-043a" name="Battle Maniple" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -9,9 +9,13 @@
         <selectionEntryGroup id="7b63-bf2e-774b-6fea" name="Personnel" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="3c1b-4acd-7bba-17a0" name="Skitarii Ranger Cohort" hidden="false" collective="false" import="true" targetId="c249-6f37-1885-ac8b" type="selectionEntry"/>
+            <entryLink id="0154-fce8-230a-9630" name="Skitarii Vanguard Cohort" hidden="false" collective="false" import="true" targetId="0d54-6ea0-25f8-4d8a" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <infoLinks>
@@ -874,53 +878,13 @@
         <cost name="pts" typeId="points" value="175.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0d54-6ea0-25f8-4d8a" name="Skitarii Vanguard" page="0" hidden="false" collective="false" import="true" type="unit">
-      <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="f77c-d85c-a0db-7ddb" type="min"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="4dcd-694c-4a95-35b4" hidden="false" targetId="e4013702-a119-46c3-9fd9-a64e58afe467" primary="true"/>
-      </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="d586-3a59-90e2-47e7" name="Cohort" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="5dbc-753f-35cd-da31" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="11e1-8091-21d8-b51f" type="min"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="d689-8bdd-c1b6-e3fa" name="8x Skitarii Vanguard, 4x Skorpius Dunerider" hidden="false" collective="false" import="true" type="unit">
-              <infoLinks>
-                <infoLink id="1044-3d94-2748-5fa9" name="Skitarii Vanguard" hidden="false" targetId="11186e98-ca05-465c-8862-3eac3d36be5d" type="profile"/>
-                <infoLink id="a334-71e4-2569-d206" name="Invulnerable Save" hidden="false" targetId="20b60add-c341-4e56-8c6b-fa4dec53688e" type="rule"/>
-                <infoLink id="21fc-87e4-e971-2a41" name="Skorpius Dunerider" hidden="false" targetId="10ee45f5-a48d-43fa-8e67-ba6e35fc9277" type="profile"/>
-                <infoLink id="c517-7206-ef8a-60a4" name="Transport (AMSk)" hidden="false" targetId="e57a9af9-feee-46b5-aacf-38d8c1807951" type="rule"/>
-                <infoLink id="7642-ab1b-4ec6-ee96" name="Walker" hidden="false" targetId="3792d3e5-937d-49e6-8a20-320f64f441ba" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="a6e3-e390-2b54-d177" name="12x Skitarii Vanguard, 6x Skorpius Dunerider" hidden="false" collective="false" import="true" type="unit">
-              <infoLinks>
-                <infoLink id="ca5a-0651-feb6-7a0f" name="Skitarii Vanguard" hidden="false" targetId="11186e98-ca05-465c-8862-3eac3d36be5d" type="profile"/>
-                <infoLink id="b65d-72a1-6b5d-8113" name="Invulnerable Save" hidden="false" targetId="20b60add-c341-4e56-8c6b-fa4dec53688e" type="rule"/>
-                <infoLink id="41cd-9481-815e-f1e0" name="Skorpius Dunerider" hidden="false" targetId="10ee45f5-a48d-43fa-8e67-ba6e35fc9277" type="profile"/>
-                <infoLink id="b6c5-7fce-f06b-314e" name="Transport (AMSk)" hidden="false" targetId="e57a9af9-feee-46b5-aacf-38d8c1807951" type="rule"/>
-                <infoLink id="dc1f-bfce-4f59-15ce" name="Walker" hidden="false" targetId="3792d3e5-937d-49e6-8a20-320f64f441ba" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="150.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="def9-1541-c61b-71a7" name="Magos" hidden="false" collective="false" import="true" targetId="5cf9f6d0-d975-49f0-8604-e2455b9e451b" type="selectionEntryGroup"/>
-        <entryLink id="72cf-8cec-5bce-bf0b" name="Skorpius Disintegrator" hidden="false" collective="false" import="true" targetId="d8b953b8-e326-4008-ba2a-4525b4841588" type="selectionEntry"/>
-      </entryLinks>
+    <selectionEntry id="0d54-6ea0-25f8-4d8a" name="Skitarii Vanguard Cohort" page="0" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="dc8e-cb1f-dbf3-a4b9" name="Skitarii Vanguard" hidden="false" targetId="11186e98-ca05-465c-8862-3eac3d36be5d" type="profile"/>
+        <infoLink id="1e58-0645-93de-587d" name="Invulnerable Save" hidden="false" targetId="20b60add-c341-4e56-8c6b-fa4dec53688e" type="rule"/>
+      </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="250.0"/>
+        <cost name="pts" typeId="points" value="21.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5faa-dfa5-7a31-9971" name="Skorpius Disintegrators" page="0" hidden="false" collective="false" import="true" type="unit">
@@ -955,10 +919,6 @@
           </conditions>
         </modifier>
       </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="1113-ffe8-4582-e0de" type="min"/>
-        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="64e3-f364-6b8d-6684" type="max"/>
-      </constraints>
       <categoryLinks>
         <categoryLink id="6e85-90d9-03e6-7e15" name="One Third - 33% - 1 per Formation" hidden="false" targetId="a935eeb4-5ae4-4945-8064-d864f3563d6b" primary="true"/>
       </categoryLinks>
