@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="92199e99-a0e2-4a23-ba1e-58d24c1ff96f" name="Chaos: Death Guard" revision="44" battleScribeVersion="2.03" authorUrl="" library="false" gameSystemId="b7be77a3-9f44-4c5d-a0f7-a40bf046af2a" gameSystemRevision="38" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="92199e99-a0e2-4a23-ba1e-58d24c1ff96f" name="Chaos: Death Guard" revision="45" battleScribeVersion="2.03" authorUrl="" library="false" gameSystemId="b7be77a3-9f44-4c5d-a0f7-a40bf046af2a" gameSystemRevision="38" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="92e1-2e4b-216a-c0af" name="Colony" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -9,6 +9,7 @@
         <selectionEntryGroup id="c784-42aa-240b-a830" name="Personel" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="02f4-082e-8788-242a" name="Plague Marine Squad" hidden="false" collective="false" import="true" targetId="b452-7857-8f37-1b50" type="selectionEntry"/>
+            <entryLink id="27f0-28b0-7922-d5fd" name="Pox Walker Horde" hidden="false" collective="false" import="true" targetId="5b50-4251-3d4b-8016" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -4125,11 +4126,11 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="6761-9637-2695-ba71" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="10c9-2f24-2284-e882" hidden="false" targetId="1c7724c5-91fe-49f0-904a-36af25288754" type="profile"/>
+            <infoLink id="10c9-2f24-2284-e882" name="Plague Zombies" hidden="false" targetId="1c7724c5-91fe-49f0-904a-36af25288754" type="profile"/>
             <infoLink id="ceef-a479-ab73-cc68" name="Fearless" hidden="false" targetId="72dab6ac-4c9d-45f2-b150-7dd034d83b83" type="rule"/>
-            <infoLink id="3a4a-23f9-42f4-73ed" hidden="false" targetId="18b55dcf-3e60-458e-90e4-29f69deaa065" type="rule"/>
+            <infoLink id="3a4a-23f9-42f4-73ed" name="Infiltrators" hidden="false" targetId="18b55dcf-3e60-458e-90e4-29f69deaa065" type="rule"/>
             <infoLink id="3043-c0b1-0f4c-4393" name="Plague Zombies" hidden="false" targetId="fe9ca6e4-75c6-4c6f-b657-624f9523ca24" type="rule"/>
-            <infoLink id="c691-e7a2-e79b-389b" hidden="false" targetId="3328e966-bfdc-4334-a4b9-04f6fa139e21" type="rule"/>
+            <infoLink id="c691-e7a2-e79b-389b" name="Nurgle’s Rot" hidden="false" targetId="3328e966-bfdc-4334-a4b9-04f6fa139e21" type="rule"/>
             <infoLink id="fc97-714a-c551-2c99" name="Infestation" hidden="false" targetId="99f4570e-77b8-4be6-8c39-111ed7046846" type="rule"/>
           </infoLinks>
           <costs>
@@ -4141,51 +4142,16 @@
         <cost name="pts" typeId="points" value="200.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5b50-4251-3d4b-8016" name="Plague Zombie Infestation" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6a7b87a6-e3f4-4ba7-aaac-b20234ded31f" type="equalTo"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7f0bed0e-1717-46a1-8225-09866b0dcc87" type="equalTo"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-      <categoryLinks>
-        <categoryLink id="7906-305a-89ce-27ca" hidden="false" targetId="32fa31d8-c485-49c4-9fe1-59508cbee026" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="e60c-29dc-7c94-69fc" name="2D6+3x Plague Zombie Hordes" hidden="false" collective="false" import="true" type="unit">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="b743-729d-85f4-5692" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="8b11-7f49-7477-5d85" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="15a3-22d1-45f4-655c" hidden="false" targetId="1c7724c5-91fe-49f0-904a-36af25288754" type="profile"/>
-            <infoLink id="3324-5cb2-2d65-d4e0" hidden="false" targetId="72dab6ac-4c9d-45f2-b150-7dd034d83b83" type="rule"/>
-            <infoLink id="5546-94b0-91ec-00be" hidden="false" targetId="18b55dcf-3e60-458e-90e4-29f69deaa065" type="rule"/>
-            <infoLink id="5f54-c742-6d37-5b17" name="Plague Zombies" hidden="false" targetId="fe9ca6e4-75c6-4c6f-b657-624f9523ca24" type="rule"/>
-            <infoLink id="3dd2-2b3a-319e-b17b" name="Infestation" hidden="false" targetId="99f4570e-77b8-4be6-8c39-111ed7046846" type="rule"/>
-            <infoLink id="1981-5ae3-8c6a-3ba6" name="New InfoLink" hidden="false" targetId="71ce5ada-8613-4124-bd2f-43c80fb9488b" type="rule">
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7f0bed0e-1717-46a1-8225-09866b0dcc87" type="equalTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </infoLink>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+    <selectionEntry id="5b50-4251-3d4b-8016" name="Pox Walker Horde" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="328f-757e-f4f4-edf8" name="Pox Walkers" hidden="false" targetId="9bfe-b5ef-fb2d-158e" type="profile"/>
+        <infoLink id="b69a-c695-d865-9660" name="Fearless" hidden="false" targetId="72dab6ac-4c9d-45f2-b150-7dd034d83b83" type="rule"/>
+        <infoLink id="80f3-7fb4-f542-ba9b" name="Infestation" hidden="false" targetId="99f4570e-77b8-4be6-8c39-111ed7046846" type="rule"/>
+        <infoLink id="9c79-1c09-b4bf-6917" name="Infiltrators" hidden="false" targetId="18b55dcf-3e60-458e-90e4-29f69deaa065" type="rule"/>
+        <infoLink id="b691-7c2e-41e9-32c8" name="Plague Zombies" hidden="false" targetId="fe9ca6e4-75c6-4c6f-b657-624f9523ca24" type="rule"/>
+      </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="175.0"/>
+        <cost name="pts" typeId="points" value="12.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4844-afaa-37c3-ea5e" name="Plague Zombie Infestation" hidden="false" collective="false" import="true" type="unit">
@@ -7101,6 +7067,20 @@ Spacecraft, Contagion Tower and Lesser Daemon formations have an initiative rati
         <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapons</characteristic>
         <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
         <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Fearless</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9bfe-b5ef-fb2d-158e" name="Pox Walkers" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">10cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">5+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">6+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">-</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Teeth</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapons</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Fearless, Infestation, Infiltrators, Plague Zombies</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
