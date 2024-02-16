@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="92199e99-a0e2-4a23-ba1e-58d24c1ff96f" name="Chaos: Death Guard" revision="45" battleScribeVersion="2.03" authorUrl="" library="false" gameSystemId="b7be77a3-9f44-4c5d-a0f7-a40bf046af2a" gameSystemRevision="38" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="92199e99-a0e2-4a23-ba1e-58d24c1ff96f" name="Chaos: Death Guard" revision="46" battleScribeVersion="2.03" authorUrl="" library="false" gameSystemId="b7be77a3-9f44-4c5d-a0f7-a40bf046af2a" gameSystemRevision="38" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="92e1-2e4b-216a-c0af" name="Colony" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -10,6 +10,7 @@
           <entryLinks>
             <entryLink id="02f4-082e-8788-242a" name="Plague Marine Squad" hidden="false" collective="false" import="true" targetId="b452-7857-8f37-1b50" type="selectionEntry"/>
             <entryLink id="27f0-28b0-7922-d5fd" name="Pox Walker Horde" hidden="false" collective="false" import="true" targetId="5b50-4251-3d4b-8016" type="selectionEntry"/>
+            <entryLink id="7e6e-171a-1659-dff0" name="Blightlord Terminator Squad" hidden="false" collective="false" import="true" targetId="b230-c810-683d-85a7" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -2322,69 +2323,21 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b230-c810-683d-85a7" name="Blightlord Terminators" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7f0bed0e-1717-46a1-8225-09866b0dcc87" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <categoryLinks>
-        <categoryLink id="61c3-2c8f-b5f0-4486" hidden="false" targetId="b893278c-34cb-41fa-ae9b-54676a0f6f87" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="ba4d-3da4-af44-17a8" name="Blightlord Terminators" hidden="false" collective="false" import="true" type="unit">
-          <constraints>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="cafb-a8d5-bb24-e4a2" type="min"/>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="831c-0192-3dee-efc4" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="1c47-5506-eb49-7257" name="Macro-weapon" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
-            <infoLink id="b9bc-1857-e624-c1a1" name="Ignore Cover" hidden="false" targetId="5087a733-1e15-4e06-b869-8728e657c9fa" type="rule"/>
-            <infoLink id="9d94-1a4f-9ae5-31a0" name="Blightlord Terminators" hidden="false" targetId="c38efe55-1ced-4aec-8696-f08840facdc5" type="profile"/>
-            <infoLink id="7c67-16f0-99cb-83d4" name="Cataphractii" hidden="false" targetId="ee1239a4-5490-4299-8412-1d54fddfa333" type="rule"/>
-            <infoLink id="c26d-c8df-2107-56c1" name="Fearless" hidden="false" targetId="72dab6ac-4c9d-45f2-b150-7dd034d83b83" type="rule"/>
-            <infoLink id="78bc-b891-9fd0-55f1" name="Invulnerable Save" hidden="false" targetId="20b60add-c341-4e56-8c6b-fa4dec53688e" type="rule"/>
-            <infoLink id="09dd-15b2-3ba8-c8ba" name="Reinforced Armour" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
-            <infoLink id="8148-02b9-4fc3-0027" name="Mounted" hidden="false" targetId="fe19cbf1-084a-4af7-93ef-b16ab5d2ba51" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="54e5-6f34-59bd-3e01" name="Upgrades" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="11e2-d94e-bf8e-38e0" type="max"/>
-          </constraints>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="d9c9-a4c0-1631-d724" name="Transport" hidden="false" collective="false" import="true">
-              <constraints>
-                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e199-9ada-e831-1d47" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="b584-3704-9c3d-5f59" name="Land Raider" hidden="false" collective="false" import="true" targetId="ce77dfb8-9f88-46ca-bf3c-4445a3db485c" type="selectionEntry"/>
-                <entryLink id="f042-9b19-c783-51c2" name="2x Land Raider" hidden="false" collective="false" import="true" targetId="27ecc48b-f7ce-4e3e-84c8-e3dad6b394b0" type="selectionEntry"/>
-              </entryLinks>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <entryLinks>
-            <entryLink id="2027-09be-82db-a710" name="Champion of Nurgle" hidden="false" collective="false" import="true" targetId="600d452b-1731-46fc-b176-ee37ad2c09d5" type="selectionEntry"/>
-            <entryLink id="74f8-1866-ee73-0fa9" hidden="false" collective="false" import="true" targetId="af1cc3e0-2f85-40bb-b597-bfb0c4608079" type="selectionEntry"/>
-            <entryLink id="73f5-1969-ea4a-011f" hidden="false" collective="false" import="true" targetId="013cb7f0-91c1-41e1-ba3c-7bc66169cd10" type="selectionEntry"/>
-            <entryLink id="b205-96c3-bc48-fde3" name="Walkers" hidden="false" collective="false" import="true" targetId="d4fa93b4-45a7-44b7-85d9-dd1f0f4ef594" type="selectionEntryGroup"/>
-            <entryLink id="8a77-c9be-4be9-c717" name="Nurgling Infestation" hidden="false" collective="false" import="true" targetId="5822acd2-0d93-45da-8771-fa3e7677fe1d" type="selectionEntry"/>
-            <entryLink id="fa17-6180-40c7-121c" name="Teleportation" hidden="false" collective="false" import="true" targetId="8dc7b928-929b-403a-b9c9-026059ebbca3" type="selectionEntry"/>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="6de7-5c34-79d2-edc8" name="Nurgle Lord" hidden="false" collective="false" import="true" targetId="5e3aceff-f9bc-4325-83cb-82beaa2e26f5" type="selectionEntryGroup"/>
-      </entryLinks>
+    <selectionEntry id="b230-c810-683d-85a7" name="Blightlord Terminator Squad" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="05f0-43b4-13be-2308" name="Blightlord Terminators (Baleswords &amp; Flails)" hidden="false" targetId="c38efe55-1ced-4aec-8696-f08840facdc5" type="profile"/>
+        <infoLink id="6105-3501-8d13-e619" name="Cataphractii" hidden="false" targetId="ee1239a4-5490-4299-8412-1d54fddfa333" type="rule"/>
+        <infoLink id="8457-185f-9af1-775f" name="Fearless" hidden="false" targetId="72dab6ac-4c9d-45f2-b150-7dd034d83b83" type="rule"/>
+        <infoLink id="097f-d358-a77b-f38d" name="Ignore Cover" hidden="false" targetId="5087a733-1e15-4e06-b869-8728e657c9fa" type="rule"/>
+        <infoLink id="1e03-e156-bb4f-d39b" name="Invulnerable Save" hidden="false" targetId="20b60add-c341-4e56-8c6b-fa4dec53688e" type="rule"/>
+        <infoLink id="7e5c-cd52-bb97-9f61" name="Macro-weapon" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+        <infoLink id="6b9a-c11f-a4f1-94d4" name="Mounted" hidden="false" targetId="fe19cbf1-084a-4af7-93ef-b16ab5d2ba51" type="rule"/>
+        <infoLink id="8e43-f559-8dd6-4b75" name="Reinforced Armour" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+        <infoLink id="56dd-3bc9-aa7c-cbd3" name="Walker" hidden="false" targetId="3792d3e5-937d-49e6-8a20-320f64f441ba" type="rule"/>
+        <infoLink id="ab3b-1fdb-68f8-1053" name="Blightlord Terminators (Plaguespewers)" hidden="false" targetId="235c-5e53-b41d-4bd4" type="profile"/>
+      </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="325.0"/>
+        <cost name="pts" typeId="points" value="81.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="21b5-52c2-605a-e0c1" name="Chaos Space Marines" page="0" hidden="false" collective="false" import="true" type="unit">
@@ -6927,17 +6880,17 @@ Spacecraft, Contagion Tower and Lesser Daemon formations have an initiative rati
         <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Commander, Invulnerable Save, Leader</characteristic>
       </characteristics>
     </profile>
-    <profile id="c38efe55-1ced-4aec-8696-f08840facdc5" name="Blightlord Terminators" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+    <profile id="c38efe55-1ced-4aec-8696-f08840facdc5" name="Blightlord Terminators (Baleswords &amp; Flails)" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
       <characteristics>
         <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
         <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
         <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">4+</characteristic>
         <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">3+</characteristic>
         <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">3+</characteristic>
-        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Baleswords &amp; Flails&lt;BR&gt;&lt;BR&gt;2x Plaguespewer&lt;BR&gt;and</characteristic>
-        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)&lt;BR&gt;&lt;BR&gt;15cm&lt;BR&gt;and (15cm)</characteristic>
-        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapons&lt;BR&gt;&lt;BR&gt;AP4+&lt;BR&gt;and Small Arms</characteristic>
-        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Macro-weapon, +1A&lt;BR&gt;&lt;BR&gt;Ignore Cover&lt;BR&gt;and Ignore Cover</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Baleswords &amp; Flails</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapons</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Macro-weapon, +1A</characteristic>
         <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Cataphractii, Fearless, Mounted, Reinforced Armour, Walker</characteristic>
       </characteristics>
     </profile>
@@ -7081,6 +7034,20 @@ Spacecraft, Contagion Tower and Lesser Daemon formations have an initiative rati
         <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapons</characteristic>
         <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
         <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Fearless, Infestation, Infiltrators, Plague Zombies</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="235c-5e53-b41d-4bd4" name="Blightlord Terminators (Plaguespewers)" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">4+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">3+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">3+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Plaguespewer</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">15cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">AP4+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Ignore Cover</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Cataphractii, Fearless, Mounted, Reinforced Armour, Walker</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
