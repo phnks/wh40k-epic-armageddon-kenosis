@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="92199e99-a0e2-4a23-ba1e-58d24c1ff96f" name="Chaos: Death Guard" revision="48" battleScribeVersion="2.03" authorUrl="" library="false" gameSystemId="b7be77a3-9f44-4c5d-a0f7-a40bf046af2a" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="92199e99-a0e2-4a23-ba1e-58d24c1ff96f" name="Chaos: Death Guard" revision="49" battleScribeVersion="2.03" authorUrl="" library="false" gameSystemId="b7be77a3-9f44-4c5d-a0f7-a40bf046af2a" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="92e1-2e4b-216a-c0af" name="Colony" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -16,6 +16,7 @@
         <selectionEntryGroup id="a398-6b02-4e07-e298" name="Tank" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="9097-ed60-9fe5-402e" name="Nurgle Rhino" hidden="false" collective="false" import="true" targetId="71c5-17db-656e-6774" type="selectionEntry"/>
+            <entryLink id="cbb5-b8e2-4113-76ec" name="Plagueburst Crawler" hidden="false" collective="false" import="true" targetId="2f4f-578e-c06b-ec71" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -4563,6 +4564,17 @@
         <cost name="pts" typeId="points" value="15.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="2f4f-578e-c06b-ec71" name="Plagueburst Crawler" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="3c3f-52ee-0ac9-2ad9" name="Plagueburst Crawler (Entropy Cannons)" hidden="false" targetId="9d32-3b6d-ebbb-4da0" type="profile"/>
+        <infoLink id="0729-7646-ea7d-7005" name="Plagueburst Crawler (Plagueburst Mortar)" hidden="false" targetId="b2c2-e9ed-b154-d46b" type="profile"/>
+        <infoLink id="f44f-a696-f668-b4d5" name="Fearless" hidden="false" targetId="72dab6ac-4c9d-45f2-b150-7dd034d83b83" type="rule"/>
+        <infoLink id="1dfb-6399-e8f8-9ccf" name="Indirect Fire" hidden="false" targetId="2dddba7a-76cc-472a-92a8-a9cf9025db6f" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="75.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="51dc5a73-e2ea-4d13-82b2-15513e1fe9aa" name="Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="df5a2533-e396-40fb-9a68-099691b753a5">
@@ -7081,7 +7093,35 @@ Spacecraft, Contagion Tower and Lesser Daemon formations have an initiative rati
         <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(15cm)</characteristic>
         <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Small Arms</characteristic>
         <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
-        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Transport</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Transport, Fearless</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b2c2-e9ed-b154-d46b" name="Plagueburst Crawler (Plagueburst Mortar)" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Armoured Vehicle</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">30cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">4+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">6+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Plagueburst Mortar</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">45cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">1BP</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Indirect Fire</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Fearless</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9d32-3b6d-ebbb-4da0" name="Plagueburst Crawler (Entropy Cannons)" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Armoured Vehicle</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">30cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">4+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">6+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Entropy Cannons</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">45cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">AP4+/AT4+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Fearless</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
