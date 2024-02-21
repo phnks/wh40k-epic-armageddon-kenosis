@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1dc683aa-1556-4efe-8200-3055afbb5e87" name="Adeptus Mechanicus" revision="36" battleScribeVersion="2.03" authorUrl="" library="false" gameSystemId="b7be77a3-9f44-4c5d-a0f7-a40bf046af2a" gameSystemRevision="38" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1dc683aa-1556-4efe-8200-3055afbb5e87" name="Adeptus Mechanicus" revision="37" battleScribeVersion="2.03" authorUrl="" library="false" gameSystemId="b7be77a3-9f44-4c5d-a0f7-a40bf046af2a" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="9c14-2881-4f94-043a" name="Battle Maniple" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -16,6 +16,7 @@
         <selectionEntryGroup id="01fa-3c8c-187c-9fd2" name="Tank" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="5c35-b4f1-812a-536a" name="Onager Dunecrawler" hidden="false" collective="false" import="true" targetId="9311-2323-6d4f-84e6" type="selectionEntry"/>
+            <entryLink id="e940-31a8-d182-9d27" name="Karacnos Assault Tank" hidden="false" collective="false" import="true" targetId="2aa3-b278-6113-8eb8" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -1041,6 +1042,23 @@
         <cost name="pts" typeId="points" value="42.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="2aa3-b278-6113-8eb8" name="Karacnos Assault Tank" page="0" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="392c-393d-973a-4732" name="Disrupt" hidden="false" targetId="b027e9fd-08c7-436c-a239-dd516a6ce794" type="rule"/>
+        <infoLink id="2162-c9ce-f1b1-2763" name="Fleshbane" hidden="false" targetId="e35aec7a-4aea-4475-af17-4365566ed200" type="rule"/>
+        <infoLink id="3ce4-0e71-3842-dcdb" name="Ignore Cover" hidden="false" targetId="5087a733-1e15-4e06-b869-8728e657c9fa" type="rule"/>
+        <infoLink id="d0d5-fbfe-3b2f-6dd9" name="Invulnerable Save" hidden="false" targetId="20b60add-c341-4e56-8c6b-fa4dec53688e" type="rule"/>
+        <infoLink id="67ca-8ef0-8abf-70db" name="Reinforced Armour" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+        <infoLink id="2eee-4480-a95c-8250" name="Walker" hidden="false" targetId="3792d3e5-937d-49e6-8a20-320f64f441ba" type="rule"/>
+        <infoLink id="72a6-d09d-db44-82da" name="Indirect Fire" hidden="false" targetId="2dddba7a-76cc-472a-92a8-a9cf9025db6f" type="rule"/>
+        <infoLink id="f477-8002-c1f2-4188" name="Karacnos Assault Tank (Karacnos Mortar Battery)" hidden="false" targetId="19b5-ddd6-36fb-b17c" type="profile"/>
+        <infoLink id="73aa-c0f6-1370-6b53" name="Karacnos Assault Tank (Lightning Locks)" hidden="false" targetId="2506-4ffe-19ff-7e44" type="profile"/>
+        <infoLink id="e4a6-c011-f31c-3671" name="Karacnos Assault Tank (Shock Ram)" hidden="false" targetId="b50f-be8f-a48b-5557" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="75.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="91706064-834e-4ae9-a2a1-e8f306a32b26" name="Tunnellers" hidden="false" collective="false" import="true">
@@ -1719,6 +1737,48 @@ Termite: 2 Skitarii, Electro-priests.</description>
         <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Small Arms</characteristic>
         <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
         <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Invulnerable Save, Walker</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="19b5-ddd6-36fb-b17c" name="Karacnos Assault Tank (Karacnos Mortar Battery)" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Armoured Vehicle</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">25cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">4+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">5+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Karacnos Mortar Battery</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">45cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">1BP</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Fleshbane, Ignore Cover, Indirect Fire</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Invulnerable Save, Reinforced Armour, Walker</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2506-4ffe-19ff-7e44" name="Karacnos Assault Tank (Lightning Locks)" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Armoured Vehicle</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">25cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">4+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">5+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Lightning Locks</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">15cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">AP5+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Disrupt</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Invulnerable Save, Reinforced Armour, Walker</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b50f-be8f-a48b-5557" name="Karacnos Assault Tank (Shock Ram)" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Armoured Vehicle</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">25cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">4+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">5+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Shock Ram</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapons</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"></characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Invulnerable Save, Reinforced Armour, Walker</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
