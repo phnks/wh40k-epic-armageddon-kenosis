@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="b7be77a3-9f44-4c5d-a0f7-a40bf046af2a" name="Epic Armageddon Kenosis Edition" revision="38" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
-  <readme></readme>
+<gameSystem id="b7be77a3-9f44-4c5d-a0f7-a40bf046af2a" name="Epic Armageddon Kenosis Edition" revision="39" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="points" name="pts" defaultCostLimit="0.0" hidden="false"/>
   </costTypes>
@@ -6638,6 +6637,14 @@ A company or formation can only have one Commissar.</description>
         </modifier>
       </modifiers>
       <description>May contest objectives but may not hold objectives.</description>
+    </rule>
+    <rule id="7bd0-2248-5d2e-1fcf" name="Transport" hidden="false">
+      <description>Transport vehicles may only carry units from their own formation. Transport vehicles can pick up and carry units as part of the transport vehicle’s move. The vehicle simply moves into base contact with the unit to be picked up, and then carries on with its move as normal. Note that the transported unit is not allowed to move themselves during the move when they are picked up.
+
+Transported units may disembark at the end of any move after the move in which is it was picked up. This happens after any overwatch shots but before the moving formation shoots or assaults. Disembarking units may be placed within 5cms of the transport vehicle. If the formation has engage orders then they may be placed in base contact with an enemy unit. Otherwise they may not be placed within an enemy unit’s zone of control. Note that units do not have to disembark, and may remain in their transport if they prefer. Units may not be picked up and disembark as part of the same move, though a formation making multiple moves as part of a march or double action could pick up units in one move and drop them off as part of a subsequent move. Units may embark or disembark as part of a counter-charge move, unless the transport vehicle carrying them is already in base contact with two enemy units – in which case they must stay on board.
+
+Units being transported may not shoot unless the transport vehicle’s datasheet specifically says otherwise. Transported units are counted towards the number of units in the formation for all rules purposes (ie, when working out the number of units involved in an assault or if the formation is broken by Blast markers, etc). If the transport unit is destroyed, then any
+transported units may make their normal armour save OR make a 6+ cover save. Units on board a transport vehicle destroyed by a macro-weapon only receive a save if they would have one were they hit by the macro-weapon directly.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
