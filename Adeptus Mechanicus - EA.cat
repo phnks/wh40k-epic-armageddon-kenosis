@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1dc683aa-1556-4efe-8200-3055afbb5e87" name="Adeptus Mechanicus" revision="38" battleScribeVersion="2.03" authorUrl="" library="false" gameSystemId="b7be77a3-9f44-4c5d-a0f7-a40bf046af2a" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1dc683aa-1556-4efe-8200-3055afbb5e87" name="Adeptus Mechanicus" revision="39" battleScribeVersion="2.03" authorUrl="" library="false" gameSystemId="b7be77a3-9f44-4c5d-a0f7-a40bf046af2a" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="9c14-2881-4f94-043a" name="Battle Maniple" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -74,21 +74,16 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="b475e4b6-5888-4ef1-bcb4-0bc3f61ebe34" name="Tech-priest Dominus" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="24e43cd4-8215-4c3e-b942-95419bda28cb" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2fc25e38-96ea-48b9-8aa9-b7d6dddbc00b" type="max"/>
-      </constraints>
       <infoLinks>
         <infoLink id="095347b3-6772-4b43-a549-aa9ed7495d4a" name="Leader" hidden="false" targetId="d23596ad-5004-4bc3-8600-2b61a05ee52d" type="rule"/>
         <infoLink id="28627668-bacc-4ec1-9ebb-d1f7f653b7f9" name="Commander" hidden="false" targetId="e9675277-c408-4371-b969-6c9565fb2905" type="rule"/>
-        <infoLink id="e8b59e55-de8e-4c6b-b7f5-4f8b71104d80" name="Tech-priest Dominus" hidden="false" targetId="a93ff888-38a6-4f8e-9a24-4aa790e6b7cf" type="profile"/>
+        <infoLink id="e8b59e55-de8e-4c6b-b7f5-4f8b71104d80" name="Tech-priest Dominus (Eradication Ray)" hidden="false" targetId="f38f-1dcf-77f6-7f84" type="profile"/>
         <infoLink id="493cd21c-4182-46a0-b6ab-5737b575abdf" name="Invulnerable Save" hidden="false" targetId="20b60add-c341-4e56-8c6b-fa4dec53688e" type="rule"/>
-        <infoLink id="3f21a973-c5b3-4676-b2e3-fba2105e69e1" name="Supreme Commander" hidden="false" targetId="9f458b5f-4ef7-437c-aba8-585963e07dcc" type="rule"/>
         <infoLink id="aae793d0-0592-41dd-a9e8-f0da935d5797" name="Macro-weapon" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
-        <infoLink id="fbfa8c11-aacb-4cdc-a2f6-40b896715996" name="Reinforced Armour" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+        <infoLink id="12f2-bc50-63fd-c772" name="Tech-priest Dominus (Omnissian Axe)" hidden="false" targetId="6806-fad8-9bc0-fff0" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="50.0"/>
+        <cost name="pts" typeId="points" value="25.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d8b953b8-e326-4008-ba2a-4525b4841588" name="Skorpius Disintegrator" hidden="false" collective="false" import="true" type="model">
@@ -1063,53 +1058,22 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="06d2-cc26-1d7c-650c" name="Skitarii Ranger Cohort w/ Dominus" page="0" hidden="false" collective="false" import="true" type="model">
-      <infoLinks>
-        <infoLink id="7c20-eae6-1a17-d6e4" name="Skitarii Ranger" hidden="false" targetId="bfe481cc-59ea-4c58-9491-058fa80f9029" type="profile"/>
-        <infoLink id="9153-0d5e-6085-6e0a" name="Invulnerable Save" hidden="false" targetId="20b60add-c341-4e56-8c6b-fa4dec53688e" type="rule"/>
-        <infoLink id="0f5f-6007-7219-6ad8" name="Scout" hidden="false" targetId="af143427-33d4-438b-aab2-16a8e2867f79" type="rule"/>
-        <infoLink id="f63a-d1eb-4c78-28b5" name="Sniper" hidden="false" targetId="0a2c466f-8e38-4e54-a0f1-08ac199cd89c" type="rule"/>
-        <infoLink id="7715-c2a9-6835-8e80" name="Tech-priest Dominus (Eradication Ray)" hidden="false" targetId="f38f-1dcf-77f6-7f84" type="profile"/>
-        <infoLink id="ef24-3ac4-7a97-30a8" name="Tech-priest Dominus (Omnissian Axe)" hidden="false" targetId="6806-fad8-9bc0-fff0" type="profile"/>
-        <infoLink id="c7f5-f598-6e84-63fd" name="Commander" hidden="false" targetId="e9675277-c408-4371-b969-6c9565fb2905" type="rule"/>
-        <infoLink id="1325-4ef6-a358-8636" name="Leader" hidden="false" targetId="d23596ad-5004-4bc3-8600-2b61a05ee52d" type="rule"/>
-        <infoLink id="8922-f234-6aa5-bba2" name="Macro-weapon" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
-        <infoLink id="be9c-bf77-be27-20b5" name="Reinforced Armour" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
-      </infoLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="78.0"/>
-      </costs>
+      <entryLinks>
+        <entryLink id="72d6-a10f-e0de-c083" name="Skitarii Ranger Cohort" hidden="false" collective="false" import="true" targetId="c249-6f37-1885-ac8b" type="selectionEntry"/>
+        <entryLink id="d7cc-2d0a-efb8-288c" name="Tech-priest Dominus" hidden="false" collective="false" import="true" targetId="b475e4b6-5888-4ef1-bcb4-0bc3f61ebe34" type="selectionEntry"/>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry id="a69c-1dfd-8b1b-2df8" name="Skitarii Vanguard Cohort w/ Dominus" page="0" hidden="false" collective="false" import="true" type="model">
-      <infoLinks>
-        <infoLink id="c76e-f68d-bc1f-8e34" name="Skitarii Vanguard" hidden="false" targetId="11186e98-ca05-465c-8862-3eac3d36be5d" type="profile"/>
-        <infoLink id="9e9c-c908-cdf7-c89b" name="Invulnerable Save" hidden="false" targetId="20b60add-c341-4e56-8c6b-fa4dec53688e" type="rule"/>
-        <infoLink id="3d8e-e249-9cd6-f93c" name="Tech-priest Dominus (Eradication Ray)" hidden="false" targetId="f38f-1dcf-77f6-7f84" type="profile"/>
-        <infoLink id="9e7a-a7af-cd53-f4ff" name="Tech-priest Dominus (Omnissian Axe)" hidden="false" targetId="6806-fad8-9bc0-fff0" type="profile"/>
-        <infoLink id="47e8-fa8b-8aab-4394" name="Commander" hidden="false" targetId="e9675277-c408-4371-b969-6c9565fb2905" type="rule"/>
-        <infoLink id="0c55-6a03-7407-f137" name="Leader" hidden="false" targetId="d23596ad-5004-4bc3-8600-2b61a05ee52d" type="rule"/>
-        <infoLink id="d90b-4069-faf1-ec95" name="Macro-weapon" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
-        <infoLink id="1daa-ac4e-9c79-c739" name="Reinforced Armour" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
-      </infoLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="66.0"/>
-      </costs>
+      <entryLinks>
+        <entryLink id="2cd8-5e04-a4c3-bfb4" name="Skitarii Vanguard Cohort" hidden="false" collective="false" import="true" targetId="0d54-6ea0-25f8-4d8a" type="selectionEntry"/>
+        <entryLink id="570c-122c-1d48-0f32" name="Tech-priest Dominus" hidden="false" collective="false" import="true" targetId="b475e4b6-5888-4ef1-bcb4-0bc3f61ebe34" type="selectionEntry"/>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry id="707f-4915-13e4-b054" name="Myrmidon Sect w/ Dominus" page="0" hidden="false" collective="false" import="true" type="model">
-      <infoLinks>
-        <infoLink id="2407-d5e1-dd31-74f6" name="Myrmidon Secutors (Power Axes)" hidden="false" targetId="84a4-8c57-db33-1ff4" type="profile"/>
-        <infoLink id="cd23-f965-fdd5-2baa" name="Myrmidon" hidden="false" targetId="4029-208f-83d6-c5a3" type="rule"/>
-        <infoLink id="9891-0529-2e86-0ec3" name="Myrmidon Secutors (Maxima Bolters)" hidden="false" targetId="9f35-8b03-a727-8c1a" type="profile"/>
-        <infoLink id="6ecd-0795-b8db-65fd" name="Tech-priest Dominus (Eradication Ray)" hidden="false" targetId="f38f-1dcf-77f6-7f84" type="profile"/>
-        <infoLink id="888d-6a0f-ea00-607d" name="Tech-priest Dominus (Omnissian Axe)" hidden="false" targetId="6806-fad8-9bc0-fff0" type="profile"/>
-        <infoLink id="50e4-6379-184f-6938" name="Commander" hidden="false" targetId="e9675277-c408-4371-b969-6c9565fb2905" type="rule"/>
-        <infoLink id="6e2a-bfff-4f6d-fbf3" name="Invulnerable Save" hidden="false" targetId="20b60add-c341-4e56-8c6b-fa4dec53688e" type="rule"/>
-        <infoLink id="04ed-b9a1-a495-ded0" name="Leader" hidden="false" targetId="d23596ad-5004-4bc3-8600-2b61a05ee52d" type="rule"/>
-        <infoLink id="d23f-b129-8ebe-158e" name="Macro-weapon" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
-        <infoLink id="7947-a20c-eb10-feb4" name="Reinforced Armour" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
-      </infoLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="95.0"/>
-      </costs>
+      <entryLinks>
+        <entryLink id="42cf-91d7-628b-f9b6" name="Myrmidon Sect" hidden="false" collective="false" import="true" targetId="c8cf-25dc-e146-f6c6" type="selectionEntry"/>
+        <entryLink id="7bd1-bfa7-8bce-5b3a" name="Tech-priest Dominus" hidden="false" collective="false" import="true" targetId="b475e4b6-5888-4ef1-bcb4-0bc3f61ebe34" type="selectionEntry"/>
+      </entryLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -1844,7 +1808,7 @@ Termite: 2 Skitarii, Electro-priests.</description>
         <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(15cm)</characteristic>
         <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Small Arms</characteristic>
         <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Macro-weapon, +1A</characteristic>
-        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Invulnerable Save, Reinforced Armour</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Commander, Leader, Invulnerable Save</characteristic>
       </characteristics>
     </profile>
     <profile id="6806-fad8-9bc0-fff0" name="Tech-priest Dominus (Omnissian Axe)" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
@@ -1857,8 +1821,8 @@ Termite: 2 Skitarii, Electro-priests.</description>
         <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Omnissian Axe</characteristic>
         <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)</characteristic>
         <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapons</characteristic>
-        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Macro-weapon, +1A</characteristic>
-        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Invulnerable Save, Reinforced Armour</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">+1A</characteristic>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Commander, Leader, Invulnerable Save</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
