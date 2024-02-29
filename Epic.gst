@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="b7be77a3-9f44-4c5d-a0f7-a40bf046af2a" name="Epic Armageddon Kenosis Edition" revision="39" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="b7be77a3-9f44-4c5d-a0f7-a40bf046af2a" name="Epic Armageddon Kenosis Edition" revision="40" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="points" name="pts" defaultCostLimit="0.0" hidden="false"/>
   </costTypes>
@@ -5028,7 +5028,7 @@ netea-tournament-pack-2017-03-21</description>
           </conditions>
         </modifier>
       </modifiers>
-      <description>Treat placement just like Teleport, but after placing one unit, roll to see how many total stands of Plague Zombies there are, then roll for Blast Markers as usual for Teleporting.</description>
+      <description>Treat placement just like Teleport but don&apos;t roll for Blast Markers as usual for Teleporting.</description>
     </rule>
     <rule id="aacb6d58-dac5-434e-9153-53492af0bef6" name="Scattershield" hidden="false">
       <modifiers>

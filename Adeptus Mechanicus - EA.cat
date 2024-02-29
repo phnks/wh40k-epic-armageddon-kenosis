@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1dc683aa-1556-4efe-8200-3055afbb5e87" name="Adeptus Mechanicus" revision="39" battleScribeVersion="2.03" authorUrl="" library="false" gameSystemId="b7be77a3-9f44-4c5d-a0f7-a40bf046af2a" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1dc683aa-1556-4efe-8200-3055afbb5e87" name="Adeptus Mechanicus" revision="40" battleScribeVersion="2.03" authorUrl="" library="false" gameSystemId="b7be77a3-9f44-4c5d-a0f7-a40bf046af2a" gameSystemRevision="40" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="9c14-2881-4f94-043a" name="Battle Maniple" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -1059,21 +1059,60 @@
     </selectionEntry>
     <selectionEntry id="06d2-cc26-1d7c-650c" name="Skitarii Ranger Cohort w/ Dominus" page="0" hidden="false" collective="false" import="true" type="model">
       <entryLinks>
-        <entryLink id="72d6-a10f-e0de-c083" name="Skitarii Ranger Cohort" hidden="false" collective="false" import="true" targetId="c249-6f37-1885-ac8b" type="selectionEntry"/>
-        <entryLink id="d7cc-2d0a-efb8-288c" name="Tech-priest Dominus" hidden="false" collective="false" import="true" targetId="b475e4b6-5888-4ef1-bcb4-0bc3f61ebe34" type="selectionEntry"/>
+        <entryLink id="72d6-a10f-e0de-c083" name="Skitarii Ranger Cohort" hidden="false" collective="false" import="true" targetId="c249-6f37-1885-ac8b" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c82-8bc1-322c-7256" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d02a-12ac-7192-954b" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="d7cc-2d0a-efb8-288c" name="Tech-priest Dominus" hidden="false" collective="false" import="true" targetId="b475e4b6-5888-4ef1-bcb4-0bc3f61ebe34" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f81-d592-3fc9-3adf" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="34e8-548b-fffd-7871" type="max"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="a69c-1dfd-8b1b-2df8" name="Skitarii Vanguard Cohort w/ Dominus" page="0" hidden="false" collective="false" import="true" type="model">
       <entryLinks>
-        <entryLink id="2cd8-5e04-a4c3-bfb4" name="Skitarii Vanguard Cohort" hidden="false" collective="false" import="true" targetId="0d54-6ea0-25f8-4d8a" type="selectionEntry"/>
-        <entryLink id="570c-122c-1d48-0f32" name="Tech-priest Dominus" hidden="false" collective="false" import="true" targetId="b475e4b6-5888-4ef1-bcb4-0bc3f61ebe34" type="selectionEntry"/>
+        <entryLink id="2cd8-5e04-a4c3-bfb4" name="Skitarii Vanguard Cohort" hidden="false" collective="false" import="true" targetId="0d54-6ea0-25f8-4d8a" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ca9-c09b-bc40-1205" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1ee-ce21-e184-9ffe" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="570c-122c-1d48-0f32" name="Tech-priest Dominus" hidden="false" collective="false" import="true" targetId="b475e4b6-5888-4ef1-bcb4-0bc3f61ebe34" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8417-15d2-4ba9-fd7d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1308-091f-e092-7925" type="min"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="707f-4915-13e4-b054" name="Myrmidon Sect w/ Dominus" page="0" hidden="false" collective="false" import="true" type="model">
       <entryLinks>
-        <entryLink id="42cf-91d7-628b-f9b6" name="Myrmidon Sect" hidden="false" collective="false" import="true" targetId="c8cf-25dc-e146-f6c6" type="selectionEntry"/>
-        <entryLink id="7bd1-bfa7-8bce-5b3a" name="Tech-priest Dominus" hidden="false" collective="false" import="true" targetId="b475e4b6-5888-4ef1-bcb4-0bc3f61ebe34" type="selectionEntry"/>
+        <entryLink id="42cf-91d7-628b-f9b6" name="Myrmidon Sect" hidden="false" collective="false" import="true" targetId="c8cf-25dc-e146-f6c6" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5167-689a-0ee5-aff4" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb44-b32a-2419-c544" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="7bd1-bfa7-8bce-5b3a" name="Tech-priest Dominus" hidden="false" collective="false" import="true" targetId="b475e4b6-5888-4ef1-bcb4-0bc3f61ebe34" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c76-8220-0c6e-7aec" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e949-a42d-fad2-f7b0" type="min"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
