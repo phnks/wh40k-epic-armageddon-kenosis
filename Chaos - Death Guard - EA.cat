@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="92199e99-a0e2-4a23-ba1e-58d24c1ff96f" name="Chaos: Death Guard" revision="55" battleScribeVersion="2.03" authorUrl="" library="false" gameSystemId="b7be77a3-9f44-4c5d-a0f7-a40bf046af2a" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="92199e99-a0e2-4a23-ba1e-58d24c1ff96f" name="Chaos: Death Guard" revision="56" battleScribeVersion="2.03" authorUrl="" library="false" gameSystemId="b7be77a3-9f44-4c5d-a0f7-a40bf046af2a" gameSystemRevision="40" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="92e1-2e4b-216a-c0af" name="Colony" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -2320,26 +2320,30 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="b230-c810-683d-85a7" name="Blightlord Terminator Squad" hidden="false" collective="false" import="true" type="model">
-      <infoLinks>
-        <infoLink id="05f0-43b4-13be-2308" name="Blightlord Terminators (Baleswords &amp; Flails)" hidden="false" targetId="c38efe55-1ced-4aec-8696-f08840facdc5" type="profile"/>
-        <infoLink id="6105-3501-8d13-e619" name="Cataphractii" hidden="false" targetId="ee1239a4-5490-4299-8412-1d54fddfa333" type="rule"/>
-        <infoLink id="8457-185f-9af1-775f" name="Fearless" hidden="false" targetId="72dab6ac-4c9d-45f2-b150-7dd034d83b83" type="rule"/>
-        <infoLink id="097f-d358-a77b-f38d" name="Ignore Cover" hidden="false" targetId="5087a733-1e15-4e06-b869-8728e657c9fa" type="rule"/>
-        <infoLink id="1e03-e156-bb4f-d39b" name="Invulnerable Save" hidden="false" targetId="20b60add-c341-4e56-8c6b-fa4dec53688e" type="rule"/>
-        <infoLink id="7e5c-cd52-bb97-9f61" name="Macro-weapon" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
-        <infoLink id="6b9a-c11f-a4f1-94d4" name="Mounted" hidden="false" targetId="fe19cbf1-084a-4af7-93ef-b16ab5d2ba51" type="rule"/>
-        <infoLink id="8e43-f559-8dd6-4b75" name="Reinforced Armour" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
-        <infoLink id="56dd-3bc9-aa7c-cbd3" name="Walker" hidden="false" targetId="3792d3e5-937d-49e6-8a20-320f64f441ba" type="rule"/>
-        <infoLink id="ab3b-1fdb-68f8-1053" name="Blightlord Terminators (Plaguespewers)" hidden="false" targetId="235c-5e53-b41d-4bd4" type="profile"/>
-      </infoLinks>
-      <entryLinks>
-        <entryLink id="95ae-b32f-7bfd-f4c8" name="Nurgle&apos;s Rot" hidden="false" collective="false" import="true" targetId="2a77-8ba1-cf15-8e8d" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be91-c3e2-add7-cac7" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2886-15f7-2fb4-ba3e" type="min"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
+      <selectionEntries>
+        <selectionEntry id="49ef-838f-8e36-41ea" name="Blightlord Terminator Squad" hidden="false" collective="false" import="true" type="model">
+          <infoLinks>
+            <infoLink id="e4c9-d895-012a-ce99" name="Blightlord Terminators (Baleswords &amp; Flails)" hidden="false" targetId="c38efe55-1ced-4aec-8696-f08840facdc5" type="profile"/>
+            <infoLink id="7622-3b7c-740a-01a6" name="Blightlord Terminators (Plaguespewers)" hidden="false" targetId="235c-5e53-b41d-4bd4" type="profile"/>
+            <infoLink id="c1d3-1066-6635-2ec7" name="Cataphractii" hidden="false" targetId="ee1239a4-5490-4299-8412-1d54fddfa333" type="rule"/>
+            <infoLink id="aef9-c867-af50-69ea" name="Fearless" hidden="false" targetId="72dab6ac-4c9d-45f2-b150-7dd034d83b83" type="rule"/>
+            <infoLink id="1c8f-3158-d9a2-2023" name="Ignore Cover" hidden="false" targetId="5087a733-1e15-4e06-b869-8728e657c9fa" type="rule"/>
+            <infoLink id="06dc-b2fd-9984-0bcc" name="Invulnerable Save" hidden="false" targetId="20b60add-c341-4e56-8c6b-fa4dec53688e" type="rule"/>
+            <infoLink id="6485-699f-1e02-1399" name="Macro-weapon" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+            <infoLink id="bbfc-e4cb-2756-2715" name="Mounted" hidden="false" targetId="fe19cbf1-084a-4af7-93ef-b16ab5d2ba51" type="rule"/>
+            <infoLink id="ae5c-98be-e364-982c" name="Reinforced Armour" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+            <infoLink id="591f-a14b-1c00-c4e6" name="Walker" hidden="false" targetId="3792d3e5-937d-49e6-8a20-320f64f441ba" type="rule"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="0a13-4eab-4bd9-3383" name="Nurgle&apos;s Rot" hidden="false" collective="false" import="true" targetId="2a77-8ba1-cf15-8e8d" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db74-4daf-2b2f-7cd1" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d96-6c80-542c-a0bf" type="min"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntry>
+      </selectionEntries>
       <costs>
         <cost name="pts" typeId="points" value="81.0"/>
       </costs>
