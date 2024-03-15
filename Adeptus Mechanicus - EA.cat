@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1dc683aa-1556-4efe-8200-3055afbb5e87" name="Adeptus Mechanicus" revision="41" battleScribeVersion="2.03" authorUrl="" library="false" gameSystemId="b7be77a3-9f44-4c5d-a0f7-a40bf046af2a" gameSystemRevision="40" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1dc683aa-1556-4efe-8200-3055afbb5e87" name="Adeptus Mechanicus" revision="42" battleScribeVersion="2.03" authorUrl="" library="false" gameSystemId="b7be77a3-9f44-4c5d-a0f7-a40bf046af2a" gameSystemRevision="44" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="9c14-2881-4f94-043a" name="Battle Maniple" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -77,10 +77,11 @@
       <infoLinks>
         <infoLink id="095347b3-6772-4b43-a549-aa9ed7495d4a" name="Leader" hidden="false" targetId="d23596ad-5004-4bc3-8600-2b61a05ee52d" type="rule"/>
         <infoLink id="28627668-bacc-4ec1-9ebb-d1f7f653b7f9" name="Commander" hidden="false" targetId="e9675277-c408-4371-b969-6c9565fb2905" type="rule"/>
-        <infoLink id="e8b59e55-de8e-4c6b-b7f5-4f8b71104d80" name="Tech-priest Dominus (Eradication Ray)" hidden="false" targetId="f38f-1dcf-77f6-7f84" type="profile"/>
+        <infoLink id="e8b59e55-de8e-4c6b-b7f5-4f8b71104d80" name="Tech-priest Dominus" hidden="false" targetId="f38f-1dcf-77f6-7f84" type="profile"/>
         <infoLink id="493cd21c-4182-46a0-b6ab-5737b575abdf" name="Invulnerable Save" hidden="false" targetId="20b60add-c341-4e56-8c6b-fa4dec53688e" type="rule"/>
         <infoLink id="aae793d0-0592-41dd-a9e8-f0da935d5797" name="Macro-weapon" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
         <infoLink id="12f2-bc50-63fd-c772" name="Tech-priest Dominus (Omnissian Axe)" hidden="false" targetId="6806-fad8-9bc0-fff0" type="profile"/>
+        <infoLink id="1102-a9c5-df9c-2982" name="Eradication Ray" hidden="false" targetId="b297-c739-38bf-4600" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="25.0"/>
@@ -171,10 +172,11 @@
     </selectionEntry>
     <selectionEntry id="c249-6f37-1885-ac8b" name="Skitarii Ranger Cohort" page="0" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
-        <infoLink id="9c9c-fe39-e902-b387" name="Skitarii Ranger" hidden="false" targetId="bfe481cc-59ea-4c58-9491-058fa80f9029" type="profile"/>
+        <infoLink id="9c9c-fe39-e902-b387" name="Skitarii Ranger Cohort" hidden="false" targetId="bfe481cc-59ea-4c58-9491-058fa80f9029" type="profile"/>
         <infoLink id="ff05-d9ba-d9e6-8b65" name="Invulnerable Save" hidden="false" targetId="20b60add-c341-4e56-8c6b-fa4dec53688e" type="rule"/>
         <infoLink id="ffbc-0b3c-0c6c-ae72" name="Scout" hidden="false" targetId="af143427-33d4-438b-aab2-16a8e2867f79" type="rule"/>
         <infoLink id="f321-7865-83c2-76bc" name="Sniper" hidden="false" targetId="0a2c466f-8e38-4e54-a0f1-08ac199cd89c" type="rule"/>
+        <infoLink id="cd16-8eab-f6f9-6af8" name="Galvanic Rifles" hidden="false" targetId="20d9-e2a6-dd79-4805" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="33.0"/>
@@ -885,8 +887,9 @@
     </selectionEntry>
     <selectionEntry id="0d54-6ea0-25f8-4d8a" name="Skitarii Vanguard Cohort" page="0" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
-        <infoLink id="dc8e-cb1f-dbf3-a4b9" name="Skitarii Vanguard" hidden="false" targetId="11186e98-ca05-465c-8862-3eac3d36be5d" type="profile"/>
+        <infoLink id="dc8e-cb1f-dbf3-a4b9" name="Radium Carbine" hidden="false" targetId="11186e98-ca05-465c-8862-3eac3d36be5d" type="profile"/>
         <infoLink id="1e58-0645-93de-587d" name="Invulnerable Save" hidden="false" targetId="20b60add-c341-4e56-8c6b-fa4dec53688e" type="rule"/>
+        <infoLink id="5279-0218-8402-9153" name="Skitarii Vanguard Cohort" hidden="false" targetId="4020-e429-f1b1-6058" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="21.0"/>
@@ -1021,9 +1024,10 @@
     </selectionEntry>
     <selectionEntry id="c8cf-25dc-e146-f6c6" name="Myrmidon Sect" page="0" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
-        <infoLink id="0c1e-7d3b-2b7f-2420" name="Myrmidon Secutors (Power Axes)" hidden="false" targetId="84a4-8c57-db33-1ff4" type="profile"/>
+        <infoLink id="0c1e-7d3b-2b7f-2420" name="Myrmidon Secutors" hidden="false" targetId="796e-df90-53ff-dae1" type="profile"/>
         <infoLink id="0075-6595-b408-f157" name="Myrmidon" hidden="false" targetId="4029-208f-83d6-c5a3" type="rule"/>
         <infoLink id="7bf0-b34f-1f78-b32b" name="Myrmidon Secutors (Maxima Bolters)" hidden="false" targetId="9f35-8b03-a727-8c1a" type="profile"/>
+        <infoLink id="cc98-b8f8-f36e-22c5" name="Power Axes" hidden="false" targetId="84a4-8c57-db33-1ff4" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="50.0"/>
@@ -1033,8 +1037,9 @@
       <infoLinks>
         <infoLink id="38d7-2d83-7abc-18d7" name="Invulnerable Save" hidden="false" targetId="20b60add-c341-4e56-8c6b-fa4dec53688e" type="rule"/>
         <infoLink id="351b-9428-09cc-dc36" name="Walker" hidden="false" targetId="3792d3e5-937d-49e6-8a20-320f64f441ba" type="rule"/>
-        <infoLink id="ae05-d20a-bbfa-c276" name="Onager Dunecrawler (Neutron Laser)" hidden="false" targetId="b373-fbd8-2377-e7a0" type="profile"/>
-        <infoLink id="1900-b3e2-82d7-f449" name="Onager Dunecrawler (Cognis Heavy Stubber)" hidden="false" targetId="0949-182e-fcab-4548" type="profile"/>
+        <infoLink id="ae05-d20a-bbfa-c276" name="Neutron Laser" hidden="false" targetId="b373-fbd8-2377-e7a0" type="profile"/>
+        <infoLink id="1900-b3e2-82d7-f449" name="Onager Dunecrawler" hidden="false" targetId="0949-182e-fcab-4548" type="profile"/>
+        <infoLink id="c549-6a8c-87b1-bd04" name="Cognis Heavy Stubber" hidden="false" targetId="98f7-bafa-0040-9055" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="42.0"/>
@@ -1049,9 +1054,10 @@
         <infoLink id="67ca-8ef0-8abf-70db" name="Reinforced Armour" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
         <infoLink id="2eee-4480-a95c-8250" name="Walker" hidden="false" targetId="3792d3e5-937d-49e6-8a20-320f64f441ba" type="rule"/>
         <infoLink id="72a6-d09d-db44-82da" name="Indirect Fire" hidden="false" targetId="2dddba7a-76cc-472a-92a8-a9cf9025db6f" type="rule"/>
-        <infoLink id="f477-8002-c1f2-4188" name="Karacnos Assault Tank (Karacnos Mortar Battery)" hidden="false" targetId="19b5-ddd6-36fb-b17c" type="profile"/>
-        <infoLink id="73aa-c0f6-1370-6b53" name="Karacnos Assault Tank (Lightning Locks)" hidden="false" targetId="2506-4ffe-19ff-7e44" type="profile"/>
+        <infoLink id="f477-8002-c1f2-4188" name="Karacnos Assault Tank" hidden="false" targetId="19b5-ddd6-36fb-b17c" type="profile"/>
+        <infoLink id="73aa-c0f6-1370-6b53" name="Lightning Locks" hidden="false" targetId="2506-4ffe-19ff-7e44" type="profile"/>
         <infoLink id="e4a6-c011-f31c-3671" name="Karacnos Assault Tank (Shock Ram)" hidden="false" targetId="b50f-be8f-a48b-5557" type="profile"/>
+        <infoLink id="f7a8-dffb-787c-5cd3" name="Karacnos Mortar Battery" hidden="false" targetId="99eb-b256-572b-0846" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="75.0"/>
@@ -1059,16 +1065,18 @@
     </selectionEntry>
     <selectionEntry id="06d2-cc26-1d7c-650c" name="Skitarii Ranger Cohort w/ Dominus" page="0" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
-        <infoLink id="333e-f3cc-c537-3798" name="Skitarii Ranger" hidden="false" targetId="bfe481cc-59ea-4c58-9491-058fa80f9029" type="profile"/>
+        <infoLink id="333e-f3cc-c537-3798" name="Skitarii Ranger Cohort" hidden="false" targetId="bfe481cc-59ea-4c58-9491-058fa80f9029" type="profile"/>
         <infoLink id="376b-93ae-aaf0-84af" name="Invulnerable Save" hidden="false" targetId="20b60add-c341-4e56-8c6b-fa4dec53688e" type="rule"/>
         <infoLink id="208a-ea32-80bb-5312" name="Scout" hidden="false" targetId="af143427-33d4-438b-aab2-16a8e2867f79" type="rule"/>
         <infoLink id="509c-5f6d-99d6-af2e" name="Sniper" hidden="false" targetId="0a2c466f-8e38-4e54-a0f1-08ac199cd89c" type="rule"/>
         <infoLink id="df29-f469-9dfe-4286" name="Tech-priest Dominus (Eradication Ray)" hidden="false" targetId="f38f-1dcf-77f6-7f84" type="profile"/>
-        <infoLink id="a4d0-2706-fff4-fbc0" name="Tech-priest Dominus (Omnissian Axe)" hidden="false" targetId="6806-fad8-9bc0-fff0" type="profile"/>
+        <infoLink id="a4d0-2706-fff4-fbc0" name="Omnissian Axe" hidden="false" targetId="6806-fad8-9bc0-fff0" type="profile"/>
         <infoLink id="f7fc-7172-e566-9a6f" name="Commander" hidden="false" targetId="e9675277-c408-4371-b969-6c9565fb2905" type="rule"/>
         <infoLink id="d36e-b0e3-20b2-3416" name="Invulnerable Save" hidden="false" targetId="20b60add-c341-4e56-8c6b-fa4dec53688e" type="rule"/>
         <infoLink id="fe5a-6b73-ba92-9d7a" name="Leader" hidden="false" targetId="d23596ad-5004-4bc3-8600-2b61a05ee52d" type="rule"/>
         <infoLink id="2285-3c7b-0301-17ac" name="Macro-weapon" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+        <infoLink id="5592-e197-3db8-d329" name="Galvanic Rifles" hidden="false" targetId="20d9-e2a6-dd79-4805" type="profile"/>
+        <infoLink id="0e59-bbf8-2ab4-9a94" name="Eradication Ray" hidden="false" targetId="b297-c739-38bf-4600" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="58.0"/>
@@ -1076,14 +1084,16 @@
     </selectionEntry>
     <selectionEntry id="a69c-1dfd-8b1b-2df8" name="Skitarii Vanguard Cohort w/ Dominus" page="0" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
-        <infoLink id="90a1-11c2-815f-3df7" name="Skitarii Vanguard" hidden="false" targetId="11186e98-ca05-465c-8862-3eac3d36be5d" type="profile"/>
+        <infoLink id="90a1-11c2-815f-3df7" name="Radium Carbine" hidden="false" targetId="11186e98-ca05-465c-8862-3eac3d36be5d" type="profile"/>
         <infoLink id="237e-8ea7-22db-e6cb" name="Invulnerable Save" hidden="false" targetId="20b60add-c341-4e56-8c6b-fa4dec53688e" type="rule"/>
-        <infoLink id="3029-1537-26f7-084e" name="Tech-priest Dominus (Eradication Ray)" hidden="false" targetId="f38f-1dcf-77f6-7f84" type="profile"/>
-        <infoLink id="81e7-1c0f-eba0-2fe9" name="Tech-priest Dominus (Omnissian Axe)" hidden="false" targetId="6806-fad8-9bc0-fff0" type="profile"/>
+        <infoLink id="3029-1537-26f7-084e" name="Tech-priest Dominus" hidden="false" targetId="f38f-1dcf-77f6-7f84" type="profile"/>
+        <infoLink id="81e7-1c0f-eba0-2fe9" name="Omnissian Axe" hidden="false" targetId="6806-fad8-9bc0-fff0" type="profile"/>
         <infoLink id="dd72-9ba7-785b-54ae" name="Commander" hidden="false" targetId="e9675277-c408-4371-b969-6c9565fb2905" type="rule"/>
         <infoLink id="9ced-41cc-914c-bd97" name="Invulnerable Save" hidden="false" targetId="20b60add-c341-4e56-8c6b-fa4dec53688e" type="rule"/>
         <infoLink id="66ac-878b-f2ff-0047" name="Leader" hidden="false" targetId="d23596ad-5004-4bc3-8600-2b61a05ee52d" type="rule"/>
         <infoLink id="6122-c852-d5de-4990" name="Macro-weapon" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+        <infoLink id="fc6c-9cf4-6be1-b201" name="Skitarii Vanguard Cohort" hidden="false" targetId="4020-e429-f1b1-6058" type="profile"/>
+        <infoLink id="bb00-bcbd-0bda-ac93" name="Eradication Ray" hidden="false" targetId="b297-c739-38bf-4600" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="46.0"/>
@@ -1091,15 +1101,17 @@
     </selectionEntry>
     <selectionEntry id="707f-4915-13e4-b054" name="Myrmidon Sect w/ Dominus" page="0" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
-        <infoLink id="7e7c-17d7-1234-4d76" name="Myrmidon Secutors (Maxima Bolters)" hidden="false" targetId="9f35-8b03-a727-8c1a" type="profile"/>
+        <infoLink id="7e7c-17d7-1234-4d76" name="Maxima Bolters" hidden="false" targetId="9f35-8b03-a727-8c1a" type="profile"/>
         <infoLink id="5b67-1a18-4162-447a" name="Myrmidon Secutors (Power Axes)" hidden="false" targetId="84a4-8c57-db33-1ff4" type="profile"/>
         <infoLink id="1e10-4cbb-c84f-1c46" name="Myrmidon" hidden="false" targetId="4029-208f-83d6-c5a3" type="rule"/>
-        <infoLink id="2b75-a4aa-f033-751a" name="Tech-priest Dominus (Eradication Ray)" hidden="false" targetId="f38f-1dcf-77f6-7f84" type="profile"/>
-        <infoLink id="8510-ec49-28ff-91c2" name="Tech-priest Dominus (Omnissian Axe)" hidden="false" targetId="6806-fad8-9bc0-fff0" type="profile"/>
+        <infoLink id="2b75-a4aa-f033-751a" name="Tech-priest Dominus" hidden="false" targetId="f38f-1dcf-77f6-7f84" type="profile"/>
+        <infoLink id="8510-ec49-28ff-91c2" name="Omnissian Axe" hidden="false" targetId="6806-fad8-9bc0-fff0" type="profile"/>
         <infoLink id="5201-45ef-39ee-9b9a" name="Commander" hidden="false" targetId="e9675277-c408-4371-b969-6c9565fb2905" type="rule"/>
         <infoLink id="303e-1bdb-bc89-8096" name="Invulnerable Save" hidden="false" targetId="20b60add-c341-4e56-8c6b-fa4dec53688e" type="rule"/>
         <infoLink id="9c0a-5117-2f1b-6d8b" name="Leader" hidden="false" targetId="d23596ad-5004-4bc3-8600-2b61a05ee52d" type="rule"/>
         <infoLink id="b2c0-9caf-83e9-bfae" name="Macro-weapon" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
+        <infoLink id="f0ff-7da3-eacc-91dc" name="Myrmidon Secutors" hidden="false" targetId="796e-df90-53ff-dae1" type="profile"/>
+        <infoLink id="4506-6eeb-6974-905d" name="Eradication Ray" hidden="false" targetId="b297-c739-38bf-4600" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="75.0"/>
@@ -1375,20 +1387,6 @@ Termite: 2 Skitarii, Electro-priests.</description>
         <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Reinforced Armour, Thick Rear Armour, Transport, Tunnellers</characteristic>
       </characteristics>
     </profile>
-    <profile id="a93ff888-38a6-4f8e-9a24-4aa790e6b7cf" name="Tech-priest Dominus" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
-      <characteristics>
-        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Character</characteristic>
-        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">n/a</characteristic>
-        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">n/a</characteristic>
-        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">n/a</characteristic>
-        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">n/a</characteristic>
-        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Eradication Ray&lt;BR&gt;&lt;BR&gt;Omnissian Axe</characteristic>
-        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(15cm)&lt;BR&gt;&lt;BR&gt;(contact)</characteristic>
-        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Small Arms&lt;BR&gt;&lt;BR&gt;Assault Weapons</characteristic>
-        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Macro-weapon, +1A&lt;BR&gt;&lt;BR&gt;Macro-weapon, +1A</characteristic>
-        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Invulnerable Save, Reinforced Armour, Supreme Commander</characteristic>
-      </characteristics>
-    </profile>
     <profile id="5793ec8c-2226-4661-b381-4b0c6bc69ae1" name="Tech-priest" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
       <characteristics>
         <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Character</characteristic>
@@ -1417,32 +1415,21 @@ Termite: 2 Skitarii, Electro-priests.</description>
         <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Fearless, Invulnerable Save</characteristic>
       </characteristics>
     </profile>
-    <profile id="11186e98-ca05-465c-8862-3eac3d36be5d" name="Skitarii Vanguard" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+    <profile id="11186e98-ca05-465c-8862-3eac3d36be5d" name="Radium Carbine" hidden="false" typeId="4175fd39-9d2f-43cd-a59f-4943c291cb87" typeName="Weapon">
       <characteristics>
-        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
-        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
-        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">6+</characteristic>
-        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">6+</characteristic>
-        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">4+</characteristic>
-        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Radium Carbine</characteristic>
         <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">15cm</characteristic>
         <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">AP5+</characteristic>
         <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
-        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Invulnerable Save</characteristic>
       </characteristics>
     </profile>
-    <profile id="bfe481cc-59ea-4c58-9491-058fa80f9029" name="Skitarii Ranger" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+    <profile id="bfe481cc-59ea-4c58-9491-058fa80f9029" name="Skitarii Ranger Cohort" hidden="false" typeId="7fc7-b39f-b91e-0efd" typeName="Unit v2">
       <characteristics>
-        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
-        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
-        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">6+</characteristic>
-        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">6+</characteristic>
-        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">6+</characteristic>
-        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Galvanic Rifle</characteristic>
-        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">45cm</characteristic>
-        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">AP5+</characteristic>
-        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
-        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Invulnerable Save, Scout, Sniper</characteristic>
+        <characteristic name="Type" typeId="c69d-88b5-287a-680c">Infantry</characteristic>
+        <characteristic name="Speed" typeId="7701-9347-6bbd-9aa0">15cm</characteristic>
+        <characteristic name="Armour" typeId="39a4-c690-1172-f30b">6+</characteristic>
+        <characteristic name="CC" typeId="9816-8268-3cf9-d919">6+</characteristic>
+        <characteristic name="FF" typeId="437a-a645-c1da-c939">6+</characteristic>
+        <characteristic name="Notes" typeId="1d09-59da-b372-0479">Invulnerable Save, Scout, Sniper</characteristic>
       </characteristics>
     </profile>
     <profile id="b47418c9-2880-4a71-b8d8-4307d3d2ead9" name="Skitarii Ruststalker" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
@@ -1729,130 +1716,124 @@ Termite: 2 Skitarii, Electro-priests.</description>
         <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Scout, Skimmer</characteristic>
       </characteristics>
     </profile>
-    <profile id="84a4-8c57-db33-1ff4" name="Myrmidon Secutors (Power Axes)" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+    <profile id="84a4-8c57-db33-1ff4" name="Power Axes" hidden="false" typeId="4175fd39-9d2f-43cd-a59f-4943c291cb87" typeName="Weapon">
       <characteristics>
-        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
-        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
-        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">3+</characteristic>
-        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">5+</characteristic>
-        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">4+</characteristic>
-        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Power Axes</characteristic>
         <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)</characteristic>
         <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapons</characteristic>
         <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">+1A</characteristic>
-        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Myrmidon</characteristic>
       </characteristics>
     </profile>
-    <profile id="9f35-8b03-a727-8c1a" name="Myrmidon Secutors (Maxima Bolters)" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+    <profile id="9f35-8b03-a727-8c1a" name="Maxima Bolters" hidden="false" typeId="4175fd39-9d2f-43cd-a59f-4943c291cb87" typeName="Weapon">
       <characteristics>
-        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
-        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
-        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">3+</characteristic>
-        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">5+</characteristic>
-        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">4+</characteristic>
-        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Maxima Bolters</characteristic>
         <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(15cm)</characteristic>
         <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Small Arms</characteristic>
         <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">+1A</characteristic>
-        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Myrmidon</characteristic>
       </characteristics>
     </profile>
-    <profile id="b373-fbd8-2377-e7a0" name="Onager Dunecrawler (Neutron Laser)" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+    <profile id="b373-fbd8-2377-e7a0" name="Neutron Laser" hidden="false" typeId="4175fd39-9d2f-43cd-a59f-4943c291cb87" typeName="Weapon">
       <characteristics>
-        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Armoured Vehicle</characteristic>
-        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">20cm</characteristic>
-        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">4+</characteristic>
-        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">6+</characteristic>
-        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
-        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Neutron Laser</characteristic>
         <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">45cm</characteristic>
         <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">AP5+/AT5+</characteristic>
         <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
-        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Invulnerable Save, Walker</characteristic>
       </characteristics>
     </profile>
-    <profile id="0949-182e-fcab-4548" name="Onager Dunecrawler (Cognis Heavy Stubber)" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+    <profile id="0949-182e-fcab-4548" name="Onager Dunecrawler" hidden="false" typeId="7fc7-b39f-b91e-0efd" typeName="Unit v2">
       <characteristics>
-        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Armoured Vehicle</characteristic>
-        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">20cm</characteristic>
-        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">4+</characteristic>
-        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">6+</characteristic>
-        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
-        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Cognis Heavy Stubber</characteristic>
-        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(15cm)</characteristic>
-        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Small Arms</characteristic>
-        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
-        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Invulnerable Save, Walker</characteristic>
+        <characteristic name="Type" typeId="c69d-88b5-287a-680c">Armoured Vehicle</characteristic>
+        <characteristic name="Speed" typeId="7701-9347-6bbd-9aa0">20cm</characteristic>
+        <characteristic name="Armour" typeId="39a4-c690-1172-f30b">4+</characteristic>
+        <characteristic name="CC" typeId="9816-8268-3cf9-d919">6+</characteristic>
+        <characteristic name="FF" typeId="437a-a645-c1da-c939">5+</characteristic>
+        <characteristic name="Notes" typeId="1d09-59da-b372-0479">Invulnerable Save, Walker</characteristic>
       </characteristics>
     </profile>
-    <profile id="19b5-ddd6-36fb-b17c" name="Karacnos Assault Tank (Karacnos Mortar Battery)" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+    <profile id="19b5-ddd6-36fb-b17c" name="Karacnos Assault Tank" hidden="false" typeId="7fc7-b39f-b91e-0efd" typeName="Unit v2">
       <characteristics>
-        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Armoured Vehicle</characteristic>
-        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">25cm</characteristic>
-        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">4+</characteristic>
-        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">5+</characteristic>
-        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
-        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Karacnos Mortar Battery</characteristic>
-        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">45cm</characteristic>
-        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">1BP</characteristic>
-        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Fleshbane, Ignore Cover, Indirect Fire</characteristic>
-        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Invulnerable Save, Reinforced Armour, Walker</characteristic>
+        <characteristic name="Type" typeId="c69d-88b5-287a-680c">Armoured Vehicle</characteristic>
+        <characteristic name="Speed" typeId="7701-9347-6bbd-9aa0">25cm</characteristic>
+        <characteristic name="Armour" typeId="39a4-c690-1172-f30b">4+</characteristic>
+        <characteristic name="CC" typeId="9816-8268-3cf9-d919">5+</characteristic>
+        <characteristic name="FF" typeId="437a-a645-c1da-c939">5+</characteristic>
+        <characteristic name="Notes" typeId="1d09-59da-b372-0479">Invulnerable Save, Reinforced Armour, Walker</characteristic>
       </characteristics>
     </profile>
-    <profile id="2506-4ffe-19ff-7e44" name="Karacnos Assault Tank (Lightning Locks)" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+    <profile id="2506-4ffe-19ff-7e44" name="Lightning Locks" hidden="false" typeId="4175fd39-9d2f-43cd-a59f-4943c291cb87" typeName="Weapon">
       <characteristics>
-        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Armoured Vehicle</characteristic>
-        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">25cm</characteristic>
-        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">4+</characteristic>
-        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">5+</characteristic>
-        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
-        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Lightning Locks</characteristic>
         <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">15cm</characteristic>
         <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">AP5+</characteristic>
         <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Disrupt</characteristic>
-        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Invulnerable Save, Reinforced Armour, Walker</characteristic>
       </characteristics>
     </profile>
-    <profile id="b50f-be8f-a48b-5557" name="Karacnos Assault Tank (Shock Ram)" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+    <profile id="b50f-be8f-a48b-5557" name="Shock Ram" hidden="false" typeId="4175fd39-9d2f-43cd-a59f-4943c291cb87" typeName="Weapon">
       <characteristics>
-        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Armoured Vehicle</characteristic>
-        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">25cm</characteristic>
-        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">4+</characteristic>
-        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">5+</characteristic>
-        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
-        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Shock Ram</characteristic>
         <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)</characteristic>
         <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapons</characteristic>
         <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
-        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Invulnerable Save, Reinforced Armour, Walker</characteristic>
       </characteristics>
     </profile>
-    <profile id="f38f-1dcf-77f6-7f84" name="Tech-priest Dominus (Eradication Ray)" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+    <profile id="f38f-1dcf-77f6-7f84" name="Tech-priest Dominus" hidden="false" typeId="7fc7-b39f-b91e-0efd" typeName="Unit v2">
       <characteristics>
-        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Character</characteristic>
-        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">n/a</characteristic>
-        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">n/a</characteristic>
-        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">n/a</characteristic>
-        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">n/a</characteristic>
-        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Eradication Ray</characteristic>
-        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(15cm)</characteristic>
-        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Small Arms</characteristic>
-        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Macro-weapon, +1A</characteristic>
-        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Commander, Leader, Invulnerable Save</characteristic>
+        <characteristic name="Type" typeId="c69d-88b5-287a-680c">Character</characteristic>
+        <characteristic name="Speed" typeId="7701-9347-6bbd-9aa0">n/a</characteristic>
+        <characteristic name="Armour" typeId="39a4-c690-1172-f30b">n/a</characteristic>
+        <characteristic name="CC" typeId="9816-8268-3cf9-d919">n/a</characteristic>
+        <characteristic name="FF" typeId="437a-a645-c1da-c939">n/a</characteristic>
+        <characteristic name="Notes" typeId="1d09-59da-b372-0479">Commander, Leader, Invulnerable Save</characteristic>
       </characteristics>
     </profile>
-    <profile id="6806-fad8-9bc0-fff0" name="Tech-priest Dominus (Omnissian Axe)" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+    <profile id="6806-fad8-9bc0-fff0" name="Omnissian Axe" hidden="false" typeId="4175fd39-9d2f-43cd-a59f-4943c291cb87" typeName="Weapon">
       <characteristics>
-        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Character</characteristic>
-        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">n/a</characteristic>
-        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">n/a</characteristic>
-        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">n/a</characteristic>
-        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">n/a</characteristic>
-        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Omnissian Axe</characteristic>
         <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)</characteristic>
         <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapons</characteristic>
         <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">+1A</characteristic>
-        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Commander, Leader, Invulnerable Save</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="99eb-b256-572b-0846" name="Karacnos Mortar Battery" hidden="false" typeId="4175fd39-9d2f-43cd-a59f-4943c291cb87" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">45cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">1BP</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Fleshbane, Ignore Cover, Indirect Fire</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="796e-df90-53ff-dae1" name="Myrmidon Secutors" hidden="false" typeId="7fc7-b39f-b91e-0efd" typeName="Unit v2">
+      <characteristics>
+        <characteristic name="Type" typeId="c69d-88b5-287a-680c">Infantry</characteristic>
+        <characteristic name="Speed" typeId="7701-9347-6bbd-9aa0">15cm</characteristic>
+        <characteristic name="Armour" typeId="39a4-c690-1172-f30b">3+</characteristic>
+        <characteristic name="CC" typeId="9816-8268-3cf9-d919">5+</characteristic>
+        <characteristic name="FF" typeId="437a-a645-c1da-c939">4+</characteristic>
+        <characteristic name="Notes" typeId="1d09-59da-b372-0479">Myrmidon</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b297-c739-38bf-4600" name="Eradication Ray" hidden="false" typeId="4175fd39-9d2f-43cd-a59f-4943c291cb87" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(15cm)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Small Arms</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Macro-weapon, +1A</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="98f7-bafa-0040-9055" name="Cognis Heavy Stubber" hidden="false" typeId="4175fd39-9d2f-43cd-a59f-4943c291cb87" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(15cm)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Small Arms</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+      </characteristics>
+    </profile>
+    <profile id="20d9-e2a6-dd79-4805" name="Galvanic Rifles" hidden="false" typeId="4175fd39-9d2f-43cd-a59f-4943c291cb87" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">45cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">AP5+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+      </characteristics>
+    </profile>
+    <profile id="4020-e429-f1b1-6058" name="Skitarii Vanguard Cohort" hidden="false" typeId="7fc7-b39f-b91e-0efd" typeName="Unit v2">
+      <characteristics>
+        <characteristic name="Type" typeId="c69d-88b5-287a-680c">Infantry</characteristic>
+        <characteristic name="Speed" typeId="7701-9347-6bbd-9aa0">15cm</characteristic>
+        <characteristic name="Armour" typeId="39a4-c690-1172-f30b">6+</characteristic>
+        <characteristic name="CC" typeId="9816-8268-3cf9-d919">6+</characteristic>
+        <characteristic name="FF" typeId="437a-a645-c1da-c939">4+</characteristic>
+        <characteristic name="Notes" typeId="1d09-59da-b372-0479">Invulnerable Save</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
