@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="b7be77a3-9f44-4c5d-a0f7-a40bf046af2a" name="Epic Armageddon Kenosis Edition" revision="40" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="b7be77a3-9f44-4c5d-a0f7-a40bf046af2a" name="Epic Armageddon Kenosis Edition" revision="42" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="points" name="pts" defaultCostLimit="0.0" hidden="false"/>
   </costTypes>
@@ -47,6 +47,16 @@
         <characteristicType id="2218fc85-5769-4e89-9cc1-70dc073cb606" name="Vehicle"/>
         <characteristicType id="a113e73a-6f33-45d5-969f-7dd2b23cb4ea" name="War Engine"/>
         <characteristicType id="bd4da179-9f54-4de9-b6df-125028b5c429" name="Unit Notes"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType id="7fc7-b39f-b91e-0efd" name="Unit v2">
+      <characteristicTypes>
+        <characteristicType id="c69d-88b5-287a-680c" name="Type"/>
+        <characteristicType id="7701-9347-6bbd-9aa0" name="Speed"/>
+        <characteristicType id="39a4-c690-1172-f30b" name="Armour"/>
+        <characteristicType id="9816-8268-3cf9-d919" name="CC"/>
+        <characteristicType id="437a-a645-c1da-c939" name="FF"/>
+        <characteristicType id="1d09-59da-b372-0479" name="Notes"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
@@ -6882,6 +6892,13 @@ transported units may make their normal armour save OR make a 6+ cover save. Uni
         <characteristic name="Vehicle" typeId="2218fc85-5769-4e89-9cc1-70dc073cb606">Dangerous</characteristic>
         <characteristic name="War Engine" typeId="a113e73a-6f33-45d5-969f-7dd2b23cb4ea">No Effect</characteristic>
         <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Can hold 1 infantry unit per 40mm of length.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="75d2-6a0f-8f52-5734" name="Bolters" hidden="false" typeId="4175fd39-9d2f-43cd-a59f-4943c291cb87" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(15cm)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Small Arms</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
       </characteristics>
     </profile>
   </sharedProfiles>

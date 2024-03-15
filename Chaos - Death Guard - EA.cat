@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="92199e99-a0e2-4a23-ba1e-58d24c1ff96f" name="Chaos: Death Guard" revision="59" battleScribeVersion="2.03" authorUrl="" library="false" gameSystemId="b7be77a3-9f44-4c5d-a0f7-a40bf046af2a" gameSystemRevision="40" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="92199e99-a0e2-4a23-ba1e-58d24c1ff96f" name="Chaos: Death Guard" revision="60" battleScribeVersion="2.03" authorUrl="" library="false" gameSystemId="b7be77a3-9f44-4c5d-a0f7-a40bf046af2a" gameSystemRevision="42" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="92e1-2e4b-216a-c0af" name="Colony" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -3817,10 +3817,11 @@
     </selectionEntry>
     <selectionEntry id="b452-7857-8f37-1b50" name="Plague Marine Squad" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
-        <infoLink id="8fda-684d-b079-ce9f" name="Plague Marines (Bolters)" hidden="false" targetId="a3cd36f1-c095-4901-a5bb-b79ed8b0ff8f" type="profile"/>
+        <infoLink id="8fda-684d-b079-ce9f" name="Plague Marine Squad" hidden="false" targetId="a3cd36f1-c095-4901-a5bb-b79ed8b0ff8f" type="profile"/>
         <infoLink id="24e6-95f0-b535-f8b4" name="Fearless" hidden="false" targetId="72dab6ac-4c9d-45f2-b150-7dd034d83b83" type="rule"/>
-        <infoLink id="0b70-2323-7af3-0b40" name="Plague Marines (Plague Knives)" hidden="false" targetId="ea72-eb15-6eba-5eec" type="profile"/>
         <infoLink id="afea-1026-274b-2415" name="Nurgle’s Rot" hidden="false" targetId="3328e966-bfdc-4334-a4b9-04f6fa139e21" type="rule"/>
+        <infoLink id="262f-9859-e39d-3452" name="Bolters" hidden="false" targetId="75d2-6a0f-8f52-5734" type="profile"/>
+        <infoLink id="1b20-b7be-441d-7107" name="Plague Knives" hidden="false" targetId="f75a-8991-f5bc-d367" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="53.0"/>
@@ -5661,18 +5662,14 @@ Spacecraft, Contagion Tower and Lesser Daemon formations have an initiative rati
         <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429"/>
       </characteristics>
     </profile>
-    <profile id="a3cd36f1-c095-4901-a5bb-b79ed8b0ff8f" name="Plague Marines (Bolters)" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+    <profile id="a3cd36f1-c095-4901-a5bb-b79ed8b0ff8f" name="Plague Marine Squad" hidden="false" typeId="7fc7-b39f-b91e-0efd" typeName="Unit v2">
       <characteristics>
-        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
-        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
-        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">3+</characteristic>
-        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">3+</characteristic>
-        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">4+</characteristic>
-        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Bolters</characteristic>
-        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(15cm)</characteristic>
-        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Small Arms</characteristic>
-        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
-        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Fearless, Nurgle&apos;s Rot</characteristic>
+        <characteristic name="Type" typeId="c69d-88b5-287a-680c">Infantry</characteristic>
+        <characteristic name="Speed" typeId="7701-9347-6bbd-9aa0">15cm</characteristic>
+        <characteristic name="Armour" typeId="39a4-c690-1172-f30b">3+</characteristic>
+        <characteristic name="CC" typeId="9816-8268-3cf9-d919">3+</characteristic>
+        <characteristic name="FF" typeId="437a-a645-c1da-c939">4+</characteristic>
+        <characteristic name="Notes" typeId="1d09-59da-b372-0479">Fearless, Nurgle&apos;s Rot</characteristic>
       </characteristics>
     </profile>
     <profile id="d2dd8274-db0b-46ef-9808-f0d84072216e" name="Death Guard Possessed" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
@@ -7134,6 +7131,27 @@ Spacecraft, Contagion Tower and Lesser Daemon formations have an initiative rati
         <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapons</characteristic>
         <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Macro-weapon, +1A</characteristic>
         <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Commander, Invulnerable Save, Leader, Reinforced Armor, Cataphractii, Fearless</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="da1b-60a7-64a4-a1bb" name="Plague Marines (Bolters)" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+      <characteristics>
+        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
+        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
+        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">3+</characteristic>
+        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">3+</characteristic>
+        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">4+</characteristic>
+        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Bolters</characteristic>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(15cm)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Small Arms</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Fearless, Nurgle&apos;s Rot</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f75a-8991-f5bc-d367" name="Plague Knives" hidden="false" typeId="4175fd39-9d2f-43cd-a59f-4943c291cb87" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapons</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
       </characteristics>
     </profile>
   </sharedProfiles>
