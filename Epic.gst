@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="b7be77a3-9f44-4c5d-a0f7-a40bf046af2a" name="Epic Armageddon Kenosis Edition" revision="42" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="b7be77a3-9f44-4c5d-a0f7-a40bf046af2a" name="Epic Armageddon Kenosis Edition" revision="44" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="points" name="pts" defaultCostLimit="0.0" hidden="false"/>
   </costTypes>
@@ -6895,6 +6895,20 @@ transported units may make their normal armour save OR make a 6+ cover save. Uni
       </characteristics>
     </profile>
     <profile id="75d2-6a0f-8f52-5734" name="Bolters" hidden="false" typeId="4175fd39-9d2f-43cd-a59f-4943c291cb87" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(15cm)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Small Arms</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+      </characteristics>
+    </profile>
+    <profile id="82e5-97d7-bfa6-af94" name="Improvised Weapons" hidden="false" typeId="4175fd39-9d2f-43cd-a59f-4943c291cb87" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapons</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+      </characteristics>
+    </profile>
+    <profile id="f50c-86a5-c8d8-465a" name="Combi-Bolter" hidden="false" typeId="4175fd39-9d2f-43cd-a59f-4943c291cb87" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(15cm)</characteristic>
         <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Small Arms</characteristic>

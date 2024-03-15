@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="92199e99-a0e2-4a23-ba1e-58d24c1ff96f" name="Chaos: Death Guard" revision="60" battleScribeVersion="2.03" authorUrl="" library="false" gameSystemId="b7be77a3-9f44-4c5d-a0f7-a40bf046af2a" gameSystemRevision="42" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="92199e99-a0e2-4a23-ba1e-58d24c1ff96f" name="Chaos: Death Guard" revision="61" battleScribeVersion="2.03" authorUrl="" library="false" gameSystemId="b7be77a3-9f44-4c5d-a0f7-a40bf046af2a" gameSystemRevision="44" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="92e1-2e4b-216a-c0af" name="Colony" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -481,26 +481,6 @@
       </constraints>
       <infoLinks>
         <infoLink id="fe2fbdd7-ef21-450f-aea8-c8cd5db6ee10" hidden="false" targetId="3f2aefef-7d73-4db3-95c3-e91f0b7a1555" type="profile"/>
-      </infoLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="de0055a5-2ee3-4ec5-acc1-a40d2f90647d" name="Death Guard Plague Marines" hidden="false" collective="false" import="true" type="unit">
-      <infoLinks>
-        <infoLink id="08e4123c-bde3-4b88-92a3-b81d297ba674" name="Plague Marines (Bolters)" hidden="false" targetId="a3cd36f1-c095-4901-a5bb-b79ed8b0ff8f" type="profile"/>
-        <infoLink id="9038af29-10de-4d88-8f93-82874b64da74" name="Fearless" hidden="false" targetId="72dab6ac-4c9d-45f2-b150-7dd034d83b83" type="rule">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8183dbe0-128d-44df-9d2f-587c40d576e7" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </infoLink>
-        <infoLink id="a22c6e3e-e288-4589-b161-1683bcede964" name="Death Guard Plague Marines" hidden="false" targetId="7b025047-8345-496f-9961-5caff12e6b1d" type="profile"/>
-        <infoLink id="76fe9010-9373-4d1b-9a1a-2cd11162660e" name="Death Guard Plague Marines" hidden="false" targetId="00074eaf-8429-44f1-b205-e81355850f26" type="profile"/>
-        <infoLink id="47c7eb7d-6902-4570-b786-14469bb344f4" name="Nurgle’s Rot" hidden="false" targetId="3328e966-bfdc-4334-a4b9-04f6fa139e21" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -2322,8 +2302,8 @@
     <selectionEntry id="b230-c810-683d-85a7" name="Blightlord Terminator Squad" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
         <infoLink id="f2c6-5547-9bed-8a12" name="Nurgle’s Rot" hidden="false" targetId="3328e966-bfdc-4334-a4b9-04f6fa139e21" type="rule"/>
-        <infoLink id="e67b-84e3-63ae-79cd" name="Blightlord Terminators (Baleswords &amp; Flails)" hidden="false" targetId="c38efe55-1ced-4aec-8696-f08840facdc5" type="profile"/>
-        <infoLink id="fbab-01d6-ae5e-1a57" name="Blightlord Terminators (Plaguespewers)" hidden="false" targetId="235c-5e53-b41d-4bd4" type="profile"/>
+        <infoLink id="e67b-84e3-63ae-79cd" name="Blightlord Terminators Squad" hidden="false" targetId="5a81-dc6d-f1c1-4f31" type="profile"/>
+        <infoLink id="fbab-01d6-ae5e-1a57" name="Plaguespewers" hidden="false" targetId="c31e-7338-5975-708a" type="profile"/>
         <infoLink id="0c84-9f82-10eb-8ffd" name="Cataphractii" hidden="false" targetId="ee1239a4-5490-4299-8412-1d54fddfa333" type="rule"/>
         <infoLink id="3beb-ea61-fcf7-4842" name="Fearless" hidden="false" targetId="72dab6ac-4c9d-45f2-b150-7dd034d83b83" type="rule"/>
         <infoLink id="2bc7-8202-6f95-1e4f" name="Ignore Cover" hidden="false" targetId="5087a733-1e15-4e06-b869-8728e657c9fa" type="rule"/>
@@ -2332,6 +2312,7 @@
         <infoLink id="0084-634c-2c2e-80bb" name="Mounted" hidden="false" targetId="fe19cbf1-084a-4af7-93ef-b16ab5d2ba51" type="rule"/>
         <infoLink id="da08-53d1-e858-b79c" name="Reinforced Armour" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
         <infoLink id="440f-00bb-8269-ff63" name="Walker" hidden="false" targetId="3792d3e5-937d-49e6-8a20-320f64f441ba" type="rule"/>
+        <infoLink id="ef63-7f21-b91c-0bd1" name="Baleswords &amp; Flails" hidden="false" targetId="6bc3-73eb-66ba-43db" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="91.0"/>
@@ -2784,142 +2765,6 @@
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="2e80-56d8-81a0-cdf4" name="Death Guard Retinue" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7f0bed0e-1717-46a1-8225-09866b0dcc87" type="equalTo"/>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8183dbe0-128d-44df-9d2f-587c40d576e7" type="equalTo"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-        <modifier type="set" field="points" value="300.0">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6a7b87a6-e3f4-4ba7-aaac-b20234ded31f" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <categoryLinks>
-        <categoryLink id="1a86-4d7f-f234-0d6c" hidden="false" targetId="e4013702-a119-46c3-9fd9-a64e58afe467" primary="true"/>
-      </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="295f-3a12-0cf1-9a67" name="Squads" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="7.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="0d07-030b-b60f-a836" type="min"/>
-            <constraint field="selections" scope="parent" value="7.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="d20c-5a5f-7e83-7e9a" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="0b25-3316-ce6e-cd1f" name="Death Guard Havocs" hidden="false" collective="false" import="true" type="unit">
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6a7b87a6-e3f4-4ba7-aaac-b20234ded31f" type="equalTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="29ce-4977-09e0-fd67" type="min"/>
-                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="f719-495b-bdb6-d6ac" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="8702-91f3-1450-ab8c" hidden="false" targetId="3f2aefef-7d73-4db3-95c3-e91f0b7a1555" type="profile"/>
-                <infoLink id="72a5-74bb-2c42-8e08" name="Fearless" hidden="false" targetId="72dab6ac-4c9d-45f2-b150-7dd034d83b83" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="25.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <entryLinks>
-            <entryLink id="4b22-b07a-ce29-cc04" hidden="false" collective="false" import="true" targetId="de0055a5-2ee3-4ec5-acc1-a40d2f90647d" type="selectionEntry"/>
-            <entryLink id="8ed4-8009-1b51-392e" hidden="false" collective="false" import="true" targetId="b9cd1b15-b04a-46d7-aac9-6ddd7b79e1d6" type="selectionEntry"/>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="27de-3101-aa25-c60c" name="Upgrades" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c5b6-0e9b-b8cc-571f" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="95df-dba1-9715-3f3a" hidden="false" collective="false" import="true" targetId="f081e81d-9c17-4427-bad0-cd9e225053f7" type="selectionEntry"/>
-            <entryLink id="ca2e-d8e7-a827-b543" hidden="false" collective="false" import="true" targetId="08569158-72a2-4978-9888-48bf85ffc398" type="selectionEntry"/>
-            <entryLink id="7fd5-cf74-b792-e3d4" hidden="false" collective="false" import="true" targetId="9dbeccfb-8290-4067-a003-92957c42380e" type="selectionEntry"/>
-            <entryLink id="711d-0ba3-3d8c-193b" hidden="false" collective="false" import="true" targetId="ba7cccc0-6a37-4a63-affc-5f1696899ad8" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="88a98d5f-b990-4741-9c4e-5761a2a7200f" type="equalTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </entryLink>
-            <entryLink id="0fc5-1417-50bb-3bdf" hidden="false" collective="false" import="true" targetId="af1cc3e0-2f85-40bb-b597-bfb0c4608079" type="selectionEntry"/>
-            <entryLink id="5673-fa3f-ba11-12bb" hidden="false" collective="false" import="true" targetId="013cb7f0-91c1-41e1-ba3c-7bc66169cd10" type="selectionEntry"/>
-            <entryLink id="9fab-dca6-0e2b-879d" name="Vindicator Squadron" hidden="false" collective="false" import="true" targetId="7c04c109-a148-45fd-b4d4-d17ab9497277" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6a7b87a6-e3f4-4ba7-aaac-b20234ded31f" type="equalTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </entryLink>
-            <entryLink id="e7ee-eb9d-10b6-a93a" hidden="false" collective="false" import="true" targetId="6f5da11f-673c-4f07-8825-820f8a7f33a1" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6a7b87a6-e3f4-4ba7-aaac-b20234ded31f" type="equalTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </entryLink>
-            <entryLink id="09f2-7175-86af-8258" hidden="false" collective="false" import="true" targetId="d69d1f51-3619-4d51-b6ab-78d1c98a01db" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6a7b87a6-e3f4-4ba7-aaac-b20234ded31f" type="equalTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </entryLink>
-            <entryLink id="2e8b-e665-1d56-8195" hidden="false" collective="false" import="true" targetId="252e7f3c-88df-4af7-8a32-480131cc13ae" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6a7b87a6-e3f4-4ba7-aaac-b20234ded31f" type="equalTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="f962-77b9-2263-16c5" name="Transport" hidden="false" collective="false" import="true">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6a7b87a6-e3f4-4ba7-aaac-b20234ded31f" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="0707-086d-7fdd-c7e5" type="min"/>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="6367-18f5-2047-845d" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="78e2-22e7-7f5f-a22a" hidden="false" collective="false" import="true" targetId="ce77dfb8-9f88-46ca-bf3c-4445a3db485c" type="selectionEntry"/>
-            <entryLink id="0ae7-5ddf-7e75-316c" hidden="false" collective="false" import="true" targetId="3b45634b-3e1d-40db-8c01-311201991e69" type="selectionEntry"/>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="82bc-0b7b-71ec-3099" hidden="false" collective="false" import="true" targetId="2c922971-fa32-4587-a15c-ef7db517822c" type="selectionEntryGroup"/>
-      </entryLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="350.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c50a-eb06-f575-69bc" name="Death Guard Terminators" hidden="false" collective="false" import="true" type="unit">
@@ -3525,58 +3370,6 @@
         <cost name="pts" typeId="points" value="300.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f371-59c4-9c32-c2c9" name="Mechanised Company" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="88a98d5f-b990-4741-9c4e-5761a2a7200f" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <categoryLinks>
-        <categoryLink id="d38c-c246-07a1-bce6" hidden="false" targetId="b893278c-34cb-41fa-ae9b-54676a0f6f87" primary="true"/>
-      </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="f532-62f7-bfd1-4c26" name="Squads" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="7.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="ea88-64a8-1eb5-97d3" type="min"/>
-            <constraint field="selections" scope="parent" value="7.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="f5ce-a2ab-6c08-c6ef" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="54d0-9a27-642d-6cd7" hidden="false" collective="false" import="true" targetId="de0055a5-2ee3-4ec5-acc1-a40d2f90647d" type="selectionEntry"/>
-            <entryLink id="b399-ac18-fbf0-4681" hidden="false" collective="false" import="true" targetId="b9cd1b15-b04a-46d7-aac9-6ddd7b79e1d6" type="selectionEntry"/>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="4d0e-b758-920e-d0b1" name="Upgrades" hidden="false" collective="false" import="true">
-          <entryLinks>
-            <entryLink id="b758-3b88-2826-6f46" hidden="false" collective="false" import="true" targetId="f081e81d-9c17-4427-bad0-cd9e225053f7" type="selectionEntry"/>
-            <entryLink id="4e52-6f95-59ed-24b6" hidden="false" collective="false" import="true" targetId="af1cc3e0-2f85-40bb-b597-bfb0c4608079" type="selectionEntry"/>
-            <entryLink id="3db6-a21e-7cca-fec3" hidden="false" collective="false" import="true" targetId="013cb7f0-91c1-41e1-ba3c-7bc66169cd10" type="selectionEntry"/>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="921f-91e5-6892-45a6" name="Transport" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="2315-4e8b-4562-0e9d" type="min"/>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="fbfc-60be-8f89-3d58" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="7d72-1aa4-9a8c-f228" name="Land Raider" hidden="false" collective="false" import="true" targetId="ce77dfb8-9f88-46ca-bf3c-4445a3db485c" type="selectionEntry"/>
-            <entryLink id="4f6f-d03d-d4c5-50b5" hidden="false" collective="false" import="true" targetId="3b45634b-3e1d-40db-8c01-311201991e69" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="points" value="0.0"/>
-              </modifiers>
-            </entryLink>
-            <entryLink id="65ea-819b-1729-ed1d" name="Dreadclaws" hidden="false" collective="false" import="true" targetId="656e567e-1b89-4668-b3b7-cc2af50699b4" type="selectionEntry"/>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="809c-08c6-6d69-bfb0" hidden="false" collective="false" import="true" targetId="2c922971-fa32-4587-a15c-ef7db517822c" type="selectionEntryGroup"/>
-      </entryLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="400.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="5aa5-d8e2-13d2-8232" name="Orbital Support" page="0" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
@@ -3703,116 +3496,6 @@
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="25.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="1ef2-2fdf-5831-0616" name="Plague Marine Chosen" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7f0bed0e-1717-46a1-8225-09866b0dcc87" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <categoryLinks>
-        <categoryLink id="e596-6313-07ec-99b9" hidden="false" targetId="32fa31d8-c485-49c4-9fe1-59508cbee026" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="88de-6650-3a9f-7766" name="Plague Marine Chosen" hidden="false" collective="false" import="true" type="unit">
-          <constraints>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="a811-62f2-e894-27b1" type="max"/>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="aac9-aa98-be0c-4a9f" type="min"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="cfd1-8b9b-a64c-b07b" name="Fearless" hidden="false" targetId="72dab6ac-4c9d-45f2-b150-7dd034d83b83" type="rule"/>
-            <infoLink id="ac13-7adb-cb9e-7057" hidden="false" targetId="fc5ae977-6678-478f-8e0a-ca18dbcf2cda" type="profile"/>
-            <infoLink id="a6d0-02f8-6d73-cd14" name="Scout" hidden="false" targetId="af143427-33d4-438b-aab2-16a8e2867f79" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="95b8-aee2-73cb-19a5" name="Upgrades" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="8108-64ab-b45d-df21" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="e157-1060-d80e-e76c" hidden="false" collective="false" import="true" targetId="3b45634b-3e1d-40db-8c01-311201991e69" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="5cf5-ab50-2fc7-9df9" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="6559-54e4-5b2e-5986" name="Champion of Nurgle" hidden="false" collective="false" import="true" targetId="600d452b-1731-46fc-b176-ee37ad2c09d5" type="selectionEntry"/>
-            <entryLink id="c525-7568-cbfb-7e30" hidden="false" collective="false" import="true" targetId="013cb7f0-91c1-41e1-ba3c-7bc66169cd10" type="selectionEntry"/>
-            <entryLink id="97d7-82f5-22c4-2b1a" hidden="false" collective="false" import="true" targetId="af1cc3e0-2f85-40bb-b597-bfb0c4608079" type="selectionEntry"/>
-            <entryLink id="9d17-a35c-670f-01e5" name="Beasts" hidden="false" collective="false" import="true" targetId="8d8d647b-a741-4342-b229-dd90970c6a1e" type="selectionEntryGroup"/>
-            <entryLink id="ed36-d5d6-d1fd-fd77" name="Walkers" hidden="false" collective="false" import="true" targetId="d4fa93b4-45a7-44b7-85d9-dd1f0f4ef594" type="selectionEntryGroup"/>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name="pts" typeId="points" value="175.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="c2f8-ba6b-79df-b876" name="Plague Marine Retinue" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8183dbe0-128d-44df-9d2f-587c40d576e7" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <categoryLinks>
-        <categoryLink id="9f94-f625-f03a-015f" hidden="false" targetId="e4013702-a119-46c3-9fd9-a64e58afe467" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="08ab-331d-e47b-8681" name="Plague Marines" hidden="false" collective="false" import="true" type="unit">
-          <constraints>
-            <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="fdde-e7c7-78e6-b978" type="min"/>
-            <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="007f-ba25-6bc2-dd98" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="f0bc-82fe-dfd3-41ad" name="Death Guard Plague Marines" hidden="false" targetId="7b025047-8345-496f-9961-5caff12e6b1d" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="ddea-d4c8-1199-c265" name="Upgrades" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e98c-b153-a492-e715" type="max"/>
-          </constraints>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="c5ff-421b-62af-0764" name="Transport" hidden="false" collective="false" import="true">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="51ab-8438-daf8-3830" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="b0bd-9442-27de-ecbc" name="Dreadclaws" hidden="false" collective="false" import="true" targetId="656e567e-1b89-4668-b3b7-cc2af50699b4" type="selectionEntry"/>
-                <entryLink id="b574-a2aa-bee3-b31f" hidden="false" collective="false" import="true" targetId="2c17d79e-4627-456f-a26c-4c12fa64f800" type="selectionEntry"/>
-              </entryLinks>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <entryLinks>
-            <entryLink id="f8e8-7bd6-0bcd-2884" hidden="false" collective="false" import="true" targetId="013cb7f0-91c1-41e1-ba3c-7bc66169cd10" type="selectionEntry"/>
-            <entryLink id="8744-03a7-9e00-e6fb" hidden="false" collective="false" import="true" targetId="08569158-72a2-4978-9888-48bf85ffc398" type="selectionEntry"/>
-            <entryLink id="b21b-773f-4919-7bf3" hidden="false" collective="false" import="true" targetId="5782e78e-ecef-4ec2-ad78-b944879fb0d0" type="selectionEntry"/>
-            <entryLink id="6c9e-cd50-0ee3-67f6" name="Dreadnought Retinue" hidden="false" collective="false" import="true" targetId="9dbeccfb-8290-4067-a003-92957c42380e" type="selectionEntry"/>
-            <entryLink id="6fc6-1a02-51d0-3e54" hidden="false" collective="false" import="true" targetId="d9f8e472-e9a2-4d0a-9635-416429a052b8" type="selectionEntry"/>
-            <entryLink id="62ee-8ad3-59d9-7a46" hidden="false" collective="false" import="true" targetId="c46eb96b-2ee1-4ef6-9560-112329393419" type="selectionEntry"/>
-            <entryLink id="f731-de49-e26a-ced2" hidden="false" collective="false" import="true" targetId="252e7f3c-88df-4af7-8a32-480131cc13ae" type="selectionEntry"/>
-            <entryLink id="8c7e-4d90-4d38-23ff" name="Stalker" hidden="false" collective="false" import="true" targetId="802a98a9-a94c-419e-a0a1-546ac9ff1801" type="selectionEntry"/>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="cdcc-b927-5b8c-2e5c" name="Death Guard Lord" hidden="false" collective="false" import="true" targetId="2c922971-fa32-4587-a15c-ef7db517822c" type="selectionEntryGroup"/>
-      </entryLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="275.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b452-7857-8f37-1b50" name="Plague Marine Squad" hidden="false" collective="false" import="true" type="model">
@@ -4095,12 +3778,13 @@
     </selectionEntry>
     <selectionEntry id="5b50-4251-3d4b-8016" name="Pox Walker Horde" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
-        <infoLink id="328f-757e-f4f4-edf8" name="Pox Walkers" hidden="false" targetId="9bfe-b5ef-fb2d-158e" type="profile"/>
+        <infoLink id="328f-757e-f4f4-edf8" name="Improvised Weapons" hidden="false" targetId="82e5-97d7-bfa6-af94" type="profile"/>
         <infoLink id="b69a-c695-d865-9660" name="Fearless" hidden="false" targetId="72dab6ac-4c9d-45f2-b150-7dd034d83b83" type="rule"/>
         <infoLink id="80f3-7fb4-f542-ba9b" name="Infestation" hidden="false" targetId="99f4570e-77b8-4be6-8c39-111ed7046846" type="rule"/>
         <infoLink id="9c79-1c09-b4bf-6917" name="Infiltrators" hidden="false" targetId="18b55dcf-3e60-458e-90e4-29f69deaa065" type="rule"/>
         <infoLink id="b691-7c2e-41e9-32c8" name="Plague Zombies" hidden="false" targetId="fe9ca6e4-75c6-4c6f-b657-624f9523ca24" type="rule"/>
         <infoLink id="6738-5720-37c6-6195" name="Nurgle’s Rot" hidden="false" targetId="3328e966-bfdc-4334-a4b9-04f6fa139e21" type="rule"/>
+        <infoLink id="64e1-cadb-d946-e89e" name="Pox Walker Horde" hidden="false" targetId="9bfe-b5ef-fb2d-158e" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="22.0"/>
@@ -4549,9 +4233,10 @@
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="7be6-128e-a9cc-22fd" name="Nurgle Rhino" hidden="false" targetId="4ef0-42a3-8784-2d25" type="profile"/>
+        <infoLink id="7be6-128e-a9cc-22fd" name="Combi-Bolter" hidden="false" targetId="f50c-86a5-c8d8-465a" type="profile"/>
         <infoLink id="de74-fc5e-66c8-d28d" name="Transport" hidden="false" targetId="7bd0-2248-5d2e-1fcf" type="rule"/>
         <infoLink id="1830-a68b-5e25-0b70" name="Fearless" hidden="false" targetId="72dab6ac-4c9d-45f2-b150-7dd034d83b83" type="rule"/>
+        <infoLink id="bde1-fae2-e92b-8913" name="Nurgle Rhino" hidden="false" targetId="4ef0-42a3-8784-2d25" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="15.0"/>
@@ -4559,11 +4244,12 @@
     </selectionEntry>
     <selectionEntry id="2f4f-578e-c06b-ec71" name="Plagueburst Crawler" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
-        <infoLink id="3c3f-52ee-0ac9-2ad9" name="Plagueburst Crawler (Entropy Cannons)" hidden="false" targetId="8a4a-b6a0-fcac-bb72" type="profile"/>
+        <infoLink id="3c3f-52ee-0ac9-2ad9" name="Plagueburst Crawler" hidden="false" targetId="53a3-64d5-e5b3-3144" type="profile"/>
         <infoLink id="0729-7646-ea7d-7005" name="Plagueburst Crawler (Plagueburst Mortar)" hidden="false" targetId="b2c2-e9ed-b154-d46b" type="profile"/>
         <infoLink id="f44f-a696-f668-b4d5" name="Fearless" hidden="false" targetId="72dab6ac-4c9d-45f2-b150-7dd034d83b83" type="rule"/>
         <infoLink id="1dfb-6399-e8f8-9ccf" name="Indirect Fire" hidden="false" targetId="2dddba7a-76cc-472a-92a8-a9cf9025db6f" type="rule"/>
         <infoLink id="1aaa-b74e-c5ab-ff3b" name="Plagueburst Crawler (Rothail Volley Gun)" hidden="false" targetId="9d32-3b6d-ebbb-4da0" type="profile"/>
+        <infoLink id="37b4-4c97-2ee4-a813" name="Entropy Cannons" hidden="false" targetId="8a4a-b6a0-fcac-bb72" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="75.0"/>
@@ -4583,6 +4269,9 @@
         <infoLink id="e584-f9ab-19ee-eda2" name="Leader" hidden="false" targetId="d23596ad-5004-4bc3-8600-2b61a05ee52d" type="rule"/>
         <infoLink id="5a94-8f21-f12f-0d44" name="Macro-weapon" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
         <infoLink id="e427-fc27-11cf-8c84" name="Reinforced Armour" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+        <infoLink id="f415-04ff-ce89-b4ff" name="Improvised Weapons" hidden="false" targetId="82e5-97d7-bfa6-af94" type="profile"/>
+        <infoLink id="c372-febd-d9cd-9ba6" name="Plaguereaper" hidden="false" targetId="5415-1970-6ce1-6842" type="profile"/>
+        <infoLink id="cf18-ca9a-2d32-681a" name="Lord of Contagion" hidden="false" targetId="fe60-bc03-260a-5d14" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="72.0"/>
@@ -4591,8 +4280,8 @@
     <selectionEntry id="b9f2-58a6-d277-ef63" name="Plague Marine Squad w/ Lord of Contagion" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
         <infoLink id="8547-8642-6a12-35a2" name="Nurgle’s Rot" hidden="false" targetId="3328e966-bfdc-4334-a4b9-04f6fa139e21" type="rule"/>
-        <infoLink id="4c81-92bb-adbc-cf4c" name="Plague Marines (Bolters)" hidden="false" targetId="a3cd36f1-c095-4901-a5bb-b79ed8b0ff8f" type="profile"/>
-        <infoLink id="1637-6047-dd11-b7e3" name="Plague Marines (Plague Knives)" hidden="false" targetId="ea72-eb15-6eba-5eec" type="profile"/>
+        <infoLink id="4c81-92bb-adbc-cf4c" name="Plague Marine Squad" hidden="false" targetId="a3cd36f1-c095-4901-a5bb-b79ed8b0ff8f" type="profile"/>
+        <infoLink id="1637-6047-dd11-b7e3" name="Bolters" hidden="false" targetId="75d2-6a0f-8f52-5734" type="profile"/>
         <infoLink id="ca86-34f1-7b38-5181" name="Fearless" hidden="false" targetId="72dab6ac-4c9d-45f2-b150-7dd034d83b83" type="rule"/>
         <infoLink id="324b-9996-cbd3-c0bb" name="Cataphractii" hidden="false" targetId="ee1239a4-5490-4299-8412-1d54fddfa333" type="rule"/>
         <infoLink id="35d5-548f-04be-7542" name="Commander" hidden="false" targetId="e9675277-c408-4371-b969-6c9565fb2905" type="rule"/>
@@ -4600,7 +4289,9 @@
         <infoLink id="415e-bc4c-d385-ea3d" name="Leader" hidden="false" targetId="d23596ad-5004-4bc3-8600-2b61a05ee52d" type="rule"/>
         <infoLink id="27da-fe0b-d860-c989" name="Macro-weapon" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
         <infoLink id="36a9-adcc-56ab-c379" name="Reinforced Armour" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
-        <infoLink id="2c99-459d-63e6-6c57" name="Lord of Contagion" hidden="false" targetId="4b79-8008-a70d-7dba" type="profile"/>
+        <infoLink id="2c99-459d-63e6-6c57" name="Plague Knives" hidden="false" targetId="f75a-8991-f5bc-d367" type="profile"/>
+        <infoLink id="d27b-0554-d5b5-bbaa" name="Lord of Contagion" hidden="false" targetId="fe60-bc03-260a-5d14" type="profile"/>
+        <infoLink id="7a07-0231-6405-1264" name="Plaguereaper" hidden="false" targetId="5415-1970-6ce1-6842" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="103.0"/>
@@ -4608,8 +4299,8 @@
     </selectionEntry>
     <selectionEntry id="c566-6f62-e904-3bbc" name="Blightlord Terminator Squad w/ Lord of Contagion" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
-        <infoLink id="411a-5073-c51b-f9b2" name="Blightlord Terminators (Baleswords &amp; Flails)" hidden="false" targetId="c38efe55-1ced-4aec-8696-f08840facdc5" type="profile"/>
-        <infoLink id="4ead-1448-bc77-8522" name="Blightlord Terminators (Plaguespewers)" hidden="false" targetId="235c-5e53-b41d-4bd4" type="profile"/>
+        <infoLink id="411a-5073-c51b-f9b2" name="Lord of Contagion" hidden="false" targetId="fe60-bc03-260a-5d14" type="profile"/>
+        <infoLink id="4ead-1448-bc77-8522" name="Plaguereaper" hidden="false" targetId="5415-1970-6ce1-6842" type="profile"/>
         <infoLink id="fe0f-c214-1bfb-175d" name="Cataphractii" hidden="false" targetId="ee1239a4-5490-4299-8412-1d54fddfa333" type="rule"/>
         <infoLink id="0a29-a8df-1dd1-23fe" name="Fearless" hidden="false" targetId="72dab6ac-4c9d-45f2-b150-7dd034d83b83" type="rule"/>
         <infoLink id="d43f-205c-b242-ff59" name="Ignore Cover" hidden="false" targetId="5087a733-1e15-4e06-b869-8728e657c9fa" type="rule"/>
@@ -4619,9 +4310,11 @@
         <infoLink id="86ed-bd07-ca73-13cd" name="Nurgle’s Rot" hidden="false" targetId="3328e966-bfdc-4334-a4b9-04f6fa139e21" type="rule"/>
         <infoLink id="4b94-3a14-61c5-4f67" name="Reinforced Armour" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
         <infoLink id="9df6-8616-3d6e-f2d6" name="Walker" hidden="false" targetId="3792d3e5-937d-49e6-8a20-320f64f441ba" type="rule"/>
-        <infoLink id="67ce-78cd-ef2e-ad8b" name="Lord of Contagion" hidden="false" targetId="4b79-8008-a70d-7dba" type="profile"/>
+        <infoLink id="67ce-78cd-ef2e-ad8b" name="Blightlord Terminators Squad" hidden="false" targetId="5a81-dc6d-f1c1-4f31" type="profile"/>
         <infoLink id="3dea-96e5-a753-b224" name="Commander" hidden="false" targetId="e9675277-c408-4371-b969-6c9565fb2905" type="rule"/>
         <infoLink id="9167-a771-93d9-1b18" name="Leader" hidden="false" targetId="d23596ad-5004-4bc3-8600-2b61a05ee52d" type="rule"/>
+        <infoLink id="80bf-7609-b705-369e" name="Baleswords &amp; Flails" hidden="false" targetId="6bc3-73eb-66ba-43db" type="profile"/>
+        <infoLink id="084a-3d29-a763-7cfb" name="Plaguespewers" hidden="false" targetId="c31e-7338-5975-708a" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="141.0"/>
@@ -4633,10 +4326,11 @@
         <infoLink id="0507-d00a-1ba3-fa98" name="Leader" hidden="false" targetId="d23596ad-5004-4bc3-8600-2b61a05ee52d" type="rule"/>
         <infoLink id="9443-dfdd-dd45-f5ca" name="Commander" hidden="false" targetId="e9675277-c408-4371-b969-6c9565fb2905" type="rule"/>
         <infoLink id="f8d1-881e-3e8b-9778" name="Macro-weapon" hidden="false" targetId="10615c26-b9d3-4c7f-ae91-11636cc8ed47" type="rule"/>
-        <infoLink id="61a6-dd3a-04a1-c660" name="Lord of Contagion" hidden="false" targetId="4b79-8008-a70d-7dba" type="profile"/>
+        <infoLink id="61a6-dd3a-04a1-c660" name="Lord of Contagion" hidden="false" targetId="fe60-bc03-260a-5d14" type="profile"/>
         <infoLink id="2475-0e22-bdb1-6d05" name="Cataphractii" hidden="false" targetId="ee1239a4-5490-4299-8412-1d54fddfa333" type="rule"/>
         <infoLink id="8920-79f3-b29b-3675" name="Fearless" hidden="false" targetId="72dab6ac-4c9d-45f2-b150-7dd034d83b83" type="rule"/>
         <infoLink id="dfc3-c869-e378-e59b" name="Reinforced Armour" hidden="false" targetId="e2893f1e-2580-4698-af9f-b0e19f450771" type="rule"/>
+        <infoLink id="fac8-7153-2c74-ccdc" name="Plaguereaper" hidden="false" targetId="5415-1970-6ce1-6842" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="50.0"/>
@@ -5618,48 +5312,6 @@ Spacecraft, Contagion Tower and Lesser Daemon formations have an initiative rati
         <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">AP5+/AT6+&lt;BR&gt;&lt;BR&gt;Small Arms</characteristic>
         <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
         <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Fearless</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="00074eaf-8429-44f1-b205-e81355850f26" name="Death Guard Plague Marines" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="88a98d5f-b990-4741-9c4e-5761a2a7200f" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <characteristics>
-        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
-        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
-        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">3+</characteristic>
-        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">3+</characteristic>
-        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">4+</characteristic>
-        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Bolters&lt;BR&gt;&lt;BR&gt;Plague Knives&lt;BR&gt;&lt;BR&gt;Plasma Gun</characteristic>
-        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(15cm)&lt;BR&gt;&lt;BR&gt;(contact)&lt;BR&gt;&lt;BR&gt;15cm</characteristic>
-        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Small Arms&lt;BR&gt;&lt;BR&gt;Assault Weapons&lt;BR&gt;&lt;BR&gt;AP5+/AT5+</characteristic>
-        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
-        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Fearless, Nurgle’s Rot</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="7b025047-8345-496f-9961-5caff12e6b1d" name="Death Guard Plague Marines" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8183dbe0-128d-44df-9d2f-587c40d576e7" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <characteristics>
-        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
-        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
-        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">3+</characteristic>
-        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">4+</characteristic>
-        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">4+</characteristic>
-        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Bolters&lt;BR&gt;&lt;BR&gt;Plasma Gun</characteristic>
-        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(15cm)&lt;BR&gt;&lt;BR&gt;15cm</characteristic>
-        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Small Arms&lt;BR&gt;&lt;BR&gt;AP5+/AT5+</characteristic>
-        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
-        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429"/>
       </characteristics>
     </profile>
     <profile id="a3cd36f1-c095-4901-a5bb-b79ed8b0ff8f" name="Plague Marine Squad" hidden="false" typeId="7fc7-b39f-b91e-0efd" typeName="Unit v2">
@@ -6851,20 +6503,6 @@ Spacecraft, Contagion Tower and Lesser Daemon formations have an initiative rati
         <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Fearless, Jump Packs, Nurgle’s Rot, Reinforced Armour, Supreme Commander, Teleport</characteristic>
       </characteristics>
     </profile>
-    <profile id="fc5ae977-6678-478f-8e0a-ca18dbcf2cda" name="Death Guard Plague Marine Chosen" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
-      <characteristics>
-        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
-        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
-        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">3+</characteristic>
-        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">3+</characteristic>
-        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">4+</characteristic>
-        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Bolters&lt;BR&gt;&lt;BR&gt;Plague Knives</characteristic>
-        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(15cm)&lt;BR&gt;&lt;BR&gt;(contact)</characteristic>
-        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Small Arms&lt;BR&gt;&lt;BR&gt;Assault Weapons</characteristic>
-        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
-        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Fearless, Scout</characteristic>
-      </characteristics>
-    </profile>
     <profile id="a8dc40bc-8765-40a1-9734-6c25250aeeb1" name="Vectorium Lord" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
       <characteristics>
         <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Character</characteristic>
@@ -6891,20 +6529,6 @@ Spacecraft, Contagion Tower and Lesser Daemon formations have an initiative rati
         <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Small Arms</characteristic>
         <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Macro-weapon, +1A</characteristic>
         <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Commander, Invulnerable Save, Leader</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="c38efe55-1ced-4aec-8696-f08840facdc5" name="Blightlord Terminators (Baleswords &amp; Flails)" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
-      <characteristics>
-        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
-        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
-        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">4+</characteristic>
-        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">3+</characteristic>
-        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">3+</characteristic>
-        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Baleswords &amp; Flails</characteristic>
-        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)</characteristic>
-        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapons</characteristic>
-        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Macro-weapon, +1A</characteristic>
-        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Cataphractii, Fearless, Mounted, Reinforced Armour, Walker, Nurgle&apos;s Rot</characteristic>
       </characteristics>
     </profile>
     <profile id="017415d9-c235-45a1-afed-f27ea864151b" name="Beasts of Nurgle (Non-Summoned)" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
@@ -7021,130 +6645,45 @@ Spacecraft, Contagion Tower and Lesser Daemon formations have an initiative rati
         <characteristic name="Crit" typeId="8dbc632e-e06c-461d-a0fa-d51a1a624c11">Very Large Explosion</characteristic>
       </characteristics>
     </profile>
-    <profile id="ea72-eb15-6eba-5eec" name="Plague Marines (Plague Knives)" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+    <profile id="9bfe-b5ef-fb2d-158e" name="Pox Walker Horde" hidden="false" typeId="7fc7-b39f-b91e-0efd" typeName="Unit v2">
       <characteristics>
-        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
-        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
-        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">3+</characteristic>
-        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">3+</characteristic>
-        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">4+</characteristic>
-        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Plague Knives</characteristic>
-        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)</characteristic>
-        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapons</characteristic>
-        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
-        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Fearless, Nurgle&apos;s Rot</characteristic>
+        <characteristic name="Type" typeId="c69d-88b5-287a-680c">Infantry</characteristic>
+        <characteristic name="Speed" typeId="7701-9347-6bbd-9aa0">10cm</characteristic>
+        <characteristic name="Armour" typeId="39a4-c690-1172-f30b">5+</characteristic>
+        <characteristic name="CC" typeId="9816-8268-3cf9-d919">6+</characteristic>
+        <characteristic name="FF" typeId="437a-a645-c1da-c939">-</characteristic>
+        <characteristic name="Notes" typeId="1d09-59da-b372-0479">Fearless, Infestation, Infiltrators, Plague Zombies, Nurgle&apos;s Rot</characteristic>
       </characteristics>
     </profile>
-    <profile id="9bfe-b5ef-fb2d-158e" name="Pox Walkers" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+    <profile id="4ef0-42a3-8784-2d25" name="Nurgle Rhino" hidden="false" typeId="7fc7-b39f-b91e-0efd" typeName="Unit v2">
       <characteristics>
-        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
-        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">10cm</characteristic>
-        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">5+</characteristic>
-        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">6+</characteristic>
-        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">-</characteristic>
-        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Teeth</characteristic>
-        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)</characteristic>
-        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapons</characteristic>
-        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
-        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Fearless, Infestation, Infiltrators, Plague Zombies, Nurgle&apos;s Rot</characteristic>
+        <characteristic name="Type" typeId="c69d-88b5-287a-680c">Armoured Vehicle</characteristic>
+        <characteristic name="Speed" typeId="7701-9347-6bbd-9aa0">30cm</characteristic>
+        <characteristic name="Armour" typeId="39a4-c690-1172-f30b">4+</characteristic>
+        <characteristic name="CC" typeId="9816-8268-3cf9-d919">6+</characteristic>
+        <characteristic name="FF" typeId="437a-a645-c1da-c939">6+</characteristic>
+        <characteristic name="Notes" typeId="1d09-59da-b372-0479">Transport, Fearless</characteristic>
       </characteristics>
     </profile>
-    <profile id="235c-5e53-b41d-4bd4" name="Blightlord Terminators (Plaguespewers)" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+    <profile id="b2c2-e9ed-b154-d46b" name="Plagueburst Mortar" hidden="false" typeId="4175fd39-9d2f-43cd-a59f-4943c291cb87" typeName="Weapon">
       <characteristics>
-        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
-        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
-        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">4+</characteristic>
-        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">3+</characteristic>
-        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">3+</characteristic>
-        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Plaguespewer</characteristic>
-        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">15cm</characteristic>
-        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">AP4+</characteristic>
-        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Ignore Cover</characteristic>
-        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Cataphractii, Fearless, Mounted, Reinforced Armour, Walker, Nurgle&apos;s Rot</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="4ef0-42a3-8784-2d25" name="Nurgle Rhino" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
-      <characteristics>
-        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Armoured Vehicle</characteristic>
-        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">30cm</characteristic>
-        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">4+</characteristic>
-        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">6+</characteristic>
-        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">6+</characteristic>
-        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Combi-bolter</characteristic>
-        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(15cm)</characteristic>
-        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Small Arms</characteristic>
-        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
-        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Transport, Fearless</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="b2c2-e9ed-b154-d46b" name="Plagueburst Crawler (Plagueburst Mortar)" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
-      <characteristics>
-        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Armoured Vehicle</characteristic>
-        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">30cm</characteristic>
-        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">4+</characteristic>
-        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">6+</characteristic>
-        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
-        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Plagueburst Mortar</characteristic>
         <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">45cm</characteristic>
         <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">1BP</characteristic>
         <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Indirect Fire</characteristic>
-        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Fearless</characteristic>
       </characteristics>
     </profile>
-    <profile id="9d32-3b6d-ebbb-4da0" name="Plagueburst Crawler (Rothail Volley Gun)" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+    <profile id="9d32-3b6d-ebbb-4da0" name="Rothail Volley Gun" hidden="false" typeId="4175fd39-9d2f-43cd-a59f-4943c291cb87" typeName="Weapon">
       <characteristics>
-        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Armoured Vehicle</characteristic>
-        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">30cm</characteristic>
-        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">4+</characteristic>
-        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">6+</characteristic>
-        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
-        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Rothail Volley Gun</characteristic>
         <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(15cm)</characteristic>
         <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Small Arms</characteristic>
         <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
-        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Fearless</characteristic>
       </characteristics>
     </profile>
-    <profile id="8a4a-b6a0-fcac-bb72" name="Plagueburst Crawler (Entropy Cannons)" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+    <profile id="8a4a-b6a0-fcac-bb72" name="Entropy Cannons" hidden="false" typeId="4175fd39-9d2f-43cd-a59f-4943c291cb87" typeName="Weapon">
       <characteristics>
-        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Armoured Vehicle</characteristic>
-        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">30cm</characteristic>
-        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">4+</characteristic>
-        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">6+</characteristic>
-        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">5+</characteristic>
-        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Entropy Cannons</characteristic>
         <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">45cm</characteristic>
         <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">AP4+/AT4+</characteristic>
         <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
-        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Fearless</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="4b79-8008-a70d-7dba" name="Lord of Contagion" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
-      <characteristics>
-        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Character</characteristic>
-        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">n/a</characteristic>
-        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">n/a</characteristic>
-        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">n/a</characteristic>
-        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">n/a</characteristic>
-        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Plaguereaper</characteristic>
-        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)</characteristic>
-        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapons</characteristic>
-        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Macro-weapon, +1A</characteristic>
-        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Commander, Invulnerable Save, Leader, Reinforced Armor, Cataphractii, Fearless</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="da1b-60a7-64a4-a1bb" name="Plague Marines (Bolters)" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
-      <characteristics>
-        <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Infantry</characteristic>
-        <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">15cm</characteristic>
-        <characteristic name="Armour" typeId="61ca30a7-e4b9-437f-b038-f985a8f69fdb">3+</characteristic>
-        <characteristic name="CC" typeId="65f5f3ff-5c67-4a25-ab7e-07ba63295373">3+</characteristic>
-        <characteristic name="FF" typeId="a77ed408-ecb5-4d98-a4ac-a915e67a1dbe">4+</characteristic>
-        <characteristic name="Weapons" typeId="548ecef9-18e1-4523-8f1a-711e5d496caa">Bolters</characteristic>
-        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(15cm)</characteristic>
-        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Small Arms</characteristic>
-        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
-        <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Fearless, Nurgle&apos;s Rot</characteristic>
       </characteristics>
     </profile>
     <profile id="f75a-8991-f5bc-d367" name="Plague Knives" hidden="false" typeId="4175fd39-9d2f-43cd-a59f-4943c291cb87" typeName="Weapon">
@@ -7152,6 +6691,57 @@ Spacecraft, Contagion Tower and Lesser Daemon formations have an initiative rati
         <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)</characteristic>
         <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapons</characteristic>
         <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332"/>
+      </characteristics>
+    </profile>
+    <profile id="5a81-dc6d-f1c1-4f31" name="Blightlord Terminators Squad" hidden="false" typeId="7fc7-b39f-b91e-0efd" typeName="Unit v2">
+      <characteristics>
+        <characteristic name="Type" typeId="c69d-88b5-287a-680c">Infantry</characteristic>
+        <characteristic name="Speed" typeId="7701-9347-6bbd-9aa0">15cm</characteristic>
+        <characteristic name="Armour" typeId="39a4-c690-1172-f30b">4+</characteristic>
+        <characteristic name="CC" typeId="9816-8268-3cf9-d919">3+</characteristic>
+        <characteristic name="FF" typeId="437a-a645-c1da-c939">3+</characteristic>
+        <characteristic name="Notes" typeId="1d09-59da-b372-0479">Cataphractii, Fearless, Mounted, Reinforced Armour, Walker, Nurgle&apos;s Rot</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6bc3-73eb-66ba-43db" name="Baleswords &amp; Flails" hidden="false" typeId="4175fd39-9d2f-43cd-a59f-4943c291cb87" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapons</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Macro-weapon, +1A</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c31e-7338-5975-708a" name="Plaguespewers" hidden="false" typeId="4175fd39-9d2f-43cd-a59f-4943c291cb87" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">15cm</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">AP4+</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Ignore Cover</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="fe60-bc03-260a-5d14" name="Lord of Contagion" hidden="false" typeId="7fc7-b39f-b91e-0efd" typeName="Unit v2">
+      <characteristics>
+        <characteristic name="Type" typeId="c69d-88b5-287a-680c">Character</characteristic>
+        <characteristic name="Speed" typeId="7701-9347-6bbd-9aa0">n/a</characteristic>
+        <characteristic name="Armour" typeId="39a4-c690-1172-f30b">n/a</characteristic>
+        <characteristic name="CC" typeId="9816-8268-3cf9-d919">n/a</characteristic>
+        <characteristic name="FF" typeId="437a-a645-c1da-c939">n/a</characteristic>
+        <characteristic name="Notes" typeId="1d09-59da-b372-0479">Commander, Invulnerable Save, Leader, Reinforced Armor, Cataphractii, Fearless</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5415-1970-6ce1-6842" name="Plaguereaper" hidden="false" typeId="4175fd39-9d2f-43cd-a59f-4943c291cb87" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="8c8a2f87-8724-4b33-b3d5-4355fd72c65b">(contact)</characteristic>
+        <characteristic name="Firepower" typeId="8aaf4a58-3fbc-4af5-a555-f01226ea45c6">Assault Weapons</characteristic>
+        <characteristic name="Notes" typeId="9bed88b3-aca6-4b51-ab86-06b36be3a332">Macro-weapon, +1A</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="53a3-64d5-e5b3-3144" name="Plagueburst Crawler" hidden="false" typeId="7fc7-b39f-b91e-0efd" typeName="Unit v2">
+      <characteristics>
+        <characteristic name="Type" typeId="c69d-88b5-287a-680c">Armoured Vehicle</characteristic>
+        <characteristic name="Speed" typeId="7701-9347-6bbd-9aa0">30cm</characteristic>
+        <characteristic name="Armour" typeId="39a4-c690-1172-f30b">4+</characteristic>
+        <characteristic name="CC" typeId="9816-8268-3cf9-d919">6+</characteristic>
+        <characteristic name="FF" typeId="437a-a645-c1da-c939">5+</characteristic>
+        <characteristic name="Notes" typeId="1d09-59da-b372-0479">Fearless</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
