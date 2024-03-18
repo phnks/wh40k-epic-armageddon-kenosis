@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="b7be77a3-9f44-4c5d-a0f7-a40bf046af2a" name="Epic Armageddon Kenosis Edition" revision="44" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="b7be77a3-9f44-4c5d-a0f7-a40bf046af2a" name="Epic Armageddon Kenosis Edition" revision="45" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="points" name="pts" defaultCostLimit="0.0" hidden="false"/>
   </costTypes>
   <profileTypes>
-    <profileType id="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" name="Unit">
+    <profileType id="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" name="Unit (Legacy)">
       <characteristicTypes>
         <characteristicType id="980feae3-a208-4f73-8310-b5fe6b2abbfc" name="Type"/>
         <characteristicType id="b5c08271-b51b-427f-aa70-48559f285323" name="Speed"/>
@@ -49,7 +49,7 @@
         <characteristicType id="bd4da179-9f54-4de9-b6df-125028b5c429" name="Unit Notes"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="7fc7-b39f-b91e-0efd" name="Unit v2">
+    <profileType id="7fc7-b39f-b91e-0efd" name="Unit">
       <characteristicTypes>
         <characteristicType id="c69d-88b5-287a-680c" name="Type"/>
         <characteristicType id="7701-9347-6bbd-9aa0" name="Speed"/>
@@ -6797,7 +6797,7 @@ transported units may make their normal armour save OR make a 6+ cover save. Uni
         <characteristic name="Crit" typeId="8dbc632e-e06c-461d-a0fa-d51a1a624c11">Destroyed</characteristic>
       </characteristics>
     </profile>
-    <profile id="f323858e-e45e-4885-9a0a-b97160a9fd8a" name="Pillbox B" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+    <profile id="f323858e-e45e-4885-9a0a-b97160a9fd8a" name="Pillbox B" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit (Legacy)">
       <characteristics>
         <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Pillbox</characteristic>
         <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">Immobile</characteristic>
@@ -6811,7 +6811,7 @@ transported units may make their normal armour save OR make a 6+ cover save. Uni
         <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Pillboxes, Reinforced Armour</characteristic>
       </characteristics>
     </profile>
-    <profile id="76cc8427-be1f-40fa-a275-b4db83aa1cc6" name="Pillbox HB" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+    <profile id="76cc8427-be1f-40fa-a275-b4db83aa1cc6" name="Pillbox HB" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit (Legacy)">
       <characteristics>
         <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Pillbox</characteristic>
         <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">Immobile</characteristic>
@@ -6825,7 +6825,7 @@ transported units may make their normal armour save OR make a 6+ cover save. Uni
         <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429">Pillboxes, Reinforced Armour</characteristic>
       </characteristics>
     </profile>
-    <profile id="dcebcbaa-4ed7-4272-bf76-7f00e9f1bb7c" name="Pillbox L" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+    <profile id="dcebcbaa-4ed7-4272-bf76-7f00e9f1bb7c" name="Pillbox L" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit (Legacy)">
       <characteristics>
         <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Pillbox</characteristic>
         <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">Immobile</characteristic>
@@ -6847,7 +6847,7 @@ transported units may make their normal armour save OR make a 6+ cover save. Uni
         <characteristic name="Unit Notes" typeId="bd4da179-9f54-4de9-b6df-125028b5c429"/>
       </characteristics>
     </profile>
-    <profile id="4964b1a3-07fb-4cea-a1bd-628b89a7d032" name="Small Command Bunker" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit">
+    <profile id="4964b1a3-07fb-4cea-a1bd-628b89a7d032" name="Small Command Bunker" hidden="false" typeId="296d45d3-df4a-47cd-b5fd-f4206e3c34a2" typeName="Unit (Legacy)">
       <characteristics>
         <characteristic name="Type" typeId="980feae3-a208-4f73-8310-b5fe6b2abbfc">Armoured Vehicle</characteristic>
         <characteristic name="Speed" typeId="b5c08271-b51b-427f-aa70-48559f285323">Immobile</characteristic>
